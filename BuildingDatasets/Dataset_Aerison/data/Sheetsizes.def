@@ -1,0 +1,54 @@
+cvs #-------------------------------------------------------------------------------
+# This is a MicroStation V8 Sheet Size Definition file.
+#
+# Lines that begin with # are for descriptive comments.
+#
+# $Copyright: (c) 2012 Bentley Systems, Incorporated. All rights reserved. $
+#-------------------------------------------------------------------------------
+# The active sheetsizes.def file is used to drive the Sheet Size (printable area) the 
+# in Models dialog box.  The Name column is the name that is displayed in the dialog
+# box. The Units column is the units that are used to describe the printable area.
+# The names of the units should be the same as the ones used in the Units.def file
+# but do not have to match the units that are in the targeted Model. True Scale will
+# be applied. The Height and Width columns describe the corresponding dimensions of
+# the printable area. Each column must be separated by a semicolon ";".
+#
+# The location of the sheetsizes.def file can be set with the configuration variable
+# MS_CUSTOMSHEETSIZEDEF. The default location of this file is in Workspace\system\data\.
+#
+#The Roll paper sizes can be used with any roll paper device. The height and width will 
+#emulate the size of the paper after it is cut.
+#
+#The Cut Sheet sizes can be use be used with most sheet paper printers such that the margin is less
+#than the maximum printable area that the printing device can produce.
+#
+#Negative values can be used for any of the margins to move the margins outside of the displayed paper.
+#
+# Updated 11th November 2008
+#
+# B Series Formats
+#   Name              		 Units           Height          Width    TopMargin   LeftMargin  BottomMargin    RightMargin
+ISO A0 ;	            millimeter;	        841;           1189;      0.00;       0.00;       0.00;           0.00;
+ISO A1 ;	            millimeter;	        594;	        841;      0.00;       0.00;       0.00;           0.00;
+ISO A2 ;	            millimeter;	        420;	        594;      0.00;       0.00;       0.00;           0.00;
+ISO A3 ;	            millimeter;	        297;	        420;      0.00;       0.00;       0.00;           0.00;
+#ISO A4 ;	            millimeter;	        210;            297;      0.00;       0.00;       0.00;           0.00;
+#ISO A5 ;	            millimeter;	        148;            210;      0.00;       0.00;       0.00;           0.00;
+#ISO A6 ;	            millimeter;	        105;            148;      0.00;       0.00;       0.00;           0.00;
+#ISO A7 ;	            millimeter;	         74;            105;      0.00;       0.00;       0.00;           0.00;
+#ISO A8 ;	            millimeter;	         52;             74;      0.00;       0.00;       0.00;           0.00;
+#ISO A9 ;	            millimeter;	         37;             52;      0.00;       0.00;       0.00;           0.00;
+#ISO A10;	            millimeter;	         26;             37;      0.00;       0.00;       0.00;           0.00;
+# B Series Formats
+#   Name              		 Units           Height          Width    TopMargin   LeftMargin  BottomMargin    RightMargin
+ISO B0 ;	            millimeter;	       1000;           1414;      0.00;       0.00;       0.00;           0.00;
+ISO B1 ;	            millimeter;	        707;           1000;      0.00;       0.00;       0.00;           0.00;
+ISO B2 ;	            millimeter;	        500;            707;      0.00;       0.00;       0.00;           0.00;
+ISO B3 ;	            millimeter;	        353;            500;      0.00;       0.00;       0.00;           0.00;
+#ISO B4 ;	            millimeter;	        250;            353;      0.00;       0.00;       0.00;           0.00;
+#ISO B5 ;	            millimeter;	        176;            250;      0.00;       0.00;       0.00;           0.00;
+#ISO B6 ;	            millimeter;	        125;            176;      0.00;       0.00;       0.00;           0.00;
+#ISO B7 ;	            millimeter;	         88;            125;      0.00;       0.00;       0.00;           0.00;
+#ISO B8 ;	            millimeter;	         62;             88;      0.00;       0.00;       0.00;           0.00;
+#ISO B9 ;	            millimeter;	         44;             62;      0.00;       0.00;       0.00;           0.00;
+#ISO B10;	            millimeter;	         31;             44;      0.00;       0.00;       0.00;           0.00;

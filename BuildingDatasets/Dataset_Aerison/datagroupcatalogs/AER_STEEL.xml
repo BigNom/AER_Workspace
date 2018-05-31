@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+	<Version major="1" minor="0"/>
+	<Units master="mm" sub="mm"/>
+	<CatalogItems>
+		<CatalogItem type="Steel Beam" name="AER 200PFC">
+			<Defaults>
+				<Property definition="SteelBeamResults" name="SteelBeamResults/SteelBeamResults/@studcount" isEditable="false" isHidden="true"/>
+				<Property definition="SteelBeamResults" name="SteelBeamResults/SteelBeamResults/@camber" isEditable="false" isHidden="true"/>
+				<Property definition="SteelBeamResults" name="SteelBeamResults/SteelBeamResults/Shear/@end1shear" isEditable="false" isHidden="true"/>
+				<Property definition="SteelBeamResults" name="SteelBeamResults/SteelBeamResults/Shear/@end2shear" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireproofing" name="ObjectFireProofing/@FireproofingMaterial" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireproofing" name="ObjectFireProofing/@FireproofingThickness" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireproofing" name="ObjectFireProofing/@FireproofingPartDefinition" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireproofing" name="ObjectFireProofing/@HasFireproofing" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireproofingQuantities" name="ObjectFireproofingQuantities/@FireproofingSurfaceArea" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireproofingQuantities" name="ObjectFireproofingQuantities/@FireproofingVolumeNet" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireResistance" name="ObjectFireResistance/@Rating" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireResistance" name="ObjectFireResistance/@ReferenceID" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireResistance" name="ObjectFireResistance/@ReferenceURL" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireResistance" name="ObjectFireResistance/@IsCombustible" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireResistance" name="ObjectFireResistance/@Compartmentation" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectFireResistance" name="ObjectFireResistance/@SurfaceSpreadofFlame" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectThermalTransmittance" name="ObjectThermalTransmittance/@IsExternal" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectThermalTransmittance" name="ObjectThermalTransmittance/@IsBelowGrade" isEditable="false" isHidden="true"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@FeatureVolume" isHidden="true" isEditable="false"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGross"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossModeled"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetModeled"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@UnitWeight"/>
+				<Property definition="Pset_BeamCommon" name="Pset_BeamCommon/@FireRating" isEditable="false" isHidden="true"/>
+				<Property definition="Pset_BeamCommon" name="Pset_BeamCommon/@LoadBearing" isEditable="false" isHidden="true"/>
+				<Property definition="Pset_BeamCommon" name="Pset_BeamCommon/@IsExternal" isEditable="false" isHidden="true"/>
+				<Property definition="Pset_BeamCommon" name="Pset_BeamCommon/@Slope" isEditable="false" isHidden="true"/>
+				<Property definition="Pset_BeamCommon" name="Pset_BeamCommon/@Span" isEditable="false" isHidden="true"/>
+				<Property definition="Pset_BeamCommon" name="Pset_BeamCommon/@Reference" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectLEED" name="ObjectLEED/@PercentPostConsumer" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectLEED" name="ObjectLEED/@IsRegionalMaterial" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectLEED" name="ObjectLEED/@PercentRecycled" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@CBI2011" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@NATSPEC" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@UniFormat" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@OmniClass" isEditable="false" isHidden="true"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@MasterFormat" isEditable="false" isHidden="true"/>
+				<Property definition="IFC_Override" name="IFC_Override/@IfcOverride" isEditable="false" isHidden="true"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetModeledXDensity"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetXDensity"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossModeledXDensity"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossXDensity"/>
+				<Property definition="StructuralFramingCommon" name="StructuralFramingCommon/@sectionname" value="200PFC"/>
+				<Property definition="StructuralFramingCommon" name="StructuralFramingCommon/@structuraltype" value="Beam"/>
+				<Property definition="StructuralFramingCommon" name="StructuralFramingCommon/@structuralfinish" value="Galvanized"/>
+				<Property definition="ObjectStructuralUsage" name="ObjectStructuralUsage/@StructuralFunction" value="Structural"/>
+				<Property definition="ObjectStructuralUsage" name="ObjectStructuralUsage/@StructuralMaterial" value="Steel"/>
+				<Property definition="ObjectMaterial" name="ObjectMaterial/@PartDefinition"/>
+				<Property definition="ObjectPhasing" name="ObjectPhasing/@Phasing" isHidden="true" isEditable="false"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@AreaCrossSection" isHidden="true" isEditable="false"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@AreaCrossSectionModeled" isHidden="true" isEditable="false"/>
+			</Defaults>
+		</CatalogItem>
+		<CatalogItem type="Steel Beam" name="AER 360UB44.7">
+			<Defaults>
+				<Property definition="ObjectClassification" name="ObjectClassification/@NATSPEC" value="03 410"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@CBI2011" value="3411"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@UniFormat" value="B1010 "/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@MasterFormat" value="05 12 23"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@OmniClass" value="22-05 12 23"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@AreaCrossSection" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@AreaCrossSectionModeled" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@FeatureVolume" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGross" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossModeled" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNet" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetModeled" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@UnitWeight" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@MaterialDensity" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@LengthXUnitWeight" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossXDensity" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossModeledXDensity" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetXDensity" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetModeledXDensity" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="ObjectPhasing" name="ObjectPhasing/@Phasing" value="New Construction"/>
+				<Property definition="StructuralFramingCommon" name="StructuralFramingCommon/@sectionname" value="360UB44.7"/>
+				<Property definition="StructuralFramingCommon" name="StructuralFramingCommon/@structuraltype" value="Beam"/>
+				<Property definition="StructuralFramingCommon" name="StructuralFramingCommon/@structuralfinish" value="Painted"/>
+				<Property definition="ObjectStructuralUsage" name="ObjectStructuralUsage/@StructuralMaterial" value="Steel"/>
+				<Property definition="ObjectMaterial" name="ObjectMaterial/@PartDefinition" value="AER - Structural Steel::Beams-Primary"/>
+				<Property definition="ObjectIdentity" name="ObjectIdentity/@Description" value="Primary Beam 360UB44.7"/>
+				<Property definition="ObjectPhasing" name="ObjectPhasing/@Phasing" value="New Construction"/>
+				<Property definition="ObjectLEED" name="ObjectLEED/@IsRegionalMaterial" value="false"/>
+			</Defaults>
+		</CatalogItem>
+		<CatalogItem type="Steel Beam" name="AER 360UB50.7">
+			<Defaults>
+				<Property definition="ObjectClassification" name="ObjectClassification/@NATSPEC" value="03 410"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@CBI2011" value="3411"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@UniFormat" value="B1010 "/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@MasterFormat" value="05 12 23"/>
+				<Property definition="ObjectClassification" name="ObjectClassification/@OmniClass" value="22-05 12 23"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@AreaCrossSection" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@AreaCrossSectionModeled" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@FeatureVolume" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGross" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossModeled" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNet" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetModeled" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@UnitWeight" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@MaterialDensity" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@LengthXUnitWeight" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossXDensity" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossModeledXDensity" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetXDensity" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetModeledXDensity" isEditable="false" isHidden="true" value="0"/>
+				<Property definition="ObjectPhasing" name="ObjectPhasing/@Phasing" value="New Construction"/>
+				<Property definition="StructuralFramingCommon" name="StructuralFramingCommon/@sectionname" value="360UB50.7"/>
+				<Property definition="StructuralFramingCommon" name="StructuralFramingCommon/@structuraltype" value="Beam"/>
+				<Property definition="StructuralFramingCommon" name="StructuralFramingCommon/@structuralfinish" value="Painted"/>
+				<Property definition="ObjectStructuralUsage" name="ObjectStructuralUsage/@StructuralFunction" value="Structural"/>
+				<Property definition="ObjectStructuralUsage" name="ObjectStructuralUsage/@StructuralMaterial" value="Steel"/>
+				<Property definition="ObjectMaterial" name="ObjectMaterial/@PartDefinition" value="AER - Structural Steel::Beams-Primary"/>
+				<Property definition="ObjectIdentity" name="ObjectIdentity/@Description" value="Primary Beam 360UB50.7"/>
+			</Defaults>
+		</CatalogItem>
+	</CatalogItems>
+</DataGroupSystem>

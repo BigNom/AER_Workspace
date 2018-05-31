@@ -1,0 +1,5126 @@
+﻿# This file uses UTF8 encoding. Lines starting with # or $, or ending with =
+# do NOT need translating.
+#
+# Please do not translate this file
+# it was extracted from a 3rd part application
+# and was not fully translated into English when we got it
+$utf8
+
+lclddgn8_tricad_vent_1005_PLANT=
+System 
+
+lclddgn8_tricad_vent_1005_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_1005_STR=
+Branch 
+
+lclddgn8_tricad_vent_1005_BEZ=
+Description 
+
+lclddgn8_tricad_vent_1005_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_1005_TYP=
+Type 
+
+lclddgn8_tricad_vent_1005_KBZ=
+Cell namen 
+
+lclddgn8_tricad_vent_1005_d1=
+NPS 
+
+lclddgn8_tricad_vent_101_PLANT=
+System 
+
+lclddgn8_tricad_vent_101_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_101_STR=
+Branch 
+
+lclddgn8_tricad_vent_101_MAT=
+Material 
+
+lclddgn8_tricad_vent_101_KBZ=
+Description 
+
+lclddgn8_tricad_vent_101_POS=
+Position 
+
+lclddgn8_tricad_vent_101_AT,1=
+Letter to position(attachment) 
+
+lclddgn8_tricad_vent_101_l=
+Length 
+
+lclddgn8_tricad_vent_101_PL=
+Closer length 
+
+lclddgn8_tricad_vent_101_a=
+a 
+
+lclddgn8_tricad_vent_101_b=
+b 
+
+lclddgn8_tricad_vent_101_RAHMEN=
+Frame 
+
+lclddgn8_tricad_vent_101_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_vent_101_v=
+Air velocity 
+
+lclddgn8_tricad_vent_101_ve=
+Air velocity effect 
+
+lclddgn8_tricad_vent_101_VS=
+Volume 
+
+lclddgn8_tricad_vent_101_BEM=
+Comment 
+
+lclddgn8_tricad_vent_101_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_101_SNR=
+Separator number 
+
+lclddgn8_tricad_vent_101_Top=
+Top 
+
+lclddgn8_tricad_vent_101_K_STOCK=
+Floor 
+
+lclddgn8_tricad_vent_101_K=
+Reference edge 
+
+lclddgn8_tricad_vent_105_PLANT=
+System 
+
+lclddgn8_tricad_vent_105_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_105_STR=
+Branch 
+
+lclddgn8_tricad_vent_105_MAT=
+Material  
+
+lclddgn8_tricad_vent_105_KBZ=
+Description  
+
+lclddgn8_tricad_vent_105_POS=
+Position  
+
+lclddgn8_tricad_vent_105_AT,1=
+Letter to position(attachment) 
+
+lclddgn8_tricad_vent_105_l=
+Length  
+
+lclddgn8_tricad_vent_105_a=
+a 
+
+lclddgn8_tricad_vent_105_b=
+b  
+
+lclddgn8_tricad_vent_105_c=
+c  
+
+lclddgn8_tricad_vent_105_d=
+d  
+
+lclddgn8_tricad_vent_105_e=
+e 
+
+lclddgn8_tricad_vent_105_f=
+f 
+
+lclddgn8_tricad_vent_105_m=
+Insert Anfang 
+
+lclddgn8_tricad_vent_105_n=
+Insert Ende   
+
+lclddgn8_tricad_vent_105_RAHMEN=
+Frame  
+
+lclddgn8_tricad_vent_105_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_vent_105_v=
+Air velocity  
+
+lclddgn8_tricad_vent_105_VS=
+Volume 
+
+lclddgn8_tricad_vent_105_BEM=
+Comment  
+
+lclddgn8_tricad_vent_105_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_105_SNR=
+Separator number 
+
+lclddgn8_tricad_vent_105_Top=
+Top 
+
+lclddgn8_tricad_vent_107_PLANT=
+System 
+
+lclddgn8_tricad_vent_107_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_107_STR=
+Branch 
+
+lclddgn8_tricad_vent_107_MAT=
+Material       
+
+lclddgn8_tricad_vent_107_KBZ=
+Description    
+
+lclddgn8_tricad_vent_107_POS=
+Position       
+
+lclddgn8_tricad_vent_107_AT,1=
+Letter to position(attachment) 
+
+lclddgn8_tricad_vent_107_a=
+Height          
+
+lclddgn8_tricad_vent_107_b=
+Width anfang  
+
+lclddgn8_tricad_vent_107_d=
+Width ende    
+
+lclddgn8_tricad_vent_107_r=
+Radius         
+
+lclddgn8_tricad_vent_107_w=
+Angle         
+
+lclddgn8_tricad_vent_107_f=
+Insert Anfang
+
+lclddgn8_tricad_vent_107_e=
+Insert Ende  
+
+lclddgn8_tricad_vent_107_PE=
+PassLength e 
+
+lclddgn8_tricad_vent_107_PF=
+PassLength f 
+
+lclddgn8_tricad_vent_107_RAHMEN=
+Frame         
+
+lclddgn8_tricad_vent_107_ISOLATION=
+Insulation      
+
+lclddgn8_tricad_vent_107_v=
+Air velocity    
+
+lclddgn8_tricad_vent_107_VS=
+Volume            
+
+lclddgn8_tricad_vent_107_BEM=
+Comment      
+
+lclddgn8_tricad_vent_107_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_107_SNR=
+Separator number 
+
+lclddgn8_tricad_vent_107_Top=
+Top 
+
+lclddgn8_tricad_vent_109_PLANT=
+System 
+
+lclddgn8_tricad_vent_109_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_109_STR=
+Branch 
+
+lclddgn8_tricad_vent_109_MAT=
+Material            
+
+lclddgn8_tricad_vent_109_KBZ=
+Description         
+
+lclddgn8_tricad_vent_109_POS=
+Position            
+
+lclddgn8_tricad_vent_109_l=
+Length              
+
+lclddgn8_tricad_vent_109_a=
+Cross section entrance 
+
+lclddgn8_tricad_vent_109_b=
+Cross section entrance 
+
+lclddgn8_tricad_vent_109_d1=
+Cross section exit 
+
+lclddgn8_tricad_vent_109_e=
+Displace e           
+
+lclddgn8_tricad_vent_109_f=
+Displace f           
+
+lclddgn8_tricad_vent_109_m=
+Insert round       
+
+lclddgn8_tricad_vent_109_RAHMEN=
+Frame              
+
+lclddgn8_tricad_vent_109_ISOLATION=
+Insulation           
+
+lclddgn8_tricad_vent_109_v=
+Air velocity         
+
+lclddgn8_tricad_vent_109_BEM=
+Comment           
+
+lclddgn8_tricad_vent_109_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_109_Top=
+Top 
+
+lclddgn8_tricad_vent_110_PLANT=
+System 
+
+lclddgn8_tricad_vent_110_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_110_STR=
+Branch 
+
+lclddgn8_tricad_vent_110_MAT=
+Material 
+
+lclddgn8_tricad_vent_110_KBZ=
+Description 
+
+lclddgn8_tricad_vent_110_POS=
+Position 
+
+lclddgn8_tricad_vent_110_l=
+Length 
+
+lclddgn8_tricad_vent_110_a=
+a 
+
+lclddgn8_tricad_vent_110_b=
+b 
+
+lclddgn8_tricad_vent_110_d=
+b 
+
+lclddgn8_tricad_vent_110_RAHMEN=
+Frame 
+
+lclddgn8_tricad_vent_110_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_vent_110_v=
+Air velocity 
+
+lclddgn8_tricad_vent_110_VS=
+Volume 
+
+lclddgn8_tricad_vent_110_BEM1=
+Comment 
+
+lclddgn8_tricad_vent_110_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_110_Top=
+Top 
+
+lclddgn8_tricad_vent_111_PLANT=
+System 
+
+lclddgn8_tricad_vent_111_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_111_STR=
+Branch 
+
+lclddgn8_tricad_vent_111_MAT=
+Material       
+
+lclddgn8_tricad_vent_111_KBZ=
+Description    
+
+lclddgn8_tricad_vent_111_POS=
+Position       
+
+lclddgn8_tricad_vent_111_a=
+Height          
+
+lclddgn8_tricad_vent_111_b=
+Width anfang  
+
+lclddgn8_tricad_vent_111_d=
+Width ende    
+
+lclddgn8_tricad_vent_111_r=
+Radius         
+
+lclddgn8_tricad_vent_111_w=
+Angle         
+
+lclddgn8_tricad_vent_111_f=
+Insert Anfang
+
+lclddgn8_tricad_vent_111_e=
+Insert Ende  
+
+lclddgn8_tricad_vent_111_PE=
+PassLength e 
+
+lclddgn8_tricad_vent_111_PF=
+PassLength f 
+
+lclddgn8_tricad_vent_111_RAHMEN=
+Frame         
+
+lclddgn8_tricad_vent_111_ISOLATION=
+Insulation      
+
+lclddgn8_tricad_vent_111_v=
+Air velocity    
+
+lclddgn8_tricad_vent_111_BEM=
+Comment      
+
+lclddgn8_tricad_vent_111_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_111_Top=
+Top 
+
+lclddgn8_tricad_vent_114_PLANT=
+System 
+
+lclddgn8_tricad_vent_114_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_114_STR=
+Branch 
+
+lclddgn8_tricad_vent_114_MAT=
+Material            
+
+lclddgn8_tricad_vent_114_KBZ=
+Description         
+
+lclddgn8_tricad_vent_114_POS=
+Position            
+
+lclddgn8_tricad_vent_114_l=
+Length              
+
+lclddgn8_tricad_vent_114_a=
+Cross section entrance 
+
+lclddgn8_tricad_vent_114_b=
+Cross section entrance 
+
+lclddgn8_tricad_vent_114_d=
+Cross section exit 
+
+lclddgn8_tricad_vent_114_h=
+Cross section branch 
+
+lclddgn8_tricad_vent_114_m=
+Height branch       
+
+lclddgn8_tricad_vent_114_n=
+Length Eingan       
+
+lclddgn8_tricad_vent_114_e=
+Displace             
+
+lclddgn8_tricad_vent_114_RAHMEN=
+Frame              
+
+lclddgn8_tricad_vent_114_ISOLATION=
+Insulation           
+
+lclddgn8_tricad_vent_114_v=
+Air velocity         
+
+lclddgn8_tricad_vent_114_VS=
+Volume                 
+
+lclddgn8_tricad_vent_114_BEM=
+Comment           
+
+lclddgn8_tricad_vent_114_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_114_Top=
+Top 
+
+lclddgn8_tricad_vent_115_PLANT=
+System 
+
+lclddgn8_tricad_vent_115_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_115_STR=
+Branch 
+
+lclddgn8_tricad_vent_115_MAT=
+Material 
+
+lclddgn8_tricad_vent_115_KBZ=
+Description 
+
+lclddgn8_tricad_vent_115_POS=
+Position 
+
+lclddgn8_tricad_vent_115_l=
+Length 
+
+lclddgn8_tricad_vent_115_d1=
+Cross section 
+
+lclddgn8_tricad_vent_115_RAHMEN=
+Pipe connections 
+
+lclddgn8_tricad_vent_115_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_vent_115_v=
+Air velocity 
+
+lclddgn8_tricad_vent_115_ve=
+Air velocity effect 
+
+lclddgn8_tricad_vent_115_VS=
+Volume 
+
+lclddgn8_tricad_vent_115_BEM=
+Comment 
+
+lclddgn8_tricad_vent_115_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_115_Top=
+Top 
+
+lclddgn8_tricad_vent_115_K=
+Reference edge 
+
+lclddgn8_tricad_vent_116_PLANT=
+System 
+
+lclddgn8_tricad_vent_116_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_116_STR=
+Branch 
+
+lclddgn8_tricad_vent_116_MAT=
+Material            
+
+lclddgn8_tricad_vent_116_KBZ=
+Description         
+
+lclddgn8_tricad_vent_116_POS=
+Position            
+
+lclddgn8_tricad_vent_116_R=
+Radius R            
+
+lclddgn8_tricad_vent_116_d1=
+Cross section         
+
+lclddgn8_tricad_vent_116_w=
+Angle         	
+
+lclddgn8_tricad_vent_116_RAHMEN=
+Pipe connections      
+
+lclddgn8_tricad_vent_116_ISOLATION=
+Insulation           
+
+lclddgn8_tricad_vent_116_v=
+Air velocity         
+
+lclddgn8_tricad_vent_116_VS=
+Volume 
+
+lclddgn8_tricad_vent_116_BEM=
+Comment           
+
+lclddgn8_tricad_vent_116_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_116_Top=
+Top 
+
+lclddgn8_tricad_vent_117_PLANT=
+System 
+
+lclddgn8_tricad_vent_117_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_117_STR=
+Branch 
+
+lclddgn8_tricad_vent_117_MAT=
+Material            
+
+lclddgn8_tricad_vent_117_KBZ=
+Description         
+
+lclddgn8_tricad_vent_117_POS=
+Position            
+
+lclddgn8_tricad_vent_117_l=
+Length              
+
+lclddgn8_tricad_vent_117_d1=
+Cross section entrance 
+
+lclddgn8_tricad_vent_117_d2=
+Cross section exit 
+
+lclddgn8_tricad_vent_117_RAHMEN=
+Pipe connections      
+
+lclddgn8_tricad_vent_117_ISOLATION=
+Insulation           
+
+lclddgn8_tricad_vent_117_v=
+Air velocity         
+
+lclddgn8_tricad_vent_117_VS=
+Volume 
+
+lclddgn8_tricad_vent_117_BEM=
+Comment           
+
+lclddgn8_tricad_vent_117_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_117_Top=
+Top 
+
+lclddgn8_tricad_vent_118_PLANT=
+System 
+
+lclddgn8_tricad_vent_118_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_118_STR=
+Branch 
+
+lclddgn8_tricad_vent_118_MAT=
+Material
+
+lclddgn8_tricad_vent_118_KBZ=
+Description 
+
+lclddgn8_tricad_vent_118_POS=
+Position 
+
+lclddgn8_tricad_vent_118_l=
+Length 
+
+lclddgn8_tricad_vent_118_l3=
+Branch length 
+
+lclddgn8_tricad_vent_118_d1=
+Cross section entrance 
+
+lclddgn8_tricad_vent_118_d2=
+Cross section exit 
+
+lclddgn8_tricad_vent_118_d3=
+Cross section branch 
+
+lclddgn8_tricad_vent_118_w=
+Angle 
+
+lclddgn8_tricad_vent_118_RAHMEN=
+Pipe connections 
+
+lclddgn8_tricad_vent_118_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_vent_118_v=
+Air velocity 
+
+lclddgn8_tricad_vent_118_VS=
+Volume 
+
+lclddgn8_tricad_vent_118_BEM=
+Comment 
+
+lclddgn8_tricad_vent_118_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_118_Top=
+Top 
+
+lclddgn8_tricad_vent_120_PLANT=
+System 
+
+lclddgn8_tricad_vent_120_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_120_STR=
+Branch 
+
+lclddgn8_tricad_vent_120_BEZ=
+Description 
+
+lclddgn8_tricad_vent_120_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_120_TYP=
+Type 
+
+lclddgn8_tricad_vent_120_KBZ=
+Cell namen 
+
+lclddgn8_tricad_vent_120_CD=
+Cell description 
+
+lclddgn8_tricad_vent_120_MAT=
+Material 
+
+lclddgn8_tricad_vent_120_a=
+Length 
+
+lclddgn8_tricad_vent_120_b=
+Width 
+
+lclddgn8_tricad_vent_120_VOL=
+Vm3/h 
+
+lclddgn8_tricad_vent_120_POS=
+Position 
+
+lclddgn8_tricad_vent_120_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_120_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_120_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_120_Top=
+Top 
+
+lclddgn8_tricad_vent_121_PLANT=
+System 
+
+lclddgn8_tricad_vent_121_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_121_STR=
+Branch 
+
+lclddgn8_tricad_vent_121_MAT=
+Material            
+
+lclddgn8_tricad_vent_121_KBZ=
+Description         
+
+lclddgn8_tricad_vent_121_POS=
+Position            
+
+lclddgn8_tricad_vent_121_l=
+Length              
+
+lclddgn8_tricad_vent_121_dn=
+Cross section         
+
+lclddgn8_tricad_vent_121_RAHMEN=
+Pipe connections      
+
+lclddgn8_tricad_vent_121_ISOLATION=
+Insulation           
+
+lclddgn8_tricad_vent_121_v=
+Air velocity         
+
+lclddgn8_tricad_vent_121_VS=
+Volume                 
+
+lclddgn8_tricad_vent_121_BEM=
+Comment           
+
+lclddgn8_tricad_vent_121_DP=
+Pressure loss        
+
+lclddgn8_tricad_vent_121_Z=
+Zeta-value           
+
+lclddgn8_tricad_vent_121_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_121_Top=
+Top 
+
+lclddgn8_tricad_vent_122_PLANT=
+System 
+
+lclddgn8_tricad_vent_122_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_122_STR=
+Branch 
+
+lclddgn8_tricad_vent_122_BEZ=
+Description 
+
+lclddgn8_tricad_vent_122_TYP=
+Type 
+
+lclddgn8_tricad_vent_122_MAT=
+Material 
+
+lclddgn8_tricad_vent_122_RAHMEN=
+Frame 
+
+lclddgn8_tricad_vent_122_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_vent_122_l=
+Length 
+
+lclddgn8_tricad_vent_122_a=
+Cross section a 
+
+lclddgn8_tricad_vent_122_b=
+Cross section b 
+
+lclddgn8_tricad_vent_122_A=
+External dimensions A 
+
+lclddgn8_tricad_vent_122_B=
+External dimensions B 
+
+lclddgn8_tricad_vent_122_e=
+Insert 
+
+lclddgn8_tricad_vent_122_v=
+Air velocity 
+
+lclddgn8_tricad_vent_122_VS=
+Vm3/h 
+
+lclddgn8_tricad_vent_122_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_122_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_122_POS=
+Position 
+
+lclddgn8_tricad_vent_122_Top=
+Top 
+
+lclddgn8_tricad_vent_122_ATR=
+Drive 
+
+lclddgn8_tricad_vent_122_AS=
+Drive side 
+
+lclddgn8_tricad_vent_123_PLANT=
+System 
+
+lclddgn8_tricad_vent_123_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_123_STR=
+Branch 
+
+lclddgn8_tricad_vent_123_BEZ=
+Description 
+
+lclddgn8_tricad_vent_123_KBZ=
+Cell name 
+
+lclddgn8_tricad_vent_123_TYP=
+Type 
+
+lclddgn8_tricad_vent_123_MAT=
+Material 
+
+lclddgn8_tricad_vent_123_l=
+Length 
+
+lclddgn8_tricad_vent_123_d1=
+NPS 
+
+lclddgn8_tricad_vent_123_D=
+External diameter 
+
+lclddgn8_tricad_vent_123_e=
+Insert 
+
+lclddgn8_tricad_vent_123_v=
+Air velocity 
+
+lclddgn8_tricad_vent_123_VS=
+Vm3/h 
+
+lclddgn8_tricad_vent_123_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_123_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_123_POS=
+Position 
+
+lclddgn8_tricad_vent_123_CH,1=
+Fix size (1, 0) 
+
+lclddgn8_tricad_vent_123_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_123_Top=
+Top 
+
+lclddgn8_tricad_vent_124_PLANT=
+System 
+
+lclddgn8_tricad_vent_124_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_124_STR=
+Branch 
+
+lclddgn8_tricad_vent_124_MAT=
+Material 
+
+lclddgn8_tricad_vent_124_KBZ=
+Description 
+
+lclddgn8_tricad_vent_124_POS=
+Position 
+
+lclddgn8_tricad_vent_124_d1=
+a 
+
+lclddgn8_tricad_vent_124_v=
+Air velocity 
+
+lclddgn8_tricad_vent_124_VS=
+Volume 
+
+lclddgn8_tricad_vent_124_BEM1=
+Comment 
+
+lclddgn8_tricad_vent_124_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_124_Top=
+Top 
+
+lclddgn8_tricad_vent_125_PLANT=
+System 
+
+lclddgn8_tricad_vent_125_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_125_STR=
+Branch 
+
+lclddgn8_tricad_vent_125_MAT=
+Material 
+
+lclddgn8_tricad_vent_125_KBZ=
+Description 
+
+lclddgn8_tricad_vent_125_POS=
+Position 
+
+lclddgn8_tricad_vent_125_a=
+a 
+
+lclddgn8_tricad_vent_125_b=
+b 
+
+lclddgn8_tricad_vent_125_v=
+Air velocity 
+
+lclddgn8_tricad_vent_125_VS=
+Volume 
+
+lclddgn8_tricad_vent_125_BEM=
+Comment 
+
+lclddgn8_tricad_vent_125_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_125_Top=
+Top 
+
+lclddgn8_tricad_vent_128_PLANT=
+System 
+
+lclddgn8_tricad_vent_128_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_128_STR=
+Branch 
+
+lclddgn8_tricad_vent_128_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_128_TYP=
+Type 
+
+lclddgn8_tricad_vent_128_BEZ=
+Description 
+
+lclddgn8_tricad_vent_128_d1=
+Connection diameter 
+
+lclddgn8_tricad_vent_128_VOL=
+Vm3/h 
+
+lclddgn8_tricad_vent_128_v=
+Air velocity 
+
+lclddgn8_tricad_vent_128_POS=
+Position 
+
+lclddgn8_tricad_vent_128_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_128_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_128_R=
+Room 
+
+lclddgn8_tricad_vent_128_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_128_Top=
+Lower surface diffuser 
+
+lclddgn8_tricad_vent_129_PLANT=
+System 
+
+lclddgn8_tricad_vent_129_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_129_STR=
+Branch 
+
+lclddgn8_tricad_vent_129_MAT=
+Material            
+
+lclddgn8_tricad_vent_129_KBZ=
+Description         
+
+lclddgn8_tricad_vent_129_POS=
+Position            
+
+lclddgn8_tricad_vent_129_l=
+Length              
+
+lclddgn8_tricad_vent_129_d1=
+Cross section         
+
+lclddgn8_tricad_vent_129_v=
+Air velocity         
+
+lclddgn8_tricad_vent_129_VS=
+Volume 
+
+lclddgn8_tricad_vent_129_BEM=
+Comment           
+
+lclddgn8_tricad_vent_129_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_129_Top=
+Top 
+
+lclddgn8_tricad_vent_130_PLANT=
+System 
+
+lclddgn8_tricad_vent_130_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_130_STR=
+Branch 
+
+lclddgn8_tricad_vent_130_MAT=
+Material            
+
+lclddgn8_tricad_vent_130_KBZ=
+Description         
+
+lclddgn8_tricad_vent_130_POS=
+Position            
+
+lclddgn8_tricad_vent_130_l=
+Length              
+
+lclddgn8_tricad_vent_130_d1=
+Cross section         
+
+lclddgn8_tricad_vent_130_v=
+Air velocity         
+
+lclddgn8_tricad_vent_130_VS=
+Volume 
+
+lclddgn8_tricad_vent_130_BEM=
+Comment           
+
+lclddgn8_tricad_vent_130_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_130_Top=
+Top 
+
+lclddgn8_tricad_vent_131_PLANT=
+System              
+
+lclddgn8_tricad_vent_131_ANLAGE=
+Type of air             
+
+lclddgn8_tricad_vent_131_STR=
+Branch 
+
+lclddgn8_tricad_vent_131_MAT=
+Material            
+
+lclddgn8_tricad_vent_131_KBZ=
+Description         
+
+lclddgn8_tricad_vent_131_POS=
+Position            
+
+lclddgn8_tricad_vent_131_l=
+Length              
+
+lclddgn8_tricad_vent_131_a=
+Cross section entrance 
+
+lclddgn8_tricad_vent_131_b=
+Cross section entrance 
+
+lclddgn8_tricad_vent_131_d=
+Cross section exit 
+
+lclddgn8_tricad_vent_131_h=
+Cross section exit 
+
+lclddgn8_tricad_vent_131_e=
+Displace e           
+
+lclddgn8_tricad_vent_131_m=
+Mittelstueck m      
+
+lclddgn8_tricad_vent_131_RAHMEN=
+Frame              
+
+lclddgn8_tricad_vent_131_ISOLATION=
+Insulation           
+
+lclddgn8_tricad_vent_131_v=
+Air velocity         
+
+lclddgn8_tricad_vent_131_VS=
+Volume                 
+
+lclddgn8_tricad_vent_131_BEM=
+Comment           
+
+lclddgn8_tricad_vent_131_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_131_Top=
+Top 
+
+lclddgn8_tricad_vent_132_PLANT=
+System 
+
+lclddgn8_tricad_vent_132_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_132_STR=
+Branch 
+
+lclddgn8_tricad_vent_132_MAT=
+Material            
+
+lclddgn8_tricad_vent_132_KBZ=
+Description         
+
+lclddgn8_tricad_vent_132_POS=
+Position            
+
+lclddgn8_tricad_vent_132_l1=
+Length l1           
+
+lclddgn8_tricad_vent_132_d1=
+Cross section         
+
+lclddgn8_tricad_vent_132_d2=
+Cross section         
+
+lclddgn8_tricad_vent_132_d3=
+Cross section         
+
+lclddgn8_tricad_vent_132_w=
+Angle              
+
+lclddgn8_tricad_vent_132_ISOLATION=
+Insulation           
+
+lclddgn8_tricad_vent_132_v=
+Air velocity         
+
+lclddgn8_tricad_vent_132_VS=
+Volume                 
+
+lclddgn8_tricad_vent_132_BEM=
+Comment           
+
+lclddgn8_tricad_vent_132_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_132_Top=
+Top 
+
+lclddgn8_tricad_vent_135_PLANT=
+System 
+
+lclddgn8_tricad_vent_135_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_135_STR=
+Branch 
+
+lclddgn8_tricad_vent_135_BEZ=
+Description 
+
+lclddgn8_tricad_vent_135_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_135_TYP=
+Type 
+
+lclddgn8_tricad_vent_135_KBZ=
+Cell namen 
+
+lclddgn8_tricad_vent_135_CD=
+Cell description 
+
+lclddgn8_tricad_vent_135_MAT=
+Material 
+
+lclddgn8_tricad_vent_135_a=
+Length 
+
+lclddgn8_tricad_vent_135_b=
+Width 
+
+lclddgn8_tricad_vent_135_VOL=
+Vm3/h 
+
+lclddgn8_tricad_vent_135_POS=
+Position 
+
+lclddgn8_tricad_vent_135_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_135_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_135_ROOM=
+Room 
+
+lclddgn8_tricad_vent_135_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_135_Top=
+Top 
+
+lclddgn8_tricad_vent_136_PLANT=
+System 
+
+lclddgn8_tricad_vent_136_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_136_STR=
+Branch 
+
+lclddgn8_tricad_vent_136_BEZ=
+Description         
+
+lclddgn8_tricad_vent_136_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_136_TYP=
+Type 
+
+lclddgn8_tricad_vent_136_KBZ=
+Cell namen           
+
+lclddgn8_tricad_vent_136_CD=
+Cell description    
+
+lclddgn8_tricad_vent_136_MAT=
+Material            
+
+lclddgn8_tricad_vent_136_d1=
+NPS    	        
+
+lclddgn8_tricad_vent_136_VOL=
+Vm3/h               
+
+lclddgn8_tricad_vent_136_POS=
+Position            
+
+lclddgn8_tricad_vent_136_AT,1=
+Letter to position(attachment) 
+
+lclddgn8_tricad_vent_136_DP=
+Pressure loss        
+
+lclddgn8_tricad_vent_136_Z=
+Zeta-value           
+
+lclddgn8_tricad_vent_136_ROOM=
+Room                
+
+lclddgn8_tricad_vent_136_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_136_Top=
+Top 
+
+lclddgn8_tricad_vent_137_PLANT=
+System 
+
+lclddgn8_tricad_vent_137_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_137_STR=
+Branch 
+
+lclddgn8_tricad_vent_137_BEZ=
+Description         
+
+lclddgn8_tricad_vent_137_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_137_TYP=
+Type 
+
+lclddgn8_tricad_vent_137_KBZ=
+Cell namen  
+
+lclddgn8_tricad_vent_137_CD=
+Cell description  
+
+lclddgn8_tricad_vent_137_MAT=
+Material            
+
+lclddgn8_tricad_vent_137_a=
+a 
+
+lclddgn8_tricad_vent_137_b=
+b 
+
+lclddgn8_tricad_vent_137_VOL=
+Vm3/h               
+
+lclddgn8_tricad_vent_137_POS=
+Position            
+
+lclddgn8_tricad_vent_137_AT,1=
+Letter to position(attachment) 
+
+lclddgn8_tricad_vent_137_DP=
+Pressure loss        
+
+lclddgn8_tricad_vent_137_Z=
+Zeta-value           
+
+lclddgn8_tricad_vent_137_ROOM=
+Room                
+
+lclddgn8_tricad_vent_137_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_137_Top=
+Top 
+
+lclddgn8_tricad_vent_138_PLANT=
+System 
+
+lclddgn8_tricad_vent_138_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_138_STR=
+Branch 
+
+lclddgn8_tricad_vent_138_BEM=
+Description        
+
+lclddgn8_tricad_vent_138_BEZ=
+Formula number         
+
+lclddgn8_tricad_vent_138_MAT=
+Material            
+
+lclddgn8_tricad_vent_138_a=
+a    	        
+
+lclddgn8_tricad_vent_138_b=
+b    	        
+
+lclddgn8_tricad_vent_138_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_vent_138_POS=
+Position            
+
+lclddgn8_tricad_vent_138_AT,1=
+Letter to position(attachment) 
+
+lclddgn8_tricad_vent_138_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_138_Top=
+Top 
+
+lclddgn8_tricad_vent_139_PLANT=
+System 
+
+lclddgn8_tricad_vent_139_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_139_STR=
+Branch 
+
+lclddgn8_tricad_vent_139_BEZ=
+Description         
+
+lclddgn8_tricad_vent_139_BEM=
+Formula number       
+
+lclddgn8_tricad_vent_139_MAT=
+Material            
+
+lclddgn8_tricad_vent_139_d1=
+NPS    	        
+
+lclddgn8_tricad_vent_139_POS=
+Position            
+
+lclddgn8_tricad_vent_139_AT,1=
+Letter to position(attachment) 
+
+lclddgn8_tricad_vent_139_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_139_Top=
+Top 
+
+lclddgn8_tricad_vent_143_PLANT=
+System 
+
+lclddgn8_tricad_vent_143_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_143_STR=
+Branch 
+
+lclddgn8_tricad_vent_143_BEZ=
+Description 
+
+lclddgn8_tricad_vent_143_KBZ=
+Abbreviated identification 
+
+lclddgn8_tricad_vent_143_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_143_TYP=
+Type 
+
+lclddgn8_tricad_vent_143_MAT=
+Material 
+
+lclddgn8_tricad_vent_143_l=
+Length 
+
+lclddgn8_tricad_vent_143_a=
+Cross section a 
+
+lclddgn8_tricad_vent_143_b=
+Cross section b 
+
+lclddgn8_tricad_vent_143_v=
+Air velocity 
+
+lclddgn8_tricad_vent_143_VS=
+Vm3/h 
+
+lclddgn8_tricad_vent_143_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_143_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_143_POS=
+Position 
+
+lclddgn8_tricad_vent_143_CH,1=
+Fix size (1, 0)  
+
+lclddgn8_tricad_vent_143_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_143_Top=
+Top 
+
+lclddgn8_tricad_vent_144_PLANT=
+System 
+
+lclddgn8_tricad_vent_144_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_144_STR=
+Branch 
+
+lclddgn8_tricad_vent_144_MAT=
+Material            
+
+lclddgn8_tricad_vent_144_POS=
+Position            
+
+lclddgn8_tricad_vent_144_d1=
+Cross section         
+
+lclddgn8_tricad_vent_144_BEM=
+Comment           
+
+lclddgn8_tricad_vent_144_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_144_Top=
+Top 
+
+lclddgn8_tricad_vent_145_PLANT=
+System 
+
+lclddgn8_tricad_vent_145_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_145_STR=
+Branch 
+
+lclddgn8_tricad_vent_145_MAT=
+Material 
+
+lclddgn8_tricad_vent_145_POS=
+Position 
+
+lclddgn8_tricad_vent_145_l=
+Length 
+
+lclddgn8_tricad_vent_145_d1=
+Cross section 
+
+lclddgn8_tricad_vent_145_v=
+Air velocity 
+
+lclddgn8_tricad_vent_145_BEM=
+Comment 
+
+lclddgn8_tricad_vent_145_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_145_Top=
+Top 
+
+lclddgn8_tricad_vent_146_PLANT=
+System 
+
+lclddgn8_tricad_vent_146_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_146_STR=
+Branch 
+
+lclddgn8_tricad_vent_146_BEZ=
+Description 
+
+lclddgn8_tricad_vent_146_BEM=
+Comment 
+
+lclddgn8_tricad_vent_146_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_146_TYP=
+Type 
+
+lclddgn8_tricad_vent_146_KBZ=
+Cell namen           
+
+lclddgn8_tricad_vent_146_MAT=
+Material            
+
+lclddgn8_tricad_vent_146_d1=
+NPS    	        
+
+lclddgn8_tricad_vent_146_VOL=
+Vm3/h               
+
+lclddgn8_tricad_vent_146_POS=
+Position            
+
+lclddgn8_tricad_vent_146_DP=
+Pressure loss        
+
+lclddgn8_tricad_vent_146_Z=
+Zeta-value           
+
+lclddgn8_tricad_vent_146_ROOM=
+Room                
+
+lclddgn8_tricad_vent_146_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_146_Top=
+Top 
+
+lclddgn8_tricad_vent_147_PLANT=
+System 
+
+lclddgn8_tricad_vent_147_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_147_STR=
+Branch 
+
+lclddgn8_tricad_vent_147_BEZ=
+Description 
+
+lclddgn8_tricad_vent_147_BEM=
+Comment 
+
+lclddgn8_tricad_vent_147_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_147_TYP=
+Type 
+
+lclddgn8_tricad_vent_147_KBZ=
+Cell namen 
+
+lclddgn8_tricad_vent_147_MAT=
+Material 
+
+lclddgn8_tricad_vent_147_a=
+Length 
+
+lclddgn8_tricad_vent_147_b=
+Width 
+
+lclddgn8_tricad_vent_147_VOL=
+Vm3/h 
+
+lclddgn8_tricad_vent_147_POS=
+Position 
+
+lclddgn8_tricad_vent_147_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_147_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_147_ROOM=
+Room 
+
+lclddgn8_tricad_vent_147_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_147_Top=
+Top 
+
+lclddgn8_tricad_vent_148_PLANT=
+System 
+
+lclddgn8_tricad_vent_148_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_148_STR=
+Branch 
+
+lclddgn8_tricad_vent_148_BEZ=
+Description         
+
+lclddgn8_tricad_vent_148_BEM=
+Comment 
+
+lclddgn8_tricad_vent_148_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_148_TYP=
+Type 
+
+lclddgn8_tricad_vent_148_KBZ=
+Cell namen  
+
+lclddgn8_tricad_vent_148_MAT=
+Material            
+
+lclddgn8_tricad_vent_148_a=
+a 
+
+lclddgn8_tricad_vent_148_b=
+b 
+
+lclddgn8_tricad_vent_148_VOL=
+Vm3/h               
+
+lclddgn8_tricad_vent_148_POS=
+Position            
+
+lclddgn8_tricad_vent_148_DP=
+Pressure loss        
+
+lclddgn8_tricad_vent_148_Z=
+Zeta-value           
+
+lclddgn8_tricad_vent_148_ROOM=
+Room                
+
+lclddgn8_tricad_vent_148_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_148_Top=
+Top 
+
+lclddgn8_tricad_vent_149_PLANT=
+System 
+
+lclddgn8_tricad_vent_149_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_149_STR=
+Branch 
+
+lclddgn8_tricad_vent_149_BEZ=
+Description 
+
+lclddgn8_tricad_vent_149_BEM=
+Comment 
+
+lclddgn8_tricad_vent_149_HST=
+Manufacturer 
+
+lclddgn8_tricad_vent_149_TYP=
+Type 
+
+lclddgn8_tricad_vent_149_KBZ=
+Cell namen 
+
+lclddgn8_tricad_vent_149_MAT=
+Material 
+
+lclddgn8_tricad_vent_149_a=
+Length 
+
+lclddgn8_tricad_vent_149_b=
+Width 
+
+lclddgn8_tricad_vent_149_VOL=
+Vm3/h 
+
+lclddgn8_tricad_vent_149_POS=
+Position 
+
+lclddgn8_tricad_vent_149_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_149_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_149_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_149_Top=
+Top 
+
+lclddgn8_tricad_vent_150_PLANT=
+System 
+
+lclddgn8_tricad_vent_150_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_150_STR=
+Branch 
+
+lclddgn8_tricad_vent_150_MAT=
+Material
+
+lclddgn8_tricad_vent_150_KBZ=
+Description 
+
+lclddgn8_tricad_vent_150_POS=
+Position 
+
+lclddgn8_tricad_vent_150_l=
+Length 
+
+lclddgn8_tricad_vent_150_l3=
+Branch length 
+
+lclddgn8_tricad_vent_150_d1=
+Cross section entrance 
+
+lclddgn8_tricad_vent_150_d2=
+Cross section exit 
+
+lclddgn8_tricad_vent_150_d3=
+Cross section branch1 
+
+lclddgn8_tricad_vent_150_d4=
+Cross section branch2 
+
+lclddgn8_tricad_vent_150_w=
+Angle 
+
+lclddgn8_tricad_vent_150_RAHMEN=
+Pipe connections 
+
+lclddgn8_tricad_vent_150_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_vent_150_v=
+Air velocity 
+
+lclddgn8_tricad_vent_150_VS=
+Volume 
+
+lclddgn8_tricad_vent_150_BEM=
+Comment 
+
+lclddgn8_tricad_vent_150_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_150_Top=
+Top 
+
+lclddgn8_tricad_vent_200_PLANT=
+System 
+
+lclddgn8_tricad_vent_200_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_200_STR=
+Branch 
+
+lclddgn8_tricad_vent_200_MAT=
+Material       
+
+lclddgn8_tricad_vent_200_KBZ=
+Description    
+
+lclddgn8_tricad_vent_200_POS=
+Position       
+
+lclddgn8_tricad_vent_200_a=
+Height          
+
+lclddgn8_tricad_vent_200_b=
+Width         
+
+lclddgn8_tricad_vent_200_l=
+Length         
+
+lclddgn8_tricad_vent_200_okk=
+Z-coordinates top  
+
+lclddgn8_tricad_vent_200_ISOLATION=
+Insulation      
+
+lclddgn8_tricad_vent_200_v=
+Air velocity    
+
+lclddgn8_tricad_vent_200_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_200_Top=
+Top 
+
+lclddgn8_tricad_vent_201_PLANT=
+System 
+
+lclddgn8_tricad_vent_201_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_201_STR=
+Branch 
+
+lclddgn8_tricad_vent_201_MAT=
+Material       
+
+lclddgn8_tricad_vent_201_KBZ=
+Description    
+
+lclddgn8_tricad_vent_201_POS=
+Position       
+
+lclddgn8_tricad_vent_201_d1=
+Diameter    
+
+lclddgn8_tricad_vent_201_l=
+Length         
+
+lclddgn8_tricad_vent_201_okk=
+Z-coordinates top  
+
+lclddgn8_tricad_vent_201_ISOLATION=
+Insulation      
+
+lclddgn8_tricad_vent_201_v=
+Air velocity    
+
+lclddgn8_tricad_vent_201_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_201_Top=
+Top 
+
+lclddgn8_tricad_vent_3001_PLANT=
+System 
+
+lclddgn8_tricad_vent_3001_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_3001_STR=
+Branch 
+
+lclddgn8_tricad_vent_3001_a=
+a 
+
+lclddgn8_tricad_vent_3001_b=
+b 
+
+lclddgn8_tricad_vent_3001_BEZ=
+Description 
+
+lclddgn8_tricad_vent_500_NAME=
+Name                    
+
+lclddgn8_tricad_vent_500_G=
+Building                
+
+lclddgn8_tricad_vent_500_ST=
+Floor               
+
+lclddgn8_tricad_vent_500_W=
+Apartment                 
+
+lclddgn8_tricad_vent_500_R=
+Room                    
+
+lclddgn8_tricad_vent_500_FL=
+Ground area in m2      
+
+lclddgn8_tricad_vent_500_H=
+Room height in m          
+
+lclddgn8_tricad_vent_500_V=
+Room volume in m3       
+
+lclddgn8_tricad_vent_500_LW=
+Air exchange/hour      
+
+lclddgn8_tricad_vent_500_T=
+Standard-Temperature C       
+
+lclddgn8_tricad_vent_500_ET=
+Temperatur eing.Beh. C  
+
+lclddgn8_tricad_vent_500_OKF=
+Floor height to the ground in m 
+
+lclddgn8_tricad_vent_500_OKD=
+Storey height in m      
+
+lclddgn8_tricad_vent_500_WB=
+Standard heat requirement in W   
+
+lclddgn8_tricad_vent_500_Top=
+Top 
+
+lclddgn8_tricad_vent_5000_FC=
+FaMeCode 
+
+lclddgn8_tricad_vent_5000_D#=
+Data sheet number
+
+lclddgn8_tricad_vent_5000_B#=
+Component number
+
+lclddgn8_tricad_vent_5000_PLANT=
+System System 
+
+lclddgn8_tricad_vent_5000_FO=
+FM-Object
+
+lclddgn8_tricad_vent_5000_BEM=
+Description 
+
+lclddgn8_tricad_vent_5000_GW=
+GLT-Value 
+
+lclddgn8_tricad_vent_600_PLANT=
+System 
+
+lclddgn8_tricad_vent_600_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_600_STR=
+Branch 
+
+lclddgn8_tricad_vent_600_TYP=
+Type 
+
+lclddgn8_tricad_vent_600_BEM=
+Comment 
+
+lclddgn8_tricad_vent_600_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_7001_PLANT=
+System 
+
+lclddgn8_tricad_vent_7001_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_7001_STR=
+Branch 
+
+lclddgn8_tricad_vent_7001_BEZ=
+Description 
+
+lclddgn8_tricad_vent_7001_KBZ=
+Description 
+
+lclddgn8_tricad_vent_7001_TYP=
+Type 
+
+lclddgn8_tricad_vent_7001_MAT=
+Material 
+
+lclddgn8_tricad_vent_7001_l=
+Length 
+
+lclddgn8_tricad_vent_7001_a=
+Cross section a 
+
+lclddgn8_tricad_vent_7001_b=
+Cross section b 
+
+lclddgn8_tricad_vent_7001_A=
+External dimensions A 
+
+lclddgn8_tricad_vent_7001_B=
+External dimensions B 
+
+lclddgn8_tricad_vent_7001_e=
+Insert 
+
+lclddgn8_tricad_vent_7001_v=
+Air velocity 
+
+lclddgn8_tricad_vent_7001_RAHMEN=
+Frame 
+
+lclddgn8_tricad_vent_7001_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_vent_7001_VS=
+Vm3/h 
+
+lclddgn8_tricad_vent_7001_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_7001_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_7001_POS=
+Position 
+
+lclddgn8_tricad_vent_7001_CH,1=
+Fix size (1, 0)  
+
+lclddgn8_tricad_vent_7001_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_7001_Top=
+Top 
+
+lclddgn8_tricad_vent_7001_ATR=
+Drive 
+
+lclddgn8_tricad_vent_7001_AS=
+Drive side 
+
+lclddgn8_tricad_vent_7002_PLANT=
+System 
+
+lclddgn8_tricad_vent_7002_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_7002_STR=
+Branch 
+
+lclddgn8_tricad_vent_7002_BEZ=
+Description 
+
+lclddgn8_tricad_vent_7002_KBZ=
+Cell name 
+
+lclddgn8_tricad_vent_7002_TYP=
+Type 
+
+lclddgn8_tricad_vent_7002_MAT=
+Material 
+
+lclddgn8_tricad_vent_7002_l=
+Length 
+
+lclddgn8_tricad_vent_7002_d1=
+NPS 
+
+lclddgn8_tricad_vent_7002_D=
+External diameter 
+
+lclddgn8_tricad_vent_7002_e=
+Insert 
+
+lclddgn8_tricad_vent_7002_v=
+Air velocity 
+
+lclddgn8_tricad_vent_7002_VS=
+Vm3/h 
+
+lclddgn8_tricad_vent_7002_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_7002_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_7002_POS=
+Position 
+
+lclddgn8_tricad_vent_7002_CH,1=
+Fix size (1, 0) 
+
+lclddgn8_tricad_vent_7002_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_7002_Top=
+Top 
+
+lclddgn8_tricad_vent_7003_PLANT=
+System 
+
+lclddgn8_tricad_vent_7003_ANLAGE=
+Typee of air 
+
+lclddgn8_tricad_vent_7003_STR=
+Branch 
+
+lclddgn8_tricad_vent_7003_BEZ=
+Description 
+
+lclddgn8_tricad_vent_7003_KBZ=
+Description 
+
+lclddgn8_tricad_vent_7003_TYP=
+Type 
+
+lclddgn8_tricad_vent_7003_MAT=
+Material 
+
+lclddgn8_tricad_vent_7003_l=
+Length 
+
+lclddgn8_tricad_vent_7003_a=
+Cross section a 
+
+lclddgn8_tricad_vent_7003_b=
+Cross section b 
+
+lclddgn8_tricad_vent_7003_A=
+External dimensions A 
+
+lclddgn8_tricad_vent_7003_B=
+External dimensions B 
+
+lclddgn8_tricad_vent_7003_e=
+Insert 
+
+lclddgn8_tricad_vent_7003_v=
+Air velocity 
+
+lclddgn8_tricad_vent_7003_RAHMEN=
+Frame 
+
+lclddgn8_tricad_vent_7003_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_vent_7003_VS=
+Vm3/h 
+
+lclddgn8_tricad_vent_7003_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_7003_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_7003_POS=
+Position 
+
+lclddgn8_tricad_vent_7003_CH,1=
+Fix size (1, 0)  
+
+lclddgn8_tricad_vent_7003_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_7003_OKK=
+OKK 
+
+lclddgn8_tricad_vent_7003_ATR=
+Drive 
+
+lclddgn8_tricad_vent_7003_AS=
+Drive side 
+
+lclddgn8_tricad_vent_7004_PLANT=
+System 
+
+lclddgn8_tricad_vent_7004_ANLAGE=
+Typee of air 
+
+lclddgn8_tricad_vent_7004_STR=
+Branch 
+
+lclddgn8_tricad_vent_7004_BEZ=
+Description 
+
+lclddgn8_tricad_vent_7004_KBZ=
+Cell name 
+
+lclddgn8_tricad_vent_7004_TYP=
+Type 
+
+lclddgn8_tricad_vent_7004_MAT=
+Material 
+
+lclddgn8_tricad_vent_7004_l=
+Length 
+
+lclddgn8_tricad_vent_7004_d1=
+NPS 
+
+lclddgn8_tricad_vent_7004_D=
+External diameter 
+
+lclddgn8_tricad_vent_7004_e=
+Insert 
+
+lclddgn8_tricad_vent_7004_v=
+Air velocity 
+
+lclddgn8_tricad_vent_7004_VS=
+Vm3/h 
+
+lclddgn8_tricad_vent_7004_DP=
+Pressure loss 
+
+lclddgn8_tricad_vent_7004_Z=
+Zeta-value 
+
+lclddgn8_tricad_vent_7004_POS=
+Position 
+
+lclddgn8_tricad_vent_7004_CH,1=
+Fix size (1, 0) 
+
+lclddgn8_tricad_vent_7004_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_vent_7004_OKK=
+OKK 
+
+lclddgn8_tricad_vent_800_PLANT=
+System 
+
+lclddgn8_tricad_vent_800_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_vent_800_STR=
+Branch 
+
+lclddgn8_tricad_vent_800_MAT=
+Material       
+
+lclddgn8_tricad_vent_800_KBZ=
+Description    
+
+lclddgn8_tricad_vent_800_CD=
+Description    
+
+lclddgn8_tricad_vent_800_BEZ=
+Description    
+
+lclddgn8_tricad_vent_800_d1=
+Diameter    
+
+lclddgn8_tricad_vent_800_POS=
+Position       
+
+lclddgn8_tricad_vent_800_VOL=
+Diameter    
+
+lclddgn8_tricad_vent_800_DP=
+Pressure loss   
+
+lclddgn8_tricad_vent_800_Z=
+Zeta-value	   
+
+lclddgn8_tricad_vent_800_ROOM=
+Room     	   
+
+lclddgn8_tricad_vent_800_K_ON_LST=
+ On the list 
+
+lclddgn8_tricad_vent_800_Top=
+ Top 
+
+lclddgn8_tricad_heat_101_PLANT=
+System 
+
+lclddgn8_tricad_heat_101_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_heat_101_MAT=
+Material 
+
+lclddgn8_tricad_heat_101_KBZ=
+Description 
+
+lclddgn8_tricad_heat_101_a=
+a 
+
+lclddgn8_tricad_heat_101_b=
+b 
+
+lclddgn8_tricad_heat_101_l=
+Length 
+
+lclddgn8_tricad_heat_101_BEM=
+Comment 
+
+lclddgn8_tricad_heat_101_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_heat_115_PLANT=
+System      
+
+lclddgn8_tricad_heat_115_STR=
+Branch      
+
+lclddgn8_tricad_heat_115_MED=
+Medium      
+
+lclddgn8_tricad_heat_115_Type=
+Object      
+
+lclddgn8_tricad_heat_115_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_115_MAT=
+Material    
+
+lclddgn8_tricad_heat_115_BEZ=
+Description 
+
+lclddgn8_tricad_heat_115_d1=
+NPS          
+
+lclddgn8_tricad_heat_115_s=
+Wall thickness  
+
+lclddgn8_tricad_heat_115_l=
+Length      
+
+lclddgn8_tricad_heat_115_ISOLATION=
+Insulation   
+
+lclddgn8_tricad_heat_115_PL=
+Closer length 
+
+lclddgn8_tricad_heat_115_TS=
+Part distance number
+
+lclddgn8_tricad_heat_115_K_STOCK=
+Floor 
+
+lclddgn8_tricad_heat_116_PLANT=
+System      
+
+lclddgn8_tricad_heat_116_STR=
+Branch      
+
+lclddgn8_tricad_heat_116_MED=
+Medium      
+
+lclddgn8_tricad_heat_116_Type=
+Object      
+
+lclddgn8_tricad_heat_116_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_116_MAT=
+Material    
+
+lclddgn8_tricad_heat_116_BEZ=
+Description 
+
+lclddgn8_tricad_heat_116_d1=
+NPS          
+
+lclddgn8_tricad_heat_116_s=
+Wall thickness  
+
+lclddgn8_tricad_heat_116_w=
+Angle      
+
+lclddgn8_tricad_heat_116_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_heat_117_PLANT=
+System      
+
+lclddgn8_tricad_heat_117_STR=
+Branch      
+
+lclddgn8_tricad_heat_117_MED=
+Medium      
+
+lclddgn8_tricad_heat_117_Type=
+Object      
+
+lclddgn8_tricad_heat_117_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_117_MAT=
+Material    
+
+lclddgn8_tricad_heat_117_BEZ=
+Description 
+
+lclddgn8_tricad_heat_117_d1=
+NPS1         
+
+lclddgn8_tricad_heat_117_d2=
+NPS2         
+
+lclddgn8_tricad_heat_117_s=
+Wall thickness  
+
+lclddgn8_tricad_heat_117_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_heat_118_PLANT=
+System      
+
+lclddgn8_tricad_heat_118_STR=
+Branch      
+
+lclddgn8_tricad_heat_118_MED=
+Medium      
+
+lclddgn8_tricad_heat_118_Type=
+Object      
+
+lclddgn8_tricad_heat_118_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_118_MAT=
+Material    
+
+lclddgn8_tricad_heat_118_BEZ=
+Description 
+
+lclddgn8_tricad_heat_118_d1=
+NPS1         
+
+lclddgn8_tricad_heat_118_d2=
+NPS2         
+
+lclddgn8_tricad_heat_118_d3=
+NPS3         
+
+lclddgn8_tricad_heat_118_s=
+Wall thickness  
+
+lclddgn8_tricad_heat_118_l=
+Length      
+
+lclddgn8_tricad_heat_118_l3=
+Branch length 
+
+lclddgn8_tricad_heat_118_w=
+Angle      
+
+lclddgn8_tricad_heat_118_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_heat_120_Type=
+Object      
+
+lclddgn8_tricad_heat_120_MED=
+Medium      
+
+lclddgn8_tricad_heat_120_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_120_MAT=
+Material    
+
+lclddgn8_tricad_heat_120_BEZ=
+Description 
+
+lclddgn8_tricad_heat_120_d1=
+NPS1         
+
+lclddgn8_tricad_heat_120_d2=
+NPS2         
+
+lclddgn8_tricad_heat_120_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_heat_121_PLANT=
+System      
+
+lclddgn8_tricad_heat_121_STR=
+Branch      
+
+lclddgn8_tricad_heat_121_MED=
+Medium      
+
+lclddgn8_tricad_heat_121_Type=
+Object      
+
+lclddgn8_tricad_heat_121_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_121_MAT=
+Material    
+
+lclddgn8_tricad_heat_121_BEZ=
+Description 
+
+lclddgn8_tricad_heat_121_d1=
+NPS          
+
+lclddgn8_tricad_heat_121_l=
+Length      
+
+lclddgn8_tricad_heat_121_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_heat_129_PLANT=
+System      
+
+lclddgn8_tricad_heat_129_STR=
+Branch      
+
+lclddgn8_tricad_heat_129_MED=
+Medium      
+
+lclddgn8_tricad_heat_129_Type=
+Object      
+
+lclddgn8_tricad_heat_129_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_129_MAT=
+Material    
+
+lclddgn8_tricad_heat_129_BEZ=
+Description 
+
+lclddgn8_tricad_heat_129_d1=
+NPS          
+
+lclddgn8_tricad_heat_129_l=
+Length      
+
+lclddgn8_tricad_heat_129_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_heat_132_MED=
+Medium      
+
+lclddgn8_tricad_heat_132_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_132_MAT=
+Material    
+
+lclddgn8_tricad_heat_132_BEZ=
+Description 
+
+lclddgn8_tricad_heat_132_d1=
+NPS1         
+
+lclddgn8_tricad_heat_132_d2=
+NPS2         
+
+lclddgn8_tricad_heat_132_d3=
+NPS3         
+
+lclddgn8_tricad_heat_132_w=
+Angle      
+
+lclddgn8_tricad_heat_142_PLANT=
+System      
+
+lclddgn8_tricad_heat_142_STR=
+Branch      
+
+lclddgn8_tricad_heat_142_MED=
+Medium      
+
+lclddgn8_tricad_heat_142_Type=
+Object      
+
+lclddgn8_tricad_heat_142_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_142_MAT=
+Material    
+
+lclddgn8_tricad_heat_142_BEZ=
+Description 
+
+lclddgn8_tricad_heat_142_d1=
+NPS          
+
+lclddgn8_tricad_heat_144_PLANT=
+System 
+
+lclddgn8_tricad_heat_144_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_heat_144_STR=
+Branch 
+
+lclddgn8_tricad_heat_144_BEZ=
+Description 
+
+lclddgn8_tricad_heat_144_MAT=
+Material            
+
+lclddgn8_tricad_heat_144_d1=
+Cross section         
+
+lclddgn8_tricad_heat_144_BEM=
+Comment           
+
+lclddgn8_tricad_heat_144_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_heat_144_OKK=
+OKK 
+
+lclddgn8_tricad_heat_160_PLANT=
+System 
+
+lclddgn8_tricad_heat_160_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_heat_160_MAT=
+Material 
+
+lclddgn8_tricad_heat_160_KBZ=
+Description 
+
+lclddgn8_tricad_heat_160_a=
+a 
+
+lclddgn8_tricad_heat_160_b=
+b 
+
+lclddgn8_tricad_heat_160_R=
+Radius 
+
+lclddgn8_tricad_heat_160_w=
+Angle 
+
+lclddgn8_tricad_heat_160_BEM=
+Comment 
+
+lclddgn8_tricad_heat_160_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_heat_200_CD=
+Object      
+
+lclddgn8_tricad_heat_200_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_200_d1=
+Length      
+
+lclddgn8_tricad_heat_2000_NAME=
+Name        
+
+lclddgn8_tricad_heat_2000_MED=
+Medium      
+
+lclddgn8_tricad_heat_2000_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_2000_Type=
+Type         
+
+lclddgn8_tricad_heat_2000_MAT=
+Material    
+
+lclddgn8_tricad_heat_2000_ISOL=
+Insulation   
+
+lclddgn8_tricad_heat_2000_NPS=
+Height      
+
+lclddgn8_tricad_heat_2000_EXC=
+EXCEL       
+
+lclddgn8_tricad_heat_2002_NAME=
+Name        
+
+lclddgn8_tricad_heat_2002_MED=
+Medium      
+
+lclddgn8_tricad_heat_2002_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_2002_Type=
+Type         
+
+lclddgn8_tricad_heat_2002_MAT=
+Material    
+
+lclddgn8_tricad_heat_2002_d1=
+Size      
+
+lclddgn8_tricad_heat_201_CD=
+Object      
+
+lclddgn8_tricad_heat_201_MED=
+Medium      
+
+lclddgn8_tricad_heat_201_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_201_MAT=
+Material    
+
+lclddgn8_tricad_heat_201_BEZ=
+Description 
+
+lclddgn8_tricad_heat_201_d1=
+NPS          
+
+lclddgn8_tricad_heat_201_AW,1=
+AW Factor  
+
+lclddgn8_tricad_heat_202_CD=
+Object      
+
+lclddgn8_tricad_heat_202_MED=
+Medium      
+
+lclddgn8_tricad_heat_202_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_202_MAT=
+Material    
+
+lclddgn8_tricad_heat_202_BEZ=
+Description 
+
+lclddgn8_tricad_heat_202_d1=
+NPS          
+
+lclddgn8_tricad_heat_202_LNG=
+Pipe length  
+
+lclddgn8_tricad_heat_203_CD=
+Object      
+
+lclddgn8_tricad_heat_203_MED=
+Medium      
+
+lclddgn8_tricad_heat_203_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_203_MAT=
+Material    
+
+lclddgn8_tricad_heat_203_STR=
+Branch      
+
+lclddgn8_tricad_heat_203_BEZ=
+Description 
+
+lclddgn8_tricad_heat_203_d1=
+NPS          
+
+lclddgn8_tricad_heat_203_LNG=
+Pipe length  
+
+lclddgn8_tricad_heat_204_CD=
+Object      
+
+lclddgn8_tricad_heat_204_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_204_MAT=
+Material    
+
+lclddgn8_tricad_heat_204_MED=
+Medium      
+
+lclddgn8_tricad_heat_204_BEZ=
+Description 
+
+lclddgn8_tricad_heat_204_d1=
+NPS          
+
+lclddgn8_tricad_heat_204_MFD=
+Least flow compression 
+
+lclddgn8_tricad_heat_204_BDF=
+Calculated throughput 
+
+lclddgn8_tricad_heat_300_HST=
+Manufacturer     
+
+lclddgn8_tricad_heat_300_MAT=
+Product description    
+
+lclddgn8_tricad_heat_300_Type=
+Type            
+
+lclddgn8_tricad_heat_300_HA=
+Model         
+
+lclddgn8_tricad_heat_300_G=
+Building       
+
+lclddgn8_tricad_heat_300_S=
+Floor      
+
+lclddgn8_tricad_heat_300_WO=
+Apartment        
+
+lclddgn8_tricad_heat_300_R=
+Room number     
+
+lclddgn8_tricad_heat_300_HN=
+HK-number in the room 
+
+lclddgn8_tricad_heat_300_l=
+Length         
+
+lclddgn8_tricad_heat_300_h=
+Height          
+
+lclddgn8_tricad_heat_300_b=
+Thickness         
+
+lclddgn8_tricad_heat_300_GZ=
+Number of elements 
+
+lclddgn8_tricad_heat_300_NW=
+Standard heat output  
+
+lclddgn8_tricad_heat_300_TVL=
+Supply temperature    
+
+lclddgn8_tricad_heat_300_TRL=
+Return temperature  
+
+lclddgn8_tricad_heat_300_RT=
+Room temperature       
+
+lclddgn8_tricad_heat_300_W=
+Eff. capacity   
+
+lclddgn8_tricad_heat_300_Z=
+Zeta-value      
+
+lclddgn8_tricad_heat_300_VOL=
+Water content   
+
+lclddgn8_tricad_heat_300_BDH=
+BDH2.0 data   
+
+lclddgn8_tricad_heat_300_TODB=
+Accept data 
+
+lclddgn8_tricad_heat_300_COL=
+Color 
+
+lclddgn8_tricad_heat_301_Type=
+Type  
+
+lclddgn8_tricad_heat_301_d1=
+NPS   
+
+lclddgn8_tricad_heat_302_Type=
+Type    
+
+lclddgn8_tricad_heat_302_d1=
+NPS    
+
+lclddgn8_tricad_heat_303_Type=
+Type    
+
+lclddgn8_tricad_heat_303_d1=
+NPS    
+
+lclddgn8_tricad_heat_400_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_400_MED=
+ Material   
+
+lclddgn8_tricad_heat_400_MAT=
+ Material   
+
+lclddgn8_tricad_heat_400_d1=
+NPS          
+
+lclddgn8_tricad_heat_400_l=
+Length    	
+
+lclddgn8_tricad_heat_500_NAME=
+Name                    
+
+lclddgn8_tricad_heat_500_G=
+Building                
+
+lclddgn8_tricad_heat_500_ST=
+Floor               
+
+lclddgn8_tricad_heat_500_W=
+Apartment                 
+
+lclddgn8_tricad_heat_500_R=
+Room                    
+
+lclddgn8_tricad_heat_500_FL=
+Ground area in m2      
+
+lclddgn8_tricad_heat_500_H=
+Room height in m          
+
+lclddgn8_tricad_heat_500_V=
+Room volume in m3       
+
+lclddgn8_tricad_heat_500_LW=
+Air exchange/hour      
+
+lclddgn8_tricad_heat_500_T=
+Standard temperature C       
+
+lclddgn8_tricad_heat_500_ET=
+Temperature entrance  C  
+
+lclddgn8_tricad_heat_500_OKF=
+Floor height to the ground in m 
+
+lclddgn8_tricad_heat_500_OKD=
+Storey height in m      
+
+lclddgn8_tricad_heat_500_WB=
+Standard heat requirement  in W   
+
+lclddgn8_tricad_heat_5000_FC=
+FaMeCode 
+
+lclddgn8_tricad_heat_5000_D#=
+Data sheet number
+
+lclddgn8_tricad_heat_5000_B#=
+Component number
+
+lclddgn8_tricad_heat_5000_PLANT=
+System 
+
+lclddgn8_tricad_heat_5000_FO=
+FM-object
+
+lclddgn8_tricad_heat_5000_BEM=
+Description 
+
+lclddgn8_tricad_heat_5000_GW=
+GLT-value 
+
+lclddgn8_tricad_heat_5001_FC=
+FM-KEY 
+
+lclddgn8_tricad_heat_5001_FM=
+Transfer objects 
+
+lclddgn8_tricad_heat_550_NAME:1=
+Name 
+
+lclddgn8_tricad_heat_550_PLANT=
+System 
+
+lclddgn8_tricad_heat_550_HST=
+Manufacturer 
+
+lclddgn8_tricad_heat_550_BEZ=
+Type 
+
+lclddgn8_tricad_heat_550_l=
+Length 
+
+lclddgn8_tricad_heat_550_a=
+Width 
+
+lclddgn8_tricad_heat_550_b=
+Height 
+
+lclddgn8_tricad_heat_720_PLANT=
+System      
+
+lclddgn8_tricad_heat_720_KBZ=
+KBZ 
+
+lclddgn8_tricad_heat_720_HST=
+Manufacturer 
+
+lclddgn8_tricad_heat_720_MAT=
+Product description 
+
+lclddgn8_tricad_heat_720_SER=
+Series 
+
+lclddgn8_tricad_heat_720_Type=
+Type 
+
+lclddgn8_tricad_heat_720_BEZ=
+Description 
+
+lclddgn8_tricad_heat_720_NPS=
+Nominal size 
+
+lclddgn8_tricad_heat_720_BEM=
+Comment 
+
+lclddgn8_tricad_heat_800_CD=
+Object      
+
+lclddgn8_tricad_heat_800_MED=
+Medium      
+
+lclddgn8_tricad_heat_800_HST=
+Manufacturer  
+
+lclddgn8_tricad_heat_800_MAT=
+Material    
+
+lclddgn8_tricad_heat_800_BEZ=
+Description 
+
+lclddgn8_tricad_heat_800_d1=
+NPS          
+
+lclddgn8_tricad_sani_101_PLANT=
+System 
+
+lclddgn8_tricad_sani_101_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_sani_101_MAT=
+Material 
+
+lclddgn8_tricad_sani_101_KBZ=
+Description 
+
+lclddgn8_tricad_sani_101_a=
+a 
+
+lclddgn8_tricad_sani_101_b=
+b 
+
+lclddgn8_tricad_sani_101_l=
+Length 
+
+lclddgn8_tricad_sani_101_BEM=
+Comment 
+
+lclddgn8_tricad_sani_101_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_sani_115_STR=
+Branch 
+
+lclddgn8_tricad_sani_115_PLANT=
+System 
+
+lclddgn8_tricad_sani_115_HST=
+Manufacturer 
+
+lclddgn8_tricad_sani_115_MAT=
+Material 
+
+lclddgn8_tricad_sani_115_MED=
+Medium 
+
+lclddgn8_tricad_sani_115_TYP=
+Object 
+
+lclddgn8_tricad_sani_115_BEZ=
+Description 
+
+lclddgn8_tricad_sani_115_d1=
+NPS 
+
+lclddgn8_tricad_sani_115_s=
+Wall thickness  
+
+lclddgn8_tricad_sani_115_l=
+Length 
+
+lclddgn8_tricad_sani_115_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_sani_116_STR=
+Branch 
+
+lclddgn8_tricad_sani_116_PLANT=
+System 
+
+lclddgn8_tricad_sani_116_TYP=
+Object      
+
+lclddgn8_tricad_sani_116_MED=
+Medium      
+
+lclddgn8_tricad_sani_116_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_116_MAT=
+Material    
+
+lclddgn8_tricad_sani_116_BEZ=
+Description 
+
+lclddgn8_tricad_sani_116_d1=
+NPS          
+
+lclddgn8_tricad_sani_116_w=
+Angle      
+
+lclddgn8_tricad_sani_116_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_sani_116_EK=
+Type of elements 
+
+lclddgn8_tricad_sani_117_STR=
+Branch 
+
+lclddgn8_tricad_sani_117_PLANT=
+System 
+
+lclddgn8_tricad_sani_117_TYP=
+Object      
+
+lclddgn8_tricad_sani_117_MED=
+Medium      
+
+lclddgn8_tricad_sani_117_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_117_MAT=
+Material    
+
+lclddgn8_tricad_sani_117_BEZ=
+Description 
+
+lclddgn8_tricad_sani_117_d1=
+NPS1         
+
+lclddgn8_tricad_sani_117_d2=
+NPS2         
+
+lclddgn8_tricad_sani_117_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_sani_118_STR=
+Branch 
+
+lclddgn8_tricad_sani_118_PLANT=
+System 
+
+lclddgn8_tricad_sani_118_TYP=
+Object      
+
+lclddgn8_tricad_sani_118_MED=
+Medium      
+
+lclddgn8_tricad_sani_118_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_118_MAT=
+Material    
+
+lclddgn8_tricad_sani_118_BEZ=
+Description 
+
+lclddgn8_tricad_sani_118_d1=
+NPS1         
+
+lclddgn8_tricad_sani_118_d2=
+NPS2         
+
+lclddgn8_tricad_sani_118_d3=
+NPS3         
+
+lclddgn8_tricad_sani_118_w=
+Angle      
+
+lclddgn8_tricad_sani_118_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_sani_129_CD=
+Object      
+
+lclddgn8_tricad_sani_129_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_129_MAT=
+Material    
+
+lclddgn8_tricad_sani_129_MED=
+Medium      
+
+lclddgn8_tricad_sani_129_BEZ=
+Description 
+
+lclddgn8_tricad_sani_129_d1=
+NPS          
+
+lclddgn8_tricad_sani_129_l=
+Length 
+
+lclddgn8_tricad_sani_129_BEM=
+remark 
+
+lclddgn8_tricad_sani_129_K_ON_LST=
+ Auf Liste 
+
+lclddgn8_tricad_sani_132_MED=
+Medium      
+
+lclddgn8_tricad_sani_132_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_132_MAT=
+Material    
+
+lclddgn8_tricad_sani_132_BEZ=
+Description 
+
+lclddgn8_tricad_sani_132_d1=
+NPS1         
+
+lclddgn8_tricad_sani_132_d2=
+NPS2         
+
+lclddgn8_tricad_sani_132_d3=
+NPS3         
+
+lclddgn8_tricad_sani_132_w=
+Angle      
+
+lclddgn8_tricad_sani_132_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_sani_143_MED=
+Medium      
+
+lclddgn8_tricad_sani_143_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_143_MAT=
+Material    
+
+lclddgn8_tricad_sani_143_BEZ=
+Description 
+
+lclddgn8_tricad_sani_143_d1=
+NPS1         
+
+lclddgn8_tricad_sani_143_d2=
+NPS2         
+
+lclddgn8_tricad_sani_143_d3=
+NPS3         
+
+lclddgn8_tricad_sani_143_w=
+Angle      
+
+lclddgn8_tricad_sani_143_ISOLATION=
+Insulation 
+
+lclddgn8_tricad_sani_144_PLANT=
+System 
+
+lclddgn8_tricad_sani_144_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_sani_144_STR=
+Branch 
+
+lclddgn8_tricad_sani_144_BEZ=
+Description 
+
+lclddgn8_tricad_sani_144_MAT=
+Material            
+
+lclddgn8_tricad_sani_144_d1=
+Cross section         
+
+lclddgn8_tricad_sani_144_BEM=
+Comment           
+
+lclddgn8_tricad_sani_144_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_sani_144_OKK=
+OKK 
+
+lclddgn8_tricad_sani_160_PLANT=
+System 
+
+lclddgn8_tricad_sani_160_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_sani_160_MAT=
+Material 
+
+lclddgn8_tricad_sani_160_KBZ=
+Description 
+
+lclddgn8_tricad_sani_160_a=
+a 
+
+lclddgn8_tricad_sani_160_b=
+b 
+
+lclddgn8_tricad_sani_160_R=
+Radius 
+
+lclddgn8_tricad_sani_160_w=
+Angle 
+
+lclddgn8_tricad_sani_160_BEM=
+Comment 
+
+lclddgn8_tricad_sani_160_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_sani_200_CD=
+Object      
+
+lclddgn8_tricad_sani_200_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_200_TYP=
+Description 
+
+lclddgn8_tricad_sani_200_AW,1=
+AW Factor  
+
+lclddgn8_tricad_sani_200_FRB=
+Color       
+
+lclddgn8_tricad_sani_200_a=
+Length      
+
+lclddgn8_tricad_sani_200_b=
+Width      
+
+lclddgn8_tricad_sani_201_CD=
+Object      
+
+lclddgn8_tricad_sani_201_MED=
+Medium      
+
+lclddgn8_tricad_sani_201_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_201_MAT=
+Material    
+
+lclddgn8_tricad_sani_201_BEZ=
+Description 
+
+lclddgn8_tricad_sani_201_d1=
+NPS          
+
+lclddgn8_tricad_sani_201_AW,1=
+AW Factor  
+
+lclddgn8_tricad_sani_202_CD=
+Object      
+
+lclddgn8_tricad_sani_202_MED=
+Medium      
+
+lclddgn8_tricad_sani_202_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_202_MAT=
+Material    
+
+lclddgn8_tricad_sani_202_BEZ=
+Description 
+
+lclddgn8_tricad_sani_202_d1=
+NPS          
+
+lclddgn8_tricad_sani_202_LNG=
+Pipe length  
+
+lclddgn8_tricad_sani_203_CD=
+Object      
+
+lclddgn8_tricad_sani_203_MED=
+Medium      
+
+lclddgn8_tricad_sani_203_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_203_MAT=
+Material    
+
+lclddgn8_tricad_sani_203_STR=
+Branch      
+
+lclddgn8_tricad_sani_203_BEZ=
+Description 
+
+lclddgn8_tricad_sani_203_d1=
+NPS          
+
+lclddgn8_tricad_sani_203_LNG=
+Pipe length  
+
+lclddgn8_tricad_sani_204_CD=
+Object      
+
+lclddgn8_tricad_sani_204_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_204_MAT=
+Material    
+
+lclddgn8_tricad_sani_204_MED=
+Medium      
+
+lclddgn8_tricad_sani_204_BEZ=
+Description 
+
+lclddgn8_tricad_sani_204_d1=
+NPS          
+
+lclddgn8_tricad_sani_204_MFD=
+Least flow compression 
+
+lclddgn8_tricad_sani_204_BDF=
+Calculated throughput 
+
+lclddgn8_tricad_sani_204_BDF=
+On the list 
+
+lclddgn8_tricad_sani_500_NAME=
+Name                    
+
+lclddgn8_tricad_sani_500_G=
+Building                
+
+lclddgn8_tricad_sani_500_ST=
+Floor               
+
+lclddgn8_tricad_sani_500_W=
+Apartment                 
+
+lclddgn8_tricad_sani_500_R=
+Room                    
+
+lclddgn8_tricad_sani_500_FL=
+Ground area in m2      
+
+lclddgn8_tricad_sani_500_H=
+Room height in m          
+
+lclddgn8_tricad_sani_500_V=
+Room volume in m3       
+
+lclddgn8_tricad_sani_500_LW=
+Air exchange/hour      
+
+lclddgn8_tricad_sani_500_T=
+Standard temperature C       
+
+lclddgn8_tricad_sani_500_ET=
+Temperature entrance C  
+
+lclddgn8_tricad_sani_500_OKF=
+Floor height to the ground in m 
+
+lclddgn8_tricad_sani_500_OKD=
+Storey height in m      
+
+lclddgn8_tricad_sani_500_WB=
+Standard heat requirement  in W   
+
+lclddgn8_tricad_sani_5000_FC=
+FaMeCode 
+
+lclddgn8_tricad_sani_5000_D#=
+Data sheet number 
+
+lclddgn8_tricad_sani_5000_B#=
+Component number 
+
+lclddgn8_tricad_sani_5000_PLANT=
+System 
+
+lclddgn8_tricad_sani_5000_FO=
+FM-Object
+
+lclddgn8_tricad_sani_5000_BEM=
+Description 
+
+lclddgn8_tricad_sani_5000_GW=
+GLT-Value 
+
+lclddgn8_tricad_sani_600_BEZ=
+Object 
+
+lclddgn8_tricad_sani_600_HST=
+Manufacturer 
+
+lclddgn8_tricad_sani_600_TYP=
+Material 
+
+lclddgn8_tricad_sani_600_BEM=
+Comment 
+
+lclddgn8_tricad_sani_600_l=
+Length 
+
+lclddgn8_tricad_sani_600_a=
+Width 
+
+lclddgn8_tricad_sani_600_b=
+Height 
+
+lclddgn8_tricad_sani_600_AW,1=
+AW Factor  
+
+lclddgn8_tricad_sani_601_BEZ=
+Object 
+
+lclddgn8_tricad_sani_601_HST=
+Manufacturer 
+
+lclddgn8_tricad_sani_601_TYP=
+Material 
+
+lclddgn8_tricad_sani_601_BEM=
+Comment 
+
+lclddgn8_tricad_sani_601_l=
+Length 
+
+lclddgn8_tricad_sani_601_a=
+Width 
+
+lclddgn8_tricad_sani_601_b=
+Height 
+
+lclddgn8_tricad_sani_601_AW,1=
+AW Factor  
+
+lclddgn8_tricad_sani_602_BEZ=
+Object 
+
+lclddgn8_tricad_sani_602_HST=
+Manufacturer 
+
+lclddgn8_tricad_sani_602_TYP=
+Material 
+
+lclddgn8_tricad_sani_602_BEM=
+Comment 
+
+lclddgn8_tricad_sani_602_l=
+Length 
+
+lclddgn8_tricad_sani_602_a=
+Width 
+
+lclddgn8_tricad_sani_602_b=
+Height 
+
+lclddgn8_tricad_sani_602_AW,1=
+AW Factor  
+
+lclddgn8_tricad_sani_603_BEZ=
+Object 
+
+lclddgn8_tricad_sani_603_HST=
+Manufacturer 
+
+lclddgn8_tricad_sani_603_TYP=
+Material 
+
+lclddgn8_tricad_sani_603_BEM=
+Comment 
+
+lclddgn8_tricad_sani_603_l=
+Length 
+
+lclddgn8_tricad_sani_603_a=
+Width 
+
+lclddgn8_tricad_sani_603_b=
+Height 
+
+lclddgn8_tricad_sani_603_AW,1=
+AW Factor  
+
+lclddgn8_tricad_sani_604_BEZ=
+Object 
+
+lclddgn8_tricad_sani_604_HST=
+Manufacturer 
+
+lclddgn8_tricad_sani_604_TYP=
+Material 
+
+lclddgn8_tricad_sani_604_BEM=
+Comment 
+
+lclddgn8_tricad_sani_604_l=
+Length 
+
+lclddgn8_tricad_sani_604_a=
+Width 
+
+lclddgn8_tricad_sani_604_b=
+Height 
+
+lclddgn8_tricad_sani_604_AW,1=
+AW Factor  
+
+lclddgn8_tricad_sani_605_BEZ=
+Object 
+
+lclddgn8_tricad_sani_605_HST=
+Manufacturer 
+
+lclddgn8_tricad_sani_605_TYP=
+Material 
+
+lclddgn8_tricad_sani_605_BEM=
+Comment 
+
+lclddgn8_tricad_sani_605_l=
+Length 
+
+lclddgn8_tricad_sani_605_a=
+Width 
+
+lclddgn8_tricad_sani_605_b=
+Height 
+
+lclddgn8_tricad_sani_605_AW,1=
+AW Factor  
+
+lclddgn8_tricad_sani_800_CD=
+Object      
+
+lclddgn8_tricad_sani_800_MED=
+Medium      
+
+lclddgn8_tricad_sani_800_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_800_MAT=
+Material    
+
+lclddgn8_tricad_sani_800_BEZ=
+Description 
+
+lclddgn8_tricad_sani_800_d1=
+NPS          
+
+lclddgn8_tricad_sani_900_BEZ=
+Description 
+
+lclddgn8_tricad_sani_900_MED=
+Medium      
+
+lclddgn8_tricad_sani_900_d1=
+NPS          
+
+lclddgn8_tricad_sani_900_HST=
+Manufacturer  
+
+lclddgn8_tricad_sani_900_MAT=
+Material    
+
+lclddgn8_tricad_sani_900_STR=
+Branch      
+
+lclddgn8_tricad_sani_900_LNG=
+Pipe length  
+
+lclddgn8_tricad_electro_101_ANLAGE=
+Trays 
+
+lclddgn8_tricad_electro_101_HST=
+Manufacturer 
+
+lclddgn8_tricad_electro_101_TRA=
+Type of trays 
+
+lclddgn8_tricad_electro_101_BEZ=
+Description 
+
+lclddgn8_tricad_electro_101_TYP=
+Trays elements 
+
+lclddgn8_tricad_electro_101_LGN=
+Order number 
+
+lclddgn8_tricad_electro_101_l=
+Length 
+
+lclddgn8_tricad_electro_101_a=
+Width 
+
+lclddgn8_tricad_electro_101_b=
+Height 
+
+lclddgn8_tricad_electro_101_BEM=
+Comment 
+
+lclddgn8_tricad_electro_101_TB1=
+Separate sheet division 
+
+lclddgn8_tricad_electro_105_ANLAGE=
+Trays 
+
+lclddgn8_tricad_electro_105_HST=
+Manufacturer 
+
+lclddgn8_tricad_electro_105_TRA=
+Type of trays 
+
+lclddgn8_tricad_electro_105_TYP=
+Trays elements 
+
+lclddgn8_tricad_electro_105_KBZ=
+Description 
+
+lclddgn8_tricad_electro_105_a=
+Width 
+
+lclddgn8_tricad_electro_105_b=
+Height 
+
+lclddgn8_tricad_electro_105_e=
+Displacement (z) 
+
+lclddgn8_tricad_electro_105_f=
+Displacement 
+
+lclddgn8_tricad_electro_105_BEM=
+Comment 
+
+lclddgn8_tricad_electro_107_ANLAGE=
+Trays 
+
+lclddgn8_tricad_electro_107_HST=
+Manufacturer 
+
+lclddgn8_tricad_electro_107_TRA=
+Type of trays 
+
+lclddgn8_tricad_electro_107_BEZ=
+Description 
+
+lclddgn8_tricad_electro_107_TYP=
+Trays elements 
+
+lclddgn8_tricad_electro_107_LGN=
+Order number 
+
+lclddgn8_tricad_electro_107_a=
+Width 
+
+lclddgn8_tricad_electro_107_b=
+Height 
+
+lclddgn8_tricad_electro_107_w=
+Angle 
+
+lclddgn8_tricad_electro_107_r=
+Radius 
+
+lclddgn8_tricad_electro_107_BEM=
+Comment 
+
+lclddgn8_tricad_electro_110_ANLAGE=
+Trays 
+
+lclddgn8_tricad_electro_110_HST=
+Manufacturer 
+
+lclddgn8_tricad_electro_110_TRA=
+Type of trays 
+
+lclddgn8_tricad_electro_110_BEZ=
+Description 
+
+lclddgn8_tricad_electro_110_TYP=
+Trays elements 
+
+lclddgn8_tricad_electro_110_LGN=
+Order number 
+
+lclddgn8_tricad_electro_110_a=
+Width 
+
+lclddgn8_tricad_electro_110_b=
+Height 
+
+lclddgn8_tricad_electro_110_BEM=
+Comment 
+
+lclddgn8_tricad_electro_111_ANLAGE=
+Trays 
+
+lclddgn8_tricad_electro_111_HST=
+Manufacturer 
+
+lclddgn8_tricad_electro_111_TRA=
+Type of trays 
+
+lclddgn8_tricad_electro_111_BEZ=
+Description 
+
+lclddgn8_tricad_electro_111_TYP=
+Trays elements 
+
+lclddgn8_tricad_electro_111_LGN=
+Order number 
+
+lclddgn8_tricad_electro_111_a=
+Width 
+
+lclddgn8_tricad_electro_111_b=
+Height 
+
+lclddgn8_tricad_electro_111_w=
+Angle 
+
+lclddgn8_tricad_electro_111_BEM=
+Comment 
+
+lclddgn8_tricad_electro_114_ANLAGE=
+Trays 
+
+lclddgn8_tricad_electro_114_HST=
+Manufacturer 
+
+lclddgn8_tricad_electro_114_TRA=
+Type of trays 
+
+lclddgn8_tricad_electro_114_BEZ=
+Description 
+
+lclddgn8_tricad_electro_114_TYP=
+Trays elements 
+
+lclddgn8_tricad_electro_114_LGN=
+Order number 
+
+lclddgn8_tricad_electro_114_a=
+Width 
+
+lclddgn8_tricad_electro_114_b=
+Height 
+
+lclddgn8_tricad_electro_114_h=
+Branch width 
+
+lclddgn8_tricad_electro_114_BEM=
+Comment 
+
+lclddgn8_tricad_electro_140_ANLAGE=
+Trays 
+
+lclddgn8_tricad_electro_140_HST=
+Manufacturer 
+
+lclddgn8_tricad_electro_140_TRA=
+Type of trays 
+
+lclddgn8_tricad_electro_140_BEZ=
+Description 
+
+lclddgn8_tricad_electro_140_TYP=
+Trays elements 
+
+lclddgn8_tricad_electro_140_LGN=
+Order number 
+
+lclddgn8_tricad_electro_140_a=
+Width 
+
+lclddgn8_tricad_electro_140_c=
+Width Ausgang 
+
+lclddgn8_tricad_electro_140_b=
+Height 
+
+lclddgn8_tricad_electro_140_BEM=
+Comment 
+
+lclddgn8_tricad_electro_141_ANLAGE=
+Trays 
+
+lclddgn8_tricad_electro_141_HST=
+Manufacturer 
+
+lclddgn8_tricad_electro_141_TRA=
+Type of trays 
+
+lclddgn8_tricad_electro_141_BEZ=
+Description 
+
+lclddgn8_tricad_electro_141_TYP=
+Trays elements 
+
+lclddgn8_tricad_electro_141_a=
+Width 
+
+lclddgn8_tricad_electro_141_b=
+Height 
+
+lclddgn8_tricad_electro_141_c=
+Width SZ 
+
+lclddgn8_tricad_electro_141_d=
+Height SZ 
+
+lclddgn8_tricad_electro_141_BEM=
+Comment 
+
+lclddgn8_tricad_electro_161_NR=
+Switching box number 
+
+lclddgn8_tricad_electro_161_TYP=
+Type 
+
+lclddgn8_tricad_electro_161_G=
+Building 
+
+lclddgn8_tricad_electro_161_S=
+Floor 
+
+lclddgn8_tricad_electro_161_R=
+Room number 
+
+lclddgn8_tricad_electro_161_l=
+Length 
+
+lclddgn8_tricad_electro_161_b=
+Width 
+
+lclddgn8_tricad_electro_161_h=
+Height 
+
+lclddgn8_tricad_electro_161_T1=
+Distance doors at the side 
+
+lclddgn8_tricad_electro_161_T2=
+Distance between doors 
+
+lclddgn8_tricad_electro_161_T3=
+Distance doors down 
+
+lclddgn8_tricad_electro_161_T4=
+Distance doors top 
+
+lclddgn8_tricad_electro_5000_FC=
+FaMeCode 
+
+lclddgn8_tricad_electro_5000_D#=
+Data sheet number 
+
+lclddgn8_tricad_electro_5000_B#=
+Component number
+
+lclddgn8_tricad_electro_5000_PLANT=
+System 
+
+lclddgn8_tricad_electro_5000_FO=
+FM-Object
+
+lclddgn8_tricad_electro_5000_BEM=
+Description 
+
+lclddgn8_tricad_electro_5000_GW=
+GLT-value 
+
+lclddgn8_tricad_default_1001_RD=
+Draft definition for 
+
+lclddgn8_tricad_default_1001_N=
+Draft description 
+
+lclddgn8_tricad_default_1001_P=
+Draft on plan 
+
+lclddgn8_tricad_default_1001_RI=
+Draft ID
+
+lclddgn8_tricad_default_1001_U=
+Username 
+
+lclddgn8_tricad_default_1001_D1=
+Creation date 
+
+lclddgn8_tricad_default_1001_D2=
+Date last changes 
+
+lclddgn8_tricad_default_1001_HQ=
+Quality of the calculation 
+
+lclddgn8_tricad_default_1010_PLANT=
+Installation 
+
+lclddgn8_tricad_default_1010_STR=
+LTG-Id 
+
+lclddgn8_tricad_default_1010_N1=
+LTG-Name 
+
+lclddgn8_tricad_default_1010_d1=
+Nominal bore 
+
+lclddgn8_tricad_default_1010_MED=
+Medium 
+
+lclddgn8_tricad_default_1010_MC=
+Material code 
+
+lclddgn8_tricad_default_1010_RKL=
+Tube type 
+
+lclddgn8_tricad_default_1010_C1=
+Junction beginning 
+
+lclddgn8_tricad_default_1010_C2=
+Junction end 
+
+lclddgn8_tricad_default_1010_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_115_PLANT=
+Installation          
+
+lclddgn8_tricad_default_115_STR=
+Name            
+
+lclddgn8_tricad_default_115_C1=
+Junction Start 
+
+lclddgn8_tricad_default_115_C2=
+Junction End  
+
+lclddgn8_tricad_default_115_DN=
+Nominal bore       
+
+lclddgn8_tricad_default_115_ME=
+Medium          
+
+lclddgn8_tricad_default_115_ISOL=
+Isolation       
+
+lclddgn8_tricad_default_115_RKL=
+Tube type      
+
+lclddgn8_tricad_default_115_MC=
+Material code    
+
+lclddgn8_tricad_default_115_FC=
+TRIBASE Info    
+
+lclddgn8_tricad_default_122_PLANT=
+Installation 
+
+lclddgn8_tricad_default_122_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_default_122_STR=
+Branch 
+
+lclddgn8_tricad_default_122_BEZ=
+Description 
+
+lclddgn8_tricad_default_122_KBZ=
+Description 
+
+lclddgn8_tricad_default_122_TYP=
+Type 
+
+lclddgn8_tricad_default_122_MAT=
+Material 
+
+lclddgn8_tricad_default_122_l=
+Length 
+
+lclddgn8_tricad_default_122_a=
+Sectional structure a 
+
+lclddgn8_tricad_default_122_b=
+Sectional structure b 
+
+lclddgn8_tricad_default_122_A=
+Overall dimension A 
+
+lclddgn8_tricad_default_122_B=
+Overall dimension B 
+
+lclddgn8_tricad_default_122_e=
+Inseration 
+
+lclddgn8_tricad_default_122_v=
+Air speed 
+
+lclddgn8_tricad_default_122_RAHMEN=
+Frame 
+
+lclddgn8_tricad_default_122_ISOLATION=
+Isolation 
+
+lclddgn8_tricad_default_122_VS=
+Vm3/h 
+
+lclddgn8_tricad_default_122_DP=
+Pressure loss 
+
+lclddgn8_tricad_default_122_Z=
+Zeta value 
+
+lclddgn8_tricad_default_122_POS=
+Position 
+
+lclddgn8_tricad_default_122_CH,1=
+Fix the volume  (1, 0)  
+
+lclddgn8_tricad_default_122_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_default_122_OKK=
+OKK 
+
+lclddgn8_tricad_default_122_ATR=
+Impulsion 
+
+lclddgn8_tricad_default_122_AS=
+Impulsion side 
+
+lclddgn8_tricad_default_128_PLANT=
+Installation 
+
+lclddgn8_tricad_default_128_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_default_128_STR=
+Branch 
+
+lclddgn8_tricad_default_128_BEZ=
+Description         
+
+lclddgn8_tricad_default_128_KBZ=
+Description        
+
+lclddgn8_tricad_default_128_CD=
+Cubicles description    
+
+lclddgn8_tricad_default_128_TYP=
+Type                 
+
+lclddgn8_tricad_default_128_MAT=
+Material            
+
+lclddgn8_tricad_default_128_DN=
+Diameters         
+
+lclddgn8_tricad_default_128_VOL=
+Vm3/h               
+
+lclddgn8_tricad_default_128_v=
+Air speed.         
+
+lclddgn8_tricad_default_128_POS=
+Position            
+
+lclddgn8_tricad_default_128_DP=
+Pressure loss	
+
+lclddgn8_tricad_default_128_Z=
+Zeta-Value		
+
+lclddgn8_tricad_default_128_ROOM=
+Room		
+
+lclddgn8_tricad_default_128_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_default_128_OKK=
+ OKK 
+
+lclddgn8_tricad_default_134_PLANT=
+Installation 
+
+lclddgn8_tricad_default_134_ANLAGE=
+Type of air 
+
+lclddgn8_tricad_default_134_MAT=
+Material 
+
+lclddgn8_tricad_default_134_KBZ=
+Description 
+
+lclddgn8_tricad_default_134_d1=
+d1 
+
+lclddgn8_tricad_default_134_BEM=
+Comment 
+
+lclddgn8_tricad_default_134_K_ON_LST=
+On the list 
+
+lclddgn8_tricad_default_1507_PLANT=
+Installation 
+
+lclddgn8_tricad_default_1507_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_1507_d1:1=
+Nominal bore 
+
+lclddgn8_tricad_default_1507_d2:2=
+Nominal bore 
+
+lclddgn8_tricad_default_1507_MED=
+Medium 
+
+lclddgn8_tricad_default_1507_MC=
+Material code 
+
+lclddgn8_tricad_default_1507_RKL=
+Tube typ 
+
+lclddgn8_tricad_default_1507_BEZ=
+Description 
+
+lclddgn8_tricad_default_1507_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_1513_PLANT=
+Installation 
+
+lclddgn8_tricad_default_1513_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_1513_d1:1=
+Nominal bore 
+
+lclddgn8_tricad_default_1513_d2:2=
+Nominal bore 
+
+lclddgn8_tricad_default_1513_MED=
+Medium 
+
+lclddgn8_tricad_default_1513_MC=
+Material code 
+
+lclddgn8_tricad_default_1513_RKL=
+Tube typ 
+
+lclddgn8_tricad_default_1513_BEZ=
+Description 
+
+lclddgn8_tricad_default_1513_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_1545_NAME:1=
+Name 
+
+lclddgn8_tricad_default_1545_PLANT=
+Installation 
+
+lclddgn8_tricad_default_1545_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_1545_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_1545_MED=
+Medium 
+
+lclddgn8_tricad_default_1545_MC=
+Material code 
+
+lclddgn8_tricad_default_1545_RKL=
+Tube type 
+
+lclddgn8_tricad_default_1545_BEZ=
+Description 
+
+lclddgn8_tricad_default_1545_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_1551_NAME:1=
+Name 
+
+lclddgn8_tricad_default_1551_PLANT=
+Installation 
+
+lclddgn8_tricad_default_1551_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_1551_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_1551_MED=
+Medium 
+
+lclddgn8_tricad_default_1551_MC=
+Material code 
+
+lclddgn8_tricad_default_1551_RKL=
+Tube typ 
+
+lclddgn8_tricad_default_1551_BEZ=
+Description 
+
+lclddgn8_tricad_default_1551_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_1555_NAME:1=
+Name 
+
+lclddgn8_tricad_default_1555_PLANT=
+Installation 
+
+lclddgn8_tricad_default_1555_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_1555_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_1555_MED=
+Medium 
+
+lclddgn8_tricad_default_1555_MC=
+Material code 
+
+lclddgn8_tricad_default_1555_RKL=
+Tube typ 
+
+lclddgn8_tricad_default_1555_BEZ=
+Description 
+
+lclddgn8_tricad_default_1555_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_1557_NAME:1=
+Name 
+
+lclddgn8_tricad_default_1557_PLANT=
+Installation 
+
+lclddgn8_tricad_default_1557_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_1557_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_1557_MED=
+Medium 
+
+lclddgn8_tricad_default_1557_MC=
+Material code 
+
+lclddgn8_tricad_default_1557_RKL=
+Tube type 
+
+lclddgn8_tricad_default_1557_BEZ=
+Description 
+
+lclddgn8_tricad_default_1557_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_1900_NAME:1=
+Name 
+
+lclddgn8_tricad_default_1900_PLANT=
+Installation 
+
+lclddgn8_tricad_default_1900_STR=
+EQP-Name 
+
+lclddgn8_tricad_default_1900_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_1900_MED=
+Medium 
+
+lclddgn8_tricad_default_1900_MC=
+Material code 
+
+lclddgn8_tricad_default_1900_RKL=
+Tube type 
+
+lclddgn8_tricad_default_200_NAME:1=
+Name 
+
+lclddgn8_tricad_default_200_PLANT=
+Installation 
+
+lclddgn8_tricad_default_200_HST=
+Manufacturer 
+
+lclddgn8_tricad_default_200_TYP=
+Typ 
+
+lclddgn8_tricad_default_2000_NAME:1=
+Name 
+
+lclddgn8_tricad_default_2000_PLANT=
+Installation 
+
+lclddgn8_tricad_default_2000_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_2000_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_2000_MED=
+Medium 
+
+lclddgn8_tricad_default_2000_MC=
+Material code 
+
+lclddgn8_tricad_default_2000_RKL=
+Tube type 
+
+lclddgn8_tricad_default_2000_BEZ=
+Description 
+
+lclddgn8_tricad_default_2000_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_2001_BEZ=
+Description 
+
+lclddgn8_tricad_default_2001_POS=
+Position 
+
+lclddgn8_tricad_default_2001_PLANT=
+Installation 
+
+lclddgn8_tricad_default_2001_MAT=
+Material 
+
+lclddgn8_tricad_default_2001_d1=
+Diameters 
+
+lclddgn8_tricad_default_2001_l=
+length 
+
+lclddgn8_tricad_default_2001_nf=
+Number of feets 
+
+lclddgn8_tricad_default_2001_K_ON_LST=
+On the liste 
+
+lclddgn8_tricad_default_2009_NAME:1=
+Name 
+
+lclddgn8_tricad_default_2009_PLANT=
+Installations 
+
+lclddgn8_tricad_default_2009_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_2009_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_2009_MED=
+Medium 
+
+lclddgn8_tricad_default_2009_MC=
+Material code 
+
+lclddgn8_tricad_default_2009_RKL=
+Tube type 
+
+lclddgn8_tricad_default_2009_BEZ=
+Description 
+
+lclddgn8_tricad_default_2009_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_2012_NAME:1=
+Name 
+
+lclddgn8_tricad_default_2012_PLANT=
+Installation 
+
+lclddgn8_tricad_default_2012_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_2012_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_2012_MED=
+Medium 
+
+lclddgn8_tricad_default_2012_MC=
+Material code 
+
+lclddgn8_tricad_default_2012_RKL=
+Tube type 
+
+lclddgn8_tricad_default_2012_BEZ=
+Description 
+
+lclddgn8_tricad_default_2012_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_2021_NAME:1=
+Name 
+
+lclddgn8_tricad_default_2021_PLANT=
+Installation 
+
+lclddgn8_tricad_default_2021_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_2021_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_2021_MED=
+Medium 
+
+lclddgn8_tricad_default_2021_MC=
+Material code 
+
+lclddgn8_tricad_default_2021_RKL=
+Tube type 
+
+lclddgn8_tricad_default_2021_BEZ=
+Description 
+
+lclddgn8_tricad_default_2021_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_2023_NAME:1=
+Name 
+
+lclddgn8_tricad_default_2023_PLANT=
+Installation 
+
+lclddgn8_tricad_default_2023_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_2023_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_2023_MED=
+Medium 
+
+lclddgn8_tricad_default_2023_MC=
+Material code 
+
+lclddgn8_tricad_default_2023_RKL=
+Tube type 
+
+lclddgn8_tricad_default_2023_BEZ=
+Description 
+
+lclddgn8_tricad_default_2023_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_2027_NAME:1=
+Name 
+
+lclddgn8_tricad_default_2027_PLANT=
+Installation 
+
+lclddgn8_tricad_default_2027_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_2027_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_2027_MED=
+Medium 
+
+lclddgn8_tricad_default_2027_MC=
+Material code 
+
+lclddgn8_tricad_default_2027_RKL=
+Tube type 
+
+lclddgn8_tricad_default_2027_BEZ=
+Description 
+
+lclddgn8_tricad_default_2027_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_21000_WW=
+factory 
+
+lclddgn8_tricad_default_21000_TW=
+Part of a factory 
+
+lclddgn8_tricad_default_21000_GG=
+Building 
+
+lclddgn8_tricad_default_21000_TG=
+Part of a building 
+
+lclddgn8_tricad_default_21000_SS=
+Storey 
+
+lclddgn8_tricad_default_21000_NN=
+Niveau 
+
+lclddgn8_tricad_default_21000_F1=
+Plane 1 
+
+lclddgn8_tricad_default_21000_F2=
+Plane 2 
+
+lclddgn8_tricad_default_21000_F3=
+Plane 3 
+
+lclddgn8_tricad_default_21000_NF=
+Name of the plane 
+
+lclddgn8_tricad_default_21000_KS=
+Cost center 
+
+lclddgn8_tricad_default_21000_BR=
+Building row 
+
+lclddgn8_tricad_default_21000_VOL=
+air quantity 
+
+lclddgn8_tricad_default_21000_AA=
+Plane 
+
+lclddgn8_tricad_default_2500_NAME:1=
+Name 
+
+lclddgn8_tricad_default_2500_BEZ:2=
+Name 
+
+lclddgn8_tricad_default_2500_PLANT=
+Installation 
+
+lclddgn8_tricad_default_2500_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_2500_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_3000_NAME:1=
+Name 
+
+lclddgn8_tricad_default_3000_PLANT=
+Installation 
+
+lclddgn8_tricad_default_3000_STR=
+LTG-Name 
+
+lclddgn8_tricad_default_3000_d1:2=
+Nominal bore 
+
+lclddgn8_tricad_default_3000_d2=
+Nominal bore 
+
+lclddgn8_tricad_default_3000_MED=
+Medium 
+
+lclddgn8_tricad_default_3000_MC=
+Material code 
+
+lclddgn8_tricad_default_3000_RKL=
+Tube type 
+
+lclddgn8_tricad_default_3000_BEZ=
+Description 
+
+lclddgn8_tricad_default_3000_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_3514_NAME:1=
+Name 
+
+lclddgn8_tricad_default_3514_PLANT=
+Modul 
+
+lclddgn8_tricad_default_3514_BEZ=
+Description 
+
+lclddgn8_tricad_default_3514_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_400_TYP=
+Type 
+
+lclddgn8_tricad_default_400_l=
+length 
+
+lclddgn8_tricad_default_4501_NAME:1=
+Name 
+
+lclddgn8_tricad_default_4501_PLANT=
+Modul 
+
+lclddgn8_tricad_default_4501_BEZ=
+Description 
+
+lclddgn8_tricad_default_4501_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_4503_NAME:1=
+Name 
+
+lclddgn8_tricad_default_4503_PLANT=
+Modul 
+
+lclddgn8_tricad_default_4503_BEZ=
+Description 
+
+lclddgn8_tricad_default_4503_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_4510_NAME:1=
+Name 
+
+lclddgn8_tricad_default_4510_PLANT=
+Modul 
+
+lclddgn8_tricad_default_4510_BEZ=
+Description 
+
+lclddgn8_tricad_default_4510_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_4510_S=
+Floor    
+
+lclddgn8_tricad_default_4510_EXC=
+EXCEL    
+
+lclddgn8_tricad_default_4522_NAME:1=
+Name 
+
+lclddgn8_tricad_default_4522_PLANT=
+Modul 
+
+lclddgn8_tricad_default_4522_BEZ=
+Description 
+
+lclddgn8_tricad_default_4522_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_5510_NAME:1=
+Name 
+
+lclddgn8_tricad_default_5510_PLANT=
+Modul 
+
+lclddgn8_tricad_default_5510_BEZ=
+Description 
+
+lclddgn8_tricad_default_5510_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_5520_NAME:1=
+Name 
+
+lclddgn8_tricad_default_5520_PLANT=
+Modul 
+
+lclddgn8_tricad_default_5520_BEZ=
+Description 
+
+lclddgn8_tricad_default_5520_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_5540_NAME:1=
+Name 
+
+lclddgn8_tricad_default_5540_PLANT=
+Modul 
+
+lclddgn8_tricad_default_5540_BEZ=
+Description 
+
+lclddgn8_tricad_default_5540_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_5550_NAME:1=
+Name 
+
+lclddgn8_tricad_default_5550_PLANT=
+Modul 
+
+lclddgn8_tricad_default_5550_BEZ=
+Description 
+
+lclddgn8_tricad_default_5550_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_5551_NAME:1=
+Name 
+
+lclddgn8_tricad_default_5551_PLANT=
+Modul 
+
+lclddgn8_tricad_default_5551_BEZ=
+Description 
+
+lclddgn8_tricad_default_5551_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_600_STR=
+Branch 
+
+lclddgn8_tricad_default_600_N=
+Name 
+
+lclddgn8_tricad_default_600_MED=
+Medium 
+
+lclddgn8_tricad_default_600_HST=
+Manufacturer 
+
+lclddgn8_tricad_default_600_MAT=
+Material 
+
+lclddgn8_tricad_default_600_PN=
+Nominal pressure 
+
+lclddgn8_tricad_default_600_BEZ=
+Description 
+
+lclddgn8_tricad_default_600_TYP=
+Typ 
+
+lclddgn8_tricad_default_600_d1=
+DN 
+
+lclddgn8_tricad_default_600_ANT=
+Impulsion 
+
+lclddgn8_tricad_default_601_STR=
+Branch 
+
+lclddgn8_tricad_default_601_N=
+Name 
+
+lclddgn8_tricad_default_601_BEZ=
+Description 
+
+lclddgn8_tricad_default_601_TYP=
+Typ 
+
+lclddgn8_tricad_default_601_d1=
+Type 
+
+lclddgn8_tricad_default_7020_PLANT=
+Anlage 
+
+lclddgn8_tricad_default_7020_ANLAGE=
+Luftart 
+
+lclddgn8_tricad_default_7020_STR=
+Strang 
+
+lclddgn8_tricad_default_7020_BEZ=
+Bezeichnung 
+
+lclddgn8_tricad_default_7020_TYP=
+Typ 
+
+lclddgn8_tricad_default_7020_PT=
+Parametrik Typ 
+
+lclddgn8_tricad_default_7020_KBZ=
+Kurzbezeichnung 
+
+lclddgn8_tricad_default_7020_MAT=
+Material 
+
+lclddgn8_tricad_default_7020_RAHMEN=
+Rahmen 
+
+lclddgn8_tricad_default_7020_ISOLATION=
+Isolation 
+
+lclddgn8_tricad_default_7020_l=
+Length
+
+lclddgn8_tricad_default_7020_a=
+Querschnitt a 
+
+lclddgn8_tricad_default_7020_b=
+Querschnitt b 
+
+lclddgn8_tricad_default_7020_A=
+Aussenabmessung A 
+
+lclddgn8_tricad_default_7020_B=
+Aussenabmessung B 
+
+lclddgn8_tricad_default_7020_e=
+Einschub 
+
+lclddgn8_tricad_default_7020_v=
+Luftgeschw 
+
+lclddgn8_tricad_default_7020_VS=
+Vm3/h 
+
+lclddgn8_tricad_default_7020_DP=
+Druckverlust 
+
+lclddgn8_tricad_default_7020_Z=
+Zeta Wert 
+
+lclddgn8_tricad_default_7020_POS=
+Position 
+
+lclddgn8_tricad_default_7020_OKK=
+ OKK 
+
+lclddgn8_tricad_default_7020_ATR=
+ Antrieb 
+
+lclddgn8_tricad_default_7020_AS=
+ Antriebseite 
+
+lclddgn8_tricad_default_7020_d1=
+ Groesse 
+
+lclddgn8_tricad_default_7510_NAME:2=
+Name 
+
+lclddgn8_tricad_default_7510_STR=
+EQP-Name 
+
+lclddgn8_tricad_default_7510_PLANT=
+Module 
+
+lclddgn8_tricad_default_7510_BEZ=
+Description 
+
+lclddgn8_tricad_default_7510_FC=
+TRIBASE Key    
+
+lclddgn8_tricad_default_800_STR=
+Branch 
+
+lclddgn8_tricad_default_800_N=
+Name 
+
+lclddgn8_tricad_default_800_MED=
+Medium 
+
+lclddgn8_tricad_default_800_HST=
+Manufacturer 
+
+lclddgn8_tricad_default_800_MAT=
+Material 
+
+lclddgn8_tricad_default_800_PN=
+Nominal pressure 
+
+lclddgn8_tricad_default_800_BEZ=
+Description 
+
+lclddgn8_tricad_default_800_TYP=
+Type 
+
+lclddgn8_tricad_default_800_d1=
+DN 
+
+lclddgn8_tricad_default_801_STR=
+Branch 
+
+lclddgn8_tricad_default_801_N=
+Name 
+
+lclddgn8_tricad_default_801_MED=
+Medium 
+
+lclddgn8_tricad_default_801_HST=
+Manufacturer 
+
+lclddgn8_tricad_default_801_MAT=
+Material 
+
+lclddgn8_tricad_default_801_PN=
+Nominal pressure 
+
+lclddgn8_tricad_default_801_BEZ=
+Description 
+
+lclddgn8_tricad_default_801_TYP=
+Typ 
+
+lclddgn8_tricad_default_801_d1=
+DN 
+
+lclddgn8_tricad_default_802_N=
+Name        
+
+lclddgn8_tricad_default_802_STR=
+Branch      
+
+lclddgn8_tricad_default_802_MED=
+Medium      
+
+lclddgn8_tricad_default_802_HST=
+Manufacturer  
+
+lclddgn8_tricad_default_802_MAT=
+Material    
+
+lclddgn8_tricad_default_802_TYP=
+Type 
+
+lclddgn8_tricad_default_802_BEZ=
+Description 
+
+lclddgn8_tricad_default_802_d1=
+Diameter 
+
+lclddgn8_tricad_default_803_N=
+Name        
+
+lclddgn8_tricad_default_803_STR=
+Branch      
+
+lclddgn8_tricad_default_803_MED=
+Medium      
+
+lclddgn8_tricad_default_803_HST=
+Manufacturer  
+
+lclddgn8_tricad_default_803_MAT=
+Material    
+
+lclddgn8_tricad_default_803_TYP=
+Type 
+
+lclddgn8_tricad_default_803_BEZ=
+Description 
+
+lclddgn8_tricad_default_803_d1=
+Diameter 
+
+lclddgn8_tricad_default_999_N=
+Name        
+
+lclddgn8_tricad_default_999_STR=
+Branch      
+
+lclddgn8_tricad_default_999_MED=
+Medium      
+
+lclddgn8_tricad_default_999_HST=
+Manufacturer  
+
+lclddgn8_tricad_default_999_MAT=
+Material    
+
+lclddgn8_tricad_default_999_TYP=
+Type 
+
+lclddgn8_tricad_default_999_BEZ=
+Description 
+
+lclddgn8_tricad_default_999_d1=
+Diameter 
+

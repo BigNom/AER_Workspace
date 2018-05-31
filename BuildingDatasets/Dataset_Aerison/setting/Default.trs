@@ -1,0 +1,56 @@
+TRUSS SETTINGS	A1	-1		'		                                                                                
+[parts]
+floor	0		
+facing brick	0		
+gable	0		
+inside wall	0		
+gutter	0		
+cantboard	0		
+purlin	0		
+roof	0		
+joisting	0		
+ceiling	0		
+eave soffitte	0		
+barge board	0		
+attic floor	0		
+
+[options]
+floor thickness	0.0833333333333
+attic floor thickness	0.0833333333333
+roof thickness	1.66666666667
+roof extension	0.0833333333333
+cantboard thickness	0.0416666666667
+gutter width	0.5
+gutter height	0.25
+eave soffit thickness	0.0833333333333
+barge board thickness	0.0416666666667
+facade thickness	0.333333333333
+gable thickness	0.5
+cavity	1.66666666667
+inside wall thickness	0.416666666667
+ceiling thickness	0.125
+purlin thickness	0.25
+purlin max distance	10
+subtract ceiling	1
+repeat	0
+repeat num	19
+repeat delta	1.66666666667
+length in	31
+length out	32
+
+[settings]
+truss nose	0.25
+truss thickness	0.125
+beams XS	0.25
+beams S	0.333333333333
+beams M	0.5
+beams L	0.583333333333
+beams XL	0.75
+joisting	0.833333333333
+double tie spacing	0.125
+eave inset	0.5
+eave preference	1
+extrusions	0
+part family	
+part name	
+

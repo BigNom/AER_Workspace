@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Triforma>
+	<FilterHierarchy>
+		<Node name="Single Door">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Door/Door/@DoorCategory</Property>
+				<Value>Single Door</Value>
+			</Test>
+			<Node name="Flush Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door</Value>
+				</Test>
+			</Node>
+			<Node name="Flush Door Top Light">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door Top Light</Value>
+				</Test>
+			</Node>
+			<Node name="French Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>French Door</Value>
+				</Test>
+			</Node>
+			<Node name="French Door Vision Panel">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>French Door Vision Panel</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Full">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Full</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Top">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Top</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Bottom">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Bottom</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Full Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Full Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Half Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Narrow Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Narrow Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panels - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panels - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Full - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Full - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Half - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision anel Half-Louvre Half Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision anel Half-Louvre Half Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Narrow - Louvre Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Narrow - Louvre Door</Value>
+				</Test>
+			</Node>
+		</Node>
+		<Node name="Double">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Door/Door/@DoorCategory</Property>
+				<Value>Double Door</Value>
+			</Test>
+			<Node name="Flush Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door</Value>
+				</Test>
+			</Node>
+			<Node name="Flush Door Top Light">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door Top Light</Value>
+				</Test>
+			</Node>
+			<Node name="French Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>French Door</Value>
+				</Test>
+			</Node>
+			<Node name="French Door Vision Panel">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>French Door Vision Panel</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Full">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Full</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Top">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Top</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Bottom">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Bottom</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Full Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Full Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Half Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Narrow Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Narrow Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panels - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panels - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Full - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Full - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Half - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision anel Half-Louvre Half Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision anel Half-Louvre Half Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Narrow - Louvre Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Narrow - Louvre Door</Value>
+				</Test>
+			</Node>
+			<Node name="Single">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Single Door</Value>
+				</Test>
+			</Node>
+			<Node name="Double">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Double Door</Value>
+				</Test>
+			</Node>
+			<Node name="Double Door Opposing">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Double Door - Opposing</Value>
+				</Test>
+			</Node>
+			<Node name="Double Door Unequal">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Double Door - Unequal</Value>
+				</Test>
+			</Node>
+			<Node name="Timber">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Material/@LeafMaterial</Property>
+					<Value>Timber</Value>
+				</Test>
+			</Node>
+			<Node name="Single">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Single Door</Value>
+				</Test>
+			</Node>
+			<Node name="Double">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Double Door</Value>
+				</Test>
+			</Node>
+			<Node name="Double Door Opposing">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Double Door - Opposing</Value>
+				</Test>
+			</Node>
+			<Node name="Double Door Unequal">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Double Door - Unequal</Value>
+				</Test>
+			</Node>
+			<Node name="Timber">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Material/@LeafMaterial</Property>
+					<Value>Timber</Value>
+				</Test>
+			</Node>
+		</Node>
+		<Node name="Double Door Opposing">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Door/Door/@DoorCategory</Property>
+				<Value>Double Door - Opposing</Value>
+			</Test>
+			<Node name="Flush Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door</Value>
+				</Test>
+			</Node>
+			<Node name="Flush Door Top Light">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door Top Light</Value>
+				</Test>
+			</Node>
+			<Node name="French Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>French Door</Value>
+				</Test>
+			</Node>
+			<Node name="French Door Vision Panel">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>French Door Vision Panel</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Full">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Full</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Top">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Top</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Bottom">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Bottom</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Full Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Full Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Half Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Narrow Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Narrow Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panels - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panels - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Full - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Full - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Half - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision anel Half-Louvre Half Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision anel Half-Louvre Half Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Narrow - Louvre Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Narrow - Louvre Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Doors/Glazing/@GlazingType</Property>
+					<Value>Vision Panel Half</Value>
+				</Test>
+			</Node>
+			<Node name="Single">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Single Door</Value>
+				</Test>
+			</Node>
+			<Node name="Double">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Double Door</Value>
+				</Test>
+			</Node>
+			<Node name="Timber">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Material/@LeafMaterial</Property>
+					<Value>Timber</Value>
+				</Test>
+			</Node>
+		</Node>
+		<Node name="Double Door Unequal">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Door/Door/@DoorCategory</Property>
+				<Value>Double Door - Unequal</Value>
+			</Test>
+			<Node name="Flush Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door</Value>
+				</Test>
+			</Node>
+			<Node name="Flush Door Top Light">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door Top Light</Value>
+				</Test>
+			</Node>
+			<Node name="French Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>French Door</Value>
+				</Test>
+			</Node>
+			<Node name="French Door Vision Panel">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>French Door Vision Panel</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Full">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Full</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Top">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Top</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Bottom">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Bottom</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Full Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Full Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Half Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Narrow Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Narrow Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panels - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panels - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Full - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Full - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Half - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision anel Half-Louvre Half Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision anel Half-Louvre Half Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Narrow - Louvre Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Narrow - Louvre Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Doors/Glazing/@GlazingType</Property>
+					<Value>Vision Panel Half</Value>
+				</Test>
+			</Node>
+			<Node name="Single">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Single Door</Value>
+				</Test>
+			</Node>
+			<Node name="Double">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Double Door</Value>
+				</Test>
+			</Node>
+			<Node name="Timber">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Material/@LeafMaterial</Property>
+					<Value>Timber</Value>
+				</Test>
+			</Node>
+		</Node>
+		<Node name="Timber">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property> Door/Material/@LeafMaterial</Property>
+				<Value>Timber</Value>
+			</Test>
+			<Node name="Flush Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door</Value>
+				</Test>
+			</Node>
+			<Node name="Flush Door Top Light">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door Top Light</Value>
+				</Test>
+			</Node>
+			<Node name="French Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>French Door</Value>
+				</Test>
+			</Node>
+			<Node name="French Door Vision Panel">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>French Door Vision Panel</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Full">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Full</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Top">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Top</Value>
+				</Test>
+			</Node>
+			<Node name="Louver Door Bottom">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Louver Door Bottom</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Full Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Full Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Half Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Narrow Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Narrow Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panels - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panels - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Full - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Full - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Half - TopLight Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Half - TopLight Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision anel Half-Louvre Half Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision anel Half-Louvre Half Door</Value>
+				</Test>
+			</Node>
+			<Node name="Vision Panel Narrow - Louvre Door">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Vision Panel Narrow - Louvre Door</Value>
+				</Test>
+			</Node>
+			<Node name="Full">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/Louver/@LouverType</Property>
+					<Value>Full</Value>
+				</Test>
+			</Node>
+			<Node name="Top">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/Louver/@LouverType</Property>
+					<Value>Top</Value>
+				</Test>
+			</Node>
+			<Node name="Bottom">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/Louver/@LouverType</Property>
+					<Value>Bottom</Value>
+				</Test>
+			</Node>
+			<Node name="Single">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Single Door</Value>
+				</Test>
+			</Node>
+			<Node name="Double">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorCategory</Property>
+					<Value>Double Door</Value>
+				</Test>
+			</Node>
+			<Node name="Timber">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Material/@LeafMaterial</Property>
+					<Value>Timber</Value>
+				</Test>
+			</Node>
+		</Node>
+		<Node name="Sliding Door">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Door/Door/@DoorType</Property>
+				<Value>Sliding Door</Value>
+			</Test>
+			<Node name="Glazed">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Glazed Door</Value>
+				</Test>
+			</Node>
+			<Node name="Flush">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>Door/Door/@DoorType</Property>
+					<Value>Flush Door</Value>
+				</Test>
+			</Node>
+		</Node>
+		<Node name="Revolving Door">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Door/Door/@DoorType</Property>
+				<Value>Revolving Door</Value>
+			</Test>
+		</Node>
+		<Node name="Roller Door">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Door/Door/@DoorType</Property>
+				<Value>Roller Door</Value>
+			</Test>
+		</Node>
+		<Node name="Generic Door Templates">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Door/Door/@DoorType</Property>
+				<Value>Generic Door Templates</Value>
+			</Test>
+		</Node>
+		<Node name="BXF Doors">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Door/Door/@DoorType</Property>
+				<Value>Door BXF</Value>
+			</Test>
+		</Node>
+		<Node name="Perforator">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Door/Door/@DoorType</Property>
+				<Value>Perforator</Value>
+			</Test>
+		</Node>
+	</FilterHierarchy>
+</Triforma>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--====================================================================================+
+|
+|    $RCSfile: AutoFittingOptions.xml,v $
+|   $Revision: 1.1 $
+|       $Date: 2015/09/08 19:44:55 $
+|
+|  $Copyright: (c) 2015 Bentley Systems, Incorporated. All rights reserved. $
+|
++=====================================================================================-->
+<AutoFittingOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version major="1" minor="0" />
+  <!--====================================================================================+
+|
+|  Specifies components from the Datagroup Catalog to be used in various autofitting situations.
+|
++=====================================================================================-->
+  <Discipline name="Ventilation">
+    <DisplayOptions MechUnit="Metric">
+      <elbow>
+        <elbowType type="Rectangular">
+          <Component type="RectangularElbow" item="DefaultRect" />
+          <Component type="RectangularElbow" item="Mitered"  />
+        </elbowType>
+        <elbowType type="Round">
+          <Component type="RoundElbow" item="DefaultRound"  />
+          <Component type="SegmentedBend" item="Segmented Bend"  />
+          <Component type="SegmentedBend2" item="Segmented Bend End Segment"  />
+        </elbowType>
+        <elbowType type="Oval">
+          <Component type="OvalElbow" item="DefaultOval"  />
+        </elbowType>
+      </elbow>
+      <Branch>
+        <BranchType type="Takeoff" shape="Rectangular" >
+          <Component type="RectangularTakeoff" item="Angled"  />
+          <Component type="RectangularTakeoffRadius" item="Radius 1"  />
+          <Component type="RectangularTakeoffRadius" item="Radius 2"  />
+          <Component type="RectangularTakeoffRadius" item="Radius 3" />
+        </BranchType>
+        <BranchType type="Takeoff" shape="Round" >
+          <Component type="RndTakeoff" item="Default"  />
+        </BranchType>
+        <BranchType type="Takeoff" shape="Oval" >
+          <Component type="OvlTakeoff" item="Default"  />
+        </BranchType>
+        <BranchType type="Tee" shape="Rectangular" >
+          <Component type="RectangularTee" item="Default"  />
+          <Component type="SquareThroatTee" item="Default"  />
+        </BranchType>
+        <BranchType type="Tee" shape="Round" >
+          <Component type="RoundTee" item="RoundTee"  />
+        </BranchType>
+        <BranchType type="Tee" shape="Oval" >
+          <Component type="OvalTee" item="OvalTee"  />
+        </BranchType>
+      </Branch>
+    </DisplayOptions>
+    <Condition name="transition" AngleLimit="22">
+      <Component shape1="1" shape2="1" type="RectangularTransition" item="Centric Reducer" />
+      <Component shape1="1" shape2="2" type="RectRndTransition" item="RectToRnd" />
+      <Component shape1="1" shape2="3" type="RectOvalTransition" item="RectToOval" />
+      <Component shape1="2" shape2="1" type="RectRndTransition" item="RectToRnd" />
+      <Component shape1="2" shape2="2" type="RoundTransition" item="Centric Reducer" />
+      <Component shape1="2" shape2="3" type="OvlRndTransition" item="Oval Round" />
+      <Component shape1="3" shape2="1" type="RectOvalTransition" item="RectToOval" />
+      <Component shape1="3" shape2="2" type="OvlRndTransition" item="Oval Round" />
+      <Component shape1="3" shape2="3" type="OvalTransition" item="Centric Reducer" />
+    </Condition>
+    <Condition name="elbow">
+      <Component shape1="1" type="RectangularElbow" item="DefaultRect" Vanes="True" NumberOfVanes="2" />
+      <Component shape1="2" type="RoundElbow" item="DefaultRound" RadToDia="1" />
+      <Component shape1="3" type="OvalElbow" item="DefaultOval" RadToDia="1" NumberOfSegments="0" />
+    </Condition>
+    <BranchOption name="Takeoff" shape1="1" shape2="1" />
+    <BranchOption name="Takeoff" shape1="1" shape2="2" />
+    <BranchOption name="Takeoff" shape1="1" shape2="3" />
+    <BranchOption name="Takeoff" shape1="2" shape2="2"  />
+    <BranchOption name="Takeoff" shape1="2" shape2="1" />
+    <BranchOption name="Takeoff" shape1="2" shape2="3" />
+    <BranchOption name="Takeoff" shape1="3" shape2="3" />
+    <BranchOption name="Takeoff" shape1="3" shape2="1" />
+    <BranchOption name="Takeoff" shape1="3" shape2="2" />
+    <Condition name="Tee">
+      <Component shape1="2" shape2="2" shape3="2" type="RoundTee" item="RoundTee" />
+      <Component shape1="1" shape2="1" shape3="1" type="RectangularTee" item="Default" />
+      <Component shape1="3" shape2="3" shape3="3" type="OvalTee" item="OvalTee" />
+    </Condition>
+    <Condition name="Cross">
+      <Component shape1="2" shape2="2" shape3="2" shape4="2" type="RoundCross" item="RoundCross" />
+      <Component shape1="1" shape2="1" shape3="1" shape4="1" type="ThreeWayTee" item="Three Way Tee" />
+      <Component shape1="3" shape2="3" shape3="3" shape4="3" type="OvalCross" item="Oval Cross" />
+    </Condition>    
+    <Condition name="Takeoff">
+      <Component shape1="1" shape2="1" type="RectangularTakeoff" item="Angled" />
+      <Component shape1="1" shape2="2" type="RectRndTakeoff" item="RectToRnd" />
+      <Component shape1="1" shape2="3" type="RectOvlTakeoff" item="RectToOvl" />
+      <Component shape1="2" shape2="1" type="RndRectTakeoff" item="RndToRect" />
+      <Component shape1="2" shape2="2" type="RndTakeoff" item="Default" />
+      <Component shape1="2" shape2="3" type="RndOvlTakeoff" item="RndToOvl" />
+      <Component shape1="3" shape2="1" type="OvlRectTakeoff" item="OvlToRect" />
+      <Component shape1="3" shape2="2" type="OvlRndTakeoff" item="OvlToRnd" />
+      <Component shape1="3" shape2="3" type="OvlTakeoff" item="Default" />
+    </Condition>
+    <Condition name="linear">
+      <Component shape1="1" type="RectangularDuct" item="Default" />
+      <Component shape1="2" type="RoundDuct" item="Default" />
+      <Component shape1="3" type="FlatOvalDuct" item="Default" />
+    </Condition>
+    <Condition name="coupling">
+      <Component shape1="1" type="RectCoupling" item="Default" />
+      <Component shape1="2" type="RoundCoupling" item="Default" />
+      <Component shape1="3" type="OvalCoupling" item="Default" />
+    </Condition>
+    <Condition name="adapter">
+      <Component shape1="1" type="RectAdapter" item="Default" />
+      <Component shape1="2" type="RoundAdapter" item="Default" />
+      <Component shape1="3" type="OvalAdapter" item="Default" />
+    </Condition>
+    <Elbow name="Angle">
+      <StandardAngle value="30" />
+      <StandardAngle value="45" />
+      <StandardAngle value="60" />
+      <StandardAngle value="90" />
+    </Elbow>
+  </Discipline>
+  <Discipline name="Plumbing">
+    <Condition name="transition">
+      <Component shape1="2" shape2="2" type="BMP_Transition" item="Default Transition" />
+    </Condition>
+    <Condition name="elbow">
+      <Component shape1="2" type="BMP_Elbow" item="Default Elbow" />
+    </Condition>
+    <Condition name="Tee">
+      <Component shape1="2" shape2="2" shape3="2" type="BMP_Tee" item="Default Tee" />
+    </Condition>
+    <Condition name="linear">
+      <Component shape1="2" type="BMP_StraightPipe" item="Default Pipe" />
+    </Condition>
+    <Elbow name="Angle">
+      <StandardAngle value="11.25" />
+      <StandardAngle value="22.5" />
+      <StandardAngle value="30" />
+      <StandardAngle value="45" />
+      <StandardAngle value="60" />
+      <StandardAngle value="90" />
+    </Elbow>
+  </Discipline>
+</AutoFittingOptions>

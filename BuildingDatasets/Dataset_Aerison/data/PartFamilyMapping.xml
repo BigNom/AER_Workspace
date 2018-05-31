@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mappings>
+<Version major="1" minor="0"/>
+
+<!--<Mapping HVACPartFamily="Exhaust-Existing" PlumbingPartFamily="WasteWater-new"/> -->
+
+<Mapping HVACFamily='Duct' HVACPart="Exhaust-Existing" PlumbingFamily='Plumbing' PlumbingPart="drainage-existing"/>
+<Mapping HVACFamily='Duct' HVACPart="Exhaust-New" PlumbingFamily='Plumbing' PlumbingPart="drainage-new"/>
+<Mapping HVACFamily='Duct' HVACPart="Exhaust-Proposed" PlumbingFamily='Plumbing' PlumbingPart="drainage-Proposed"/>
+<Mapping HVACFamily='Duct' HVACPart="Fresh-Existing" PlumbingFamily='Plumbing' PlumbingPart="drainage-existing"/>
+<Mapping HVACFamily='Duct' HVACPart="Fresh-New" PlumbingFamily='Plumbing' PlumbingPart="drainage-new"/>
+<Mapping HVACFamily='Duct' HVACPart="Fresh-Proposed" PlumbingFamily='Plumbing' PlumbingPart="drainage-Proposed"/>
+<Mapping HVACFamily='Duct' HVACPart="Return-Existing" PlumbingFamily='Plumbing' PlumbingPart="drainage-existing"/>
+<Mapping HVACFamily='Duct' HVACPart="Return-New" PlumbingFamily='Plumbing' PlumbingPart="drainage-new"/>
+<Mapping HVACFamily='Duct' HVACPart="Return-Proposed" PlumbingFamily='Plumbing' PlumbingPart="drainage-Proposed"/>
+<Mapping HVACFamily='Duct' HVACPart="Supply-Existing" PlumbingFamily='Plumbing' PlumbingPart="drainage-existing"/>
+<Mapping HVACFamily='Duct' HVACPart="Supply-New" PlumbingFamily='Plumbing' PlumbingPart="drainage-new"/>
+<Mapping HVACFamily='Duct' HVACPart="Supply-Proposed" PlumbingFamily='Plumbing' PlumbingPart="drainage-Proposed"/>
+<!--- This mapping for insualtion rules according to system and part mapping those insulation setting will get applied from HVAC analysis Tool Insulation Rule dialog)-->
+<PartSystemMapping>
+<Part Name="Supply-New" System="Supply"/>
+<Part Name="Exhaust-New" System="Exhaust"/>
+<Part Name="Return-New" System="Return"/>
+<Part Name="Fresh-New" System="Fresh"/>
+</PartSystemMapping>
+</Mappings>

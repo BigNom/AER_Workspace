@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!-- This is a sample Part Mapping file. This file was introduced with the addition
+     of the Forward and Reflective View hatching capability. Since there is no field in 
+     the Part schema today to allow a user to identify a hatch pattern for Forward and 
+     Reflected views. This capability is accomplished with the part mapping file. This 
+     contains a series of records. Each record has a Section Part Element that contains
+     a ForwardPart Element and a ReflectedPart Element. Each of the elements has an 
+     attribute family="..." and part="...". These attributes are Family and Part names that
+     exist in the current dataset. Entities that are extracted into the Forward view and 
+     have a part assigned to them that matches the SectionPart are created using the 
+     properties of the FowardPart entry. This includes symbology and hatching attributes. 
+     The same is true for elements in the Reflected view. Fill attributes do not apply 
+     to the foward or reflected view. -->
+<TriForma>
+	<SectionParts>
+		<Version major="1" minor="1"/>
+		<SectionPart family="Walls_Ext" part="Block Wall 140mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Block Wall 140mm Filled">
+			<ForwardPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Block Wall 140mm Reinforced">
+			<ForwardPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Block Wall 190mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Block Wall 190mm Filled">
+			<ForwardPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Block Wall 270mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Block Wall 90mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Block Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Brick Wall 100mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Brick Wall 110mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Brick Wall 110mm Reinforced">
+			<ForwardPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Brick Wall 230mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Brick Wall 230mm Reinforced">
+			<ForwardPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Brick Wall 270mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="CF Brick Wall 110mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Brick Wall Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Insitu Concrete 100mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Insitu Concrete 150mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Insitu Concrete 200mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Insitu Concrete 250mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Insitu Concrete 300mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Insitu Concrete 350mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Insitu Concrete 400mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Insitu Concrete 450mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Insitu Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Lightweight Concrete Block 090mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Lightweight Concrete Block Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Lightweight Concrete Block Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Lightweight Concrete Block 140mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Lightweight Concrete Block Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Lightweight Concrete Block Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Lightweight Concrete Block 190mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Lightweight Concrete Block Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Lightweight Concrete Block Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Precast Concrete 150mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Precast Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Precast Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Precast Concrete 175mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Precast Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Precast Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Precast Concrete 200mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Precast Concrete Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Precast Concrete Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Structural Concrete Block 100mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Structural Concrete Block Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Structural Concrete Block Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Structural Concrete Block 150mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Structural Concrete Block Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Structural Concrete Block Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Structural Concrete Block 180mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Structural Concrete Block Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Structural Concrete Block Elevation"/>
+		</SectionPart>
+		<SectionPart family="Walls_Ext" part="Structural Concrete Block 200mm">
+			<ForwardPart family="Walls_Ext" part="Hatch Structural Concrete Block Elevation"/>
+			<ReflectedPart family="Walls_Ext" part="Hatch Structural Concrete Block Elevation"/>
+		</SectionPart>
+		<SectionPart family="Surface_Fin" part="Ceramic Wall Tiles 150 x 150">
+			<ForwardPart family="Surface_Fin" part="Hatch Ceramic Wall Tiles 150 x 150"/>
+			<ReflectedPart family="Surface_Fin" part="Hatch Ceramic Wall Tiles 150 x 150"/>
+		</SectionPart>
+		<SectionPart family="Surface_Fin" part="Ceramic Floor Tiles 150 x 150">
+			<ForwardPart family="Surface_Fin" part="Hatch Ceramic Floor Tiles 150 x 150"/>
+			<ReflectedPart family="Surface_Fin" part="Hatch Ceramic Floor Tiles 150 x 150"/>
+		</SectionPart>
+		<SectionPart family="Surface_Fin" part="Ceramic Wall Tiles 300 x 300">
+			<ForwardPart family="Surface_Fin" part="Hatch Ceramic Wall Tiles 300 x 300"/>
+			<ReflectedPart family="Surface_Fin" part="Hatch Ceramic Wall Tiles 300 x 300"/>
+		</SectionPart>
+		<SectionPart family="Surface_Fin" part="Ceramic Floor Tiles 300 x 300">
+			<ForwardPart family="Surface_Fin" part="Hatch Ceramic Floor Tiles 300 x 300"/>
+			<ReflectedPart family="Surface_Fin" part="Hatch Ceramic Floor Tiles 300 x 300"/>
+		</SectionPart>
+		<SectionPart family="Surface_Fin" part="Render - Sand/Cement">
+			<ForwardPart family="Surface_Fin" part="Hatch Render - Sand/Cement"/>
+			<ReflectedPart family="Surface_Fin" part="Hatch Render - Sand/Cement"/>
+		</SectionPart>
+	</SectionParts>
+</TriForma>

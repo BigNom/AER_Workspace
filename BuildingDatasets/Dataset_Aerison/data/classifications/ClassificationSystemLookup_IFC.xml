@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Classifications>
+    <Type name="IFC2x3Entities">
+        <Files>
+            <File name="IFC_2x3_Entities.xml"/>
+        </Files>
+    </Type>
+</Classifications>

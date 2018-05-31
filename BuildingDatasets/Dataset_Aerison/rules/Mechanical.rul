@@ -1,0 +1,3793 @@
+Mechanical Resymbolization Rules Definition
+Version 11
+Piping: Condenser Water Supply New - Single
+Condenser Water Supply New Single Line
+0
+True
+True
+M-CNDW-SUPP
+4294967295 2 -124
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437055877
+False 1
+Piping: Glycol Return New - Single
+Glycol Return New Single Line
+0
+True
+True
+M-GLYC-RETN-PIPE
+4294967295 2 -136
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437055890
+False 1
+Piping: Fuel Supply New - Single
+Fuel Supply New Single Line
+0
+True
+True
+M-FUEL-SPIP
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437055902
+False 1
+Piping: Fuel Return New - Single
+Fuel Return New Single Line
+0
+True
+True
+M-FUEL-RPIP
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437055944
+False 1
+Piping: Dual Temp Supply New - Single
+Dual Temp Supply New Single Line
+0
+True
+True
+M-DUAL-SUPP
+4294967295 2 -126
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437055958
+False 1
+Piping: Dual Temp Return New -Single
+Dual Temp Return New Single Line
+0
+True
+True
+M-DUAL-RETN
+4294967295 2 -125
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056044
+False 1
+Duct: Fume Collection New - Double
+Fume Collection New Double Line
+0
+False
+True
+M-FUME-DUCT
+4294967295 2 0
+True
+M-FUME-DUCT-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056057
+False 1
+Flex: Supply New - Batten
+Flex Supply New Batten Style
+0
+True
+False
+M-HVAC-SUPP-DUCT
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056076
+False 1
+Duct: Exhaust New - Double
+Exhaust New Double Line
+0
+False
+True
+M-HVAC-EXHS-DUCT
+4294967295 2 0
+True
+M-HVAC-EXHS-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056088
+False 1
+Duct: Dust Collection - Double
+Dust Collection Double Line
+0
+False
+True
+M-DUST-DUCT
+4294967295 2 0
+True
+M-DUST-DUCT-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056099
+False 1
+Duct: Chimney New - Double
+Chimney New Double Line
+0
+False
+True
+M-CHIM
+4294967295 2 0
+True
+M-CHIM-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056146
+False 1
+Duct: Fresh New - Double
+Fresh New Double Line
+0
+False
+True
+M-FRSH-DUCT
+4294967295 2 0
+True
+M-FRSH-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056198
+False 1
+Duct: Make-up Air New - Double
+Make-up Air New Double Line
+0
+False
+True
+M-MKUP-DUCT
+4294967295 2 0
+True
+M-MKUP-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056210
+False 1
+Duct: Mist Collection New -  Double
+Mist Collection New Double Line
+0
+False
+True
+M-MIST-DUCT
+4294967295 2 0
+True
+M-MIST-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056222
+False 1
+Duct: Return New - Double
+Return New Double Line
+0
+False
+True
+M-HVAC-RETN-DUCT
+4294967295 2 0
+True
+M-HVAC-RETN-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056243
+False 1
+Duct: Supply New - Double
+Supply New Double Line
+0
+False
+True
+M-HVAC-SUPP-DUCT
+4294967295 2 0
+True
+M-HVAC-SUPP-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056255
+False 1
+Piping: Brine New - Double
+Brine New Double Line
+0
+False
+True
+M-BRIN-PIPE
+4294967295 2 0
+True
+M-BRIN-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056280
+False 1
+Piping: Chilled Water Return New - Double
+Chilled Water Return New Double Line
+0
+False
+True
+M-CWTR-PIPE-RETN
+4294967295 2 0
+True
+M-CWTR-PIPE-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437056291
+False 1
+Piping: Chilled Water Supply New - Double
+Chilled Water Supply  New Double Line
+0
+False
+True
+M-CWTR-PIPE-SUPP
+4294967295 2 0
+True
+M-CWTR-PIPE-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325687920
+False 1
+Piping: Condenser Water Return New - Single
+Condenser Water Return New Single Line
+0
+True
+True
+M-CNDW-RETN
+4294967295 2 -123
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325688316
+False 1
+Piping: Condenser Water Return New - Double
+Condenser Water Return New Double Line
+0
+False
+True
+M-CNDW-RETN
+4294967295 2 0
+True
+M-CNDW-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325688290
+False 1
+Piping: Condenser Water Supply New - Double
+Condenser Water Supply New Double Line
+0
+False
+True
+M-CNDW-SUPP
+4294967295 2 0
+True
+M-CNDW-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325688342
+False 1
+Piping: Compressed Air New - Double
+Compressed Air  New Double Line
+0
+False
+True
+M-CMPA-PIPE
+4294967295 2 0
+True
+M-CMPA-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325688021
+False 1
+Piping: Dual Temp Return New -Double
+Dual Temp Return New Double Line
+0
+False
+True
+M-DUAL-RETN
+4294967295 2 0
+True
+M-DUAL-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325690481
+False 1
+Piping: Dual Temp Supply New - Double
+Dual Temp Supply New Double Line
+0
+False
+True
+M-DUAL-RETN
+4294967295 2 0
+True
+M-DUAL-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325692032
+False 1
+Piping: Energy Recovery New -Double
+Energy Recovery New Double Line
+0
+False
+True
+M-RCOV-PIPE
+4294967295 2 0
+True
+M-RCOV-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325693279
+False 1
+Piping: Fuel Return New - Double
+Fuel Return New Double Line
+0
+False
+True
+M-FUEL-RPIP
+4294967295 2 0
+True
+M-FUEL-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325693325
+False 1
+Piping: Fuel Supply New - Double
+Fuel Supply New Double Line
+0
+False
+True
+M-FUEL-SPIP
+4294967295 2 0
+True
+M-FUEL-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325693371
+False 1
+Piping: Geotherm Supply New - Double
+Geotherm Supply New Double Line
+0
+False
+True
+M-GTHP-SUPP
+4294967295 2 0
+True
+M-GTHP-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325702391
+False 1
+Piping: Geotherm Return New - Double
+Geotherm Return New Double Line
+0
+False
+True
+M-GTHP-RETN
+4294967295 2 0
+True
+M-GTHP-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325693523
+False 1
+Piping: Glycol Supply New - Double
+Glycol Supply New Double Line
+0
+False
+True
+M-GLYC-SUPP-PIPE
+4294967295 2 0
+True
+M-GLYC-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325702998
+False 1
+Piping: Glycol Return New - Double
+Glycol Return New Double Line
+0
+False
+True
+M-GLYC-RETN-PIPE
+4294967295 2 0
+True
+M-GLYC-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325702432
+False 1
+Piping: Hot Water Heating Return New - Double
+Hot Water Heating Return New Double Line
+0
+False
+True
+M-HOTW-RETN-PIPE
+4294967295 2 0
+True
+M-HOTW-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325703883
+False 1
+Piping: Hot Water Heating Supply New - Double
+Hot Water Heating Supply New Double Line
+0
+False
+True
+M-HOTW-SUPP-PIPE
+4294967295 2 0
+True
+M-HOTW-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325704026
+False 1
+Piping: Natural Gas New - Double
+Natural Gas New Double Line
+0
+False
+True
+M-NGAS-PIPE
+4294967295 2 0
+True
+M-NGAS-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325705254
+False 1
+Piping: Hot Water Heating Return New - Single
+Hot Water Heating Return New Single Line
+0
+True
+True
+M-HOTW-RETN-PIPE
+4294967295 2 -138
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325703921
+False 1
+Piping: Refrigeration New - Double
+Refrigeration New Double Line
+0
+False
+True
+M-REFG-PIPE
+4294967295 2 0
+True
+M-REFG-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325705303
+False 1
+Piping: Steam Boiler Blow Down New - Double
+Steam Boiler Blow Down New Double Line
+0
+False
+True
+M-STEM-BLBD
+4294967295 2 0
+True
+M-STEM-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325707852
+False 1
+Piping: Steam Condensate New - Double
+Steam Condensate New Double Line
+0
+False
+True
+M-STEM-COND
+4294967295 2 0
+True
+M-STEM-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708502
+False 1
+Piping: Steam High Pressure New - Double
+Steam High Pressure New Double Line
+0
+False
+True
+M-STEM-HPIP
+4294967295 2 0
+True
+M-STEM-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708559
+False 1
+Piping: Steam Low Pressure New - Double
+Steam Low Pressure New Double Line
+0
+False
+True
+M-STEM-HPIP
+4294967295 2 0
+True
+M-STEM-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708618
+False 1
+Piping: Steam Medium Pressure New - Double
+Steam Medium Pressure New Double Line
+0
+False
+True
+M-STEM-MPIP
+4294967295 2 0
+True
+M-STEM-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708677
+False 1
+Plumbing: Acid Waste New - Double
+Acid Waste New Double Line
+0
+False
+True
+P-ACID-PIPE
+4294967295 2 0
+True
+P-ACID-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708756
+False 1
+Plumbing: Acid Waste Vent New - Double
+Acid Waste Vent New Double Line
+0
+False
+True
+P-ACID-VENT
+4294967295 2 0
+True
+P-ACID-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708800
+False 1
+Plumbing: Dom Cold Water New - Double
+Dom Cold Water New Double Line
+0
+False
+True
+P-DOMW-CPIP
+4294967295 2 0
+True
+P-DOMW-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708884
+False 1
+Plumbing: Dom Hot Water Return New - Double
+Dom Hot Water Return New Double Line
+0
+False
+True
+P-DOMW-HPIP-RETN
+4294967295 2 0
+True
+P-DOMW-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708955
+False 1
+Plumbing: Dom Hot Water Supply New - Double
+Dom Hot Water Supply New Double Line
+0
+False
+True
+P-DOMW-HPIP-SUPP
+4294967295 2 0
+True
+P-DOMW-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708994
+False 1
+Plumbing: Industrial Waste New - Double
+Industrial Waste New Double Line
+0
+False
+True
+P-SANR-INDS
+4294967295 2 0
+True
+P-SANR-CNTR
+7 0 3
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325709033
+False 1
+Plumbing: Laboratory Gas New - Double
+Laboratory Gas New Double Line
+0
+False
+True
+P-LGAS-PIPE
+4294967295 2 0
+True
+P-LGAS-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325709067
+False 1
+Plumbing: Med Gas Compressed Air New - Double
+Med Gas Compressed Air New Double Line
+0
+False
+True
+P-MDGS-CAIR
+4294967295 2 0
+True
+P-LGAS-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325709158
+False 1
+Plumbing: Med Gas Nitrogen New - Double
+Med Gas Nitrogen New Double Line
+0
+False
+True
+P-MDGS-NITG
+4294967295 2 0
+True
+P-MDGS-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325709194
+False 1
+Plumbing: Roof Drain New - Double
+Roof Drain New Double Line
+0
+False
+True
+P-STRM-RFDR
+4294967295 2 0
+True
+P-STRM-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325709411
+False 1
+Plumbing: Med Gas Nitrous Oxide New - Double
+Med Gas Nitrous Oxide New Double Line
+0
+False
+True
+P-MDGS-NOXD
+4294967295 2 0
+True
+P-MDGS-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325709233
+False 1
+Plumbing: Med Gas Oxygen New - Double
+Med Gas Oxygen New Double Line
+0
+False
+True
+P-MDGS-OXYG
+4294967295 2 0
+True
+P-MDGS-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325709272
+False 1
+Plumbing: Med Gas Vacuum New - Double
+Med Gas Vacuum New Double Line
+0
+False
+True
+P-MDGS-VACU
+4294967295 2 0
+True
+P-MDGS-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325709371
+False 1
+Piping: Glycol Supply New - Single
+Glycol Supply New Single Line
+0
+True
+True
+M-GLYC-SUPP-PIPE
+4294967295 2 -137
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325703851
+False 1
+Plumbing: Sanitary Sewer New - Double
+Sanitary Sewer New Double Line
+0
+False
+True
+P-SANR-WAST
+4294967295 2 0
+True
+P-SANR-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325709454
+False 1
+Plumbing: Sanitary Vent New - Double
+Sanitary Vent New Double Line
+0
+False
+True
+P-SANR-VENT
+4294967295 2 0
+True
+P-SANR-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325709495
+False 1
+Flex: Supply New - Single Line
+Flex Supply New Single Line Style
+0
+True
+False
+M-HVAC-SUPP-DUCT
+4294967295 2 0
+Singleline 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325684627
+False 1
+Flex: Supply New - Accordian Line
+Flex Supply New Accordian Line Style
+0
+True
+False
+M-HVAC-SUPP-DUCT
+4294967295 2 0
+Accordion 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325684520
+False 1
+Flex: Supply New - Arc
+Flex Supply New Arc Style
+0
+True
+False
+M-HVAC-SUPP-DUCT
+4294967295 2 0
+Arc 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325684584
+False 1
+Fire Protection: Aqueous Film Foam New - Double
+Aqueous Film Foam New Double Line
+0
+False
+True
+F-AFFF-PIPE
+4294967295 2 0
+True
+F-AFFF-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325684032
+False 1
+Fire Protection: CO2 Systems New - Double
+CO2 Systems  New Double Line
+0
+False
+True
+F-CO2S-PIPE
+4294967295 2 0
+True
+F-CO2S-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325684062
+False 1
+Fire Protection: Halon Systems New - Double
+Halon Systems  New Double Line
+0
+False
+True
+F-HALN-PIPE
+4294967295 2 0
+True
+F-HALN-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325684071
+False 1
+Fire Protection: Inert Gas New - Double
+Inert Gas New Double Line
+0
+False
+True
+F-IGAS-PIPE
+4294967295 2 0
+True
+F-IGAS-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325684083
+False 1
+Fire Protection: Sprinkler Systems New - Double
+Sprinkler Systems New Double Line
+0
+False
+True
+F-SPRN-PIPE
+4294967295 2 0
+True
+F-SPRN-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325684094
+False 1
+Fire Protection: Stand Pipes New - Double
+Stand Pipes New Double Line
+0
+False
+True
+F-SPRN-STAN
+4294967295 2 0
+True
+F-SPRN-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325684376
+False 1
+Fire Protection: Water Supply New - Double
+Water Supply New Double Line
+0
+False
+True
+F-WATR-PIPE
+4294967295 2 0
+True
+F-WATR-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325684494
+False 1
+Piping: Brine New - Single
+Brine New Single Line
+0
+True
+True
+M-BRIN-PIPE
+4294967295 2 -119
+Singleline 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325685034
+False 1
+Piping: Chilled Water Return New - Single
+Chilled Water Return New Single Line
+0
+True
+True
+M-CWTR-PIPE-RETN
+4294967295 2 -120
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325687944
+False 1
+Piping: Chilled Water Supply New - Single
+Chilled Water Supply New Single Line
+0
+True
+True
+M-CWTR-PIPE-SUPP
+0 2 -121
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325687958
+False 1
+Piping: Hot Water Heating Supply New - Single
+Hot Water Heating Supply New Single Line
+0
+True
+True
+M-HOTW-SUPP-PIPE
+4294967295 2 -141
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325705207
+False 1
+Piping: Refrigeration New - Single
+Refrigeration New Single Line
+0
+True
+True
+M-REFG-PIPE
+4294967295 2 -149
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325705332
+False 1
+Piping: Steam Condensate New - Single
+Steam Condensate New Single Line
+0
+True
+True
+M-STEM-COND
+4294967295 2 -151
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708536
+False 1
+Piping: Steam High Pressure New - Single
+Steam High Pressure New Single Line
+0
+True
+True
+M-STEM-HPIP
+4294967295 2 -155
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708575
+False 1
+Piping: Steam Low Pressure New - Single
+Steam Low Pressure New Single Line
+0
+True
+True
+M-STEM-LPIP
+4294967295 2 -156
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1325708634
+False 1
+Piping: Steam Medium Pressure New - Single
+Steam Medium Pressure New Single Line
+0
+True
+True
+M-STEM-MPIP
+4294967295 2 -157
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437058244
+False 1
+Fire Protection: Sprinkler Systems New - Single
+Sprinkler Systems New Single Line
+0
+True
+True
+F-SPRN-PIPE
+4294967295 2 -112
+Singleline 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437058266
+False 1
+Fire Protection: Stand Pipes New - Single
+Stand Pipes New Single Line
+0
+True
+True
+F-SPRN-STAN
+4294967295 0 -113
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437058452
+False 1
+Plumbing: Med Gas Compressed Air New - Single
+Med Gas Compressed Air New Single Line
+0
+True
+True
+P-MDGS-CAIR
+4294967295 2 -158
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437058500
+False 1
+Plumbing: Med Gas Nitrogen New - Single
+Med Gas Nitrogen New Single Line
+0
+True
+True
+P-MDGS-NITG
+4294967295 2 -160
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437058578
+False 1
+Plumbing: Med Gas Nitrous Oxide New - Single
+Med Gas Nitrous Oxide New Single Line
+0
+True
+True
+P-MDGS-NOXD
+4294967295 2 -161
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437058564
+False 1
+Plumbing: Med Gas Oxygen New - Single
+Med Gas Oxygen New Single Line
+0
+True
+True
+P-MDGS-OXYG
+4294967295 2 -162
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437058537
+False 1
+Plumbing: Med Gas Vacuum New - Single
+Med Gas Vacuum New Single Line
+0
+True
+True
+P-MDGS-VACU
+4294967295 2 -163
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057747
+False 1
+Plumbing: Dom Hot Water Return New - Single
+Dom Hot Water Return New Single Line
+0
+True
+True
+P-DOMW-HPIP-RETN
+4294967295 2 -138
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057662
+False 1
+Plumbing: Dom Hot Water Supply New - Single
+Dom Hot Water Supply New Single Line
+0
+True
+True
+P-DOMW-HPIP-SUPP
+4294967295 2 -141
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057675
+False 1
+Plumbing: Sanitary Sewer New - Single
+Sanitary Sewer New Single Line
+0
+True
+True
+P-SANR-WAST
+4294967295 2 -177
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057685
+False 1
+Plumbing: Sanitary Vent New - Single
+Sanitary Vent New Single Line
+0
+True
+True
+P-SANR-VENT
+4294967295 2 -178
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057696
+False 1
+Plumbing: Storm Sewer New - Double
+Storm Sewer New Double Line
+0
+False
+True
+P-STRM-PIPE
+4294967295 2 0
+True
+P-STRM-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057707
+False 1
+Plumbing: Storm Sewer New - Single
+Storm Sewer New Single Line
+0
+True
+True
+P-STRM-PIPE
+4294967295 2 -179
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057610
+False 1
+Duct: Smoke Extraction New - Double
+Smoke Extraction New Double Line
+0
+False
+True
+M-SMOK-DUCT
+4294967295 2 0
+True
+M-SMOK-CNTR
+7 0 4
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+False
+Default
+0 0 0
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057578
+False 1
+Plumbing: Acid Waste New - Single
+Acid Waste New Single Line
+0
+True
+True
+P-ACID-PIPE
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057566
+False 1
+Piping: Natural Gas New - Single
+Natural Gas New Single Line
+0
+True
+True
+M-NGAS-PIPE
+4294967295 2 -133
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057512
+False 1
+Piping: Compressed Air New - Single
+Compressed Air  New Single Line
+0
+True
+True
+M-CMPA-PIPE
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057339
+False 1
+Piping: Energy Recovery New - Single
+Energy Recovery New Single Line
+0
+True
+True
+M-RCOV-PIPE
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057351
+False 1
+Piping: Geotherm Return New - Single
+Geotherm Return New Single Line
+0
+True
+True
+M-GTHP-RETN
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057376
+False 1
+Piping: Geotherm Supply New - Single
+Geotherm Supply New Single Line
+0
+True
+True
+M-GTHP-SUPP
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057391
+False 1
+Piping: Steam Boiler Blow Down New - Single
+Steam Boiler Blow Down New Single Line
+0
+True
+True
+M-STEM-BLBD
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057403
+False 1
+Plumbing: Acid Waste Vent New - Single
+Acid Waste Vent New Single Line
+0
+True
+True
+P-ACID-VENT
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057414
+False 1
+Plumbing: Dom Cold Water New - Single
+Dom Cold Water New Single Line
+0
+True
+True
+P-DOMW-CPIP
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057433
+False 1
+Plumbing: Industrial Waste New - Single
+Industrial Waste New Single Line
+0
+True
+True
+P-SANR-INDS
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057306
+False 1
+Plumbing: Laboratory Gas New - Single
+Laboratory Gas New Single Line
+0
+True
+True
+P-LGAS-PIPE
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057295
+False 1
+Plumbing: Roof Drain New - Single
+Roof Drain New Single Line
+0
+True
+True
+P-STRM-RFDR
+4294967295 2 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057282
+False 1
+Duct: Chimney New - Single
+Chimney New Single Line
+0
+True
+True
+M-CHIM
+4294967295 4294967295 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057160
+False 1
+Duct: Dust Collection - Single
+Dust Collection Single Line
+0
+True
+True
+M-DUST-DUCT
+4294967295 4294967295 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057171
+False 1
+Duct: Exhaust New - Single
+Exhaust New Single Line
+0
+True
+True
+M-HVAC-EXHS-DUCT
+4294967295 4294967295 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057198
+False 1
+Duct: Fresh New - Single
+Fresh New Single Line
+0
+True
+True
+M-FRSH-DUCT
+4294967295 4294967295 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057209
+False 1
+Duct: Fume Collection New - Single
+Fume Collection New Single Line
+0
+True
+True
+M-FUME-DUCT
+4294967295 4294967295 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057228
+False 1
+Duct: Make-up Air New - Single
+Make-up Air New Single Line
+0
+True
+True
+M-MKUP-DUCT
+4294967295 4294967295 2147483647
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057142
+False 1
+Duct: Mist Collection New -  Single
+Mist Collection New Single Line
+0
+True
+True
+M-MIST-DUCT
+4294967295 4294967295 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057129
+False 1
+Duct: Return New - Single
+Return New Single Line
+0
+True
+True
+M-HVAC-RETN-DUCT
+4294967295 4294967295 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057117
+False 1
+Duct: Smoke Extraction New - Single
+Smoke Extraction New Single Line
+0
+True
+True
+M-SMOK-DUCT
+4294967295 4294967295 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057107
+False 1
+Duct: Supply New - Single
+Supply New Single Line
+0
+True
+True
+M-HVAC-SUPP-DUCT
+4294967295 4294967295 0
+Batten 0 0 0 Right
+Default
+0 0 0
+False
+2
+Dimension
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE% x %VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+Diameter
+True 50 AlongLength Above 0
+
+3200 3200 1024 7
+%VALUE%%SHAPE%
+M-ANNO-TEXT 4294967295 0
+Arial Narrow
+1437057096
+False 1

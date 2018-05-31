@@ -1,0 +1,38 @@
+# ================================================================================			
+#			
+# AECOsim Building Designer DataGroup Item Mappings to IfcEntityClass, IfcTypeClass and IfcPredefineType"	
+# for IFC Export			
+#			
+#			
+# $RCSfile: IFC_ItemMapping.set,v $"			
+# $Revision: 1.1 $			
+#			
+# $Copyright: (c) 2013 Bentley Systems, Incorporated. All rights reserved. $"			
+# ================================================================================			
+#
+# Syntax:			
+# TYPE <DataGroup Type>
+#	ITEM <Datagroup Item> EXPORT_AS  <IfcEntityClass>.<IfcTypeClass>.<No(_of_IfcPredefinedType)>:<IfcPredefinedType>
+#	
+# ================================================================
+#
+TYPE Wall
+	ITEM Curtainwall*	EXPORT_AS	IfcCurtainWall.IfcCurtainWallType.1
+	ITEM Storefront*	EXPORT_AS	IfcCurtainWall.IfcCurtainWallType.1
+	ITEM Foundation*	EXPORT_AS	IfcFooting.3
+
+Type PlumbingFixtures
+	ITEM Bath*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.0
+	ITEM Bidet*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.1
+	ITEM Sink*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.4
+	ITEM Hand*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.5
+	ITEM Vanity*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.5
+	ITEM Lavatory*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.6
+	ITEM Toilet Floor*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.6
+	ITEM Toilet Wall*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.6
+	ITEM WC*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.6
+	ITEM Shower*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.3
+	ITEM Urinal*	EXPORT_AS  IfcFlowTerminal.IfcSanitaryTerminalType.7
+	ITEM Radiator*	EXPORT_AS  IfcFlowTerminal.IfcSpaceHeaterType.4
+	ITEM Watercooler* EXPORT_AS IfcFlowTerminal.IfcElectricApplianceType.23
+	ITEM Toilet Cubicle* EXPORT_AS IfcFurnishingElement.IfcSystemFurnitureElementType

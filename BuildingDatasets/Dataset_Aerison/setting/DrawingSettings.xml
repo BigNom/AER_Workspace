@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<TriForma>
+	<!--<TriForma xmlns="urn:schema-namespace">-->
+	<!-- This is the storage file for the settings used in Structural analysis drawing generation. -->
+	<!-- Localization Note: The only strings that should be translated are:
+<Element>               <Attribute>  
+StoryElevation                  Prefix, Suffix
+DefaultLinkSet                  Name
+LinkFolder                      Name          
+ScheduleTitle                   Title                    
+ScheduleMarks                   ColumnMarkPrefix 
+SlopedColumn                    Note            
+ReinforcementAbbreviation       Abbreviation 
+SectionLegend                   Title
+SectionLegend                   Prefix
+-->
+	<DrawingSettings>
+		<Version Major="3" Minor="0"/>
+		<SettingsGroups>
+			<SettingsGroup GroupName="ANZ" UnitSystem="mm">
+				<GridLine PlanMargin="3.000000" ElevationMargin="3.000000">
+					<DatasetPart Family="StructAnnotations" Part="Grid_Lines"/>
+				</GridLine>
+				<GridBubble Top="true" Bottom="false" Left="true" Right="false" PlotRadius="500.000000" PlanOffset="500.000000" ElevationOffset="50.000000">
+					<DatasetPart Family="StructAnnotations" Part="Grid_Bubbles"/>
+				</GridBubble>
+				<GridLabel LinearAlignment="true" RadialAlignment="true" PlotHeight="3.500000" TextStyle="ArialNarrow-2.5mm">
+					<DatasetPart Family="StructAnnotations" Part="Grid_Labels"/>
+				</GridLabel>
+				<GridDimension Top="true" Bottom="true" Left="true" Right="true" PlanOffset="15.000000" ElevationOffset="15.000000" DimensionStyle="ArialNarrow-2.5mm-Con-Arrow-(mm)"/>
+				<ElevationLabelPositions>
+					<ElevationLabelPosition Enabled="true" Position="left" LabelAlignment="left" TargetAlignment="right"/>
+					<ElevationLabelPosition Enabled="false" Position="right" LabelAlignment="right" TargetAlignment="left"/>
+				</ElevationLabelPositions>
+				<ElevationLabel TextStyle="ArialNarrow-2.5mm" PlotHeight="3.500000" PlotXOffset="3.500000" PlotYOffset="3.500000">
+					<DatasetPart Family="StructAnnotations" Part="Elevation_Labels"/>
+				</ElevationLabel>
+				<ElevationLine PlotMargin="5.000000">
+					<DatasetPart Family="StructAnnotations" Part="Elevation_Lines"/>
+				</ElevationLine>
+				<ElevationTarget Enabled="true" Cell="Elevation Target" PlotRadius="5.000000" PlotXOffset="50.000000"/>
+				<StoryElevation Enabled="true" Prefix="EL = " Suffix="" PlotYOffset="3.000000" UseRelativeElevation="false"/>
+				<ProjectExplorer CreateDrawingLinks="true" DefaultExplorerTree="false">
+					<DefaultLinkSet Name="Structural Project">
+						<LinkFolder Name="Models">
+							<LinkFolder Name="Structural" LinkType="Models">
+								<LinkFolder Name="Column Grid Systems" LinkType="GridSystems"/>
+							</LinkFolder>
+						</LinkFolder>
+						<LinkFolder Name="Extractions">
+							<LinkFolder Name="Structural">
+								<LinkFolder Name="Sections"/>
+								<LinkFolder Name="Elevations" LinkType="Elevations"/>
+								<LinkFolder Name="Plans" LinkType="Plans"/>
+								<LinkFolder Name="Foundations" LinkType="Foundations"/>
+								<LinkFolder Name="Column Schedules" LinkType="ColumnSchedules"/>
+							</LinkFolder>
+						</LinkFolder>
+						<LinkFolder Name="Sheets">
+							<LinkFolder Name="Borders"/>
+						</LinkFolder>
+					</DefaultLinkSet>
+				</ProjectExplorer>
+				<SteelColumnSchedule>
+					<ScheduleTitle Enabled="true" Title="Column Schedule" RowPlotHeight="12.000000" TextStyle="ArialNarrow-5.0mm" PlotHeight="6.000000">
+						<DatasetPart Family="StructAnnotations" Part="Schedule_Titles"/>
+					</ScheduleTitle>
+					<ScheduleTable IncludeLateral="false" GroupByType="true" SheetSize="ISO A3" TopMargin="9.000000" BottomMargin="9.000000" MaximumWidth="336.000000" MaximumHeight="237.600000" CellWidth="24.000000">
+						<ScheduleBorder>
+							<DatasetPart Family="StructAnnotations" Part="Schedule_Borders"/>
+						</ScheduleBorder>
+						<ScheduleLine>
+							<DatasetPart Family="StructAnnotations" Part="Schedule_Lines"/>
+						</ScheduleLine>
+					</ScheduleTable>
+					<Marks IncludeColumn="true" ColumnMarkPrefix="C" IncludeLocation="true" OnTop="false" OnBottom="true" TextStyle="ArialNarrow-1.3mm" PlotHeight="1.300000">
+						<DatasetPart Family="StructAnnotations" Part="Schedule_Marks"/>
+					</Marks>
+					<SteelSymbols>
+						<SteelBasePlate Cell="Base Plate" PlotSize="7.000000"/>
+						<ColumnSplice Cell="Column Splice" PlotSize="3.500000"/>
+						<SlopedColumn Note="Sloped Column"/>
+					</SteelSymbols>
+					<BasePlateRows Number="2" RowPlotHeight="3.500000"/>
+					<ElevationRows Number="1" RowPlotHeight="6.000000"/>
+					<ScheduleElevations TopOfColumn="true"/>
+					<ScheduleDimensions TopOfColumn="true" TopOfColumnOffset="6.000000" DimensionStyle="ArialNarrow-2.5mm-Con-Arrow-(mm)"/>
+				</SteelColumnSchedule>
+				<ConcreteColumnSchedule>
+					<ScheduleTitle Enabled="true" Title="Concrete Column Schedule" RowPlotHeight="0.500000" TextStyle="ArialNarrow-5.0mm" PlotHeight="6">
+						<DatasetPart Family="StructAnnotations" Part="Schedule_Titles"/>
+					</ScheduleTitle>
+					<ScheduleTable IncludeLateral="true" GroupByType="true" SheetSize="ANSI D" TopMargin="9" BottomMargin="9" MaximumWidth="851" MaximumHeight="500" CellWidth="50.000000">
+						<ScheduleBorder>
+							<DatasetPart Family="StructAnnotations" Part="Schedule_Borders"/>
+						</ScheduleBorder>
+						<ScheduleLine>
+							<DatasetPart Family="StructAnnotations" Part="Schedule_Lines"/>
+						</ScheduleLine>
+					</ScheduleTable>
+					<Marks IncludeColumn="true" ColumnMarkPrefix="C" IncludeLocation="true" OnTop="false" OnBottom="true" TextStyle="ArialNarrow-3.5mm" PlotHeight="3.5">
+						<DatasetPart Family="StructAnnotations" Part="Schedule_Lines"/>
+					</Marks>
+					<ScheduleElevations TopOfColumn="true"/>
+					<ScheduleDimensions TopOfColumn="true" TopOfColumnOffset="6" DimensionStyle="ArialNarrow-2.5mm-Con-Arrow-(mm)"/>
+					<SectionLegend Title="Section Legend" SectionPrefix="T" Scale="50.000000" SectionsPerRow="4">
+						<SectionSymbology>
+							<DatasetPart Family="StructAnnotations" Part="SectionLegend_Section"/>
+						</SectionSymbology>
+						<BarSymbology>
+							<DatasetPart Family="StructAnnotations" Part="SectionLegend_Rebar"/>
+						</BarSymbology>
+						<LabelSymbology TextStyle="ArialNarrow-3.5mm" PlotHeight="3.500000">
+							<DatasetPart Family="StructAnnotations" Part="SectionLegend_Label"/>
+						</LabelSymbology>
+					</SectionLegend>
+				</ConcreteColumnSchedule>
+				<DrawingTemplates>
+					<DrawingTemplate Enabled="true" DrawingType="FramingPlan" Name="Analysis Column Schedule Template"/>
+					<DrawingTemplate Enabled="true" DrawingType="FramingElevation" Name="East Elevation To Master Model"/>
+					<DrawingTemplate Enabled="true" DrawingType="SteelColumnSchedule" Name="Analysis Column Schedule Template"/>
+					<DrawingTemplate Enabled="true" DrawingType="ConcreteColumnSchedule" Name="Analysis Column Schedule Template"/>
+					<DrawingTemplate Enabled="true" DrawingType="Foundation" Name="Foundation Plan Template"/>
+				</DrawingTemplates>
+				<Concrete>
+					<Slabs>
+						<SlabAnnotation>
+							<SlabElevation FramingPlans="true" PlotHeight="3.500000">
+								<AnnotationCells>
+									<AnnotationCell CellType="Elevation" Cell="Top of Slab"/>
+								</AnnotationCells>
+							</SlabElevation>
+							<SlabDirection FramingPlans="true" PlotHeight="3.500000">
+								<AnnotationCells>
+									<AnnotationCell CellType="OneWay" Cell="One Way Slab"/>
+									<AnnotationCell CellType="TwoWay" Cell="Two Way Slab"/>
+									<AnnotationCell CellType="DropPanelThickness" Cell="Drop Panel"/>
+								</AnnotationCells>
+							</SlabDirection>
+						</SlabAnnotation>
+					</Slabs>
+					<Foundations>
+						<FoundationAnnotation>
+							<FoundationElevation FoundationPlans="true" PlotHeight="3.500000">
+								<AnnotationCells>
+									<AnnotationCell CellType="Elevation" Cell="Top of Foundation"/>
+								</AnnotationCells>
+							</FoundationElevation>
+							<FoundationThickness FoundationPlans="true" PlotHeight="3.500000">
+								<AnnotationCells>
+									<AnnotationCell CellType="Thickness" Cell="Foundation Thickness"/>
+								</AnnotationCells>
+							</FoundationThickness>
+							<FoundationDimensions DimensionStyle="ArialNarrow-1.8mm-Con-Slash-(mm)" PlanOffset="3.500000"/>
+						</FoundationAnnotation>
+					</Foundations>
+				</Concrete>
+				<Reinforcements>
+					<ReinforcementCalloutFormats>
+						<ReinforcementCalloutFormat ReinforcementCalloutType="SurfaceByCount" Format="(Q$) N$ x L$ F$"/>
+						<ReinforcementCalloutFormat ReinforcementCalloutType="SurfaceByPolygon" Format="N$ @S$ F$"/>
+					</ReinforcementCalloutFormats>
+					<ReinforcementCallout PlotHeight="2.500000" TextStyle="ArialNarrow-2.5mm" Precision="0">
+						<DatasetPart Family="StructAnnotations" Part="Reinforcement Labels"/>
+					</ReinforcementCallout>
+					<ReinforcementDimensions DimensionStyle="ArialNarrow-2.5mm-Con-Arrow-(mm)" PlanOffset="2.500000"/>
+					<ReinforcementCells>
+						<ReinforcementCell ReinforcementCellType="Bar" Cell="Bar"/>
+						<ReinforcementCell ReinforcementCellType="Hook90" Cell="90 Degree Hook"/>
+						<ReinforcementCell ReinforcementCellType="Hook180" Cell="180 Degree Hook"/>
+						<ReinforcementCell ReinforcementCellType="Hook135" Cell="135 Degree Hook"/>
+						<ReinforcementCell ReinforcementCellType="Anchor" Cell="Anchor"/>
+						<ReinforcementCell ReinforcementCellType="LapSplice" Cell="Lap Splice"/>
+						<ReinforcementCell ReinforcementCellType="OffsetLapSplice" Cell="Offset Lap Splice"/>
+						<ReinforcementCell ReinforcementCellType="MechanicalSplice" Cell="Mechanical Splice"/>
+						<ReinforcementCell ReinforcementCellType="WeldedSplice" Cell="Welded Splice"/>
+					</ReinforcementCells>
+					<ReinforcementAbbreviations>
+						<ReinforcementAbbreviation ReinforcementAbbreviationType="Top" ReinforcementAbbreviation="T"/>
+						<ReinforcementAbbreviation ReinforcementAbbreviationType="Middle" ReinforcementAbbreviation="M"/>
+						<ReinforcementAbbreviation ReinforcementAbbreviationType="Bottom" ReinforcementAbbreviation="B"/>
+					</ReinforcementAbbreviations>
+				</Reinforcements>
+			</SettingsGroup>
+		</SettingsGroups>
+	</DrawingSettings>
+</TriForma>

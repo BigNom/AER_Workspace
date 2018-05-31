@@ -1,0 +1,331 @@
+﻿# This file uses UTF8 encoding. Lines starting with # or $, or ending with =
+# do NOT need translating.
+$utf8
+
+lcodwin_image_renderer=
+Viewport
+
+lcodwin_rapidrt_renderer=
+Autodesk
+
+lcodwin_rapidrt_preprocess_progress_message=
+Preprocessing ...
+
+lcodwin_rapidrt_render_out_of_memory=
+There is not enough memory to complete the render. Increase the amount of available memory and try again.
+
+# notrans
+lcodmfc_font_fallback_list=
+Lucida Sans Unicode,MS UI Gothic,PMingLIU,SimSun,Gulim
+
+# notrans
+lcodmfc_hyperlinktool_res_0=
+/
+
+#First entry will be the default
+#Text description
+lcodmfc_hyperlinktool_res_1=
+Audio 
+
+#How to define these files
+# notrans
+lcodmfc_hyperlinktool_res_101=
+*.wav/*.snd/*.mp3/*.wma/*.ogg/*.mid
+
+#Icon used. 
+#0=Generic Icon
+#1=Audio Icon
+#2=Video Icon
+#3=Web Icon
+#4=NavisWorks Icon
+#5=Image Icon
+# notrans
+lcodmfc_hyperlinktool_res_201=
+1
+
+lcodmfc_hyperlinktool_res_2=
+Video
+
+# notrans
+lcodmfc_hyperlinktool_res_102=
+*.avi/*.mpeg/*.mpg/*.qt/*.mov/*.wmv/*.asf
+
+# notrans
+lcodmfc_hyperlinktool_res_202=
+2
+
+# notrans
+lcodmfc_hyperlinktool_res_3=
+${nwfile}
+
+# notrans
+lcodmfc_hyperlinktool_res_103=
+*.nwd/*.nwf/*.nwc
+
+# notrans
+lcodmfc_hyperlinktool_res_203=
+4
+
+lcodmfc_hyperlinktool_res_4=
+Image
+
+# notrans
+lcodmfc_hyperlinktool_res_104=
+*.bmp/*.dib/*.gif/*.ico/*.cur/*.jpg/*.jpeg/*.png/*.wmf/*.tiff/*.tif/*.tga
+
+# notrans
+lcodmfc_hyperlinktool_res_204=
+5
+
+#www.* and  http:* should come after NavisWorks
+#so http://.../file.nwd etc. gets the *.nwd icon
+# notrans
+lcodmfc_hyperlinktool_res_5=
+HTML
+
+# notrans
+lcodmfc_hyperlinktool_res_105=
+*.htm/*.html/*.htx/*.asp/*.alx/*.stm/*.shtml/www.*/http:*/*.php/https:*/ftp:*
+
+# notrans
+lcodmfc_hyperlinktool_res_205=
+3
+
+lcodmfc_hyperlinktool_res_6=
+Documents
+
+# notrans
+lcodmfc_hyperlinktool_res_106=
+*.doc/*.txt/*.xls/*.rtf/*.ppt/*.pps/*.pub/*.pdf
+
+# notrans
+lcodmfc_hyperlinktool_res_206=
+0
+
+lcodmfc_hyperlinktool_res_7=
+All
+
+# notrans
+lcodmfc_hyperlinktool_res_107=
+*.*
+
+# notrans
+lcodmfc_hyperlinktool_res_207=
+0
+
+#Which filter is the default in browse dialogs
+# notrans
+lcodmfc_hyperlinktool_res_301=
+5
+
+#
+#common win32 resources and strings
+#
+
+ID_WIN32_REDLINE_MENU_DELETE=
+Delete Redline
+
+ID_WIN32_COMMENT_MENU_NEW=
+New
+
+ID_WIN32_COMMENT_MENU_ACTIVE=
+Active
+
+ID_WIN32_COMMENT_MENU_APPROVED=
+Approved
+
+ID_WIN32_COMMENT_MENU_RESOLVED=
+Resolved
+
+ID_WIN32_REDLINE_TEXT_MENU_MOVE=
+Move
+
+ID_WIN32_REDLINE_TEXT_MENU_EDIT=
+Edit
+
+IDS_WIN32_REDLINE_TAG_COMMENT_PLUGIN=
+Redline Tags
+
+IDS_WIN32_REDLINE_TAG_FMT=
+Tag%I64u
+
+IDS_WIN32_REDLINE_TAG_VIEW_FMT=
+Tag View %I64u
+
+IDS_WIN32_REDLINE_TAG_CURRENT_FMT=
+&Current Tag%s%s
+
+IDS_WIN32_REDLINE_TAG_NEXT_FMT=
+&Next Tag%s%s
+
+IDS_WIN32_REDLINE_TAG_PREV_FMT=
+&Previous Tag%s%s
+
+IDS_WIN32_REDLINE_TEXT_ENTER=
+Enter Redline Text
+
+IDS_WIN32_REDLINE_TEXT_EDIT=
+Edit Redline Text
+
+IDS_WIN32_PASSWORDS_DO_NOT_MATCH=
+Passwords do not match 
+
+ID_WIN32_LINK_COMMENT_MAKE_CURRENT=
+Follow Link
+
+ID_WIN32_LINK_HYPERLINK_EXECUTE=
+Follow Link
+
+ID_WIN32_LINK_HYPERLINK_EDIT=
+Select item containing link
+
+ID_WIN32_LINK_HYPERLINK_EDIT2= 
+Edit link
+  
+IDS_WIN32_OM_DUMMY_HYPERLINK=
+Link
+
+IDS_WIN32_FAILED_SHELL_EX=
+Failed to resolve link:
+
+IDS_WIN32_NAVISWORKS_TITLE=
+${producttitle} 
+
+IDD_WIN32_PUBLISH_DLG=
+Publish
+
+IDC_WIN32_PUBDLG_TITLE_STATIC=
+&Title
+
+IDC_WIN32_PUBDLG_SUBJECT_STATIC=
+&Subject
+
+IDC_WIN32_PUBDLG_AUTHOR_STATIC=
+&Author
+
+IDC_WIN32_PUBDLG_PUBLISHER_STATIC=
+&Publisher
+
+IDC_WIN32_PUBDLG_PUBLISHEDFOR_STATIC=
+Published &For
+
+IDC_WIN32_PUBDLG_COPYRIGHT_STATIC=
+&Copyright
+
+IDC_WIN32_PUBDLG_KEYWORDS_STATIC=
+&Keywords
+
+IDC_WIN32_PUBDLG_COMMENTS_STATIC=
+Co&mments
+
+IDC_WIN32_PUBDLG_PASSWORD_STATIC=
+Pass&word
+
+IDC_WIN32_PUBDLG_DISPLAY_AT_PASSWORD=
+&Display at password
+
+IDC_WIN32_PUBDLG_EXPIRY_DATE_CHECK=
+&Expires
+
+IDC_WIN32_PUBDLG_RESAVE=
+May be &re-saved
+
+IDC_WIN32_PUBDLG_DISPLAY=
+Display on &open
+
+IDC_WIN32_PUBDLG_PREVENT_PROPS=
+Pre&vent Object Property Export
+
+IDC_WIN32_PUBDLG_EMBED_TEXTURES=
+Embed Te&xtures
+
+IDC_WIN32_PUBDLG_EMBED_DATABASE=
+Em&bed Database Properties
+
+IDD_WIN32_PASSWORD_DLG=
+Password
+
+IDC_WIN32_PWDDLG_CONFIRM_STATIC=
+Confirm Password:
+
+IDC_WIN32_PWDDLG_PASSWORD_STATIC=
+Enter Password:
+
+IDC_WIN32_IDOK=
+OK
+
+IDC_WIN32_IDCANCEL=
+Cancel
+
+IDC_WIN32_HELP=
+&Help
+
+IDD_WIN32_XREF_DLG=
+Resolve
+
+IDC_WIN32_XREFDLG_IGNORE=
+&Ignore
+
+IDC_WIN32_XREFDLG_IGNORE_ALL=
+Ignore &All
+
+IDC_WIN32_XREFDLG_BROWSE=
+Browse...
+
+IDC_WIN32_XREFDLG_STATIC1=
+Can't resolve external reference:
+
+IDC_WIN32_EDIT_COMMENT_TITLE=
+Edit Comment
+
+IDD_WIN32_CULLING_DLG=
+Culling Options
+
+IDD_WIN32_CULLING_DLG_INVALID_FLOAT=
+Please enter a number
+
+IDC_WIN32_CULLDLG_STATIC1=
+Area
+ 
+IDC_WIN32_CULLDLG_STATIC2=
+Backface
+
+IDC_WIN32_CULLDLG_STATIC3=
+Near Clip Plane
+
+IDC_WIN32_CULLDLG_STATIC4=
+Far Clip Plane
+
+IDC_WIN32_CULLDLG_STATIC5=
+Number of pixels below which objects are culled: 
+
+IDC_WIN32_CULLDLG_STATIC6=
+Furthest distance:
+
+IDC_WIN32_CULLDLG_STATIC7=
+Closest distance:
+
+
+IDC_WIN32_CULLDLG_BACKFACE0=
+Off
+
+IDC_WIN32_CULLDLG_BACKFACE1=
+Solid
+
+IDC_WIN32_CULLDLG_BACKFACE2=
+On
+
+IDC_WIN32_CULLDLG_DEFAULTS=
+Defaults
+
+IDC_WIN32_CULLDLG_NEAR_AUTO=
+Automatically generated
+
+IDC_WIN32_CULLDLG_FAR_AUTO=
+Automatically generated
+   
+IDC_WIN32_CULLDLG_AREA_ENABLE=
+Enable
+
+IDS_WIN32_PUBLISH_HISTORICAL_EXPIRY_DATE=
+The expiry date can't be in the past

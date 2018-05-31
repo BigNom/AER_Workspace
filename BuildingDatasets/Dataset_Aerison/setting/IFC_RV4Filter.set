@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------------------------------+
+|
+|   IFC EXPORT IFC4 Reference View filter
+|
+|---------------------------------------------------------------------------------------
+|   
+|   
+|
+|   
+|
++--------------------------------------------------------------------------------------*/
+
+VERSION 2.2
+
+FILE_DESCRIPTION "ViewDefinition [ReferenceView, SpaceBoundary2ndLevelAddOnView]";
+	
+EXCLUDE_DOMAIN
+    IfcAdvancedFace
+    //IfcFace	
+    IfcRelSpaceBoundary2ndLevel
+    IfcRelSpaceBoundary1stLevel
+    IfcRelSpaceBoundary
+    IfcCompositeProfileDef
+    IfcSurfaceStyle
+
+
+SYSTEMS    
+	"Properties/@SystemId"
+	"BBES_Equipment_Schedule/@Circuit_ID"
+
+

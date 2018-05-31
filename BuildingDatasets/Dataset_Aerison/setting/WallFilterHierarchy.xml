@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Triforma>
+	<FilterHierarchy>
+		<Node name="Generic Wall Types">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Walls/@WallType</Property>
+				<Value>Generic Walls</Value>
+			</Test>
+			<Node name="Block">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Block</Value>
+				</Test>
+			</Node>
+			<Node name="Brick">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Brick</Value>
+				</Test>
+			</Node>
+			<Node name="Cladding">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>CSR</Value>
+				</Test>
+			</Node>
+			<Node name="Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Concrete Masonry Unit">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Concrete Masonry Unit</Value>
+				</Test>
+			</Node>
+			<Node name="Lightweight Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Lightweight Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Lightweight Partitions">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Composite</Value>
+				</Test>
+			</Node>
+			<Node name="Glazing">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Glass</Value>
+				</Test>
+			</Node>
+			<Node name="Partitions">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Partitions</Value>
+				</Test>
+			</Node>
+			<Node name="Plasterboard and Stud">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Plasterboard and Stud</Value>
+				</Test>
+			</Node>
+			<Node name="Precast Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Precast Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Reinforced Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Reinforced Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Stone">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Stone</Value>
+				</Test>
+			</Node>
+			<Node name="Timber">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Timber</Value>
+				</Test>
+			</Node>
+		</Node>
+		<Node name="Single Layer Walls">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Wall_Common/@IsCompound</Property>
+				<Value>false</Value>
+			</Test>
+			<Node name="Aluminum">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Aluminum</Value>
+				</Test>
+			</Node>
+			<Node name="Block">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Block</Value>
+				</Test>
+			</Node>
+			<Node name="Brick">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Brick</Value>
+				</Test>
+			</Node>
+			<Node name="Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Concrete Masonry Unit">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Concrete Masonry Unit</Value>
+				</Test>
+			</Node>
+			<Node name="CSR">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>CSR</Value>
+				</Test>
+			</Node>
+			<Node name="Glass">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Glass</Value>
+				</Test>
+			</Node>
+			<Node name="James Hardie">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>James Hardie</Value>
+				</Test>
+			</Node>
+			<Node name="Joinery">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Joinery</Value>
+				</Test>
+			</Node>
+			<Node name="Light Gauge Steel">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Light Guage Steel</Value>
+				</Test>
+			</Node>
+			<Node name="Lightweight Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Lightweight Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Metal">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Metal</Value>
+				</Test>
+			</Node>
+			<Node name="Partitions">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Partitions</Value>
+				</Test>
+			</Node>
+			<Node name="Plasterboards">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Plasterboard</Value>
+				</Test>
+			</Node>
+			<Node name="Plasterboard and Stud">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Plasterboard and Stud</Value>
+				</Test>
+			</Node>
+			<Node name="Precast Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Precast Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Reinforced Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Reinforced Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Schematic">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Schematic</Value>
+				</Test>
+			</Node>
+			<Node name="Steel">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Steel</Value>
+				</Test>
+			</Node>
+			<Node name="Steel Joist">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Steel Joist</Value>
+				</Test>
+			</Node>
+			<Node name="Stone">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Stone</Value>
+				</Test>
+			</Node>
+			<Node name="Timber">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Timber</Value>
+				</Test>
+			</Node>
+			<Node name="Thermomass">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Thermomass</Value>
+				</Test>
+			</Node>
+		</Node>
+		<Node name="Compound Walls">
+			<AllowsChildren>true</AllowsChildren>
+			<Test>
+				<Property>Wall_Common/@IsCompound</Property>
+				<Value>true</Value>
+			</Test>
+			<Node name="Aluminum">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Aluminum</Value>
+				</Test>
+			</Node>
+			<Node name="Block">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Block</Value>
+				</Test>
+			</Node>
+			<Node name="Boral">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Boral</Value>
+				</Test>
+			</Node>
+			<Node name="Brick">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Brick</Value>
+				</Test>
+			</Node>
+			<Node name="CSR">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>CSR</Value>
+				</Test>
+			</Node>
+			<Node name="Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Concrete Masonry Unit">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Concrete Masonry Unit</Value>
+				</Test>
+			</Node>
+			<Node name="Glass">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Glass</Value>
+				</Test>
+			</Node>
+			<Node name="James Hardie">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>James Hardie</Value>
+				</Test>
+			</Node>
+			<Node name="Joinery">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Joinery</Value>
+				</Test>
+			</Node>
+			<Node name="Light Gauge Steel">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Light Guage Steel</Value>
+				</Test>
+			</Node>
+			<Node name="Lightweight Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Lightweight Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Metal">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Metal</Value>
+				</Test>
+			</Node>
+			<Node name="Partitions">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Partitions</Value>
+				</Test>
+			</Node>
+			<Node name="Plasterboards">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Plasterboard</Value>
+				</Test>
+			</Node>
+			<Node name="Plasterboard and Stud">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Plasterboard and Stud</Value>
+				</Test>
+			</Node>
+			<Node name="Precast Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Precast Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Retaining Wall">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Retaining Wall</Value>
+				</Test>
+			</Node>
+			<Node name="Reinforced Concrete">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Reinforced Concrete</Value>
+				</Test>
+			</Node>
+			<Node name="Schematic">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Schematic</Value>
+				</Test>
+			</Node>
+			<Node name="Steel">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Steel</Value>
+				</Test>
+			</Node>
+			<Node name="Steel Joist">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Steel Joist</Value>
+				</Test>
+			</Node>
+			<Node name="Strip Footing">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Strip Footing</Value>
+				</Test>
+			</Node>
+			<Node name="Stone">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Stone</Value>
+				</Test>
+			</Node>
+			<Node name="Timber">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Timber</Value>
+				</Test>
+			</Node>
+			<Node name="Thermomass">
+				<AllowsChildren>true</AllowsChildren>
+				<Test>
+					<Property>ObjectStructuralUsage/@StructuralMaterial</Property>
+					<Value>Thermomass</Value>
+				</Test>
+			</Node>
+		</Node>
+	</FilterHierarchy>
+</Triforma>

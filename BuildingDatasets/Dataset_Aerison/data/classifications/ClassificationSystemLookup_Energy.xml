@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Classifications>
+    <Type name="EnergySpaceType">
+        <Files>
+	<File name="ASHRAE 2004.xml"/>
+	<File name="ASHRAE 2007.xml"/>
+	<File name="ASHRAE 2010.xml"/>
+	<File name="CIBSE.xml"/>
+        </Files>
+    </Type>
+</Classifications>

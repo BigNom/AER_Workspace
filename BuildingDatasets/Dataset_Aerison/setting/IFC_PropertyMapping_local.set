@@ -1,0 +1,23 @@
+# Dataset_common					
+# ================================================================================					
+#					
+# Dataset-specific AECOsim Building Designer DataGroup Property Mappings to IFC Pset properties					
+# for IFC Export					
+#					
+# $RCSfile: IFC_PropertyMapping_local.set,v $					
+# $Revision: 1.1 $					
+#					
+# $Copyright: (c) 2015 Bentley Systems, Incorporated. All rights reserved. $					
+# ================================================================================					
+#					
+# Syntax:					
+# DGtype	DGitem	IFC pset	IFC property	IFC format	Mapped DG property
+#					
+# ================================================================================
+#					
+Door	*	Pset_DoorCommon	FireExit	IfcBoolean	Door/Door/@DoorEgress
+Door	*	Pset_DoorCommon	FireRating	IfcLabel	Door/Door/@DoorRating
+Space	*	Pset_SpaceCommon	CeilingCovering	IfcLabel	Space/Ceiling/@CeilingFinish
+Space	*	Pset_SpaceCommon	FloorCovering	IfcLabel	Space/FloorFinish/@FloorFinish
+#
+REPLACE_IN_MAPPING_STRING	STRUCTURAL_VALUE	Structural

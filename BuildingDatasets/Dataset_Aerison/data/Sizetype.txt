@@ -1,0 +1,26 @@
+;
+; Duct Types
+;
+; This file is read by the Duct Sizer dialog box for use in selecting the 
+; duct type to be sized.  The user can modify this file as needed.  Note 
+; that any blank line or a line starting with a semi-colon is a comment 
+; line and will be ignored.  Also, if a line contains a semi-colon, all 
+; text from the semi-colon on will be ignored.	The following format 
+; must be maintained when editing this file:
+;
+;   duct type,pd,fpm,class,transition
+;
+; Each column must be seperated by a comma.
+;
+
+; Transfers
+Transfer,0.03,1000,1",8000
+
+; Returns
+Return/exhaust,0.08,1300,2",3000
+
+; Supplies
+Supply LV,0.1,1300,1",3000      ; Comments can also go here
+Supply MP,0.4,2500,4",4500
+Supply Loop,0.5,2500,4",3000
+Supply HP,0.6,3000,4",5500

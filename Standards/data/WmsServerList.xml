@@ -1,0 +1,36 @@
+<!DOCTYPE WmsServers>
+<WmsServers>
+  <Server>
+    <GetCapabilitiesUrl>http://b5m.gipuzkoa.net/wms/gipuzkoa_wms</GetCapabilitiesUrl>
+  </Server>
+  <Server>
+    <GetCapabilitiesUrl>http://cgns.nrcan.gc.ca/wms/cubeserv.cgi</GetCapabilitiesUrl>
+  </Server>
+  <Server>
+    <GetCapabilitiesUrl>http://deli.dnr.state.mn.us/cgi-bin/wms?map=DELI_WMS_MAPFILE&amp;</GetCapabilitiesUrl>
+  </Server>
+  <Server>
+    <GetCapabilitiesUrl>http://demo.cubewerx.com/demo/cubeserv/cubeserv.cgi</GetCapabilitiesUrl>
+  </Server>
+  <Server>
+    <GetCapabilitiesUrl>http://geoint.lmic.state.mn.us/cgi-bin/wms</GetCapabilitiesUrl>
+  </Server>
+  <Server>
+    <GetCapabilitiesUrl>http://maps.customweather.com/image</GetCapabilitiesUrl>
+  </Server>
+  <Server>
+    <GetCapabilitiesUrl>http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx</GetCapabilitiesUrl>
+  </Server>
+  <Server>
+    <GetCapabilitiesUrl>http://www.geographynetwork.ca/wmsconnector/com.esri.wms.Esrimap/OBM_Full_I</GetCapabilitiesUrl>
+  </Server>
+  <Server>
+    <GetCapabilitiesUrl>http://www.idee.es/wms/IGN-Corine/IGN-Corine</GetCapabilitiesUrl>
+  </Server>
+  <Server>
+    <GetCapabilitiesUrl>http://www.opengis.uab.es/cgi-bin/iberia/MiraMon5_0.cgi</GetCapabilitiesUrl>
+  </Server>
+  <Server>
+    <GetCapabilitiesUrl>http://www2.demis.nl/wms/wms.asp?wms=WorldMap&amp;</GetCapabilitiesUrl>
+  </Server>
+</WmsServers>

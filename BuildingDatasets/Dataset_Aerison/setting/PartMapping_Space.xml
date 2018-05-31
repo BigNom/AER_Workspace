@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!-- This is a sample Part Mapping file. This file was introduced with the addition
+     of the Forward and Reflective View hatching capability. Since there is no field in 
+     the Part schema today to allow a user to identify a hatch pattern for Forward and 
+     Reflected views. This capability is accomplished with the part mapping file. This 
+     contains a series of records. Each record has a Section Part Element the contains
+     a ForwardPart Element and a ReflectedPart Element. Each of the elements has an 
+     attribute family="..." and part="...". These attributes are Family and Part names that
+     exist in the current dataset. Entities that are extracted into the Forward view and 
+     have a part assigned to them that matches the SectionPart are created using the 
+     properties of the FowardPart entry. This includes symbology and hatching attributes. 
+     The same is true for elements in the Reflected view. Fill attributes do not apply 
+     to the foward or reflected view. -->
+<TriForma>
+	<SectionParts>
+		<Version major="1" minor="1"/>
+		<SectionPart family="Spaces" part="Administration">
+			<ForwardPart family="Spaces" part="Hatch Administration"/>
+			<ReflectedPart family="Spaces" part="Hatch Administration"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Atrium">
+			<ForwardPart family="Spaces" part="Hatch Atrium"/>
+			<ReflectedPart family="Spaces" part="Hatch Atrium"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Auditorium">
+			<ForwardPart family="Spaces" part="Hatch Auditorium"/>
+			<ReflectedPart family="Spaces" part="Hatch Auditorium"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Balcony">
+			<ForwardPart family="Spaces" part="Hatch Balcony"/>
+			<ReflectedPart family="Spaces" part="Hatch Balcony"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Bed Room">
+			<ForwardPart family="Spaces" part="Hatch Bed Room"/>
+			<ReflectedPart family="Spaces" part="Hatch Bed Room"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Canteen">
+			<ForwardPart family="Spaces" part="Hatch Canteen"/>
+			<ReflectedPart family="Spaces" part="Hatch Canteen"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Car Park">
+			<ForwardPart family="Spaces" part="Hatch Car Park"/>
+			<ReflectedPart family="Spaces" part="Hatch Car Park"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Circulation_H">
+			<ForwardPart family="Spaces" part="Hatch Circulation_H"/>
+			<ReflectedPart family="Spaces" part="Hatch Circulation_H"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Circulation_V">
+			<ForwardPart family="Spaces" part="Hatch Circulation Vertical"/>
+			<ReflectedPart family="Spaces" part="Hatch Circulation Vertical"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Classroom">
+			<ForwardPart family="Spaces" part="Hatch Classroom"/>
+			<ReflectedPart family="Spaces" part="Hatch Classroom"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Clinic">
+			<ForwardPart family="Spaces" part="Hatch Clinic"/>
+			<ReflectedPart family="Spaces" part="Hatch Clinic"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Condominium">
+			<ForwardPart family="Spaces" part="Hatch Condominium"/>
+			<ReflectedPart family="Spaces" part="Hatch Condominium"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Conference">
+			<ForwardPart family="Spaces" part="Hatch Conference"/>
+			<ReflectedPart family="Spaces" part="Hatch Conference"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Corridor">
+			<ForwardPart family="Spaces" part="Hatch Corridor"/>
+			<ReflectedPart family="Spaces" part="Hatch Corridor"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Dining">
+			<ForwardPart family="Spaces" part="Hatch Dining"/>
+			<ReflectedPart family="Spaces" part="Hatch Dining"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Educational">
+			<ForwardPart family="Spaces" part="Hatch Educational"/>
+			<ReflectedPart family="Spaces" part="Hatch Educational"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Ensuite">
+			<ForwardPart family="Spaces" part="Hatch Ensuite"/>
+			<ReflectedPart family="Spaces" part="Hatch Ensuite"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Entry">
+			<ForwardPart family="Spaces" part="Hatch Entry"/>
+			<ReflectedPart family="Spaces" part="Hatch Entry"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Family">
+			<ForwardPart family="Spaces" part="Hatch Family"/>
+			<ReflectedPart family="Spaces" part="Hatch Family"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Foyer">
+			<ForwardPart family="Spaces" part="Hatch Foyer"/>
+			<ReflectedPart family="Spaces" part="Hatch Foyer"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Hall">
+			<ForwardPart family="Spaces" part="Hatch Hall"/>
+			<ReflectedPart family="Spaces" part="Hatch Hall"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Health Centers">
+			<ForwardPart family="Spaces" part="Hatch Health Centers"/>
+			<ReflectedPart family="Spaces" part="Hatch Health Centers"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Hospitals">
+			<ForwardPart family="Spaces" part="Hatch Hospitals"/>
+			<ReflectedPart family="Spaces" part="Hatch Hospitals"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Hospitals Emergency">
+			<ForwardPart family="Spaces" part="Hatch Hospitals Emergency"/>
+			<ReflectedPart family="Spaces" part="Hatch Hospitals Emergency"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Hospitals ICU">
+			<ForwardPart family="Spaces" part="Hatch Hospitals ICU"/>
+			<ReflectedPart family="Spaces" part="Hatch Hospitals ICU"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Hospitals Wards">
+			<ForwardPart family="Spaces" part="Hatch Hospitals Wards"/>
+			<ReflectedPart family="Spaces" part="Hatch Hospitals Wards"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Hotels">
+			<ForwardPart family="Spaces" part="Hatch Hotels"/>
+			<ReflectedPart family="Spaces" part="Hatch Hotels"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Kitchen">
+			<ForwardPart family="Spaces" part="Hatch Kitchen"/>
+			<ReflectedPart family="Spaces" part="Hatch Kitchen"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Laboratory">
+			<ForwardPart family="Spaces" part="Hatch Laboratory"/>
+			<ReflectedPart family="Spaces" part="Hatch Laboratory"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Laundry">
+			<ForwardPart family="Spaces" part="Hatch Laundry"/>
+			<ReflectedPart family="Spaces" part="Hatch Laundry"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Library">
+			<ForwardPart family="Spaces" part="Hatch Library"/>
+			<ReflectedPart family="Spaces" part="Hatch Library"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Living Room">
+			<ForwardPart family="Spaces" part="Hatch Living Room"/>
+			<ReflectedPart family="Spaces" part="Hatch Living Room"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Bed Lobby">
+			<ForwardPart family="Spaces" part="Hatch Lobby"/>
+			<ReflectedPart family="Spaces" part="Hatch Lobby"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Maids Room">
+			<ForwardPart family="Spaces" part="Hatch Maids Room"/>
+			<ReflectedPart family="Spaces" part="Hatch Maids Room"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Master Bedroom">
+			<ForwardPart family="Spaces" part="Hatch Master Bedroom"/>
+			<ReflectedPart family="Spaces" part="Hatch Master Bedroom"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Mechanical">
+			<ForwardPart family="Spaces" part="Hatch Mechanical"/>
+			<ReflectedPart family="Spaces" part="Hatch Mechanical"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Office">
+			<ForwardPart family="Spaces" part="Hatch Office"/>
+			<ReflectedPart family="Spaces" part="Hatch Office"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Office_general">
+			<ForwardPart family="Spaces" part="Hatch Office_general"/>
+			<ReflectedPart family="Spaces" part="Hatch Office_general"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Plant Room">
+			<ForwardPart family="Spaces" part="Hatch Plant Room"/>
+			<ReflectedPart family="Spaces" part="Hatch Plant Room"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Powder Room">
+			<ForwardPart family="Spaces" part="Hatch Powder Room"/>
+			<ReflectedPart family="Spaces" part="Hatch Powder Room"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Public">
+			<ForwardPart family="Spaces" part="Hatch Public"/>
+			<ReflectedPart family="Spaces" part="Hatch Public"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Reception">
+			<ForwardPart family="Spaces" part="Hatch Reception"/>
+			<ReflectedPart family="Spaces" part="Hatch Reception"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Recreation">
+			<ForwardPart family="Spaces" part="Hatch Recreation"/>
+			<ReflectedPart family="Spaces" part="Hatch Recreation"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Religious">
+			<ForwardPart family="Spaces" part="Hatch Religious"/>
+			<ReflectedPart family="Spaces" part="Hatch Religious"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Residential">
+			<ForwardPart family="Spaces" part="Hatch Residential"/>
+			<ReflectedPart family="Spaces" part="Hatch Residential"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Restaurant">
+			<ForwardPart family="Spaces" part="Hatch Restaurant"/>
+			<ReflectedPart family="Spaces" part="Hatch Restaurant"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Restroom">
+			<ForwardPart family="Spaces" part="Hatch Restroom"/>
+			<ReflectedPart family="Spaces" part="Hatch Restroom"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Shops_general">
+			<ForwardPart family="Spaces" part="Hatch Shops_general"/>
+			<ReflectedPart family="Spaces" part="Hatch Shops_general"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Sports Complex">
+			<ForwardPart family="Spaces" part="Hatch Sports Complex"/>
+			<ReflectedPart family="Spaces" part="Hatch Sports Complex"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Staff Room">
+			<ForwardPart family="Spaces" part="Hatch Staff Room"/>
+			<ReflectedPart family="Spaces" part="Hatch Staff Room"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Staircase">
+			<ForwardPart family="Spaces" part="Hatch Staircase"/>
+			<ReflectedPart family="Spaces" part="Hatch Staircase"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Store">
+			<ForwardPart family="Spaces" part="Hatch Store"/>
+			<ReflectedPart family="Spaces" part="Hatch Store"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Studio">
+			<ForwardPart family="Spaces" part="Hatch Studio"/>
+			<ReflectedPart family="Spaces" part="Hatch Studio"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Study">
+			<ForwardPart family="Spaces" part="Hatch Study"/>
+			<ReflectedPart family="Spaces" part="Hatch Study"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Terrace">
+			<ForwardPart family="Spaces" part="Hatch Terrace"/>
+			<ReflectedPart family="Spaces" part="Hatch Terrace"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Theatre">
+			<ForwardPart family="Spaces" part="Hatch Theatre"/>
+			<ReflectedPart family="Spaces" part="Hatch Theatre"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Toilets">
+			<ForwardPart family="Spaces" part="Hatch Toilets"/>
+			<ReflectedPart family="Spaces" part="Hatch Toilets"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Training Room">
+			<ForwardPart family="Spaces" part="Hatch Training Room"/>
+			<ReflectedPart family="Spaces" part="Hatch Training Room"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Utility">
+			<ForwardPart family="Spaces" part="Hatch Utility"/>
+			<ReflectedPart family="Spaces" part="Hatch Utility"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Utility_Ammenities">
+			<ForwardPart family="Spaces" part="Hatch Utility_Ammenities"/>
+			<ReflectedPart family="Spaces" part="Hatch Utility_Ammenities"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Walk in Closet">
+			<ForwardPart family="Spaces" part="Hatch Walk in Closet"/>
+			<ReflectedPart family="Spaces" part="Hatch Walk in Closet"/>
+		</SectionPart>
+		<SectionPart family="Spaces" part="Workshop">
+			<ForwardPart family="Spaces" part="Hatch Workshop"/>
+			<ReflectedPart family="Spaces" part="Hatch Workshop"/>
+		</SectionPart>
+	</SectionParts>
+</TriForma>

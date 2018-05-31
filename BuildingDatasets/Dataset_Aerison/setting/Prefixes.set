@@ -1,0 +1,14 @@
+# =====================================================================================
+# This file is used by the Dataset Upgrade Utility to remove prefixes from:
+# a) file names, e.g. file 'us_ncs_Space.xsd' will be changed to 'Space.xsd'
+# b) strings within files, e.g. string '<xs:element name="us_ncs_Space"> will be changed to <xs:element name="Space">
+# 
+# Additional prefixes can be added to this list.
+# =====================================================================================  
+us_ncs_
+Uniclass_
+Uniclass-
+Cisfb_
+AUS_
+
+

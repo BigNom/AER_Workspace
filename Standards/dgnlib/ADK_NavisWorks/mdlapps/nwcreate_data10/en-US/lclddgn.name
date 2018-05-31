@@ -1,0 +1,291 @@
+﻿# This file uses UTF8 encoding. Lines starting with # or $, or ending with =
+# do NOT need translating.
+$utf8
+# 
+# Moved from lclddgn.cfg
+# 
+#########################################
+
+
+lclddgn_ET_DGN_CELL=
+Cell
+
+lclddgn_ET_DGN_LINE=
+Line
+
+lclddgn_ET_DGN_LINE_STRING=
+Line String
+
+lclddgn_ET_DGN_SHAPE=
+Shape
+
+lclddgn_ET_DGN_TEXT_NODE=
+Text Node
+
+lclddgn_ET_DGN_LEV_SYM=
+Level
+
+lclddgn_ET_DGN_CURVE=
+Curve
+
+lclddgn_ET_DGN_COMPLEX_STRING=
+Complex String
+
+lclddgn_ET_DGN_CONIC=
+Conic
+
+lclddgn_ET_DGN_COMPLEX_SHAPE=
+Complex Shape
+
+lclddgn_ET_DGN_ELLIPSE=
+Ellipse
+
+lclddgn_ET_DGN_ARC=
+Arc
+
+lclddgn_ET_DGN_TEXT=
+Text
+
+lclddgn_ET_DGN_SURFACE=
+Surface
+
+lclddgn_ET_DGN_SOLID=
+Solid
+
+lclddgn_ET_DGN_BSPLINE_POLE=
+B-Spline Pole
+
+lclddgn_ET_DGN_POINT_STRING=
+Point
+
+lclddgn_ET_DGN_CONE=
+Cone
+
+lclddgn_ET_DGN_BSPLINE_SURFACE=
+B-Spline Surface
+
+lclddgn_ET_DGN_BSURF_BOUNDARY=
+B-Spline Boundary
+
+lclddgn_ET_DGN_BSPLINE_KNOT=
+B-Spline Knot
+
+lclddgn_ET_DGN_BSPLINE_CURVE=
+B-Spline Curve
+
+lclddgn_ET_DGN_BSPLINE_WEIGHT=
+B-Spline Weight
+
+lclddgn_ET_DGN_DIMENSION=
+Dimension
+
+lclddgn_ET_DGN_SHARED_CELL_DEF=
+Shared Cell Definition
+
+lclddgn_ET_DGN_SHARED_CELL=
+Shared Cell
+
+lclddgn_ET_DGN_MULTILINE=
+Multiline
+
+lclddgn_ET_DGN_ATTRIBUTE=
+Tag
+
+lclddgn_ET_DGN_BREP=
+SmartSolid
+
+lclddgn_ET_DGN_VIEW_GROUP=
+View Group
+
+lclddgn_ET_DGN_VIEW=
+View
+
+lclddgn_ET_DGN_REFERENCE_ATTACH=
+Reference
+
+lclddgn_ET_DGN_MESH_HEADER=
+Mesh
+
+lclddgn_ET_DGN_SHAPE_SET=
+Shape Set
+
+lclddgn_ET_DGN_LINE_SET=
+Line Set
+
+lclddgn_ET_DGN_ARC_SET=
+Arc Set
+
+lclddgn_ET_DGN_CURVE_SET=
+Curve Set
+
+lclddgn_ET_DGN_BSPLINE_SHAPE=
+B-Spline Shape
+
+lclddgn_ET_DGN_BSPLINE_SET=
+B-Spline Set
+
+lclddgn_ET_DGN_POINT_SET=
+Point Set
+
+lclddgn_group=
+Group
+
+lclddgn_level=
+Level
+
+lclddgn_writing_nwd=
+Writing NWD File...
+
+lclddgn_writing_nwc=
+Writing NWC File...
+
+lclddgn_exporting=
+Exporting
+
+lclddgn_loading=
+Loading
+
+lclddgn_tf_id=
+ID
+
+lclddgn_tf_family=
+Family
+
+lclddgn_tf_part=
+Part
+
+lclddgn_tf_structural=
+Structural
+
+lclddgn_tf_section=
+Section Name
+
+lclddgn_pds_compdata=
+PDS Component Data
+
+lclddgn_mat_material=
+Material
+
+lclddgn_mat_colour=
+Color
+
+lclddgn_reference=
+Reference
+
+lclddgn_ref_slot=
+Slot
+
+lclddgn_ref_pathname=
+Pathname
+
+lclddgn_ref_desc=
+Description
+
+lclddgn_ref_logical=
+Logical Name
+
+lclddgn_res_converted=
+Converted
+
+lclddgn_res_failed=
+Failed
+
+lclddgn_res_ignored=
+Ignored
+
+lclddgn_model_default=
+Default
+
+lclddgn_elementid=
+Element ID
+
+lclddgn_microstation_props=
+MicroStation
+
+lclddgn_uors_per_master=
+UORs per Master
+
+lclddgn_model_name=
+Model Name
+
+lclddgn_err_1=
+Multiple design models in file.
+
+lclddgn_err_2=
+2D files not supported.
+
+lclddgn_db_entity=
+Entity
+
+lclddgn_db_mslink_key=
+MSLINK Key
+
+
+lcuopt:lclddgn8_param_faceting_factor=
+Faceting Factor
+
+lcuopt:lclddgn8_param_max_facet_deviation=
+Max Facet Deviation
+
+lcuopt:lclddgn8_param_convert_hidden_items=
+Convert Hidden Items
+
+lcuopt:lclddgn8_param_show_hidden_items=
+Show Hidden Items
+
+lcuopt:lclddgn8_param_load_lines=
+Convert Lines and Arcs
+
+lcuopt:lclddgn8_param_merge_lines=
+Merge Lines and Arcs
+
+lcuopt:lclddgn8_param_split_lines=
+Split Lines
+
+lcuopt:lclddgn8_param_load_text=
+Convert Text
+
+lcuopt:lclddgn8_param_default_font=
+Default Font
+
+lcuopt:lclddgn8_param_shape_merge_threshold=
+Shape Merge Threshold
+
+lcuopt:lclddgn8_param_load_references=
+Convert References
+
+lcuopt:lclddgn8_param_ignore_unres_refs=
+Ignore Unres. References
+
+lcuopt:lclddgn8_param_align_global_origins=
+Align Global Origins
+
+lcuopt:lclddgn8_param_use_level_symbology=
+Use Level Symbology
+
+lcuopt:lclddgn8_param_use_materials=
+Use Materials
+
+lcuopt:lclddgn8_param_material_search_paths=
+Material Search Paths
+
+lcuopt:lclddgn8_param_convert_pds=
+Convert PDS Data
+
+lcuopt:lclddgn8_param_convert_tricad=
+Convert TriCAD Data
+
+lcuopt:lclddgn8_param_convert_triforma=
+Convert TriForma Data
+
+lcuopt:lclddgn8_param_triforma_catalogs_search_path=
+TriForma Dataset Search Paths
+
+lcuopt:lclddgn8_param_view_number=
+View Number
+
+# this name is required for invoking the GlobalOptions editor from the exporter
+# the outer options set defined in the xml file passed to the editor will
+# look for its localised name under this entry
+lcuopt:nwexportustn=
+DGN

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BMECH_STANDARDSIZESPATH Points to this xml -->
+<StandardSizes>
+	<Version major="1" minor="0"/>
+	<List>
+		<Category name="transition">
+			<SubCategory name="standardlength" unit="mm">
+				<Size type="single" value="80"/>
+				<Size type="single" value="115"/>
+				<Size type="single" value="224"/>
+				<Size type="single" value="250"/>
+				<Size type="single" value="280"/>
+				<Size type="single" value="310"/>
+				<Size type="single" value="355"/>
+				<Size type="single" value="400"/>
+				<Size type="single" value="450"/>
+				<Size type="single" value="500"/>
+				<Size type="single" value="550"/>
+				<Size type="single" value="610"/>
+				<Size type="range" fromValue="650" toValue="850" increment="50"/>
+				<Size type="incremental" fromValue="850" increment="50"/>
+			</SubCategory>
+		</Category>
+	</List>
+	<Mapping>
+		<CatalogItem discipline="ventilation" type="RectangularTransition" name="Centric Reducer">
+			<Property name="CustomParamRectTransition/TotalLength" xpath="/StandardSizes/List/Category[@name='transition']/SubCategory[@name='standardlength']"/>
+		</CatalogItem>
+		<CatalogItem discipline="ventilation" type="RectOvalTransition" name="RectToOval">
+			<Property name="CustomParamRectTransition/TotalLength" xpath="/StandardSizes/List/Category[@name='transition']/SubCategory[@name='standardlength']"/>
+		</CatalogItem>
+		<CatalogItem discipline="ventilation" type="RectRndTransition" name="RectToRnd">
+			<Property name="CustomParamRectTransition/TotalLength" xpath="/StandardSizes/List/Category[@name='transition']/SubCategory[@name='standardlength']"/>
+		</CatalogItem>
+		<CatalogItem discipline="ventilation" type="OvalTransition" name="Centric Reducer">
+			<Property name="CustomParamRectTransition/TotalLength" xpath="/StandardSizes/List/Category[@name='transition']/SubCategory[@name='standardlength']"/>
+		</CatalogItem>
+		<CatalogItem discipline="ventilation" type="OvlRndTransition" name="Oval Round">
+			<Property name="CustomParamRectTransition/TotalLength" xpath="/StandardSizes/List/Category[@name='transition']/SubCategory[@name='standardlength']"/>
+		</CatalogItem>
+		<CatalogItem discipline="ventilation" type="RndOvlTransition" name="Round Oval">
+			<Property name="CustomParamRectTransition/TotalLength" xpath="/StandardSizes/List/Category[@name='transition']/SubCategory[@name='standardlength']"/>
+		</CatalogItem>
+		<CatalogItem discipline="ventilation" type="RoundTransition" name="Centric Reducer">
+			<Property name="CustomParamRectTransition/TotalLength" xpath="/StandardSizes/List/Category[@name='transition']/SubCategory[@name='standardlength']"/>
+		</CatalogItem>
+	</Mapping>
+</StandardSizes>

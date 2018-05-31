@@ -1,0 +1,343 @@
+150UB14.0                     UB150X14.0      ST
+180UB16.1                     UB180X16.1      ST
+150UB18.0                     UB150X18.0      ST
+180UB18.1                     UB180X18.1      ST
+200UB18.2                     UB200X18.2      ST
+180UB22.2                     UB180X22.2      ST
+200UB22.3                     UB200X22.3      ST
+200UB25.4                     UB200X25.4      ST
+250UB25.7                     UB250X25.7      ST
+200UB29.8                     UB200X29.8      ST
+250UB31.4                     UB250X31.4      ST
+310UB32.0                     UB310X32.0      ST
+250UB37.3                     UB250X37.3      ST
+310UB40.4                     UB310X40.4      ST
+360UB44.7                     UB360X44.7      ST
+310UB46.2                     UB310X46.2      ST
+360UB50.7                     UB360X50.7      ST
+410UB53.7                     UB410X53.7      ST
+360UB56.7                     UB360X56.7      ST
+410UB59.7                     UB410X59.7      ST
+460UB67.1                     UB460X67.1      ST
+460UB74.6                     UB460X74.6      ST
+460UB82.1                     UB460X82.1      ST
+530UB82.0                     UB530X82.0      ST
+530UB92.4                     UB530X92.4      ST
+610UB101                      UB610X101       ST
+610UB113                      UB610X113       ST
+610UB125                      UB610X125       ST
+100UC14.8                     UC100X14.8      ST
+150UC23.4                     UC150X23.4      ST
+150UC30.0                     UC150X30.0      ST
+150UC37.2                     UC150X37.2      ST
+200UC46.2                     UC200X46.2      ST
+200UC52.2                     UC200X52.2      ST
+200UC59.5                     UC200X59.5      ST
+250UC72.9                     UC250X72.9      ST
+250UC89.5                     UC250X89.5      ST
+310UC96.8                     UC310X96.8      ST
+310UC118                      UC310X118       ST
+310UC137                      UC310X137       ST
+310UC158                      UC310X158       ST
+700WB115                      WB700X115       ST
+800WB122                      WB800X122       ST
+700WB130                      WB700X130       ST
+800WB146                      WB800X146       ST
+700WB150                      WB700X150       ST
+800WB168                      WB800X168       ST
+700WB173                      WB700X173       ST
+900WB175                      WB900X175       ST
+800WB192                      WB800X192       ST
+000WB215                      WB1000X215      ST
+900WB218                      WB900X218       ST
+200WB249                      WB1200X249      ST
+900WB257                      WB900X257       ST
+1000WB258                     WB1000X258      ST
+200WB278                      WB1200X278      ST
+900WB282                      WB900X282       ST
+000WB296                      WB1000X296      ST
+200WB317                      WB1200X317      ST
+000WB322                      WB1000X322      ST
+200WB342                      WB1200X342      ST
+200WB392                      WB1200X392      ST
+200WB423                      WB1200X423      ST
+200WB455                      WB1200X455      ST
+400WC144                      WC400X144       ST
+400WC181                      WC400X181       ST
+350WC197                      WC350X197       ST
+400WC212                      WC400X212       ST
+500WC228                      WC500X228       ST
+350WC230                      WC350X230       ST
+350WC258                      WC350X258       ST
+500WC267                      WC500X267       ST
+400WC270                      WC400X270       ST
+350WC280                      WC350X280       ST
+500WC290                      WC500X290       ST
+400WC303                      WC400X303       ST
+400WC328                      WC400X328       ST
+500WC340                      WC500X340       ST
+400WC361                      WC400X361       ST
+500WC383                      WC500X383       ST
+500WC414                      WC500X414       ST
+500WC440                      WC500X440       ST
+75PFC                         PFC75           ST
+100PFC                        PFC100          ST
+125PFC                        PFC125          ST
+150PFC                        PFC150          ST
+180PFC                        PFC180          ST
+200PFC                        PFC200          ST
+230PFC                        PFC230          ST
+250PFC                        PFC250          ST
+300PFC                        PFC300          ST
+380PFC                        PFC380          ST
+25x25x3 EA                    A25X25X3        ST
+30x30x3 EA                    A30X30X3        ST
+25x25x5 EA                    A25X25X5        ST
+40x40x3 EA                    A40X40X3        ST
+30x30x5 EA                    A30X30X5        ST
+45x45x3 EA                    A45X45X3        ST
+25x25x6 EA                    A25X25X6        ST
+50x50x3 EA                    A50X50X3        ST
+30x30x6 EA                    A30X30X6        ST
+40x40x5 EA                    A40X40X5        ST
+45x45x5 EA                    A45X45X5        ST
+50x50x5 EA                    A50X50X5        ST
+40x40x6 EA                    A40X40X6        ST
+55x55x5 EA                    A55X55X5        ST
+45x45x6 EA                    A45X45X6        ST
+65x50x5 UA                    A65X50X5        ST
+75x50x5 UA                    A75X50X5        ST
+50x50x6 EA                    A50X50X6        ST
+65x65x5 EA                    A65X65X5        ST
+55x55x6 EA                    A55X55X6        ST
+65x50x6 UA                    A65X50X6        ST
+75x75x5 EA                    A75X75X5        ST
+75x50x6 UA                    A75X50X6        ST
+50x50x8 EA                    A50X50X8        ST
+65x65x6 EA                    A65X65X6        ST
+65x50x8 UA                    A65X50X8        ST
+75x75x6 EA                    A75X75X6        ST
+75x50x8 UA                    A75X50X8        ST
+65x65x8 EA                    A65X65X8        ST
+100x75x6 UA                   A100X75X6       ST
+90x90x6 EA                    A90X90X6        ST
+75x75x8 EA                    A75X75X8        ST
+65x65x10 EA                   A65X65X10       ST
+125x75x6 UA                   A125X75X6       ST
+100x100x6 EA                  A100X100X6      ST
+100x75x8 UA                   A100X75X8       ST
+75x75x10 EA                   A75X75X10       ST
+90x90x8 EA                    A90X90X8        ST
+125x75x8 UA                   A125X75X8       ST
+100x100x8 EA                  A100X100X8      ST
+100x75x10 UA                  A100X75X10      ST
+90x90x10 EA                   A90X90X10       ST
+125x75x10 EA                  A125X75X10      ST
+100x100x10 EA                 A100X100X10     ST
+150x90x8 UA                   A150X90X8       ST
+125x125x8 EA                  A125X125X8      ST
+150x90x10 UA                  A150X90X10      ST
+125x75x12 UA                  A125X75X12      ST
+100x100x12 EA                 A100X100X12     ST
+125x125x10 EA                 A125X125X10     ST
+150x100x10 EA                 A150X100X10     ST
+150x90x12 UA                  A150X90X12      ST
+150x150x10 EA                 A150X150X10     ST
+125x125x12 EA                 A125X125X12     ST
+150x100x12 UA                 A150X100X12     ST
+150x150x12 EA                 A150X150X12     ST
+150x90x16 UA                  A150X90X16      ST
+125x125x16 EA                 A125X125X16     ST
+150x150x16 EA                 A150X150X16     ST
+200x200x13 EA                 A200X200X13     ST
+150x150x19 EA                 A150X150X19     ST
+200x200x16 EA                 A200X200X16     ST
+200x200x18 EA                 A200X200X18     ST
+200x200x20 EA                 A200X200X20     ST
+200x200x26 EA                 A200X200X26     ST
+50X20X1.6 RHS                 50x20x1.6RHS    ST
+50X20X2.0 RHS                 50x20x2.0RHS    ST
+50X20X2.5 RHS                 50x20x2.5RHS    ST
+50X20X3.0 RHS                 50x20x3.0RHS    ST
+50X25X1.6 RHS                 50x25x1.6RHS    ST
+50X25X2.0 RHS                 50x25x2.0RHS    ST
+50X25X2.5 RHS                 50x25x2.5RHS    ST
+50X25X3.0 RHS                 50x25x3.0RHS    ST
+65X35X2.0 RHS                 65x35x2.0RHS    ST
+65X35X2.5 RHS                 65x35x2.5RHS    ST
+65X35X3.0 RHS                 65x35x3.0RHS    ST
+65X35X4.0 RHS                 65x35x4.0RHS    ST
+75X25X1.6 RHS                 75x25x1.6RHS    ST
+75X25X2.0 RHS                 75x25x2.0RHS    ST
+75X25X2.5 RHS                 75x25x2.5RHS    ST
+75X50X1.6 RHS                 75x50x1.6RHS    ST
+75X50X2.0 RHS                 75x50x2.0RHS    ST
+75X50X2.5 RHS                 75x50x2.5RHS    ST
+75X50X3.0 RHS                 75x50x3.0RHS    ST
+75X50X4.0 RHS                 75x50x4.0RHS    ST
+75X50X5.0 RHS                 75x50x5.0RHS    ST
+75X50X6.0 RHS                 75x50x6.0RHS    ST
+100X50X1.6 RHS                100x50x1.6RHS   ST
+100X50X2.0 RHS                100x50x2.0RHS   ST
+100X50X2.5 RHS                100x50x2.5RHS   ST
+100X50X3.0 RHS                100x50x3.0RHS   ST
+100X50X3.5 RHS                100x50x3.5RHS   ST
+100X50X4.0 RHS                100x50x4.0RHS   ST
+100X50X5.0 RHS                100x50x5.0RHS   ST
+100X50X6.0 RHS                100x50x6.0RHS   ST
+125X75X2.0 RHS                125x75x2.0RHS   ST
+125X75X2.5 RHS                125x75x2.5RHS   ST
+125X75X3.0 RHS                125x75x3.0RHS   ST
+125X75X4.0 RHS                125x75x4.0RHS   ST
+125X75X5.0 RHS                125x75x5.0RHS   ST
+125X75X6.0 RHS                125x75x6.0RHS   ST
+150X50X2.0 RHS                150x50x2.0RHS   ST
+150X50X2.5 RHS                150x50x2.5RHS   ST
+150X50X3.0 RHS                150x50x3.0RHS   ST
+150X50X4.0 RHS                150x50x4.0RHS   ST
+150X50X5.0 RHS                150x50x5.0RHS   ST
+150X50X6.0 RHS                150x50x6.0RHS   ST
+150X100X4.0 RHS               150x100x4.0RHS  ST
+150X100X5.0 RHS               150x100x5.0RHS  ST
+150X100X6.0 RHS               150x100x6.0RHS  ST
+150X100X9.0 RHS               150x100x9.0RHS  ST
+200X100X4.0 RHS               200x100x4.0RHS  ST
+200X100X5.0 RHS               200x100x5.0RHS  ST
+200X100X6.0 RHS               200x100x6.0RHS  ST
+200X100X9.0 RHS               200x100x9.0RHS  ST
+250X150X5.0 RHS               250x150x5.0RHS  ST
+250X150X6.0 RHS               250x150x6.0RHS  ST
+250X150X9.0 RHS               250x150x9.0RHS  ST
+20X1.6 SHS                    20x20x1.6SHS    ST
+25X1.6 SHS                    25x25x1.6SHS    ST
+25X2.0 SHS                    25x25x2.0SHS    ST
+25X2.5 SHS                    25x25x2.5SHS    ST
+25X3.0 SHS                    25x25x3.0SHS    ST
+30X1.6 SHS                    30x30x1.6SHS    ST
+30X2.0 SHS                    30x30x2.0SHS    ST
+35X1.6 SHS                    35x35x1.6SHS    ST
+35X2.0 SHS                    35x35x2.0SHS    ST
+35X2.5 SHS                    35x35x2.5SHS    ST
+35X3.0 SHS                    35x35x3.0SHS    ST
+40X1.6 SHS                    40x40x1.6SHS    ST
+40X2.0 SHS                    40x40x2.0SHS    ST
+40X2.5 SHS                    40x40x2.5SHS    ST
+40X3.0 SHS                    40x40x3.0SHS    ST
+40X4.0 SHS                    40x40x4.0SHS    ST
+50X1.6 SHS                    50x50x1.6SHS    ST
+50X2.0 SHS                    50x50x2.0SHS    ST
+50X2.5 SHS                    50x50x2.5SHS    ST
+50X3.0 SHS                    50x50x3.0SHS    ST
+50X4.0 SHS                    50x50x4.0SHS    ST
+50X5.0 SHS                    50x50x5.0SHS    ST
+65X1.6 SHS                    65x65x1.6SHS    ST
+65X2.0 SHS                    65x65x2.0SHS    ST
+65X2.5 SHS                    65x65x2.5SHS    ST
+65X3.0 SHS                    65x65x3.0SHS    ST
+65X4.0 SHS                    65x65x4.0SHS    ST
+65X5.0 SHS                    65x65x5.0SHS    ST
+65X6.0 SHS                    65x65x6.0SHS    ST
+75X2.0 SHS                    75x75x2.0SHS    ST
+75X2.5 SHS                    75x75x2.5SHS    ST
+75X3.0 SHS                    75x75x3.0SHS    ST
+75X3.5 SHS                    75x75x3.5SHS    ST
+75X4.0 SHS                    75x75x4.0SHS    ST
+75X5.0 SHS                    75x75x5.0SHS    ST
+75X6.0 SHS                    75x75x6.0SHS    ST
+89X3.5 SHS                    89x89x3.5SHS    ST
+89X5.0 SHS                    89x89x5.0SHS    ST
+89X6.0 SHS                    89x89x6.0SHS    ST
+100X2.0 SHS                   100x100x2.0SHS  ST
+100X2.5 SHS                   100x100x2.5SHS  ST
+100X3.0 SHS                   100x100x3.0SHS  ST
+100X4.0 SHS                   100x100x4.0SHS  ST
+100X5.0 SHS                   100x100x5.0SHS  ST
+100X6.0 SHS                   100x100x6.0SHS  ST
+100X9.0 SHS                   100x100x9.0SHS  ST
+125X4.0 SHS                   125x125x4.0SHS  ST
+125X5.0 SHS                   125x125x5.0SHS  ST
+125X6.0 SHS                   125x125x6.0SHS  ST
+125X9.0 SHS                   125x125x9.0SHS  ST
+150X5.0 SHS                   150x150x5.0SHS  ST
+150X6.0 SHS                   150x150x6.0SHS  ST
+150X9.0 SHS                   150x150x9.0SHS  ST
+200X5.0 SHS                   200x200x5.0SHS  ST
+200X6.0 SHS                   200x200x6.0SHS  ST
+200X9.0 SHS                   200x200x9.0SHS  ST
+250X6.0 SHS                   250x250x6.0SHS  ST
+250X9.0 SHS                   250x250x9.0SHS  ST
+26.9X2.0 CHS                  26.9x2.0CHS     ST
+26.9X2.3 CHS                  26.9x2.3CHS     ST
+33.7X2.0 CHS                  33.7x2.0CHS     ST
+33.7X2.6 CHS                  33.7x2.6CHS     ST
+42.4X2.0 CHS                  42.4x2.0CHS     ST
+42.4X2.6 CHS                  42.4x2.6CHS     ST
+48.3X2.3 CHS                  48.3x2.3CHS     ST
+48.3X2.9 CHS                  48.3x2.9CHS     ST
+60.3X2.3 CHS                  60.3x2.3CHS     ST
+60.3X2.9 CHS                  60.3x2.9CHS     ST
+76.1X2.3 CHS                  76.1x2.3CHS     ST
+76.1X3.2 CHS                  76.1x3.2CHS     ST
+88.9X2.6 CHS                  88.9x2.6CHS     ST
+88.9X3.2 CHS                  88.9x3.2CHS     ST
+101.6X2.6 CHS                 101.6x2.6CHS    ST
+101.6X3.2 CHS                 101.6x3.2CHS    ST
+114.3X3.2 CHS                 114.3x3.2CHS    ST
+114.3X3.6 CHS                 114.3x3.6CHS    ST
+139.7X3.0 CHS                 139.7x3.0CHS    ST
+139.7X3.5 CHS                 139.7x3.5CHS    ST
+165.1X3.5 CHS                 165.1x3.5CHS    ST
+168.3X4.8 CHS                 168.3x4.8CHS    ST
+168.3X6.4 CHS                 168.3x6.4CHS    ST
+168.3X7.1 CHS                 168.3x7.1CHS    ST
+219.1X4.8 CHS                 219.1x4.8CHS    ST
+219.1X6.4 CHS                 219.1x6.4CHS    ST
+219.1X8.2 CHS                 219.1x8.2CHS    ST
+273.1X4.8 CHS                 273.1x4.8CHS    ST
+273.1X6.4 CHS                 273.1x6.4CHS    ST
+273.1X9.3 CHS                 273.1x9.3CHS    ST
+273.1X12.7 CHS                273.1x12.7CHS   ST
+323.9X6.4 CHS                 323.9x6.4CHS    ST
+323.9X9.5 CHS                 323.9x9.5CHS    ST
+323.9X12.7 CHS                323.9x12.7CHS   ST
+355.6X6.4 CHS                 355.6x6.4CHS    ST
+355.6X9.5 CHS                 355.6x9.5CHS    ST
+355.6X12.7 CHS                355.6x12.7CHS   ST
+406.4X6.4 CHS                 406.4x6.4CHS    ST
+406.4X9.5 CHS                 406.4x9.5CHS    ST
+406.4X12.7 CHS                406.4x12.7CHS   ST
+457.0X6.4 CHS                 457.0x6.4CHS    ST
+457.0X9.5 CHS                 457.0x9.5CHS    ST
+457.0X12.7 CHS                457.0x12.7CHS   ST
+LY-C10010                     C10010          ST
+LY-C10012                     C10012          ST
+LY-C10015                     C10015          ST
+LY-C10019                     C10019          ST
+LY-C15012                     C15012          ST
+LY-C15015                     C15015          ST
+LY-C15019                     C15019          ST
+LY-C15024                     C15024          ST
+LY-C20015                     C20015          ST
+LY-C20019                     C20019          ST
+LY-C20024                     C20024          ST
+LY-C25019                     C25019          ST
+LY-C25024                     C25024          ST
+LY-C30024                     C30024          ST
+LY-C30030                     C30030          ST
+LY-C35030                     C35030          ST
+LY-Z10010                     Z10010          ST
+LY-Z10012                     Z10012          ST
+LY-Z10015                     Z10015          ST
+LY-Z10019                     Z10019          ST
+LY-Z15012                     Z15012          ST
+LY-Z15015                     Z15015          ST
+LY-Z15019                     Z15019          ST
+LY-Z15024                     Z15024          ST
+LY-Z20015                     Z20015          ST
+LY-Z20019                     Z20019          ST
+LY-Z20024                     Z20024          ST
+LY-Z25019                     Z25019          ST
+LY-Z25024                     Z25024          ST
+LY-Z30024                     Z30024          ST
+LY-Z30030                     Z30030          ST
+LY-Z35030                     Z35030          ST

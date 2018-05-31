@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TriForma>
+<EAOptions>
+  <!--====================================================================================+
+|      Building types
+|	  None,        AutomotiveFacility,        ConventionCenter,        Courthouse,        DiningBarLoungeOrLeisure,        DiningCafeteriaFastFood,        DiningFamily,        Dormitory,        ExerciseCenter,        FireStation,        Gymnasium,
+|        HospitalOrHealthcare,        Hotel,        Library,        Manufacturing,        Motel,        MotionPictureTheatre,        MultiFamily,        Museum,        Office,        ParkingGarage,        Penitentiary,        PerformingArtsTheater,
+|        PoliceStation,        PostOffice,        ReligiousBuilding,        Retail,        SchoolOrUniversity,        SportsArena,        TownHall,        Transportation,        Warehouse,        Workshop	|    
+|
+|     FlowPerArea Units
+|       None,        CFMPerSquareFoot,        LPerSecPerSquareM,        CubicMPerSecPerSquareM
+|
+| FlowPerPerson - flow units
+|      None,    CFM,       LPerSec,        CubicMPerHr,        GPM,       GPH		
+| 
+|Temprature units
+|     None,       F,      C,       K,       R		
++=====================================================================================-->
+  <DefaultSettings Name="Zone">
+    <DesignHeatT Value="20" Unit="C"/>
+    <DesignCoolT Value="38" Unit="C"/>
+    <OAFlowPerArea Value="10" Unit="LPerSecPerSquareM"/>
+    <OAFlowPerPerson Value=".025" Unit="LPerSec"/>
+  </DefaultSettings>
+  <DefaultSettings Name="ZipCode">
+    <Location CityName="Melbourne" ZipOrPinCode="3006" Country="Australia"/>
+  </DefaultSettings>
+  <DefaultSettings Name="Building">
+    <BuildingInfo Type="Office" />
+  </DefaultSettings>
+</EAOptions>
+</TriForma>

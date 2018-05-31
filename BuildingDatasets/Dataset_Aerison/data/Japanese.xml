@@ -1,0 +1,2509 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="structural_shapes.xsl"?>
+<TriForma>
+	<StructuralShapes>
+		<Code name="japan" isMetric="true">
+			<I-Shapes>
+				<I-Shape name="I100(50(9.3))" d="100" tw="5" width="50" tf="7" filletRadius="8">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I125(60(13.2))" d="125" tw="6" width="60" tf="8" filletRadius="9">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I150(75(14))" d="150" tw="5" width="75" tf="7" filletRadius="8">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I150(100(21.1))" d="148" tw="6" width="100" tf="9" filletRadius="11">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I175(90(18.1))" d="175" tw="5" width="90" tf="8" filletRadius="9">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I200(100(18.2))" d="198" tw="4.5" width="99" tf="7" filletRadius="11">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I200(100(21.3))" d="200" tw="5.5" width="100" tf="8" filletRadius="11">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I200(150(30.6))" d="194" tw="6" width="150" tf="9" filletRadius="13">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I250(125(25.7))" d="248" tw="5" width="124" tf="8" filletRadius="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I250(125(29.6))" d="250" tw="6" width="125" tf="9" filletRadius="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I250(175(44.1))" d="244" tw="7" width="175" tf="11" filletRadius="16">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I300(150(32))" d="298" tw="5.5" width="149" tf="8" filletRadius="13">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I300(150(36.7))" d="300" tw="6.5" width="150" tf="9" filletRadius="13">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I300(200(56.8))" d="294" tw="8" width="200" tf="12" filletRadius="18">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I350(175(41.4))" d="346" tw="6" width="174" tf="9" filletRadius="14">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I350(175(49.6))" d="350" tw="7" width="175" tf="11" filletRadius="14">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I350(250(79.7))" d="340" tw="9" width="250" tf="14" filletRadius="20">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(200(56.6))" d="396" tw="7" width="199" tf="11" filletRadius="16">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(200(66))" d="400" tw="8" width="200" tf="13" filletRadius="16">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(300(107))" d="390" tw="10" width="300" tf="16" filletRadius="22">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I450(200(66.2))" d="446" tw="8" width="199" tf="12" filletRadius="18">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I450(200(76))" d="450" tw="9" width="200" tf="14" filletRadius="18">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I450(300(124))" d="440" tw="11" width="300" tf="18" filletRadius="24">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I500(200(79.5))" d="496" tw="9" width="199" tf="14" filletRadius="20">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I500(200(89.6))" d="500" tw="10" width="200" tf="16" filletRadius="20">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I500(200(103))" d="506" tw="11" width="201" tf="19" filletRadius="20">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I500(300(114))" d="482" tw="11" width="300" tf="15" filletRadius="26">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I500(300(128))" d="488" tw="11" width="300" tf="18" filletRadius="26">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I600(200(94.6))" d="596" tw="10" width="199" tf="15" filletRadius="22">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I600(200(106))" d="600" tw="11" width="200" tf="17" filletRadius="22">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I600(200(120))" d="606" tw="12" width="201" tf="20" filletRadius="22">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I600(300(137))" d="582" tw="12" width="300" tf="17" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I600(300(151))" d="588" tw="12" width="300" tf="20" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I600(300(175))" d="594" tw="14" width="302" tf="23" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I700(300(166))" d="692" tw="13" width="300" tf="20" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I700(300(185))" d="700" tw="13" width="300" tf="24" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I800(300(191))" d="792" tw="14" width="300" tf="22" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I800(300(210))" d="800" tw="14" width="300" tf="26" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I900(300(213))" d="890" tw="15" width="299" tf="23" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I900(300(243))" d="900" tw="16" width="300" tf="28" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I900(300(286))" d="912" tw="18" width="302" tf="34" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I100(100(17.2))" d="100" tw="6" width="100" tf="10" filletRadius="8">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I125(125(23.8))" d="125" tw="6.5" width="125" tf="10" filletRadius="9">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I150(150(31.5))" d="150" tw="7" width="150" tf="11" filletRadius="10">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I175(175(40.2))" d="175" tw="7.5" width="175" tf="12" filletRadius="11">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I200(200(49.9))" d="200" tw="8" width="200" tf="13" filletRadius="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I200(200(56.2))" d="200" tw="12" width="204" tf="13" filletRadius="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I250(250(72.4))" d="250" tw="9" width="250" tf="16" filletRadius="14">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I250(250(82.2))" d="250" tw="14" width="255" tf="16" filletRadius="14">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I300(300(84.5))" d="294" tw="12" width="302" tf="18" filletRadius="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I300(300(94))" d="300" tw="10" width="300" tf="18" filletRadius="15">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I300(300(106))" d="300" tw="15" width="305" tf="18" filletRadius="15">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I350(350(115))" d="344" tw="10" width="348" tf="20" filletRadius="16">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I350(350(137))" d="350" tw="12" width="350" tf="20" filletRadius="19">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(400(140))" d="388" tw="15" width="402" tf="22" filletRadius="15">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(400(147))" d="394" tw="11" width="398" tf="22" filletRadius="18">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(400(172))" d="400" tw="13" width="400" tf="22" filletRadius="21">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(400(197))" d="400" tw="21" width="408" tf="22" filletRadius="21">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(400(232))" d="414" tw="18" width="405" tf="22" filletRadius="28">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(400(283))" d="428" tw="20" width="407" tf="22" filletRadius="35">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(400(415))" d="458" tw="30" width="417" tf="22" filletRadius="50">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+				<I-Shape name="I400(400(605))" d="498" tw="45" width="432" tf="22" filletRadius="70">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</I-Shape>
+			</I-Shapes>
+			<Angles>
+				<Angle name="L25(25(3))" d="25" thickness="3" width="25">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L30(30(3))" d="30" thickness="3" width="30">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L40(40(3))" d="40" thickness="3" width="40">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L40(40(5))" d="40" thickness="5" width="40">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L45(45(4))" d="45" thickness="4" width="45">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L45(45(5))" d="45" thickness="5" width="45">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L50(50(4))" d="50" thickness="4" width="50">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L50(50(5))" d="50" thickness="5" width="50">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L50(50(6))" d="50" thickness="6" width="50">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L60(60(4))" d="60" thickness="4" width="60">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L60(60(5))" d="60" thickness="5" width="60">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L65(65(5))" d="65" thickness="5" width="65">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L65(65(6))" d="65" thickness="6" width="65">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L65(65(8))" d="65" thickness="8" width="65">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L70(70(6))" d="70" thickness="6" width="70">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L75(75(6))" d="75" thickness="6" width="75">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L75(75(9))" d="75" thickness="9" width="75">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L75(75(12))" d="75" thickness="12" width="75">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L80(80(6))" d="80" thickness="6" width="80">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L90(90(6))" d="90" thickness="6" width="90">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L90(90(7))" d="90" thickness="7" width="90">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L90(90(10))" d="90" thickness="10" width="90">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L90(90(13))" d="90" thickness="13" width="90">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L100(100(7))" d="100" thickness="7" width="100">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L100(100(10))" d="100" thickness="10" width="100">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L100(100(13))" d="100" thickness="13" width="100">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L120(120(8))" d="120" thickness="8" width="120">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L130(130(9))" d="130" thickness="9" width="130">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L130(130(12))" d="130" thickness="12" width="130">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L130(130(15))" d="130" thickness="15" width="130">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L150(150(12))" d="150" thickness="12" width="150">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L150(150(15))" d="150" thickness="15" width="150">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L150(150(19))" d="150" thickness="19" width="150">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L175(175(12))" d="175" thickness="12" width="175">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L175(175(15))" d="175" thickness="15" width="175">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L200(200(15))" d="200" thickness="15" width="200">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L200(200(20))" d="200" thickness="20" width="200">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L200(200(25))" d="200" thickness="25" width="200">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L250(250(25))" d="250" thickness="25" width="250">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L250(250(35))" d="250" thickness="35" width="250">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L90(75(9))" d="90" thickness="9" width="75">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L100(75(7))" d="100" thickness="7" width="75">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L100(75(10))" d="100" thickness="10" width="75">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L125(75(7))" d="125" thickness="7" width="75">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L125(75(10))" d="125" thickness="10" width="75">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L125(75(13))" d="125" thickness="13" width="75">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L125(90(10))" d="125" thickness="10" width="90">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L125(90(13))" d="125" thickness="13" width="90">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L150(90(9))" d="150" thickness="9" width="90">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L150(90(12))" d="150" thickness="12" width="90">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L150(100(9))" d="150" thickness="9" width="100">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L150(100(12))" d="150" thickness="12" width="100">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+				<Angle name="L150(100(15))" d="150" thickness="15" width="100">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Angle>
+			</Angles>
+			<Channels>
+				<Channel name="C75(40(6.92))" tf="7" width="40" tw="5" d="75">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C100(50(9.36))" tf="7.5" width="50" tw="5" d="100">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C125(65(13.4))" tf="8" width="65" tw="6" d="125">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C150(75(18.6))" tf="10" width="75" tw="6.5" d="150">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C150(75(24))" tf="12.5" width="75" tw="9" d="150">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C180(75(21.4))" tf="10.5" width="75" tw="7" d="180">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C200(80(24.6))" tf="11" width="80" tw="7.5" d="200">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C200(90(30.3))" tf="13.5" width="90" tw="8" d="200">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C250(90(34.6))" tf="13" width="90" tw="9" d="250">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C250(90(40.2))" tf="14.5" width="90" tw="11" d="250">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C300(90(38.1))" tf="13" width="90" tw="9" d="300">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C300(90(43.8))" tf="15.5" width="90" tw="10" d="300">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C300(90(48.6))" tf="16" width="90" tw="12" d="300">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C380(100(54.5))" tf="16" width="100" tw="10.5" d="380">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C380(100(62))" tf="16.5" width="100" tw="16.5" d="380">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+				<Channel name="C380(100(67.3))" tf="20" width="100" tw="13" d="380">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Channel>
+			</Channels>
+			<Tees>
+				<Tee name="T102x102x12" d="101.6" tw="5.2" width="101.6" tf="9.3">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Tee>
+				<Tee name="T210x267x41" d="264.15" tw="9.6" width="208.7" tf="13.2">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Tee>
+				<Tee name="T305x305x75" d="304.8" tw="11.9" width="304.8" tf="19.7">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Tee>
+				<Tee name="T419x457x194" d="460.2" tw="21.5" width="420.5" tf="36.6">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Tee>
+				<Tee name="T152x76x12" d="76.1" tw="6.1" width="152.4" tf="6.8">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Tee>
+				<Tee name="T203x102x23" d="101.6" tw="7.3" width="203.2" tf="11">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Tee>
+				<Tee name="T305x152x49" d="153.85" tw="9.9" width="304.8" tf="15.4">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Tee>
+				<Tee name="T368x178x65" d="177.75" tw="10.7" width="368.3" tf="17.5">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Tee>
+				<Tee name="T406x178x118" d="190.45" tw="18.5" width="395" tf="30.2">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Tee>
+			</Tees>
+			<RectangularShapes>
+				<RectangularShape name="450角" d="450" width="450">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularShape>
+				<RectangularShape name="500角" d="500" width="500">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularShape>
+				<RectangularShape name="550角" d="550" width="550">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularShape>
+				<RectangularShape name="600角" d="600" width="600">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularShape>
+				<RectangularShape name="B200X450" d="450" width="200">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularShape>
+				<RectangularShape name="B250X500" d="500" width="250">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularShape>
+				<RectangularShape name="B250X550" d="550" width="250">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularShape>
+				<RectangularShape name="B300X600" d="600" width="300">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularShape>
+			</RectangularShapes>
+			<RectangularHollowSections>
+				<RectangularHollowSection name="SHS20X20X2.0" d="20" thickness="2" width="20">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="SHS30X30X2.5" d="30" thickness="2.5" width="30">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="SHS40X40X2.5" d="40" thickness="2.5" width="40">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="SHS50X50X2.5" d="50" thickness="2.5" width="50">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="SHS60X60X3.0" d="60" thickness="3" width="60">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="SHS70X70X2.5" d="70" thickness="2.5" width="70">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="SHS80X80X3.0" d="80" thickness="3" width="80">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="SHS90X90X3.0" d="90" thickness="3" width="90">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="SHS100X100X3.0" d="100" thickness="3" width="100">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="SHS120X120X3.0" d="120" thickness="3" width="120">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="SHS150X150X4.0" d="150" thickness="4" width="150">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="RHS50X25X2.5" d="50" thickness="2.5" width="25">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="RHS60X40X2.5" d="60" thickness="2.5" width="40">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="RHS80X40X4.0" d="80" thickness="4" width="40">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="RHS90X50X2.5" d="90" thickness="2.5" width="50">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="RHS100X40X3.0" d="100" thickness="3" width="40">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="RHS120X40X3.0" d="120" thickness="3" width="40">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="RHS120X80X6.3" d="120" thickness="6.3" width="80">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="RHS150X100X6.3" d="150" thickness="6.3" width="100">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="RHS160X80X3.0" d="160" thickness="3" width="80">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+				<RectangularHollowSection name="RHS200X100X6.3" d="200" thickness="6.3" width="100">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RectangularHollowSection>
+			</RectangularHollowSections>
+			<CircularHollowSections>
+				<CircularHollowSection name="CHS33.7X2.6" outerDiameter="33.7" innerDiameter="28.5">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</CircularHollowSection>
+				<CircularHollowSection name="CHS76.1X3.2" outerDiameter="76.1" innerDiameter="69.7">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</CircularHollowSection>
+				<CircularHollowSection name="CHS88.9X3.2" outerDiameter="88.9" innerDiameter="82.5">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</CircularHollowSection>
+				<CircularHollowSection name="CHS139.7X5" outerDiameter="139.7" innerDiameter="129.7">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</CircularHollowSection>
+				<CircularHollowSection name="CHS168.3X10" outerDiameter="168.3" innerDiameter="148.3">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</CircularHollowSection>
+				<CircularHollowSection name="CHS355.6X8" outerDiameter="355.6" innerDiameter="339.6">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</CircularHollowSection>
+				<CircularHollowSection name="CHS457X8" outerDiameter="457" innerDiameter="441">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</CircularHollowSection>
+			</CircularHollowSections>
+			<SolidRounds>
+				<SolidRound name="400　" outerDiameter="400">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</SolidRound>
+				<SolidRound name="450　" outerDiameter="450">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</SolidRound>
+				<SolidRound name="500　" outerDiameter="500">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</SolidRound>
+				<SolidRound name="550" outerDiameter="550">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</SolidRound>
+				<SolidRound name="600" outerDiameter="600">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</SolidRound>
+				<SolidRound name="650" outerDiameter="650">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</SolidRound>
+				<SolidRound name="700" outerDiameter="700">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</SolidRound>
+			</SolidRounds>
+			<DoubleAngles>
+				<DoubleAngle name="2L25(25(3))" singleSectionName="L25(25(3))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L30(30(3))" singleSectionName="L30(30(3))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L40(40(3))" singleSectionName="L40(40(3))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L40(40(5))" singleSectionName="L40(40(5))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L45(45(4))" singleSectionName="L45(45(4))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L45(45(5))" singleSectionName="L45(45(5))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L50(50(4))" singleSectionName="L50(50(4))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L50(50(5))" singleSectionName="L50(50(5))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L50(50(6))" singleSectionName="L50(50(6))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L60(60(4))" singleSectionName="L60(60(4))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L60(60(5))" singleSectionName="L60(60(5))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L65(65(5))" singleSectionName="L65(65(5))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L65(65(6))" singleSectionName="L65(65(6))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L65(65(8))" singleSectionName="L65(65(8))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L70(70(6))" singleSectionName="L70(70(6))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L75(75(6))" singleSectionName="L75(75(6))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L75(75(9))" singleSectionName="L75(75(9))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L75(75(12))" singleSectionName="L75(75(12))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L80(80(6))" singleSectionName="L80(80(6))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L90(90(6))" singleSectionName="L90(90(6))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L90(90(7))" singleSectionName="L90(90(7))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L90(90(10))" singleSectionName="L90(90(10))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L90(90(13))" singleSectionName="L90(90(13))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L100(100(7))" singleSectionName="L100(100(7))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L100(100(10))" singleSectionName="L100(100(10))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L100(100(13))" singleSectionName="L100(100(13))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L120(120(8))" singleSectionName="L120(120(8))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L130(130(9))" singleSectionName="L130(130(9))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L130(130(12))" singleSectionName="L130(130(12))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L130(130(15))" singleSectionName="L130(130(15))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L150(150(12))" singleSectionName="L150(150(12))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L150(150(15))" singleSectionName="L150(150(15))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L150(150(19))" singleSectionName="L150(150(19))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L175(175(12))" singleSectionName="L175(175(12))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L175(175(15))" singleSectionName="L175(175(15))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L200(200(15))" singleSectionName="L200(200(15))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L200(200(20))" singleSectionName="L200(200(20))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L200(200(25))" singleSectionName="L200(200(25))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L250(250(25))" singleSectionName="L250(250(25))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L250(250(35))" singleSectionName="L250(250(35))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L90(75(9))" singleSectionName="L90(75(9))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L100(75(7))" singleSectionName="L100(75(7))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L100(75(10))" singleSectionName="L100(75(10))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L125(75(7))" singleSectionName="L125(75(7))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L125(75(10))" singleSectionName="L125(75(10))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L125(75(13))" singleSectionName="L125(75(13))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L125(90(10))" singleSectionName="L125(90(10))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L125(90(13))" singleSectionName="L125(90(13))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L150(90(9))" singleSectionName="L150(90(9))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L150(90(12))" singleSectionName="L150(90(12))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L150(100(9))" singleSectionName="L150(100(9))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L150(100(12))" singleSectionName="L150(100(12))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+				<DoubleAngle name="2L150(100(15))" singleSectionName="L150(100(15))" spacing="0" Leg1BB="true">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleAngle>
+			</DoubleAngles>
+			<Hexagons>
+				<Hexagon name="H250" innerDiameter="250">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+				<Hexagon name="H275" innerDiameter="275">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+				<Hexagon name="H300" innerDiameter="300">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+				<Hexagon name="H325" innerDiameter="325">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+				<Hexagon name="H350" innerDiameter="350">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+				<Hexagon name="H375" innerDiameter="375">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+				<Hexagon name="H400" innerDiameter="400">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+				<Hexagon name="H425" innerDiameter="425">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+				<Hexagon name="H450" innerDiameter="450">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+				<Hexagon name="H475" innerDiameter="475">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+				<Hexagon name="H500" innerDiameter="500">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Hexagon>
+			</Hexagons>
+			<HexagonHollowSections>
+				<HexagonHollowSection name="H250x12" innerDiameter="250" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+				<HexagonHollowSection name="H275x12" innerDiameter="275" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+				<HexagonHollowSection name="H300x12" innerDiameter="300" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+				<HexagonHollowSection name="H325x12" innerDiameter="325" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+				<HexagonHollowSection name="H350x12" innerDiameter="350" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+				<HexagonHollowSection name="H375x12" innerDiameter="375" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+				<HexagonHollowSection name="H400x12" innerDiameter="400" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+				<HexagonHollowSection name="H425x12" innerDiameter="425" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+				<HexagonHollowSection name="H450x12" innerDiameter="450" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+				<HexagonHollowSection name="H475x12" innerDiameter="475" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+				<HexagonHollowSection name="H500x12" innerDiameter="500" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</HexagonHollowSection>
+			</HexagonHollowSections>
+			<Octagons>
+				<Octagon name="O250" innerDiameter="250">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+				<Octagon name="O275" innerDiameter="275">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+				<Octagon name="O300" innerDiameter="300">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+				<Octagon name="O325" innerDiameter="325">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+				<Octagon name="O350" innerDiameter="350">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+				<Octagon name="O375" innerDiameter="375">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+				<Octagon name="O400" innerDiameter="400">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+				<Octagon name="O425" innerDiameter="425">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+				<Octagon name="O450" innerDiameter="450">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+				<Octagon name="O475" innerDiameter="475">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+				<Octagon name="O500" innerDiameter="500">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</Octagon>
+			</Octagons>
+			<OctagonHollowSections>
+				<OctagonHollowSection name="O250x12" innerDiameter="250" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+				<OctagonHollowSection name="O275x12" innerDiameter="275" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+				<OctagonHollowSection name="O300x12" innerDiameter="300" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+				<OctagonHollowSection name="O325x12" innerDiameter="325" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+				<OctagonHollowSection name="O350x12" innerDiameter="350" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+				<OctagonHollowSection name="O375x12" innerDiameter="375" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+				<OctagonHollowSection name="O400x12" innerDiameter="400" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+				<OctagonHollowSection name="O425x12" innerDiameter="425" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+				<OctagonHollowSection name="O450x12" innerDiameter="450" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+				<OctagonHollowSection name="O475x12" innerDiameter="475" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+				<OctagonHollowSection name="O500x12" innerDiameter="500" thickness="12">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</OctagonHollowSection>
+			</OctagonHollowSections>
+			<DoubleChannels>
+				<DoubleChannel name="2C75(40(6.92))" singleSectionName="C75(40(6.92))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C100(50(9.36))" singleSectionName="C100(50(9.36))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C125(65(13.4))" singleSectionName="C125(65(13.4))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C150(75(18.6))" singleSectionName="C150(75(18.6))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C150(75(24))" singleSectionName="C150(75(24))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C180(75(21.4))" singleSectionName="C180(75(21.4))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C200(80(24.6))" singleSectionName="C200(80(24.6))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C200(90(30.3))" singleSectionName="C200(90(30.3))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C250(90(34.6))" singleSectionName="C250(90(34.6))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C250(90(40.2))" singleSectionName="C250(90(40.2))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C300(90(38.1))" singleSectionName="C300(90(38.1))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C300(90(43.8))" singleSectionName="C300(90(43.8))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C300(90(48.6))" singleSectionName="C300(90(48.6))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C380(100(54.5))" singleSectionName="C380(100(54.5))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C380(100(62))" singleSectionName="C380(100(62))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+				<DoubleChannel name="2C380(100(67.3))" singleSectionName="C380(100(67.3))" spacing="" Back2Back="">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</DoubleChannel>
+			</DoubleChannels>
+			<RoofDecks>
+				<RoofDeck name="RD306_22Gal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD306_20Gal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD306_18Gal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD306_16Gal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD306_22Pre" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD306_20Pre" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD306_18Pre" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD306_22Neal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD306_20Neal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD306_18Neal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD306_16Neal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_22Gal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_20Gal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_18Gal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_16Gal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_22Pre" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_20Pre" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_18Pre" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_22Neal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_20Neal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_18Neal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD308_16Neal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_22Gal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_20Gal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_18Gal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_16Gal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_22Pre" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_20Pre" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_18Pre" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_22Neal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_20Neal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_18Neal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="RD938_16Neal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB306_22Gal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB306_20Gal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB306_18Gal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB306_16Gal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB306_22Neal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB306_20Neal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB306_18Neal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB306_16Neal" width="609" d="76" span="152" ribsizeTop="87" ribsizeBottom="54" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB308_22Gal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB308_20Gal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB308_18Gal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB308_16Gal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB308_22Neal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB308_20Neal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB308_18Neal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB308_16Neal" width="812" d="76" span="203" ribsizeTop="138" ribsizeBottom="54" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB938_22Gal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB938_20Gal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB938_18Gal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB938_16Gal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB938_22Neal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="0.7595">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB938_20Neal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="0.9119">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB938_18Neal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="1.2141">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+				<RoofDeck name="HB938_16Neal" width="900" d="38" span="150" ribsizeTop="83" ribsizeBottom="43" thickness="1.5189">
+					<Dimensions/>
+					<Properties>
+						<Centroid/>
+						<Elastic/>
+					</Properties>
+				</RoofDeck>
+			</RoofDecks>
+		</Code>
+	</StructuralShapes>
+</TriForma>

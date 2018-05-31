@@ -1,0 +1,1362 @@
+<Table>
+	<Name>2011 Edition AUS-SPEC Format</Name>
+	<Source>NATSPEC - Australia</Source>
+	<Version>Major Version No='AUS-SPEC 2011 Edition - Numbers and Titles'  Major Date='Date:  October 2011'  Minor Version No='AUS-SPEC 2011 Edition - Numbers and Titles'  Minor Date='Date:  October 2011'  Major=''  Minor='' </Version>
+	<Section>
+		<Code>01</Code>
+		<Name>GENERAL</Name>
+		<Section>
+			<Code>01 2 </Code>
+			<Name>Tendering</Name>
+			<Section>
+				<Code>01 200</Code>
+				<Name>Information for tenderers (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 210</Code>
+				<Name>Tendering </Name>
+			</Section>
+			<Section>
+				<Code>01 220</Code>
+				<Name>Conditions of tendering (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 230</Code>
+				<Name>Tender submission documents (AUS-SPEC)</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>01 3</Code>
+			<Name>Generic preliminaries</Name>
+			<Section>
+				<Code>01 300</Code>
+				<Name>Contract preparation model (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 310</Code>
+				<Name>Preliminaries (Generic)</Name>
+			</Section>
+			<Section>
+				<Code>01 330</Code>
+				<Name>Preliminaries (Generic interior and alterations)</Name>
+			</Section>
+			<Section>
+				<Code>01 380</Code>
+				<Name>Multiple contracts</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>01 4</Code>
+			<Name>Contract preliminaries</Name>
+			<Section>
+				<Code>01 400</Code>
+				<Name>Preliminaries - ABIC BW-1</Name>
+			</Section>
+			<Section>
+				<Code>01 410</Code>
+				<Name>Preliminaries - ABIC MW-2008</Name>
+			</Section>
+			<Section>
+				<Code>01 420</Code>
+				<Name>Preliminaries - ABIC SW-2008</Name>
+			</Section>
+			<Section>
+				<Code>01 430</Code>
+				<Name>Preliminaries - AS 2124</Name>
+			</Section>
+			<Section>
+				<Code>01 440</Code>
+				<Name>Preliminaries - AS 4000</Name>
+			</Section>
+			<Section>
+				<Code>01 450</Code>
+				<Name>Preliminaries - AS 4905</Name>
+			</Section>
+			<Section>
+				<Code>01 460</Code>
+				<Name>Preliminaries - AS 4902</Name>
+			</Section>
+			<Section>
+				<Code>01 470</Code>
+				<Name>Conditions of contract (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 480</Code>
+				<Name>Preliminaries - ABIC EW-1</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>01 5</Code>
+			<Name>Schedule of rates (AUS-SPEC)</Name>
+			<Section>
+				<Code>01 520</Code>
+				<Name>Schedule of rates-projects (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 530</Code>
+				<Name>Schedules-period supply and service (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 540</Code>
+				<Name>Contract schedules for parks and recreation areas (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 550</Code>
+				<Name>Contract schedules for buildings and facilities (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 560</Code>
+				<Name>Contract schedules for road reserves (AUS-SPEC)</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>01 6</Code>
+			<Name>Quality assurance</Name>
+			<Section>
+				<Code>01 600</Code>
+				<Name>Quality (Design) (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 610</Code>
+				<Name>Quality (Construction) (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 620</Code>
+				<Name>Quality</Name>
+			</Section>
+			<Section>
+				<Code>01 630</Code>
+				<Name>Contractors quality plan  (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 640</Code>
+				<Name>Parks and recreation area management plan (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 650</Code>
+				<Name>Buildings and facilities maintenance plan (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 660</Code>
+				<Name>Road reserve management plan requirements (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 670</Code>
+				<Name>Integrated management (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 680</Code>
+				<Name>Green star - as built submissions</Name>
+			</Section>
+			<Section>
+				<Code>01 690</Code>
+				<Name>Green star - office as built submissions</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>01 7</Code>
+			<Name>General requirements</Name>
+			<Section>
+				<Code>01 710</Code>
+				<Name>General requirements</Name>
+			</Section>
+			<Section>
+				<Code>01 760</Code>
+				<Name>Technical specification for supply (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 770</Code>
+				<Name>Technical specification for service (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>01 790</Code>
+				<Name>General requirements - (Construction) (AUS-SPEC)</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>01 8</Code>
+			<Name>Common requirements</Name>
+			<Section>
+				<Code>01 810</Code>
+				<Name>"Adhesives, sealants and fasteners"</Name>
+			</Section>
+			<Section>
+				<Code>01 820</Code>
+				<Name>Fire-stopping</Name>
+			</Section>
+			<Section>
+				<Code>01 830</Code>
+				<Name>Metals and prefinishes</Name>
+			</Section>
+			<Section>
+				<Code>01 840</Code>
+				<Name>Termite management</Name>
+			</Section>
+			<Section>
+				<Code>01 850</Code>
+				<Name>"Timber products, finishes and treatment"</Name>
+			</Section>
+			<Section>
+				<Code>01 860</Code>
+				<Name>Building IT components</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>01 9</Code>
+			<Name>Sundry installations</Name>
+			<Section>
+				<Code>01 910</Code>
+				<Name>Sundry items</Name>
+			</Section>
+			<Section>
+				<Code>01 920</Code>
+				<Name>Structural steel components</Name>
+			</Section>
+			<Section>
+				<Code>01 930</Code>
+				<Name>Roof access safety systems</Name>
+			</Section>
+			<Section>
+				<Code>01 940</Code>
+				<Name>Door seals and window seals</Name>
+			</Section>
+		</Section>
+	</Section>
+	<Section>
+		<Code>02</Code>
+		<Name>SITE URBAN AND OPEN SPACES</Name>
+		<Section>
+			<Code>02 0</Code>
+			<Name>Demolition</Name>
+			<Section>
+				<Code>02 010</Code>
+				<Name>Demolition</Name>
+			</Section>
+			<Section>
+				<Code>02 020</Code>
+				<Name>Demolition (Interior and alterations)</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>02 2</Code>
+			<Name>Preparation and groundwork</Name>
+			<Section>
+				<Code>02 210</Code>
+				<Name>Site management</Name>
+			</Section>
+			<Section>
+				<Code>02 220</Code>
+				<Name>Earthwork </Name>
+			</Section>
+			<Section>
+				<Code>02 230</Code>
+				<Name>Service trenching</Name>
+			</Section>
+			<Section>
+				<Code>02 240</Code>
+				<Name>Stormwater - site</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>02 4</Code>
+			<Name>Landscape structures</Name>
+			<Section>
+				<Code>02 410</Code>
+				<Name>Landscape - walling and edging</Name>
+			</Section>
+			<Section>
+				<Code>02 420</Code>
+				<Name>Landscape - fences and barriers</Name>
+			</Section>
+			<Section>
+				<Code>02 430</Code>
+				<Name>Landscape - water features</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>02 5</Code>
+			<Name>Landscape cultivation</Name>
+			<Section>
+				<Code>02 500</Code>
+				<Name>Landscape - gardening</Name>
+			</Section>
+			<Section>
+				<Code>02 510</Code>
+				<Name>Landscape - soils</Name>
+			</Section>
+			<Section>
+				<Code>02 520</Code>
+				<Name>Landscape - soft surfaces</Name>
+			</Section>
+			<Section>
+				<Code>02 530</Code>
+				<Name>Landscape - planting</Name>
+			</Section>
+			<Section>
+				<Code>02 540</Code>
+				<Name>Irrigation</Name>
+			</Section>
+			<Section>
+				<Code>02 550</Code>
+				<Name>Landscape - plant procurement </Name>
+			</Section>
+			<Section>
+				<Code>02 560</Code>
+				<Name>Landscape - establishment</Name>
+			</Section>
+			<Section>
+				<Code>02 570</Code>
+				<Name>Landscape - roadworks and street trees (AUS-SPEC)</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>02 6</Code>
+			<Name>Landscape finishes</Name>
+			<Section>
+				<Code>02 610</Code>
+				<Name>Landscape - furniture and fixtures</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>02 7</Code>
+			<Name>Pavements</Name>
+			<Section>
+				<Code>02 710</Code>
+				<Name>Pavement base and subbase</Name>
+			</Section>
+			<Section>
+				<Code>02 720</Code>
+				<Name>Asphaltic concrete</Name>
+			</Section>
+			<Section>
+				<Code>02 730</Code>
+				<Name>Sprayed bituminous surfacing</Name>
+			</Section>
+			<Section>
+				<Code>02 740</Code>
+				<Name>Concrete pavement</Name>
+			</Section>
+			<Section>
+				<Code>02 750</Code>
+				<Name>Segmental pavers - mortar bed</Name>
+			</Section>
+			<Section>
+				<Code>02 760</Code>
+				<Name>Segmental pavers - sand bed</Name>
+			</Section>
+			<Section>
+				<Code>02 770</Code>
+				<Name>Pavement ancillaries</Name>
+			</Section>
+			<Section>
+				<Code>02 780</Code>
+				<Name>Granular surfaces</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>02 8</Code>
+			<Name>Pathways</Name>
+			<Section>
+				<Code>02 810</Code>
+				<Name>Bushfire perimeter tracks (AUS-SPEC)</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>02 9</Code>
+			<Name>Retaining walls</Name>
+			<Section>
+				<Code>02 920</Code>
+				<Name>Masonry walls (AUS-SPEC)</Name>
+			</Section>
+			<Section>
+				<Code>02 930</Code>
+				<Name>Crib retaining walls (AUS-SPEC)</Name>
+			</Section>
+		</Section>
+	</Section>
+	<Section>
+		<Code>03</Code>
+		<Name>STRUCTURE</Name>
+		<Section>
+			<Code>03 0</Code>
+			<Name>Foundations</Name>
+			<Section>
+				<Code>03 010</Code>
+				<Name>Piling</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>03 1</Code>
+			<Name>Concrete</Name>
+			<Section>
+				<Code>03 100</Code>
+				<Name>Concrete - combined</Name>
+			</Section>
+			<Section>
+				<Code>03 110</Code>
+				<Name>Concrete formwork</Name>
+			</Section>
+			<Section>
+				<Code>03 120</Code>
+				<Name>Concrete reinforcement</Name>
+			</Section>
+			<Section>
+				<Code>03 130</Code>
+				<Name>Concrete post-tensioned</Name>
+			</Section>
+			<Section>
+				<Code>03 140</Code>
+				<Name>Concrete in situ </Name>
+			</Section>
+			<Section>
+				<Code>03 150</Code>
+				<Name>Concrete finishes</Name>
+			</Section>
+			<Section>
+				<Code>03 160</Code>
+				<Name>Precast concrete</Name>
+			</Section>
+			<Section>
+				<Code>03 170</Code>
+				<Name>Tilt-up concrete</Name>
+			</Section>
+			<Section>
+				<Code>03 180</Code>
+				<Name>Shotcrete</Name>
+			</Section>
+			<Section>
+				<Code>03 190</Code>
+				<Name>Minor concrete works (AUS-SPEC)</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>03 2</Code>
+			<Name>Earth</Name>
+			<Section>
+				<Code>03 210</Code>
+				<Name>Monolithic stabilised earth walling</Name>
+			</Section>
+			<Section>
+				<Code>03 220</Code>
+				<Name>Mud brick walling</Name>
+			</Section>
+			<Section>
+				<Code>03 230</Code>
+				<Name>Straw bale </Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>03 3</Code>
+			<Name>Masonry</Name>
+			<Section>
+				<Code>03 310</Code>
+				<Name>Brick and block construction</Name>
+			</Section>
+			<Section>
+				<Code>03 320</Code>
+				<Name>Stone masonry</Name>
+			</Section>
+			<Section>
+				<Code>03 330</Code>
+				<Name>Stone repair</Name>
+			</Section>
+			<Section>
+				<Code>03 340</Code>
+				<Name>Block construction</Name>
+			</Section>
+			<Section>
+				<Code>03 350</Code>
+				<Name>Brick construction</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>03 4</Code>
+			<Name>Steel</Name>
+			<Section>
+				<Code>03 410</Code>
+				<Name>Structural steel </Name>
+			</Section>
+			<Section>
+				<Code>03 420</Code>
+				<Name>Light steel framing</Name>
+			</Section>
+			<Section>
+				<Code>03 430</Code>
+				<Name>Tensioned membrane structures</Name>
+			</Section>
+			<Section>
+				<Code>03 440</Code>
+				<Name>Steel - hot dip galvanized coatings</Name>
+			</Section>
+			<Section>
+				<Code>03 450</Code>
+				<Name>Steel - protective paint coatings</Name>
+			</Section>
+			<Section>
+				<Code>03 460</Code>
+				<Name>Structural fire protection systems</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>03 8</Code>
+			<Name>Timber</Name>
+			<Section>
+				<Code>03 810</Code>
+				<Name>Structural timber</Name>
+			</Section>
+			<Section>
+				<Code>03 820</Code>
+				<Name>Light timber framing</Name>
+			</Section>
+			<Section>
+				<Code>03 830</Code>
+				<Name>Decking and platform floors</Name>
+			</Section>
+		</Section>
+	</Section>
+	<Section>
+		<Code>04</Code>
+		<Name>ENCLOSURE</Name>
+		<Section>
+			<Code>04 1</Code>
+			<Name>Tanking and damp-proofing</Name>
+			<Section>
+				<Code>04 110</Code>
+				<Name>Waterproofing - external and tanking </Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>04 2</Code>
+			<Name>Roofing</Name>
+			<Section>
+				<Code>04 210</Code>
+				<Name>Roofing - combined</Name>
+			</Section>
+			<Section>
+				<Code>04 230</Code>
+				<Name>Roofing - profiled sheet metal</Name>
+			</Section>
+			<Section>
+				<Code>04 240</Code>
+				<Name>Roofing - seamed sheet metal</Name>
+			</Section>
+			<Section>
+				<Code>04 250</Code>
+				<Name>Roofing - shingles &amp; shakes</Name>
+			</Section>
+			<Section>
+				<Code>04 260</Code>
+				<Name>Roofing - slate</Name>
+			</Section>
+			<Section>
+				<Code>04 270</Code>
+				<Name>Roofing - tiles</Name>
+			</Section>
+			<Section>
+				<Code>04 280</Code>
+				<Name>Roof glazing</Name>
+			</Section>
+			<Section>
+				<Code>04 290</Code>
+				<Name>Tubular daylighting systems</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>04 3</Code>
+			<Name>Cladding</Name>
+			<Section>
+				<Code>04 310</Code>
+				<Name>Cladding - combined</Name>
+			</Section>
+			<Section>
+				<Code>04 320</Code>
+				<Name>Curtain walls</Name>
+			</Section>
+			<Section>
+				<Code>04 330</Code>
+				<Name>Stone cladding</Name>
+			</Section>
+			<Section>
+				<Code>04 340</Code>
+				<Name>Cladding - panels </Name>
+			</Section>
+			<Section>
+				<Code>04 350</Code>
+				<Name>Cladding - planks</Name>
+			</Section>
+			<Section>
+				<Code>04 360</Code>
+				<Name>Cladding - profiled sheet metal</Name>
+			</Section>
+			<Section>
+				<Code>04 436</Code>
+				<Name>COLORBOND ® and ZINCALUME ® cladding </Name>
+			</Section>
+			<Section>
+				<Code>04 370</Code>
+				<Name>Cladding - sheet and pre-assembled systems</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>04 5</Code>
+			<Name>Doors and windows</Name>
+			<Section>
+				<Code>04 510</Code>
+				<Name>Windows and glazed doors</Name>
+			</Section>
+			<Section>
+				<Code>04 520</Code>
+				<Name>Window hardware</Name>
+			</Section>
+			<Section>
+				<Code>04 530</Code>
+				<Name>Doors and access panels</Name>
+			</Section>
+			<Section>
+				<Code>04 540</Code>
+				<Name>Overhead doors</Name>
+			</Section>
+			<Section>
+				<Code>04 550</Code>
+				<Name>Door hardware</Name>
+			</Section>
+			<Section>
+				<Code>04 560</Code>
+				<Name>Louvre windows</Name>
+			</Section>
+			<Section>
+				<Code>04 570</Code>
+				<Name>External screens</Name>
+			</Section>
+			<Section>
+				<Code>04 580</Code>
+				<Name>Automatic doors</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>04 6</Code>
+			<Name>Glass</Name>
+			<Section>
+				<Code>04 610</Code>
+				<Name>Glazing </Name>
+			</Section>
+			<Section>
+				<Code>04 620</Code>
+				<Name>Structural glazing</Name>
+			</Section>
+			<Section>
+				<Code>04 630</Code>
+				<Name>Glass blockwork</Name>
+			</Section>
+			<Section>
+				<Code>04 670</Code>
+				<Name>Glass components</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>04 7</Code>
+			<Name>Insulation</Name>
+			<Section>
+				<Code>04 710</Code>
+				<Name>Insulation and sarking membranes</Name>
+			</Section>
+			<Section>
+				<Code>04 720</Code>
+				<Name>Acoustic insulation </Name>
+			</Section>
+			<Section>
+				<Code>04 730</Code>
+				<Name>Acoustic floor underlays</Name>
+			</Section>
+		</Section>
+	</Section>
+	<Section>
+		<Code>05</Code>
+		<Name>INTERIOR</Name>
+		<Section>
+			<Code>05 1</Code>
+			<Name>Lining</Name>
+			<Section>
+				<Code>05 110</Code>
+				<Name>Lining</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>05 2</Code>
+			<Name>Partitions</Name>
+			<Section>
+				<Code>05 210</Code>
+				<Name>Partitions - demountable</Name>
+			</Section>
+			<Section>
+				<Code>05 220</Code>
+				<Name>Partitions - framed and lined</Name>
+			</Section>
+			<Section>
+				<Code>05 230</Code>
+				<Name>Partitions - brick and block</Name>
+			</Section>
+			<Section>
+				<Code>05 240</Code>
+				<Name>Partitions - glazed</Name>
+			</Section>
+			<Section>
+				<Code>05 250</Code>
+				<Name>Cubicle systems</Name>
+			</Section>
+			<Section>
+				<Code>05 260</Code>
+				<Name>Terrazzo  precast </Name>
+			</Section>
+			<Section>
+				<Code>05 270</Code>
+				<Name>Room dividers</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>05 3</Code>
+			<Name>Ceilings</Name>
+			<Section>
+				<Code>05 310</Code>
+				<Name>Suspended ceilings - combined</Name>
+			</Section>
+			<Section>
+				<Code>05 320</Code>
+				<Name>Suspended ceilings - flush lined</Name>
+			</Section>
+			<Section>
+				<Code>05 330</Code>
+				<Name>Suspended ceilings - panel systems</Name>
+			</Section>
+			<Section>
+				<Code>05 340</Code>
+				<Name>Suspended ceilings - tiled</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>05 4</Code>
+			<Name>Access floors</Name>
+			<Section>
+				<Code>05 410</Code>
+				<Name>Access floors</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>05 5</Code>
+			<Name>Fixtures</Name>
+			<Section>
+				<Code>05 510</Code>
+				<Name>Joinery</Name>
+			</Section>
+			<Section>
+				<Code>05 520</Code>
+				<Name>Fabricated metalwork</Name>
+			</Section>
+			<Section>
+				<Code>05 530</Code>
+				<Name>Stainless steel benching</Name>
+			</Section>
+			<Section>
+				<Code>05 540</Code>
+				<Name>"Stairs, ladders and walkways"</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>05 7</Code>
+			<Name>Furnitures and furnishings</Name>
+			<Section>
+				<Code>05 710</Code>
+				<Name>Workstations</Name>
+			</Section>
+			<Section>
+				<Code>05 720</Code>
+				<Name>Miscellaneous furniture</Name>
+			</Section>
+			<Section>
+				<Code>05 730</Code>
+				<Name>Extinguishers and blankets</Name>
+			</Section>
+			<Section>
+				<Code>05 740</Code>
+				<Name>Window coverings</Name>
+			</Section>
+			<Section>
+				<Code>05 750</Code>
+				<Name>Tapestries</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>05 8</Code>
+			<Name>Signs and furnishings</Name>
+			<Section>
+				<Code>05 810</Code>
+				<Name>Signs and display</Name>
+			</Section>
+		</Section>
+	</Section>
+	<Section>
+		<Code>06</Code>
+		<Name>FINISH</Name>
+		<Section>
+			<Code>06 1</Code>
+			<Name>Trowelled and sprayed coatings</Name>
+			<Section>
+				<Code>06 110</Code>
+				<Name>Plastering</Name>
+			</Section>
+			<Section>
+				<Code>06 120</Code>
+				<Name>Cementitious toppings</Name>
+			</Section>
+			<Section>
+				<Code>06 130</Code>
+				<Name>Terrazzo in situ</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>06 2</Code>
+			<Name>Wet areas</Name>
+			<Section>
+				<Code>06 210</Code>
+				<Name>Waterproofing - wet areas</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>06 3</Code>
+			<Name>Tiling</Name>
+			<Section>
+				<Code>06 310</Code>
+				<Name>Ceramic tiling</Name>
+			</Section>
+			<Section>
+				<Code>06 320</Code>
+				<Name>Stone and terrazzo tiling </Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>06 4</Code>
+			<Name>Wall surfacing</Name>
+			<Section>
+				<Code>06 410</Code>
+				<Name>Applied wall finishes </Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>06 5</Code>
+			<Name>Floor surfacing</Name>
+			<Section>
+				<Code>06 510</Code>
+				<Name>Resilient finishes</Name>
+			</Section>
+			<Section>
+				<Code>06 520</Code>
+				<Name>Carpets</Name>
+			</Section>
+			<Section>
+				<Code>06 540</Code>
+				<Name>Engineered panel flooring</Name>
+			</Section>
+			<Section>
+				<Code>06 550</Code>
+				<Name>Timber flooring</Name>
+			</Section>
+			<Section>
+				<Code>06 560</Code>
+				<Name>Floor sanding and finishing</Name>
+			</Section>
+			<Section>
+				<Code>06 570</Code>
+				<Name>Resin based seamless flooring</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>06 7</Code>
+			<Name>Painting and wall papering</Name>
+			<Section>
+				<Code>06 710</Code>
+				<Name>Painting </Name>
+			</Section>
+			<Section>
+				<Code>06 720</Code>
+				<Name>Textured and membrane coatings</Name>
+			</Section>
+			<Section>
+				<Code>06 730</Code>
+				<Name>Powder coating</Name>
+			</Section>
+			<Section>
+				<Code>06 790</Code>
+				<Name>Wall papering</Name>
+			</Section>
+		</Section>
+	</Section>
+	<Section>
+		<Code>07</Code>
+		<Name>MECHANICAL</Name>
+		<Section>
+			<Code>07 0</Code>
+			<Name>Mechanical general</Name>
+			<Section>
+				<Code>07 010</Code>
+				<Name>Mechanical systems</Name>
+			</Section>
+			<Section>
+				<Code>07 020</Code>
+				<Name>Mechanical design and install</Name>
+			</Section>
+			<Section>
+				<Code>07 030</Code>
+				<Name>Mechanical design and construct</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>07 1</Code>
+			<Name>Water plant</Name>
+			<Section>
+				<Code>07 110</Code>
+				<Name>Chillers - combined</Name>
+			</Section>
+			<Section>
+				<Code>07 120</Code>
+				<Name>Water heating boilers</Name>
+			</Section>
+			<Section>
+				<Code>07 130</Code>
+				<Name>Cooling towers</Name>
+			</Section>
+			<Section>
+				<Code>07 140</Code>
+				<Name>Mechanical pumps</Name>
+			</Section>
+			<Section>
+				<Code>07 150</Code>
+				<Name>"Tanks, vessels and heat exchangers"</Name>
+			</Section>
+			<Section>
+				<Code>07 160</Code>
+				<Name>Chillers - centrifugal</Name>
+			</Section>
+			<Section>
+				<Code>07 170</Code>
+				<Name>Chillers - water cooled screw</Name>
+			</Section>
+			<Section>
+				<Code>07 180</Code>
+				<Name>Chillers - air cooled screw and scroll</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>07 2</Code>
+			<Name>Air plant</Name>
+			<Section>
+				<Code>07 210</Code>
+				<Name>Packaged air conditioning</Name>
+			</Section>
+			<Section>
+				<Code>07 220</Code>
+				<Name>Room air conditioners</Name>
+			</Section>
+			<Section>
+				<Code>07 230</Code>
+				<Name>Evaporative coolers</Name>
+			</Section>
+			<Section>
+				<Code>07 240</Code>
+				<Name>Air handling plant - combined</Name>
+			</Section>
+			<Section>
+				<Code>07 250</Code>
+				<Name>Air handling plant - built up </Name>
+			</Section>
+			<Section>
+				<Code>07 260</Code>
+				<Name>Air handling plant - minor </Name>
+			</Section>
+			<Section>
+				<Code>07 270</Code>
+				<Name>Air handling plant - packaged </Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>07 3</Code>
+			<Name>Air handling components</Name>
+			<Section>
+				<Code>07 310</Code>
+				<Name>Fans</Name>
+			</Section>
+			<Section>
+				<Code>07 320</Code>
+				<Name>Air filters</Name>
+			</Section>
+			<Section>
+				<Code>07 330</Code>
+				<Name>Air coils</Name>
+			</Section>
+			<Section>
+				<Code>07 340</Code>
+				<Name>Humidifiers</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>07 4</Code>
+			<Name>Ductwork and components</Name>
+			<Section>
+				<Code>07 410</Code>
+				<Name>Ductwork</Name>
+			</Section>
+			<Section>
+				<Code>07 440</Code>
+				<Name>Ductwork insulation</Name>
+			</Section>
+			<Section>
+				<Code>07 450</Code>
+				<Name>Attenuators and acoustic louvres</Name>
+			</Section>
+			<Section>
+				<Code>07 460</Code>
+				<Name>Air grilles</Name>
+			</Section>
+			<Section>
+				<Code>07 470</Code>
+				<Name>Variable air volume  terminals</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>07 5</Code>
+			<Name>Piping</Name>
+			<Section>
+				<Code>07 510</Code>
+				<Name>Mechanical piping</Name>
+			</Section>
+			<Section>
+				<Code>07 520</Code>
+				<Name>Mechanical piping insulation</Name>
+			</Section>
+			<Section>
+				<Code>07 530</Code>
+				<Name>Water treatment</Name>
+			</Section>
+			<Section>
+				<Code>07 540</Code>
+				<Name>Liquid fuels </Name>
+			</Section>
+			<Section>
+				<Code>07 550</Code>
+				<Name>Medical gas systems</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>07 6</Code>
+			<Name>Refrigeration</Name>
+			<Section>
+				<Code>07 610</Code>
+				<Name>Refrigeration</Name>
+			</Section>
+			<Section>
+				<Code>07 620</Code>
+				<Name>Cold rooms</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>07 7</Code>
+			<Name>Control</Name>
+			<Section>
+				<Code>07 710</Code>
+				<Name>Automatic controls</Name>
+			</Section>
+			<Section>
+				<Code>07 720</Code>
+				<Name>Automatic controls - minor </Name>
+			</Section>
+			<Section>
+				<Code>07 730</Code>
+				<Name>Building management systems</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>07 8</Code>
+			<Name>Mechanical electrical</Name>
+			<Section>
+				<Code>07 810</Code>
+				<Name>Mechanical electrical</Name>
+			</Section>
+			<Section>
+				<Code>07 820</Code>
+				<Name>Mechanical electrical - minor</Name>
+			</Section>
+			<Section>
+				<Code>07 840</Code>
+				<Name>Motors and starters </Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>07 9</Code>
+			<Name>Mechanical commissioning and maintenance</Name>
+			<Section>
+				<Code>07 910</Code>
+				<Name>Mechanical commissioning</Name>
+			</Section>
+			<Section>
+				<Code>07 920</Code>
+				<Name>Mechanical maintenance</Name>
+			</Section>
+		</Section>
+	</Section>
+	<Section>
+		<Code>08</Code>
+		<Name>HYDRAULIC</Name>
+		<Section>
+			<Code>08 0</Code>
+			<Name>Hydraulic general</Name>
+			<Section>
+				<Code>08 010</Code>
+				<Name>Hydraulic systems</Name>
+			</Section>
+			<Section>
+				<Code>08 020</Code>
+				<Name>Hydraulic design and install</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>08 1</Code>
+			<Name>Hydraulic components</Name>
+			<Section>
+				<Code>08 110</Code>
+				<Name>Sanitary fixtures</Name>
+			</Section>
+			<Section>
+				<Code>08 120</Code>
+				<Name>Tapware</Name>
+			</Section>
+			<Section>
+				<Code>08 130</Code>
+				<Name>Water heaters</Name>
+			</Section>
+			<Section>
+				<Code>08 140</Code>
+				<Name>Hydraulic pumps</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>08 2</Code>
+			<Name>Hydraulic systems</Name>
+			<Section>
+				<Code>08 210</Code>
+				<Name>Stormwater - buildings</Name>
+			</Section>
+			<Section>
+				<Code>08 220</Code>
+				<Name>Wastewater</Name>
+			</Section>
+			<Section>
+				<Code>08 230</Code>
+				<Name>Cold and heated water</Name>
+			</Section>
+			<Section>
+				<Code>08 240</Code>
+				<Name>Fuel gas</Name>
+			</Section>
+			<Section>
+				<Code>08 250</Code>
+				<Name>Rainwater storage systems</Name>
+			</Section>
+			<Section>
+				<Code>08 260</Code>
+				<Name>Greywater systems</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>08 3</Code>
+			<Name>Fire systems</Name>
+			<Section>
+				<Code>08 310</Code>
+				<Name>Hydrants</Name>
+			</Section>
+			<Section>
+				<Code>08 320</Code>
+				<Name>Hose reels</Name>
+			</Section>
+			<Section>
+				<Code>08 330</Code>
+				<Name>Sprinklers</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>08 8</Code>
+			<Name>Hydraulic electrical</Name>
+			<Section>
+				<Code>08 820</Code>
+				<Name>Hydraulic electrical - minor</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>08 9</Code>
+			<Name>Hydraulic maintenance</Name>
+			<Section>
+				<Code>08 910</Code>
+				<Name>Hydraulic maintenance</Name>
+			</Section>
+		</Section>
+	</Section>
+	<Section>
+		<Code>09</Code>
+		<Name>ELECTRICAL</Name>
+		<Section>
+			<Code>09 0</Code>
+			<Name>Electrical general</Name>
+			<Section>
+				<Code>09 010</Code>
+				<Name>Electrical Systems</Name>
+			</Section>
+			<Section>
+				<Code>09 020</Code>
+				<Name>Electrical design and install</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>09 1</Code>
+			<Name>Electrical equipment</Name>
+			<Section>
+				<Code>09 110</Code>
+				<Name>Cable support and duct systems</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>09 2</Code>
+			<Name>Power systems</Name>
+			<Section>
+				<Code>09 210</Code>
+				<Name>Low voltage power systems</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>09 3</Code>
+			<Name>Power supply equipment</Name>
+			<Section>
+				<Code>09 310</Code>
+				<Name>Power generation - engine driven</Name>
+			</Section>
+			<Section>
+				<Code>09 330</Code>
+				<Name>Power generation - photovoltaic</Name>
+			</Section>
+			<Section>
+				<Code>09 370</Code>
+				<Name>Uninterruptible power supply</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>09 4</Code>
+			<Name>Power distribution</Name>
+			<Section>
+				<Code>09 410</Code>
+				<Name>Switchboards - proprietary</Name>
+			</Section>
+			<Section>
+				<Code>09 420</Code>
+				<Name>Switchboards - custom-built</Name>
+			</Section>
+			<Section>
+				<Code>09 430</Code>
+				<Name>Switchboard components</Name>
+			</Section>
+			<Section>
+				<Code>09 470</Code>
+				<Name>Power factor correction</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>09 5</Code>
+			<Name>Lighting systems</Name>
+			<Section>
+				<Code>09 510</Code>
+				<Name>Lighting</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>09 6</Code>
+			<Name>Communication systems</Name>
+			<Section>
+				<Code>09 610</Code>
+				<Name>Telecommunications cabling</Name>
+			</Section>
+			<Section>
+				<Code>09 620</Code>
+				<Name>Television distribution systems</Name>
+			</Section>
+			<Section>
+				<Code>09 630</Code>
+				<Name>Sound Systems</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>09 7</Code>
+			<Name>Safety systems</Name>
+			<Section>
+				<Code>09 710</Code>
+				<Name>Emergency evacuation lighting</Name>
+			</Section>
+			<Section>
+				<Code>09 720</Code>
+				<Name>Fire detection and alarms</Name>
+			</Section>
+			<Section>
+				<Code>09 730</Code>
+				<Name>Emergency warning and intercommunication</Name>
+			</Section>
+			<Section>
+				<Code>09 790</Code>
+				<Name>Lightning protection</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>09 8</Code>
+			<Name>Security systems</Name>
+			<Section>
+				<Code>09 810</Code>
+				<Name>Electronic security</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>09 9</Code>
+			<Name>Electrical maintenance</Name>
+			<Section>
+				<Code>09 910</Code>
+				<Name>Electrical maintenance</Name>
+			</Section>
+		</Section>
+	</Section>
+	<Section>
+		<Code>10</Code>
+		<Name>CONVEYING</Name>
+		<Section>
+			<Code>10 0</Code>
+			<Name>Conveying general</Name>
+			<Section>
+				<Code/>
+				<Name/>
+			</Section>
+		</Section>
+		<Section>
+			<Code>10 1</Code>
+			<Name>Conveying equipment</Name>
+			<Section>
+				<Code>10 110</Code>
+				<Name>Lifts</Name>
+			</Section>
+			<Section>
+				<Code>10 120</Code>
+				<Name>Escalators and moving walkways</Name>
+			</Section>
+		</Section>
+		<Section>
+			<Code>10 2</Code>
+			<Name>Other conveying equpment</Name>
+			<Section>
+				<Code/>
+				<Name/>
+			</Section>
+		</Section>
+	</Section>
+</Table>
+

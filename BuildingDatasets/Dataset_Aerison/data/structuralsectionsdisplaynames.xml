@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructuralShapes>
+    <DisplayNames>
+        <!--
+        bwmsg.r
+        StringList  STRL_SectionTypes =
+            {
+                3,
+                {
+            /* "All" is also used for Code names combo box.  Translators should 
+                use a general word that can be used to described all section types and all codes */
+                {{0, 0, 0},                   "All"},                       /* TRANSLATE            */
+                {{0, 0, -1},                   "-"},                        /* DO NOT TRANSLATE !   */
+                {{0, 0, WIDEFLANGE},          "I Shapes"},                  /* TRANSLATION OPTIONAL */
+
+        This file is used by managed code to retrive the display string for section types found in bwmsg.r under string list STRL_SectionTypes
+        the name attribute is use internal by the display name resolver,
+        the displayName attribute contains the same display name found above in quotes.
+        the code attribute is the macro name found above in caps.
+        -->
+
+        <SectionTypes>
+            <SectionType name="I-Shapes"                    displayName="I Shapes"                      code="WIDEFLANGE"/>
+            <SectionType name="Angle"                       displayName="Angles"                        code="ANGLE"/>
+            <SectionType name="Channels"                    displayName="Channels"                      code="CHANNEL"/>
+            <SectionType name="Tees"                        displayName="Tees"                          code="TEE"/>
+            <SectionType name="RectangularShapes"           displayName="Rectangular Shapes"            code="RECTANG"/>
+            <SectionType name="ConcreteTees"                displayName="Concrete Tees"                 code="CONCTEE"/>
+            <SectionType name="ConcreteTeesTapered"         displayName="Concrete Tees (Tapered)"       code="TAPCONCTEE"/>
+            <SectionType name="RectangularHollowSections"   displayName="Rectangular Tubes"             code="RECTANG_TUBE"/>
+            <SectionType name="CircularHollowSections"      displayName="Round Tubes"                   code="ROUND_TUBE"/>
+            <SectionType name="ChannelsWStiffFlanges"       displayName="Stiffened Channels"            code="TRUE_C"/>
+            <SectionType name="Zees"                        displayName="SZees"                         code="ZEE"/>
+            <SectionType name="ConcreteElls"                displayName="Concrete Ells"                 code="CONCELL"/>
+            <SectionType name="ConcreteEllsTapered"         displayName="Concrete Ells (Tapered)"       code="TAPCONCELL"/>
+            <SectionType name="SolidRounds"                 displayName="Solid Rounds"                  code="SOLID_ROUND"/>
+            <SectionType name="Trapezoids"                  displayName="Trapezoids"                    code="ST_TRAPEZOID"/>
+            <SectionType name="TaperedWebRectangles"        displayName="Tapered Web Rectangles"        code="TAPEREDWEB_RECT"/>
+            <SectionType name="DoubleTees"                  displayName="Concrete Double Tees"          code="DOUBLE_TEE"/>
+            <SectionType name="PreCastIBeams"               displayName="Precast I Beams"               code="PRECAST_IBEAM"/>
+            <SectionType name="PlateGirdersBox"             displayName="Plate Girderss"                code="PLATEGIRDER_BOX"/>
+            <SectionType name="PlateGirdersExt"             displayName="Plate Girders (Extended)"      code="PLATEGIRDER_EXTENDED"/>
+            <SectionType name="AsymmetricBeams"             displayName="Asymmetric Beams"              code="ASYMMETRIC_BEAM"/>
+            <SectionType name="PlateGirders"                displayName="Welded Plate Girders"          code="PLATEGIRDER"/>
+            <SectionType name="DoubleAngles"                displayName="Double Angle"                  code="DOUBLE_ANGLE"/>
+            <SectionType name="Hexagons"                    displayName="Hexagon"                       code="HEXAGON"/>
+            <SectionType name="HexagonHollowSections"       displayName="Hexagon Tube"                  code="HEXAGON_TUBE"/>
+            <SectionType name="Octagons"                    displayName="Octagon"                       code="OCTAGON"/>
+            <SectionType name="OctagonHollowSections"       displayName="Octagon Tube"                  code="OCTAGON_TUBE"/>
+            <SectionType name="DoubleChannels"              displayName="Double Channel"                code="DOUBLE_CHANNEL"/>
+            <SectionType name="RoofDecks"                   displayName="Roof Decking"                  code="ROOFDECK"/>
+            <SectionType name="KoreanStaredSections"        displayName="Korean Star Section"           code="STAR_SECTION"/>
+            <SectionType name="StaredDoubleAngles"          displayName="Starred Double Angle"          code="STAREDDOUBLE_ANGLE"/>
+            <SectionType name="CastellatedBeams"            displayName="Castellated Beams"             code="CASTELLATEDBEAM"/>
+            <SectionType name="NonCastellatedBeams"         displayName="Non Castellated Beams"         code="NONCASTELLATEDBEAM"/>
+            <SectionType name="Hats"                        displayName="Hat"                           code="HAT"/>
+            <SectionType name="ConcreteSuperTees"           displayName="Precast Concrete Super Tee"    code="CONC_SUPER_TEE"/>
+            <SectionType name="ConcreteUs"                  displayName="Precast Concrete U"            code="CONC_U"/>
+            <SectionType name="ConcreteBoxes"               displayName="Precast Concrete Box"          code="CONC_BOX"/>
+	    <SectionType name="TrapezodialTube"             displayName="Trapezodial Tube"              code="TRAPEZOIDAL_TUBE"/>
+	    <SectionType name="EllipticalTube"              displayName="Elliptical Tube"               code="ELLIPTICAL_TUBE"/>
+
+        </SectionTypes>
+    </DisplayNames>
+</StructuralShapes>

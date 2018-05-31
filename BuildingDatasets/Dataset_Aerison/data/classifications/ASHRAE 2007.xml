@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Table>
+    <Name>ASHRAE 2007</Name>
+    <Source>ANSI/ASHRAE/IES Standard 90.1-2007 -- Energy Standard for Buildings Except Low-Rise Residential Buildings</Source>
+    <Version>Major Version No=&apos;2010 Edition MasterFormat&apos;  Major Date=&apos;March 2010&apos;  Minor Version No=&apos;2010 Edition MasterFormat&apos;  Minor Date=&apos;March 2010&apos;  Major=&apos;&apos;  Minor=&apos;&apos; </Version>
+		<Section>
+			<Code>Air/Train/Bus - Baggage Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>	
+			<Code>Airport - Concourse</Code>
+			<Name></Name>	
+		</Section>
+		<Section>	
+			<Code>Art Classroom</Code>
+			<Name></Name>	
+		</Section>
+		<Section>
+			<Code>Atrium - Each additional floor</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Atrium - First 3 floors</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Auditorium Seating Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Automotive - Service/Repair</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Banks - Banking Activity Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Banks - Vault/Safe Deposit</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Barber Shop</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Barracks - Sleeping Quarter</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Beauty and Nail Salons</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Bowling Alley (seating)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Break Room/Locker Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Classrooms (age 5-8)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Classrooms (age 9+)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Coin-operated Laundries</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Computer (not printing)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Computer Lab/Media Center</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Conference/Meeting/Multipurpose</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Confinement Cells</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Control room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Convention - Audience Seating</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Convention - Exhibit Space</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Convention Center</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Corridor/Transition</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Court Sports Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Courtroom</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Daycare (though age 4)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Dining Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Dining: Bar, Lounge, Leisure Dining</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Dining: Cafeteria/Fast Food</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Dining: Family Dining</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Disco/Dance Floor</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Dormitories/Barracks - Living Quarter</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Dressing Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Electrical/Mechanical</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Elevator Machine Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Emergency</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Equipment Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Exam/Treatment</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Exercise/Fitness Center - Lobby</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Exercise/Fitness Center - Playing Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Exercise/Fitness Center - Weight Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Exercise/Fitness Center- Aerobic Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Fire Station - Sleeping Quarter</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Fire Station Engine Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Food Preparation, Kitchen (cooking)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Gambling Casinos</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Game Arcades</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Gymnasium, Sports Arena</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Health Care-Clinic</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>High Bay  (25 - 50' floor-to-ceiling)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Hospital Storage</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Hotel Dining</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Hotel Guest Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Hotel Lobby/Prefunction</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+		<Code>Indoor Playing Field</Code>
+		<Name></Name>
+		</Section>
+		<Section>
+			<Code>Industrial Laboratory</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Judges Chambers</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Laundry</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Laundry - Washing</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Lecture Classroom</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Lecture Hall (fixed seats)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Library</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Library - Card File and Cataloging</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Library - Reading Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Library - Stacks</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Lobby</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Lounge/Coffee Station</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Lounge/Recreation</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Low Bay (&lt;25' floor-to-ceiling)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Main Entry Lobby</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Mall Concourse</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Medical Laboratory</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Medical Supply</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Motel Dining</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Motel Guest Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Motion Picture Theater</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Motion Picture Theater - Audience/Seating Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Motion Picture Theater - Lobby</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Multi-Family Common Corridors</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Multi-Family Dwelling Units</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Multi-purpose Assembly</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Multi-use Assembly</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Museum - Exhibition</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Museum - Restoration</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Museum - Storage</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Museums (children's)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Music/Theater/Dance</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Nurse Station</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Nursery</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Office - Enclosed</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Office - Open Plan</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Operating Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Parking Garage</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Patient Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Penitentiary - Booking/Waiting</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Penitentiary - Day Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Penitentiary - Guard Station</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Penitentiary Classroom</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Performing Arts Theater</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Performing Arts Theater - Audience/Seating Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Performing Arts Theater - Dressing/Fitting Room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Performing Arts Theater - Lobby</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Pet Shops (animal areas)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Pharmacy</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Pharmacy (prep area)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Photo Studios</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Physical Therapy</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Post Office - Sorting Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Radiology</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Reception Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Recovery</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Religious - Fellowship Hall</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Religious - Seating</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Religious - Worship Pulpit, Choir, Audience Seating</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Religious Buildings</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Restrooms</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Ring Sports Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Sales Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Science/Classroom Laboratory</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Seating/Waiting Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Shipping/Receiving</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Sorting, Packing, Light Assembly, Detailed Manufacturing</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Spectator Area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Stages, Studios</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Stairway</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Storage - Active</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Storage - Inactive</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Supermarket</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Swimming (pool &amp; deck)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Telephone/Data Entry</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Terminal - Ticket Counter</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Town Hall, Legislative Chambers</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>University/College/Research Laboratory</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Warehouse - Fine Material Storage</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Warehouse - General</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Warehouse - Medium/Bulky Material Storage</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Wood/Metal Shop</Code>
+			<Name></Name>
+		</Section>
+</Table>

@@ -1,0 +1,244 @@
+﻿# This file uses UTF8 encoding. Lines starting with # or $, or ending with =
+# do NOT need translating.
+$utf8
+
+lcopkernel_res_0=
+???
+
+lcopkernel_res_1=
+Can't append a file set
+
+lcopkernel_res_2=
+No plugin exists that will open %s
+
+lcopkernel_res_3=
+File %s does not exist or can't be opened
+
+lcopkernel_res_4=
+Couldn't load %s because the contents are corrupt
+
+lcopkernel_res_5=
+File %s has an unknown version number
+
+lcopkernel_res_6=
+This application is not licensed to open %s
+
+lcopkernel_res_7=
+Load of %s was canceled
+
+lcopkernel_res_8=
+Can't load %s because of an internal error
+
+lcopkernel_res_9=
+The update operation was canceled. Partial results will be displayed.
+
+lcopkernel_res_10=
+Can't find file %s
+
+lcopkernel_res_11=
+No plugin exists that will save to %s
+
+lcopkernel_res_12=
+Can't open %s for writing
+
+lcopkernel_res_13=
+Out of disk space
+
+lcopkernel_res_14=
+The save was canceled
+
+lcopkernel_res_15=
+Failed to save %s
+
+lcopkernel_res_16=
+Loading cache for %s ...
+
+lcopkernel_res_17=
+Caching %s ...
+
+lcopkernel_res_18=
+Loading %s ...
+
+lcopkernel_res_19=
+Optimizing data from %s for fast display
+
+lcopkernel_res_20=
+File
+
+lcopkernel_res_21=
+Combining models
+
+lcopkernel_res_22=
+Converting to ${nwfile} native format
+
+lcopkernel_res_23=
+Rebuilding
+
+lcopkernel_res_24=
+Hide/Required
+
+lcopkernel_res_25=
+Properties
+
+lcopkernel_res_26=
+Current View
+
+lcopkernel_res_27=
+Scene Lights
+
+lcopkernel_res_28=
+Selection
+
+lcopkernel_res_29=
+Override Transform
+
+lcopkernel_res_30=
+Override Material
+
+lcopkernel_res_31=
+Viewpoints
+
+lcopkernel_res_32=
+Scene
+
+lcopkernel_res_33=
+Thumbnail
+
+lcopkernel_res_34=
+Animation
+
+lcopkernel_res_35=
+Selection Sets
+
+lcopkernel_res_36=
+The current model includes a locked published file. You are not allowed to save it.
+
+lcopkernel_res_37=
+The current model includes a locked published file. You are not allowed to publish it.
+
+lcopkernel_res_38=
+You may only publish NWD files. %s must have an nwd extension.
+
+lcopkernel_res_39=
+%s is a currently loaded file. You may not publish to it.
+
+lcopkernel_res_40=
+You are not licensed to publish files.
+
+lcopkernel_res_41=
+This application is not licensed to open %s
+
+lcopkernel_res_42=
+Refreshing %s ...
+
+lcopkernel_res_43=
+There is not enough temporary disk space to open %s. Clear out your Temp folder and try again.
+
+lcopkernel_res_44=
+A problem occurred after successfully saving. Please reload from %s.
+
+lcopkernel_res_45=
+Orientation
+
+lcopkernel_res_46=
+There is not enough memory to open %s. Increase the amount of available memory and try again.
+
+lcopkernel_res_47=
+Error code: %d
+
+lcopkernel_res_48=
+Comments
+
+lcopkernel_res_49=
+There is not enough memory to save %s. Increase the amount of available memory and try again.
+
+lcopkernel_res_50=
+Failed to save %s. An error was detected when attempting to page data in from disk. One of the currently opened files is corrupt.
+
+lcopkernel_res_51=
+Home View
+
+lcopkernel_res_52=
+%s does not contain any 3D data.
+
+lcopkernel_res_53=
+%s does not contain any 2D data.
+
+lcopkernel_res_54=
+This file does not contain the specified sheet.
+
+lcopkernel_res_55=
+Saving %s ...
+
+lcopkernel_res_56=
+%s contains additional sheets/models. Would you like to add them to the current project?
+
+lcopkernel_untitled=
+Untitled
+
+LcOpToolElement=
+Tool
+
+LcOpGizmoElement=
+Transform Tool
+
+LcOpGeometryProperty=
+Geometry
+
+LcOpGeometryPropertyPrimitives=
+Primitives
+
+LcOpGeometryPropertyFragments=
+Fragments
+
+LcOpGeometryPropertyHasTriangles=
+Triangles
+
+LcOpGeometryPropertyHasLines=
+Lines
+
+LcOpGeometryPropertyHasPoints=
+Points
+
+LcOpGeometryPropertyHasSnapPoints=
+Snap Points
+
+LcOpGeometryPropertyHasText=
+Text
+
+LcOpGeometryPropertySolid=
+Solid
+
+LcOpKernelEx_avatar_dummy=
+Dummy
+
+LcOpKernelEx_avatar_human=
+Human 1
+
+LcOpKernelEx_avatar_hardhat=
+Human 2
+
+LcOpKernelEx_avatar_none=
+None
+
+LcOpKernelEx_avatar_construction_worker=
+Construction Worker
+
+LcOpKernelEx_avatar_high_visibility=
+High Visibility
+
+LcOpKernelEx_avatar_office_female=
+Office Female
+
+LcOpKernelEx_avatar_office_female_hardhat=
+Office Female Hardhat
+
+LcOpKernelEx_avatar_office_male=
+Office Male
+
+LcOpKernelEx_avatar_office_male_hardhat=
+Office Male Hardhat
+
+LcOpKernelEx_avatar_protective_clothing=
+Protective Clothing
+

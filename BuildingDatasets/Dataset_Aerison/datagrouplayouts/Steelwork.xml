@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+	<Version major="1" minor="0"/>
+	<Units master="'" sub="&quot;"/>
+	<ScheduleLayouts>
+		<ScheduleLayout type="MultiCategories" name="FMG-Platforms">
+			<TemplateFile autoFitColumns="true" InsertioncellName="" updatePivotOnExport="false"/>
+			<CatalogType>Steel Beam</CatalogType>
+			<CatalogType>Steel Horizontal Brace</CatalogType>
+			<CatalogType>Steel Vertical Brace</CatalogType>
+			<HeaderLayout sortedColumn="60" sortDirection="true" sortGrouping="false" itemize="false">
+				<Column definition="" name="ArchInternal/Explorer/Itemize">
+					<Display name="Count" order="6" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="" name="ArchInternal/Explorer/File">
+					<Display name="File" order="7" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="" name="ArchInternal/Explorer/Logical">
+					<Display name="Logical" order="8" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="" name="ArchInternal/Explorer/Guid">
+					<Display name="Guid" order="9" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="" name="ArchInternal/Explorer/InstanceName">
+					<Display name="Instance Name" order="10" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="" name="ArchInternal/Explorer/InstanceOwner">
+					<Display name="Instance Owner" order="11" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="" name="ArchInternal/Explorer/ElementID">
+					<Display name="Element ID" order="12" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="IFC_Override" name="IFC_Override/@IfcOverride">
+					<Display name="IFC 2x3 Entity/Type Override" order="13" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="IFC_Override" name="IFC_Override/@IfcOverridedescription">
+					<Display name="IfcOverridedescription" order="14" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectClassification" name="ObjectClassification/@MasterFormat">
+					<Display name="MasterFormat" order="15" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectClassification" name="ObjectClassification/@MasterFormatdescription">
+					<Display name="MasterFormatdescription" order="16" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectClassification" name="ObjectClassification/@OmniClass">
+					<Display name="OmniClass" order="17" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectClassification" name="ObjectClassification/@OmniClassdescription">
+					<Display name="OmniClassdescription" order="18" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectClassification" name="ObjectClassification/@UniFormat">
+					<Display name="UniFormat" order="19" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectClassification" name="ObjectClassification/@UniFormatdescription">
+					<Display name="UniFormatdescription" order="20" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectClassification" name="ObjectClassification/@NATSPEC">
+					<Display name="NARSPEC" order="21" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectClassification" name="ObjectClassification/@NATSPECdescription">
+					<Display name="NATSPECdescription" order="22" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectClassification" name="ObjectClassification/@CBI2011">
+					<Display name="CBI 2011" order="23" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectClassification" name="ObjectClassification/@CBI2011description">
+					<Display name="CBI2011description" order="24" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireProofing" name="ObjectFireProofing/@FireproofingMaterial">
+					<Display name="Fireproofing Material" order="25" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireProofing" name="ObjectFireProofing/@FireproofingThickness">
+					<Display name="Fireproofing Thickness" order="26" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireProofing" name="ObjectFireProofing/@FireproofingPartDefinition">
+					<Display name="Fireproofing Part Definition" order="27" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireProofing" name="ObjectFireProofing/@HasFireproofing">
+					<Display name="Has Fireproofing" order="28" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireproofingQuantities" name="ObjectFireproofingQuantities/@FireproofingSurfaceArea">
+					<Display name="Fireproofing | Surface Area" order="29" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireproofingQuantities" name="ObjectFireproofingQuantities/@FireproofingVolumeNet">
+					<Display name="Fireproofing | Volume (Net)" order="30" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireResistance" name="ObjectFireResistance/@Rating">
+					<Display name="Fire | Rating" order="31" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireResistance" name="ObjectFireResistance/@ReferenceID">
+					<Display name="Fire | Test Reference No." order="32" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireResistance" name="ObjectFireResistance/@ReferenceURL">
+					<Display name="Fire | Test Reference URL" order="33" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireResistance" name="ObjectFireResistance/@IsCombustible">
+					<Display name="Fire | IsCombustible" order="34" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireResistance" name="ObjectFireResistance/@Compartmentation">
+					<Display name="Fire | Compartmentation" order="35" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectFireResistance" name="ObjectFireResistance/@SurfaceSpreadofFlame">
+					<Display name="Fire | Surface Spread of Flame" order="36" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectIdentity" name="ObjectIdentity/@Mark">
+					<Display name="ID | Type ID" order="37" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectIdentity" name="ObjectIdentity/@InstanceMark">
+					<Display name="ID | Number" order="38" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectIdentity" name="ObjectIdentity/@NameAlt">
+					<Display name="ID | Name (Alternate)" order="39" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectIdentity" name="ObjectIdentity/@Description">
+					<Display name="ID | Description" order="40" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectIdentity" name="ObjectIdentity/@Keynote">
+					<Display name="ID | Keynote" order="41" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectIdentity" name="ObjectIdentity/@Tag">
+					<Display name="ID | Asset Tag" order="42" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectIdentity" name="ObjectIdentity/@Notes">
+					<Display name="ID | Notes" order="43" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectLEED" name="ObjectLEED/@PercentRecycled">
+					<Display name="LEED | Pre-consumer Recycled (%)" order="44" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectLEED" name="ObjectLEED/@IsRegionalMaterial">
+					<Display name="LEED | Regional Material" order="45" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectLEED" name="ObjectLEED/@PercentPostConsumer">
+					<Display name="LEED | Post-consumer Recycled (%)" order="46" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectMaterial" name="ObjectMaterial/@PartDefinition">
+					<Display name="Part Definition" order="47" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectPhasing" name="ObjectPhasing/@Phasing">
+					<Display name="Phase" order="48" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectStructuralUsage" name="ObjectStructuralUsage/@StructuralFunction">
+					<Display name="Structural | Function" order="49" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectStructuralUsage" name="ObjectStructuralUsage/@StructuralMaterial">
+					<Display name="Structural | Material" order="50" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectThermalTransmittance" name="ObjectThermalTransmittance/@IsExternal">
+					<Display name="Is External" order="51" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ObjectThermalTransmittance" name="ObjectThermalTransmittance/@IsBelowGrade">
+					<Display name="Is Below Grade" order="52" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="Multi" name="Multi/Reference">
+					<Multi definition="Pset_BeamCommon" name="Pset_BeamCommon/@Reference"/>
+					<Multi definition="Pset_MemberCommon" name="Pset_MemberCommon/@Reference"/>
+					<Display name="Reference" order="53" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="Multi" name="Multi/Span">
+					<Multi definition="Pset_BeamCommon" name="Pset_BeamCommon/@Span"/>
+					<Multi definition="Pset_MemberCommon" name="Pset_MemberCommon/@Span"/>
+					<Display name="Span" order="54" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="Multi" name="Multi/Slope">
+					<Multi definition="Pset_BeamCommon" name="Pset_BeamCommon/@Slope"/>
+					<Multi definition="Pset_MemberCommon" name="Pset_MemberCommon/@Slope"/>
+					<Display name="Slope" order="55" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="Multi" name="Multi/IsExternal">
+					<Multi definition="Pset_BeamCommon" name="Pset_BeamCommon/@IsExternal"/>
+					<Multi definition="Pset_MemberCommon" name="Pset_MemberCommon/@IsExternal"/>
+					<Display name="IsExternal" order="56" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="Multi" name="Multi/LoadBearing">
+					<Multi definition="Pset_BeamCommon" name="Pset_BeamCommon/@LoadBearing"/>
+					<Multi definition="Pset_MemberCommon" name="Pset_MemberCommon/@LoadBearing"/>
+					<Display name="LoadBearing" order="57" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="Multi" name="Multi/FireRating">
+					<Multi definition="Pset_BeamCommon" name="Pset_BeamCommon/@FireRating"/>
+					<Multi definition="Pset_MemberCommon" name="Pset_MemberCommon/@FireRating"/>
+					<Display name="FireRating" order="58" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="SteelBeamResults" name="SteelBeamResults/SteelBeamResults/@studcount">
+					<Display name="Stud Count" order="59" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="SteelBeamResults" name="SteelBeamResults/SteelBeamResults/@camber">
+					<Display name="Camber" order="60" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="SteelBeamResults" name="SteelBeamResults/SteelBeamResults/Shear/@end1shear">
+					<Display name="End 1 Shear" order="61" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="SteelBeamResults" name="SteelBeamResults/SteelBeamResults/Shear/@end2shear">
+					<Display name="End 2 Shear" order="62" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="SteelBraceResults" name="SteelBraceResults/SteelBraceResults/@tensiononly">
+					<Display name="Tension Only" order="63" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="SteelBraceResults" name="SteelBraceResults/SteelBraceResults/axialforces/@min">
+					<Display name="Minimum Axial Force" order="64" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="SteelBraceResults" name="SteelBraceResults/SteelBraceResults/axialforces/@max">
+					<Display name="Maximum Axial Force" order="65" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralFramingCommon" name="StructuralFramingCommon/@sectionname">
+					<Display name="Section Name" order="0" hidden="false" width="100" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralFramingCommon" name="StructuralFramingCommon/@structuraltype">
+					<Display name="Structural Type" order="66" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralFramingCommon" name="StructuralFramingCommon/@structuralfinish">
+					<Display name="Structural Finish" order="67" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@Length">
+					<Display name="Length (mm) (m)" order="1" hidden="false" width="100" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@AreaCrossSection">
+					<Display name="Area | Cross-sectional" order="68" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@AreaCrossSectionModeled">
+					<Display name="Area | Cross-sectional Modeled" order="69" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@FeatureVolume">
+					<Display name="Volume | Perforation(s)" order="70" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@VolumeGross">
+					<Display name="Volume (Gross)" order="71" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossModeled">
+					<Display name="Volume (Gross Modeled)" order="72" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@VolumeNet">
+					<Display name="Volume (Net)" order="73" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetModeled">
+					<Display name="Volume (Net Modeled)" order="74" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@UnitWeight">
+					<Display name="Unit Weight" order="2" hidden="false" width="100" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@MaterialDensity">
+					<Display name="Material Density" order="75" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@LengthXUnitWeight">
+					<Display name="Length x Unit Weight" order="3" hidden="false" width="183" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossXDensity">
+					<Display name="Volume (Gross) x Density" order="76" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@VolumeGrossModeledXDensity">
+					<Display name="Volume (Gross Modeled) x Density" order="4" hidden="false" width="100" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetXDensity">
+					<Display name="Volume (Net) x Density" order="77" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="StructuralQuantities" name="StructuralQuantities/@VolumeNetModeledXDensity">
+					<Display name="Volume (Net Modeled) x Density" order="5" hidden="false" width="733" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ArchSpace" name="ArchSpace/@label">
+					<Display name="Label" order="78" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ArchSpace" name="ArchSpace/@number">
+					<Display name="Space Number" order="79" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ArchSpace" name="ArchSpace/@label2">
+					<Display name="Label 2" order="80" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ArchSpace" name="ArchSpace/@height">
+					<Display name="Ceiling Height" order="81" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ArchSpace" name="ArchSpace/@perimeter">
+					<Display name="Perimeter" order="82" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ArchSpace" name="ArchSpace/Area/@program">
+					<Display name="Area | Program" order="83" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+				<Column definition="ArchSpace" name="ArchSpace/Area/@actualGross">
+					<Display name="Area | Actual" order="84" hidden="true" width="0" autoSum="false" align="0" format="0" wku="0"/>
+				</Column>
+			</HeaderLayout>
+		</ScheduleLayout>
+	</ScheduleLayouts>
+</DataGroupSystem>

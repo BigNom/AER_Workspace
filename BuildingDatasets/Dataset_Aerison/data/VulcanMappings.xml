@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--====================================================================================+
+|
+| Item File Mapping options
+|
++=====================================================================================-->
+<Mappings>
+<Version major="1" minor="0"/>
+
+<!--====================================================================================+
+|
+| Rectangular Components
+|
++============================RectangularDuct : Short section of duct=======================================================-->
+
+  <BentleyComponent name="RectangularDuct" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="107-m" />
+	</VulcanPatterns>
+
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec1_1" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec1_1" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Length" schemaName="CustomParamRectDuct" VulcanParameter="L" SupportedPatternId="All"/>
+	
+  </BentleyComponent>
+<!--===========================Rectangular Radius Elbow : Radius throat with a radius heel, ==========================================================-->
+  <BentleyComponent name="RectangularElbow" SubType="DefaultRect">
+	<VulcanPatterns>
+	    <Pattern ID="154-m" >
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="Angle" value ="90" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+		<Pattern ID="163-m" >
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="Angle" value ="45" operation="less than equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec2_11" VulcanParameter="WB" SupportedPatternId="All" ExpressionVar="b"/>
+	<Dimension BentleyParameter="End2/@width" schemaName="EndSpec2_11" VulcanParameter="DB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamRectElbow" VulcanParameter="MA" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectElbow" VulcanParameter="SB" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_11" VulcanParameter="WL" SupportedPatternId="All" ExpressionVar="a"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectElbow" VulcanParameter="SL" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="FirstRadius" schemaName="CustomParamRectElbow" VulcanParameter="R" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamRectElbow" VulcanParameter="A" SupportedPatternId="163-m"/>
+  </BentleyComponent>
+<!--=================================Rectangular Mitered Elbow : Square throat with a square heel====================================================-->
+    <BentleyComponent name="RectangularElbow" SubType="Mitered">
+	<VulcanPatterns>
+	    <Pattern ID="153-m" >
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="Angle" value ="90" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+		<Pattern ID="162-m" >
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="Angle" value ="45" operation="less than equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_11" VulcanParameter="WL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_11" VulcanParameter="DB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec2_11" VulcanParameter="WB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamRectElbow" VulcanParameter="MA" SupportedPatternId="153-m"/>
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamRectElbow" VulcanParameter="A" SupportedPatternId="162-m"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectElbow" VulcanParameter="SL" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectElbow" VulcanParameter="SB" SupportedPatternId="All" CheckEndType="True"/>
+  </BentleyComponent>
+<!--============================Rectangular SquareThroatRadiusHeel Elbow : Square throat with a radius heel========================================================-->
+ 
+    <BentleyComponent name="RectangularElbow" SubType="SquareThroatRadiusHeel">
+	<VulcanPatterns>
+	    <Pattern ID="151-m" >
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="Angle" value ="90" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+		<Pattern ID="161-m" >
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="Angle" value ="89" operation="less than equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_11" VulcanParameter="WL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_11" VulcanParameter="DB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec2_11" VulcanParameter="WB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamRectElbow" VulcanParameter="MA" SupportedPatternId="151-m"/>
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamRectElbow" VulcanParameter="A" SupportedPatternId="161-m"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectElbow" VulcanParameter="SL" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectElbow" VulcanParameter="SB" SupportedPatternId="All" CheckEndType="True"/>
+  </BentleyComponent>
+  <!--========================Rectangular RadiusThroatSquareHeel Elbow :  Radius throat with a square heel=============================================================-->
+    <BentleyComponent name="RectangularElbow" SubType="RadiusThroatSquareHeel">
+	<VulcanPatterns>
+	    <Pattern ID="155-m" >
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="Angle" value ="90" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+		<Pattern ID="164-m" >
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="Angle" value ="89" operation="less than equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_11" VulcanParameter="WL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_11" VulcanParameter="DB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec2_11" VulcanParameter="WB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamRectElbow" VulcanParameter="MA" SupportedPatternId="155-m"/>
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamRectElbow" VulcanParameter="A" SupportedPatternId="164-m"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectElbow" VulcanParameter="SL" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectElbow" VulcanParameter="SB" SupportedPatternId="All" CheckEndType="True"/>
+    <Dimension BentleyParameter="FirstRadius" schemaName="CustomParamRectElbow" VulcanParameter="R" SupportedPatternId="All"/>
+  </BentleyComponent>
+<!--==========================Rectangular Transition : Transition ===========================================================-->  
+  <BentleyComponent name="RectangularTransition" SubType="Centric Reducer">
+	<VulcanPatterns>
+		<Pattern ID="120-m" />
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_11" VulcanParameter="WB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_11" VulcanParameter="DB" SupportedPatternId="All" ExpressionVar="J"/>
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec2_11" VulcanParameter="WT" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End2/@width" schemaName="EndSpec2_11" VulcanParameter="DT" SupportedPatternId="All" ExpressionVar="K"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamRectTransition" VulcanParameter="L" SupportedPatternId="All"  ExpressionVar="z" AdjustFactor="z+x+y"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTransition" VulcanParameter="SB" SupportedPatternId="All" ExpressionVar="x"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectTransition" VulcanParameter="ST" SupportedPatternId="All"  ExpressionVar="y"/>
+	<Dimension BentleyParameter="Rise" schemaName="CustomParamRectTransition" VulcanParameter="OW" ExpressionVar="a"  AdjustFactor="0-a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Run" schemaName="CustomParamRectTransition" VulcanParameter="OD" ExpressionVar="b" AdjustFactor="J+b-K" SupportedPatternId="All"/>
+  </BentleyComponent>
+    <!--=====================Square Throat Tee : Square throat with a square heel tee================================================================-->
+	  <BentleyComponent name="SquareThroatTee" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="170-m" />
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_111" VulcanParameter="WB" ExpressionVar="K" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_111" VulcanParameter="DB" SupportedPatternId="All" ExpressionVar="J"/>
+	<Dimension BentleyParameter="BranchLength" schemaName="CustomParamSquareThroatTee" VulcanParameter="SBL" AdjustFactor="X-(L/2)" SupportedPatternId="All" />
+	<Dimension BentleyParameter="BranchLength" schemaName="CustomParamSquareThroatTee" VulcanParameter="SBR" AdjustFactor="X-(L/2)" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_111" VulcanParameter="WL" SupportedPatternId="All" ExpressionVar="L"/>
+	<Dimension BentleyParameter="BranchLength" schemaName="CustomParamSquareThroatTee" VulcanParameter="SL" AdjustFactor="Y-(K/2)" SupportedPatternId="All" />
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamSquareThroatTee" VulcanParameter="STL" Autovalue="0" SupportedPatternId="All" />
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamSquareThroatTee" VulcanParameter="STR" AutoValue="0" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec3_111" VulcanParameter="WR" SupportedPatternId="All" />
+	<Dimension BentleyParameter="BranchLength" schemaName="CustomParamSquareThroatTee" VulcanParameter="SR" AdjustFactor="Y-(K/2)" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamSquareThroatTee" VulcanParameter="CL" ExpressionVar="b" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamSquareThroatTee" VulcanParameter="CLR" ExpressionVar="c" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen3" schemaName="CustomParamSquareThroatTee" VulcanParameter="CB" ExpressionVar="a" SupportedPatternId="All" />
+	<DependentParameter>
+		<Dimension BentleyParameter="BranchLength" schemaName="CustomParamSquareThroatTee" ExpressionVar="X"/>
+		<Dimension BentleyParameter="BranchOffset" schemaName="CustomParamSquareThroatTee" ExpressionVar="Y"/>
+		<Dimension BentleyParameter="TotalLength" schemaName="CustomParamSquareThroatTee" ExpressionVar="Z"/>
+	</DependentParameter>	
+  </BentleyComponent>
+ <!--===========================Rectangular to Oval Transition :  Square to oval==========================================================-->
+  <BentleyComponent name="RectOvalTransition" SubType="RectToOval">
+	<VulcanPatterns>
+		<Pattern ID="142-m" />
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_13" VulcanParameter="WB" SupportedPatternId="All" ExpressionVar="a"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_13" VulcanParameter="DB" SupportedPatternId="All" ExpressionVar="J"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectOvalTransition" VulcanParameter="SBL" SupportedPatternId="All" ExpressionVar="x"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectOvalTransition" VulcanParameter="SBR" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec2_13" VulcanParameter="WT" SupportedPatternId="All" ExpressionVar="b"/>
+	<Dimension BentleyParameter="End2/@width" schemaName="EndSpec2_13" VulcanParameter="DT" SupportedPatternId="All" ExpressionVar="K"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectOvalTransition" VulcanParameter="ST" SupportedPatternId="All"  ExpressionVar="y"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamRectOvalTransition" VulcanParameter="L" SupportedPatternId="All"  ExpressionVar="z" AdjustFactor="z+x+y"/>
+	<Dimension BentleyParameter="Rise" schemaName="CustomParamRectOvalTransition" VulcanParameter="OW" ExpressionVar="d" AdjustFactor="0-d" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Run" schemaName="CustomParamRectOvalTransition" VulcanParameter="OD" ExpressionVar="f" AdjustFactor="0-f" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectOvalTransition" VulcanParameter="AT" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectOvalTransition" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+  </BentleyComponent>
+  <!--============================Rectangular to Round Transition :  Square to round =========================================================-->
+  <BentleyComponent name="RectRndTransition" SubType="RectToRnd">
+	<VulcanPatterns>
+		<Pattern ID="135-m" />
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_12" VulcanParameter="WB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_12" VulcanParameter="DB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectRndTransition" VulcanParameter="SBL" SupportedPatternId="All" ExpressionVar="x"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectRndTransition" VulcanParameter="SBR" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End2/@diameter" schemaName="EndSpec2_12" VulcanParameter="WT" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectRndTransition" VulcanParameter="ST" SupportedPatternId="All"  ExpressionVar="y"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamRectRndTransition" VulcanParameter="L" SupportedPatternId="All"  ExpressionVar="z" AdjustFactor="z+x+y"/>
+	<Dimension BentleyParameter="Rise" schemaName="CustomParamRectRndTransition" VulcanParameter="OW" ExpressionVar="b"  AdjustFactor="0-b" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Run" schemaName="CustomParamRectRndTransition" VulcanParameter="OD" ExpressionVar="a"  AdjustFactor="0-a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectRndTransition" VulcanParameter="AT" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectRndTransition" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+  </BentleyComponent>
+<!--==============================================Retangular Offset/Ogee : Rectangular straight lined offset=======================================-->
+  <BentleyComponent name="RectOgee" SubType="Ogee">
+	<VulcanPatterns>
+	<Pattern ID="187-m" >
+		<Parameters>
+			<Parameter schemaName="CustomParamRectOgee" name="Radius1-1" value ="0" operation="equal to" format="value"/>
+			<Parameter schemaName="CustomParamRectOgee" name="Radius2-1" value ="0" operation="equal to" format="value"/>
+			<Parameter schemaName="CustomParamRectOgee" name="Radius1-2" value ="0" operation="equal to" format="value"/>
+			<Parameter schemaName="CustomParamRectOgee" name="Radius2-2" value ="0" operation="equal to" format="value"/>
+		</Parameters>
+	</Pattern>	
+	
+	<Pattern ID="185-m" />
+	
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_11" VulcanParameter="WB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_11" VulcanParameter="DB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@width" schemaName="EndSpec2_11" VulcanParameter="DT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec2_11" VulcanParameter="WT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectOgee" VulcanParameter="L" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectOgee" VulcanParameter="STL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectOgee" VulcanParameter="STR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectOgee" VulcanParameter="SBL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectOgee" VulcanParameter="SBR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Radius1-1" schemaName="CustomParamRectOgee" VulcanParameter="RBL" SupportedPatternId="185-m"/>
+	<Dimension BentleyParameter="Radius2-1" schemaName="CustomParamRectOgee" VulcanParameter="RTL" SupportedPatternId="185-m"/>
+	<Dimension BentleyParameter="Radius1-2" schemaName="CustomParamRectOgee" VulcanParameter="RBR" SupportedPatternId="185-m"/>
+	<Dimension BentleyParameter="Radius2-2" schemaName="CustomParamRectOgee" VulcanParameter="RTR" SupportedPatternId="185-m"/>
+	<Dimension BentleyParameter="Rise" schemaName="CustomParamRectOgee" VulcanParameter="OW" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectOgee" VulcanParameter="OD" AutoValue="0" SupportedPatternId="185-m"/>
+  </BentleyComponent>
+<!--===========================Rectangular Cap : Rectangular end cap==========================================================-->
+
+  <BentleyComponent name="RectangularCap" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="129-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec1_1" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec1_1" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamCap" VulcanParameter="L" SupportedPatternId="All"/>
+  </BentleyComponent>
+  <!--========================Rectangular FlexConnection : Rectangular flexible connector=============================================================-->
+    <BentleyComponent name="RectFlexConnection" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="118-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_11" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_11" VulcanParameter="D" SupportedPatternId="All"/>
+  </BentleyComponent>
+<!--=============================Trouser : Rectangular pants  ========================================================-->
+  <BentleyComponent name="Trouser" SubType="Trouser">
+	<VulcanPatterns>
+		<Pattern ID="119-m" />
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_111" VulcanParameter="WT" ExpressionVar="e" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_111" VulcanParameter="DT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec3_111" VulcanParameter="WBL" SupportedPatternId="All" ExpressionVar="b"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_111" VulcanParameter="WBR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@width" schemaName="EndSpec3_111" VulcanParameter="DB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamRectTrouser" VulcanParameter="LL" SupportedPatternId="All" ExpressionVar="d" AdjustFactor="d+x+y"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamRectTrouser" VulcanParameter="LR" SupportedPatternId="All" ExpressionVar="d" AdjustFactor="d+x+y"/>
+	<Dimension BentleyParameter="Offset" schemaName="CustomParamRectTrouser" VulcanParameter="LB" SupportedPatternId="All" ExpressionVar="a"/>
+	<Dimension BentleyParameter="OffsetDepth" schemaName="CustomParamRectTrouser" VulcanParameter="OW" SupportedPatternId="All" ExpressionVar="c" AdjustFactor="a+b-c"/>
+	<Dimension BentleyParameter="OffsetWidth" schemaName="CustomParamRectTrouser" VulcanParameter="OD" SupportedPatternId="All" ExpressionVar="z" AdjustFactor="-z"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTrouser" VulcanParameter="ST" SupportedPatternId="All" ExpressionVar="x"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectTrouser" VulcanParameter="SBLL" SupportedPatternId="All" ExpressionVar="y"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectTrouser" VulcanParameter="SBLR" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen3" schemaName="CustomParamRectTrouser" VulcanParameter="SBRL" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen3" schemaName="CustomParamRectTrouser" VulcanParameter="SBRR" SupportedPatternId="All" />
+  </BentleyComponent>
+
+<!--===========================Rectangular Wye : Radius throat with a radius heel tee ==========================================================-->
+
+  <BentleyComponent name="RectangularWye" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="174-m"  />
+
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_111" VulcanParameter="WB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_111" VulcanParameter="DB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectangularWye" VulcanParameter="SBL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectangularWye" VulcanParameter="SBR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec3_111" VulcanParameter="WL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRectangularWye" VulcanParameter="SL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_111" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen3" schemaName="CustomParamRectangularWye" VulcanParameter="SR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Radius1" schemaName="CustomParamRectangularWye" VulcanParameter="RL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Radius2" schemaName="CustomParamRectangularWye" VulcanParameter="RR" SupportedPatternId="All"/>
+	
+  </BentleyComponent>
+  <!--=======================Rectangular Side Branch : Radius throat with a radius heel tee==============================================================-->
+  <BentleyComponent name="SideBranch" SubType="Rectangular Side Branch">
+	<VulcanPatterns>
+		<Pattern ID="192-m"  />
+
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_111" VulcanParameter="WB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_111" VulcanParameter="DB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamSideBranch" VulcanParameter="SB" ExpressionVar="c" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_111" VulcanParameter="WL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen3" schemaName="CustomParamSideBranch" VulcanParameter="SL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Radius" schemaName="CustomParamSideBranch" VulcanParameter="R" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec3_111" VulcanParameter="WT" SupportedPatternId="All"  ExpressionVar="x" />
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamSideBranch" VulcanParameter="ST" SupportedPatternId="All" ExpressionVar="b"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamSideBranch" VulcanParameter="L" ExpressionVar="a" AdjustFactor="a+b+c" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamSideBranch" VulcanParameter= "LC" AdjustFactor="x" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamSideBranch" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamSideBranch" VulcanParameter="AL" SupportedPatternId="All"/>
+	
+  </BentleyComponent>
+<!--=========================Rectangular Three Way Tee : Radius throat radius heel cross============================================================-->
+  <BentleyComponent name="ThreeWayTee" SubType="Three Way Tee">
+	<VulcanPatterns>
+		<Pattern ID="198-m" />
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec4_1111" VulcanParameter="WB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec4_1111" VulcanParameter="DB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="L1" schemaName="CustomParamThreeWayTee" VulcanParameter="SBL" SupportedPatternId="All" ExpressionVar="b"/>
+	<Dimension BentleyParameter="L1" schemaName="CustomParamThreeWayTee" VulcanParameter="SBR" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End4/@depth" schemaName="EndSpec4_1111" VulcanParameter="WL" SupportedPatternId="All" ExpressionVar="d"/>
+	<Dimension BentleyParameter="L4" schemaName="CustomParamThreeWayTee" VulcanParameter="SL" SupportedPatternId="All" ExpressionVar="x" />
+	<Dimension BentleyParameter="Radius2" schemaName="CustomParamThreeWayTee" VulcanParameter="RL" SupportedPatternId="All" ExpressionVar="y"/>
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec4_1111" VulcanParameter="WT" SupportedPatternId="All" ExpressionVar="z"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamThreeWayTee" VulcanParameter="STL" SupportedPatternId="All" AdjustFactor="a+b+c-(b+y+d)"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec4_1111" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="L3" schemaName="CustomParamThreeWayTee" VulcanParameter="SR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Radius1" schemaName="CustomParamThreeWayTee" VulcanParameter="RR" SupportedPatternId="All"/>
+    <Dimension BentleyParameter="NotSupported" schemaName="CustomParamThreeWayTee" VulcanParameter="OW" SupportedPatternId="All" AdjustFactor="x+y+(z/2)"/>
+			<DependentParameter>
+	    		<Dimension BentleyParameter="L" schemaName="CustomParamThreeWayTee" ExpressionVar="a"/>
+				<Dimension BentleyParameter="L2" schemaName="CustomParamThreeWayTee" ExpressionVar="c"/>
+	</DependentParameter>
+	
+  </BentleyComponent>
+<!--=========================Rectangular Square Throat Cross: Square throat square heel cross ============================================================-->
+  
+   <BentleyComponent name="SquareThroatCross" SubType="Square Throat Cross">
+		<VulcanPatterns>
+			<Pattern ID="197-m" />
+			<Parameters>
+				<Parameter schemaName="CustomParamSquareThroatCross" name="BranchAngle1" value ="90" operation="equal to" format="value"/>
+				<Parameter schemaName="CustomParamSquareThroatCross" name="BranchAngle2" value ="90" operation="equal to" format="value"/>
+			</Parameters>			
+		</VulcanPatterns>
+		<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec4_1111" VulcanParameter="WB" ExpressionVar="k" SupportedPatternId="All" />
+		<Dimension BentleyParameter="End1/@width" schemaName="EndSpec4_1111" VulcanParameter="DB" SupportedPatternId="All"/>
+		<Dimension BentleyParameter="StraightLen3" schemaName="CustomParamSquareThroatCross" VulcanParameter="SBL" SupportedPatternId="All" ExpressionVar="b" AdjustFactor="(a-(d/2))+t"/>
+		<Dimension BentleyParameter="StraightLen3" schemaName="CustomParamSquareThroatCross" VulcanParameter="SBR" SupportedPatternId="All" AdjustFactor="(a-(d/2))+t" />
+		<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec4_1111" VulcanParameter="WL" SupportedPatternId="All" ExpressionVar="d"/>
+		<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamSquareThroatCross" VulcanParameter="SL" SupportedPatternId="All" AdjustFactor="(i-(k/2))+y"/>
+		<Dimension BentleyParameter="End4/@depth" schemaName="EndSpec4_1111" VulcanParameter="WT" SupportedPatternId="All" ExpressionVar="f"/>
+		<Dimension BentleyParameter="StraightLen4" schemaName="CustomParamSquareThroatCross" VulcanParameter="STL" SupportedPatternId="All" AdjustFactor="(c-(d/2))+p"/>
+		<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec4_1111" VulcanParameter="WR" SupportedPatternId="All" ExpressionVar="z"/>
+		<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamSquareThroatCross" VulcanParameter="SR" SupportedPatternId="All" AdjustFactor="(x-(i+(k/2)+q))+y+q"/>
+		<Dimension BentleyParameter="BranchOffset1" schemaName="CustomParamSquareThroatCross" VulcanParameter="OW" SupportedPatternId="All" AdjustFactor="(j-(f/2))+y"/>
+		<Dimension BentleyParameter="StraightLen3" schemaName="CustomParamSquareThroatCross" VulcanParameter="CB" SupportedPatternId="All" ExpressionVar="t"/>
+		<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamSquareThroatCross" VulcanParameter="CL" SupportedPatternId="All" ExpressionVar="y"/>
+		<Dimension BentleyParameter="StraightLen4" schemaName="CustomParamSquareThroatCross" VulcanParameter="CT" SupportedPatternId="All" ExpressionVar="p"/>
+		<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamSquareThroatCross" VulcanParameter="CR" SupportedPatternId="All" ExpressionVar="q"/>
+	
+		<DependentParameter>
+			<Dimension BentleyParameter="TotalLength" schemaName="CustomParamSquareThroatCross" ExpressionVar="x"/>
+			<Dimension BentleyParameter="BranchLength1" schemaName="CustomParamSquareThroatCross" ExpressionVar="a"/>
+			<Dimension BentleyParameter="BranchLength2" schemaName="CustomParamSquareThroatCross" ExpressionVar="c"/>
+			<Dimension BentleyParameter="BranchOffset1" schemaName="CustomParamSquareThroatCross" ExpressionVar="i"/>
+			<Dimension BentleyParameter="BranchOffset2" schemaName="CustomParamSquareThroatCross" ExpressionVar="j"/>
+		</DependentParameter>
+  </BentleyComponent>
+  
+<!--==========================Rectangular Radius Tee : Radius throat with a square heel tee===========================================================-->  
+<BentleyComponent name="RectangularTee" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="171-m">
+			<Parameters>
+		    <Parameter schemaName="CustomParamRectTee" name="RiseValue" value ="0" operation="equal to" format="value"/>
+		</Parameters>
+		</Pattern>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_111" VulcanParameter="WB" SupportedPatternId="All" ExpressionVar = "b"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_111" VulcanParameter="DB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTee" VulcanParameter="SBL" AutoValue="0" SupportedPatternId="All" />
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTee" VulcanParameter="SBR"  AdjustFactor="X-Y" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_111" VulcanParameter="WL" ExpressionVar = "X" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTee" VulcanParameter="SL" AutoValue="0" SupportedPatternId="All" />
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTee" VulcanParameter="STL" AutoValue="0" SupportedPatternId="All"  />
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTee" VulcanParameter="STR" AutoValue="0" SupportedPatternId="All"  />
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec3_111" VulcanParameter="WR" ExpressionVar = "Y" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTee" VulcanParameter="SR" AutoValue="0" SupportedPatternId="All"  />
+	<Dimension BentleyParameter="FirstRadius" schemaName="CustomParamRectTee" VulcanParameter="RL" SupportedPatternId="All" ExpressionVar = "d"/>
+	<Dimension BentleyParameter="SecondRadius" schemaName="CustomParamRectTee" VulcanParameter="RR" SupportedPatternId="All" ExpressionVar = "e"/>
+		<DependentParameter>
+	    		<Dimension BentleyParameter="TotalLength" schemaName="CustomParamRectTee" ExpressionVar="L"/>
+	</DependentParameter>
+	
+  </BentleyComponent>
+<!--==============================Rectangular Angled Takeoff : Straight throat increased area takeoff=====================================+-->
+  <BentleyComponent name="RectangularTakeoff" SubType="Angled">
+	<VulcanPatterns>
+	<Pattern ID="147-m" />
+		
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_111" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_111" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_111" VulcanParameter="WB"   ExpressionVar ="a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_111" VulcanParameter="DB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" VulcanParameter="SB" ExpressionVar="c"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="WT" SupportedPatternId="All" AdjustFactor ="a+((b-c)*tan(z*(3.1415/180)))" />
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="ST"  AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectTakeoff" VulcanParameter="L"  ExpressionVar ="b" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AutoValue="0" SupportedPatternId="All"/>	
+	
+
+		<DependentParameter>
+	    		<Dimension BentleyParameter="Angle" schemaName="CustomParamRectTakeoff" ExpressionVar="z"/>
+	</DependentParameter>
+  </BentleyComponent>
+<!--===================================Rectangular To Round Takeoff : Straight rectangular body with straight round boot tap========================================+-->
+  <BentleyComponent name="RectRndTakeoff" SubType="RectToRnd">
+	<VulcanPatterns>
+	<Pattern ID="4254-m" />
+		
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_112" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_112" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_112" VulcanParameter="WL" ExpressionVar="c" AdjustFactor="c+a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_112" VulcanParameter="DL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_112" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" 	VulcanParameter="SR" ExpressionVar="b" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectTakeoff" VulcanParameter="LT" ExpressionVar="a"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AT" AutoValue="90" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AutoValue="0" SupportedPatternId="All"/>
+
+  </BentleyComponent>  
+<!--=============================Rectangular To Oval Takeoff : Straight rectangular body with oval boot tap===================================+-->
+    <BentleyComponent name="RectOvlTakeoff" SubType="RectToOvl">
+	<VulcanPatterns>
+		<Pattern ID="4258-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_113" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_113" VulcanParameter="D" SupportedPatternId="All"/>	
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_113" VulcanParameter="WL" ExpressionVar="c" AdjustFactor="c+a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_113" VulcanParameter="DL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_113" VulcanParameter="WR"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_113" VulcanParameter="DR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" VulcanParameter="SR" ExpressionVar="b" SupportedPatternId="All"/>		
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectTakeoff" VulcanParameter="LT" ExpressionVar="a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AT" AutoValue="90" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AutoValue="0" SupportedPatternId="All"/>
+
+  </BentleyComponent>
+  <!--==============================Rectangular To Round Tap : Straight rectangular body with straight round tap ==================================================+-->
+     <BentleyComponent name="RectRoundTap" SubType="Round Tap">
+	<VulcanPatterns>
+		<Pattern ID="4251-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_112" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_112" VulcanParameter="D" SupportedPatternId="All"/>		
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_112" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamAngledTap" VulcanParameter="LT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InclineAngle" schemaName="CustomParamAngledTap" VulcanParameter="AT"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="BR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="CL" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamAngledTap" VulcanParameter="CR"  SupportedPatternId="All"/>
+
+  </BentleyComponent>
+    <!--===============================Rectangular To Rectangular Tap : Straight rectangular body with rectangular tap====================================+-->
+     <BentleyComponent name="RectRectTap" SubType="Rect Tap">
+	<VulcanPatterns>
+		<Pattern ID="4261-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_111" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_111" VulcanParameter="D" SupportedPatternId="All"/>			
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_111" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_111" VulcanParameter="DR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamAngledTap" VulcanParameter="LT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InclineAngle" schemaName="CustomParamAngledTap" VulcanParameter="AT"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="BR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="CL" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamAngledTap" VulcanParameter="CR"  SupportedPatternId="All"/>
+
+  </BentleyComponent>
+  <!--==============================Rectangular To Oval Tap : Straight rectangular body with straight oval tap===============================+-->
+     <BentleyComponent name="RectOvalTap" SubType="Oval Tap">
+	<VulcanPatterns>
+		<Pattern ID="4255-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_113" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_113" VulcanParameter="D" ExpressionVar ="a" SupportedPatternId="All"/>		
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_113" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_113" VulcanParameter="DR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamAngledTap" VulcanParameter="LT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InclineAngle" schemaName="CustomParamAngledTap" VulcanParameter="AT"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="BR"  AdjustFactor= "a/2" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="CL" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamAngledTap" VulcanParameter="CR"  SupportedPatternId="All"/>
+
+  </BentleyComponent>
+  <!--=====================================Rectangular Radius Takeoff : Radius throat increased area takeoff=============================================+-->
+  <BentleyComponent name="RectangularTakeoffRadius" SubType="Radius 1">
+	<VulcanPatterns>
+	<Pattern ID="149-m" />
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_111" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_111" VulcanParameter="D" SupportedPatternId="All"/>			
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_111" VulcanParameter="WB"   ExpressionVar ="a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_111" VulcanParameter="DB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoffRadius" VulcanParameter="SB"  AdjustFactor ="b-z" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoffRadius" VulcanParameter="WT" SupportedPatternId="All" AdjustFactor ="a+z" />
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoffRadius" VulcanParameter="ST"  AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Length" schemaName="CustomParamRectTakeoffRadius" VulcanParameter="L"  ExpressionVar ="b"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AutoValue="0" SupportedPatternId="All"/>		
+	<DependentParameter>
+	 	<Dimension BentleyParameter="Radius1" schemaName="CustomParamRectTakeoffRadius" ExpressionVar="z"/>
+	</DependentParameter>
+  </BentleyComponent>
+  <!--=======================================RectGooseneck : Rectangular square throat gooseneck, Rectangular radius throat gooseneck============================================+-->
+    <BentleyComponent name="RectGooseneck" SubType="RectGooseneck">
+	<VulcanPatterns>
+	<Pattern ID="188-m" >
+		<Parameters Operation = "and">
+			<Parameter schemaName="CustomParamRectGooseneck" name="CowlSetting" value ="1-No Cowl" operation="equal to" format="text"/>		
+			<Parameter schemaName="CustomParamRectGooseneck" name="Radius" value ="0" operation="equal to" format="value"/>		
+		</Parameters>
+	</Pattern>	
+	<Pattern ID="189-m" >
+		<Parameters>
+			<Parameter schemaName="CustomParamRectGooseneck" name="CowlSetting" value ="1-No Cowl" operation="equal to" format="text"/>		
+		</Parameters>
+	</Pattern>	
+	
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_111" VulcanParameter="WB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_111" VulcanParameter="DB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Transition1" schemaName="CustomParamRectGooseneck" VulcanParameter="SB"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_111" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Transition2" schemaName="CustomParamRectGooseneck" VulcanParameter="SR"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Radius" schemaName="CustomParamRectGooseneck" VulcanParameter="R" SupportedPatternId="189-m" />
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamRectGooseneck" VulcanParameter="A"  SupportedPatternId="All"/>
+
+  </BentleyComponent>
+  <!--=============================RoofCurb : Four piece straight roof curb, Four piece, 45 degree sides roof curb =======================================================+-->
+  <BentleyComponent name="RoofCurb" SubType="RoofCurb">
+	<VulcanPatterns>
+	<Pattern ID="217-m" >
+		<Parameters Operation = "and">
+			<Parameter schemaName="CustomParamRoofCurb" name="RoofCurbType" value ="1-Straight Style" operation="equal to" format="text"/>		
+			<Parameter schemaName="CustomParamRoofCurb" name="PitchType" value ="1-Angle" operation="equal to" format="text"/>		
+		</Parameters>
+	</Pattern>	
+	<Pattern ID="225-m" >
+		<Parameters Operation = "and">
+			<Parameter schemaName="CustomParamRoofCurb" name="RoofCurbType" value ="3-Raised Cant Style" operation="equal to" format="text"/>		
+			<Parameter schemaName="CustomParamRoofCurb" name="PitchType" value ="1-Angle" operation="equal to" format="text"/>		
+		</Parameters>
+	</Pattern>		
+	</VulcanPatterns>
+	<Dimension BentleyParameter="OuterWidth" schemaName="CustomParamRoofCurb" VulcanParameter="W" SupportedPatternId="All" ExpressionVar= "x"/>
+	<Dimension BentleyParameter="OuterDepth" schemaName="CustomParamRoofCurb" VulcanParameter="D" SupportedPatternId="All"  ExpressionVar= "i"/>
+	<Dimension BentleyParameter="RaisedHeight" schemaName="CustomParamRoofCurb" VulcanParameter="SB"  SupportedPatternId="225-m" ExpressionVar= "a"/>
+	<Dimension BentleyParameter="Height" schemaName="CustomParamRoofCurb" VulcanParameter="ST" SupportedPatternId="225-m" ExpressionVar= "b"/>
+	<Dimension BentleyParameter="Height" schemaName="CustomParamRoofCurb" VulcanParameter="L" SupportedPatternId="217-m"/>
+	<Dimension BentleyParameter="CantHeight" schemaName="CustomParamRoofCurb" VulcanParameter="L" SupportedPatternId="225-m" ExpressionVar= "c" AdjustFactor= "a+b+c"/>
+	<Dimension BentleyParameter="FlangeSize" schemaName="CustomParamRoofCurb" VulcanParameter="L1"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRoofCurb" VulcanParameter="L2" AutoValue="0" SupportedPatternId="217-m" />
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_11" VulcanParameter="L2" ExpressionVar= "j" AdjustFactor = "i-j"  SupportedPatternId="225-m" />
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRoofCurb" VulcanParameter="L3" AutoValue="0" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_11" VulcanParameter="L5"  SupportedPatternId="217-m" ExpressionVar= "y" AdjustFactor = "x-y" />
+	<Dimension BentleyParameter="Pitch" schemaName="CustomParamRoofCurb" VulcanParameter="A" SupportedPatternId="All"/>
+  </BentleyComponent>
+    <!--========================Rectangular Nested Tee : Rectangular radius throat radius heel nested cross============================================================+-->
+    <BentleyComponent name="RectNestedTee" SubType="Rectangular Nested Tee">
+	<VulcanPatterns>
+	<Pattern ID="501-m" />
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec4_1111" VulcanParameter="WB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec4_1111" VulcanParameter="DB" SupportedPatternId="All"  />
+	<Dimension BentleyParameter="End4/@depth" schemaName="EndSpec4_1111" VulcanParameter="WBL"  SupportedPatternId="All" ExpressionVar= "d"/>
+	<Dimension BentleyParameter="Run3ThroatLen1" schemaName="CustomParamRectNestedTee" VulcanParameter="SBL" SupportedPatternId="All" ExpressionVar= "c" />
+	<Dimension BentleyParameter="End4/@depth" schemaName="EndSpec4_1111" VulcanParameter="WL" SupportedPatternId="All" ExpressionVar= "a" />
+	<Dimension BentleyParameter="Run3Radius" schemaName="CustomParamRectNestedTee" VulcanParameter="RL" SupportedPatternId="All" ExpressionVar= "b"/>
+	<Dimension BentleyParameter="Run1ThroatLen2" schemaName="CustomParamRectNestedTee" VulcanParameter="SR"  SupportedPatternId="All" ExpressionVar= "f" />
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec4_1111" VulcanParameter="WT"  SupportedPatternId="All" ExpressionVar= "j"/>
+	<Dimension BentleyParameter="End2/@width" schemaName="EndSpec4_1111" VulcanParameter="DT"  SupportedPatternId="All" />
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectNestedTee" VulcanParameter="ST" AutoValue="0" SupportedPatternId="All" />
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec4_1111" VulcanParameter="WBC"  SupportedPatternId="All" ExpressionVar= "z"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec4_1111" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Run1Radius" schemaName="CustomParamRectNestedTee" VulcanParameter="RR" SupportedPatternId="All" ExpressionVar= "y"/>
+	<Dimension BentleyParameter="Run3ThroatLen2" schemaName="CustomParamRectNestedTee" VulcanParameter="SL" SupportedPatternId="All" ExpressionVar= "m"/>
+	<Dimension BentleyParameter="Run1ThroatLen1" schemaName="CustomParamRectNestedTee" VulcanParameter="SBR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec4_1111" VulcanParameter="WBR" SupportedPatternId="All" ExpressionVar= "k"/>
+	<Dimension BentleyParameter="Run2StraightLen" schemaName="CustomParamRectNestedTee" VulcanParameter="STL" SupportedPatternId="All" ExpressionVar="x" AdjustFactor = "x -(a+b+c)"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectNestedTee" VulcanParameter="OWL" SupportedPatternId="All" AdjustFactor = "((f+y+d+z+k+b+m)-j)/2"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectNestedTee" VulcanParameter="ODC" AutoValue= "0" SupportedPatternId="All" />
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectNestedTee" VulcanParameter="ALL" AutoValue= "0" SupportedPatternId="All" />
+	
+	
+  </BentleyComponent>
+<!--====================================================================================+
+|
+| Round Components
+|
++===========================Round Duct  : Round pipe (short cut sections)==========================================================-->
+  <BentleyComponent name="RoundDuct" SubType="Default" >
+	<VulcanPatterns>
+		<Pattern ID="302-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec1_2" VulcanParameter="W" SupportedPatternId="All" />
+	<Dimension BentleyParameter="Length" schemaName="CustomParamRoundDuct" VulcanParameter="L" SupportedPatternId="All" />
+  </BentleyComponent>
+<!--==============================Round Mitred Elbow : Round elbow centerline radius=======================================================-->
+  <BentleyComponent name="RoundElbowMitre" SubType="Mitre Elbow">
+	<VulcanPatterns>
+		<Pattern ID="305-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec2_22" VulcanParameter="W" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRoundElbowMitre" VulcanParameter="SB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRoundElbowMitre" VulcanParameter="SR" SupportedPatternId="All" />
+	<Dimension BentleyParameter="Radius" schemaName="CustomParamRoundElbowMitre" VulcanParameter="R" SupportedPatternId="All" />
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamRoundElbowMitre" VulcanParameter="A" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NumberOfMitres" schemaName="CustomParamRoundElbowMitre" VulcanParameter="NG" SupportedPatternId="All"/>
+  </BentleyComponent>
+<!--========================Round Segmented Bend : Round reducing elbow centerline radius=============================================================-->
+  <BentleyComponent name="SegmentedBend2" SubType="Segmented Bend End Segment">
+	<VulcanPatterns>
+		<Pattern ID="308-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End2/@diameter" schemaName="EndSpec2_22" VulcanParameter="WB" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamSegmentedBend2" VulcanParameter="SB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec2_22" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamSegmentedBend2" VulcanParameter="SR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Radius" schemaName="CustomParamSegmentedBend2" VulcanParameter="R" SupportedPatternId="All" />
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamSegmentedBend2" VulcanParameter="A" SupportedPatternId="All"/>
+	<Dimension   BentleyParameter="NumberOfSegments" schemaName="CustomParamSegmentedBend2" VulcanParameter="NG" SupportedPatternId="All"/>
+  </BentleyComponent>
+<!--========================Round Transition : Round reducer============================================================+-->
+  <BentleyComponent name="RoundTransition" SubType="Centric Reducer">
+	<VulcanPatterns>
+	    <Pattern ID="315-m" />
+
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec2_22" VulcanParameter="WB" SupportedPatternId="All" ExpressionVar="D1"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRoundTransition" VulcanParameter="SB" ExpressionVar="c" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@diameter" schemaName="EndSpec2_22" VulcanParameter="WT" SupportedPatternId="All" ExpressionVar="D2"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRoundTransition" VulcanParameter="ST" ExpressionVar="d" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamRoundTransition" VulcanParameter="L" SupportedPatternId="All"  ExpressionVar="x" AdjustFactor="x+c+d" />
+	<Dimension BentleyParameter="Rise" schemaName="CustomParamRoundTransition" VulcanParameter="OW" SupportedPatternId="All" ExpressionVar="j" AdjustFactor="0-j"/>
+	<Dimension BentleyParameter="Run" schemaName="CustomParamRoundTransition" VulcanParameter="OD" SupportedPatternId="All" ExpressionVar="k" AdjustFactor="0-k" />
+  </BentleyComponent>
+<!--=======================Round Offset : Round offset radius calculated=============================================================+-->
+<BentleyComponent name="RoundOffset" SubType="Default">
+	<VulcanPatterns>
+	    <Pattern ID="318-m" >		
+	    </Pattern>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec2_22" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@diameter" schemaName="EndSpec2_22" VulcanParameter="SB" SupportedPatternId="All" />	
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamRoundOffset" VulcanParameter="L" SupportedPatternId="All" />	
+	<Dimension BentleyParameter="Rise" schemaName="CustomParamRoundOffset" VulcanParameter="OW" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRoundOffset" VulcanParameter="ST" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRoundOffset" VulcanParameter="SB" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRoundOffset" VulcanParameter="NG" AutoValue="3" SupportedPatternId="All"/>
+  </BentleyComponent>
+  <!--=========================Round Flex Connection : Round flex connection============================================================-->
+    <BentleyComponent name="RoundFlexConnection" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="313-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec2_22" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec2_22" VulcanParameter="D" SupportedPatternId="All"/>
+  </BentleyComponent>
+  <!--=========================Round Takeoff  : Round boot tap on a straight round body===========================================================+-->
+    <BentleyComponent name="RndTakeoff" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="1254-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_222" VulcanParameter="WL" ExpressionVar="c" AdjustFactor="c+a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_222" VulcanParameter="DL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_222" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" 	VulcanParameter="SR" ExpressionVar="b" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectTakeoff" VulcanParameter="LT" ExpressionVar="a" AdjustFactor="a+b" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AT" AutoValue="90" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+	<DependentParameter>
+	 	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_222" ExpressionVar="x"/>
+	</DependentParameter>
+  </BentleyComponent>
+  <!--======================Round Conical Takeoff  : Reducing round tap on a straight round body==============================================================+-->  
+    <BentleyComponent name="RndTakeoff" SubType="Conical">
+	<VulcanPatterns>
+		<Pattern ID="1253-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_222" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_222" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_222" VulcanParameter="WL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_222" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" 	VulcanParameter="SR" ExpressionVar="b" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectTakeoff" VulcanParameter="LT" ExpressionVar="a" AdjustFactor="a+b" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AT" AutoValue="90" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+	<DependentParameter>
+	 	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_222" ExpressionVar="x"/>
+	</DependentParameter>
+  </BentleyComponent>  
+  <!--=========================Round To Round Tap : Straight round tap on straight round body===========================================================+-->
+     <BentleyComponent name="RoundRoundTap" SubType="Round Tap">
+	<VulcanPatterns>
+		<Pattern ID="1251-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_222" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_222" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_222" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamAngledTap" VulcanParameter="LT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InclineAngle" schemaName="CustomParamAngledTap" VulcanParameter="AT"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="CL" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamAngledTap" VulcanParameter="CR"  SupportedPatternId="All"/>
+	<DependentParameter>
+	 	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_222" ExpressionVar="x"/>
+	</DependentParameter>
+  </BentleyComponent>
+   <!--========================Round To Oval Tap : Straight oval tap on a straight round body============================================================+-->
+     <BentleyComponent name="RoundOvalTap" SubType="Oval Tap">
+	<VulcanPatterns>
+		<Pattern ID="1255-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_223" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_223" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_223" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_223" VulcanParameter="DR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamAngledTap" VulcanParameter="SR"  SupportedPatternId="All"/>	
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamAngledTap" VulcanParameter="LT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InclineAngle" schemaName="CustomParamAngledTap" VulcanParameter="AT"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="CL" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="CR" AutoValue="0" SupportedPatternId="All"/>
+
+	<DependentParameter>
+	 	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_223" ExpressionVar="x"/>
+	</DependentParameter>
+  </BentleyComponent>
+  
+<!--====================Round to raectangular takeoff :Straight rectangular tap on straight round body================================================================+-->  
+
+    <BentleyComponent name="RndRectTakeoff" SubType="RndToRect">
+	<VulcanPatterns>
+		<Pattern ID="1261-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_221" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_221" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_221" VulcanParameter="WL" ExpressionVar="c" AdjustFactor="c+a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_221" VulcanParameter="DL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_221" VulcanParameter="WR"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_221" VulcanParameter="DR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectTakeoff" VulcanParameter="LT" ExpressionVar="a" AdjustFactor="a+b" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AT" AutoValue="90" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+	<DependentParameter>
+		<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_221" ExpressionVar="x"/>
+	 	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" ExpressionVar="b"/>
+	</DependentParameter>
+  </BentleyComponent>
+<!--========================Round to Oval Takeoff : Oval boot tap on a straight round body============================================================+-->  
+
+    <BentleyComponent name="RndOvlTakeoff" SubType="RndToOvl">
+	<VulcanPatterns>
+		<Pattern ID="1258-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_223" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_223" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_223" VulcanParameter="WL" ExpressionVar="c" AdjustFactor="c+a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_223" VulcanParameter="DL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_223" VulcanParameter="WR"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_223" VulcanParameter="DR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" VulcanParameter="SR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectTakeoff" VulcanParameter="LT" ExpressionVar="a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AT" AutoValue="90" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="CL" AutoValue="0"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" VulcanParameter="CR" ExpressionVar="b" SupportedPatternId="All"/>
+	<DependentParameter>
+		<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_223" ExpressionVar="x"/>
+	</DependentParameter>
+  </BentleyComponent>  
+
+<!--====================Round End Cap : Round end cap================================================================+-->
+  <BentleyComponent name="RoundCap" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="351-m" />
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec1_2" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamCap" VulcanParameter="L" SupportedPatternId="All"/>
+  </BentleyComponent>
+<!--==========================RoundThreeWay : Round Y ==========================================================+-->
+    <BentleyComponent name="RoundThreeWay" SubType="Three Way">
+	<VulcanPatterns>
+		<Pattern ID="362-m">
+		<Parameter schemaName="CustomParamRoundThreeWay" name="" value ="x;y" operation="equal to" format="value"/>
+		<Parameter schemaName="CustomParamRoundThreeWay" name="" value ="a;b" operation="equal to" format="value"/>
+		</Pattern>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@diameter" schemaName="EndSpec3_222" VulcanParameter="WB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="BranchLength1" schemaName="CustomParamRoundThreeWay" VulcanParameter="L" SupportedPatternId="All" ExpressionVar="a"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamRoundThreeWay" VulcanParameter="SL" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="Angle1" schemaName="CustomParamRoundThreeWay" VulcanParameter="A" SupportedPatternId="All" ExpressionVar="y"/>
+	<Dimension BentleyParameter="HeaderLength" schemaName="CustomParamRoundThreeWay" VulcanParameter="S3" SupportedPatternId="All"/>
+		<DependentParameter>
+		<Dimension BentleyParameter="Angle2" schemaName="CustomParamRoundThreeWay" ExpressionVar="x"/>
+		<Dimension BentleyParameter="BranchLength2" schemaName="CustomParamRoundThreeWay" ExpressionVar="b"/>
+	</DependentParameter>
+  </BentleyComponent>
+<!--====================================================================================+
+|
+| Oval Components
+|
++===========================Oval Duct : Oval pipe (short cut sections)==========================================================-->
+  <BentleyComponent name="FlatOvalDuct" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="402-m"/>
+	</VulcanPatterns>
+
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec1_3" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec1_3" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Length" schemaName="CustomParamOvalDuct" VulcanParameter="L" SupportedPatternId="All"/>
+  </BentleyComponent>
+<!--========================OvalTransition : Oval reducer=============================================================-->
+  <BentleyComponent name="OvalTransition" SubType="Centric Reducer">
+	<VulcanPatterns>
+		<Pattern ID="415-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_33" VulcanParameter="WB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_33" VulcanParameter="DB" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamOvalTransition" VulcanParameter="SB" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@depth" schemaName="EndSpec2_33" VulcanParameter="WT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@width" schemaName="EndSpec2_33" VulcanParameter="DT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamOvalTransition" VulcanParameter="ST" ExpressionVar="y" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamOvalTransition" VulcanParameter="L" SupportedPatternId="All" ExpressionVar="z" AdjustFactor="x+y+z"/>
+	<Dimension BentleyParameter="Rise" schemaName="CustomParamOvalTransition" VulcanParameter="OW" ExpressionVar="a" AdjustFactor="0-a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Run" schemaName="CustomParamOvalTransition" VulcanParameter="OD" ExpressionVar="b" AdjustFactor="0-b" SupportedPatternId="All"/>
+  </BentleyComponent>
+  
+<!--=========================Oval Offset : Oval offset radius calculated============================================================-->
+ <BentleyComponent name="OvalOffset" SubType="Default">
+	<VulcanPatterns>
+	    <Pattern ID="418-m" >		
+	    </Pattern>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_33" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End2/@width" schemaName="EndSpec2_33" VulcanParameter="D" SupportedPatternId="All"/>	
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamOvalOffset" VulcanParameter="SB" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamOvalOffset" VulcanParameter="ST" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamOvalOffset" VulcanParameter="L" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Rise" schemaName="CustomParamOvalOffset" VulcanParameter="OW" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRoundOffset" VulcanParameter="NG" AutoValue="3" SupportedPatternId="All"/>
+  </BentleyComponent>
+  <!--============================OvalElbow : Oval elbow centerline radius=========================================================-->
+  <BentleyComponent name="OvalElbow" SubType="DefaultOval">
+	<VulcanPatterns>
+		<Pattern ID="406-m" />
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_33" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_33" VulcanParameter="D" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamAngularElbow" VulcanParameter="SB" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamAngularElbow" VulcanParameter="SR" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BentleyParameter="Radius" schemaName="CustomParamAngularElbow" VulcanParameter="R" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="Angle" schemaName="CustomParamAngularElbow" VulcanParameter="A" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NumberOfSegments" schemaName="CustomParamAngularElbow" VulcanParameter="NG" SupportedPatternId="All" />
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamAngularElbow" VulcanParameter="SR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen2" schemaName="CustomParamAngularElbow" VulcanParameter="SB" SupportedPatternId="All"/>
+  </BentleyComponent>
+<!--==========================Oval End Cap : Oval end cap===========================================================-->
+ <BentleyComponent name="OvalCap" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="451-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec1_3" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec1_3" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="TotalLength" schemaName="CustomParamCap" VulcanParameter="L" SupportedPatternId="All"/>
+  </BentleyComponent>
+  <!--==========================Oval To Oval Takeoff : Oval boot tap on a straight oval body===========================================================-->
+    <BentleyComponent name="OvlTakeoff" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="2758-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_333" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_333" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_333" VulcanParameter="WL" ExpressionVar="c" AdjustFactor="c+a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_333" VulcanParameter="DL" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_333" VulcanParameter="WR"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_333" VulcanParameter="DR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" VulcanParameter="SR" ExpressionVar="b" SupportedPatternId="All"/>		
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectTakeoff" VulcanParameter="LT" ExpressionVar="a" AdjustFactor="a+b" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AT" AutoValue="90" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="CL" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="CR"  AutoValue="0" SupportedPatternId="All"/>
+	<DependentParameter>
+		<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_333" ExpressionVar="x"/>
+	</DependentParameter>
+  </BentleyComponent>
+<!--===================================Oval To Round Takeoff : Round boot tap on a straight oval body ========================================+-->
+  <BentleyComponent name="OvlRndTakeoff" SubType="OvlToRnd">
+	<VulcanPatterns>
+	<Pattern ID="2754-m" />
+		
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_332" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_332" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_332" VulcanParameter="WL" ExpressionVar="c" AdjustFactor="c+a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_332" VulcanParameter="DL" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_332" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" 	VulcanParameter="SR" ExpressionVar="b" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectTakeoff" VulcanParameter="LT" ExpressionVar="a"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AT" AutoValue="90" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+  </BentleyComponent>   
+  <!--==============================Oval To Round Tap : Straight rectangular body with straight round tap ==================================================+-->
+     <BentleyComponent name="OvalRoundTap" SubType="Round Tap">
+	<VulcanPatterns>
+		<Pattern ID="2751-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_332" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_332" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@diameter" schemaName="EndSpec3_332" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamAngledTap" VulcanParameter="LT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InclineAngle" schemaName="CustomParamAngledTap" VulcanParameter="AT"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="CL" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamAngledTap" VulcanParameter="CR"  SupportedPatternId="All"/>
+	<DependentParameter>
+		<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_332" ExpressionVar="x"/>
+	</DependentParameter>	
+
+  </BentleyComponent>  
+  <!--==============================Oval To Oval Tap : Straight oval tap on a straight oval body===============================+-->
+     <BentleyComponent name="OvalOvalTap" SubType="Oval Tap">
+	<VulcanPatterns>
+		<Pattern ID="2755-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_333" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_333" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_333" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_333" VulcanParameter="DR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="SR" AutoValue="0" SupportedPatternId="All"/>		
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamAngledTap" VulcanParameter="LT" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InclineAngle" schemaName="CustomParamAngledTap" VulcanParameter="AT"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamAngledTap" VulcanParameter="CL" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamAngledTap" VulcanParameter="CR"  SupportedPatternId="All"/>
+	<DependentParameter>
+		<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_333" ExpressionVar="x"/>
+	</DependentParameter>	
+  </BentleyComponent>  
+    <!--===============================Oval To Rectangular Takeoff : Rectangular tap on straight oval body====================================+-->
+     <BentleyComponent name="OvlRectTakeoff" SubType="OvlToRect">
+	<VulcanPatterns>
+		<Pattern ID="2761-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec3_331" VulcanParameter="W"   SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_331" VulcanParameter="D" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_331" VulcanParameter="WL" ExpressionVar="c" AdjustFactor="c+a" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec3_331" VulcanParameter="DL" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@width" schemaName="EndSpec3_331" VulcanParameter="WR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End3/@depth" schemaName="EndSpec3_331" VulcanParameter="DR" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="InlineLength" schemaName="CustomParamRectTakeoff" VulcanParameter="LT" ExpressionVar="a"  SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OW" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="OD" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AT" AutoValue="90" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="AR" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="BR" AdjustFactor="x/2" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="NotSupported" schemaName="CustomParamRectTakeoff" VulcanParameter="CL" AutoValue="0" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="StraightLen1" schemaName="CustomParamRectTakeoff" VulcanParameter="CR"  SupportedPatternId="All"/>
+  </BentleyComponent>  
+<!--=========================Oval Flex Connection : Oval flex connection============================================================-->
+    <BentleyComponent name="OvalFlexConnection" SubType="Default">
+	<VulcanPatterns>
+		<Pattern ID="413-m"/>
+	</VulcanPatterns>
+	<Dimension BentleyParameter="End1/@depth" schemaName="EndSpec2_33" VulcanParameter="W" SupportedPatternId="All"/>
+	<Dimension BentleyParameter="End1/@width" schemaName="EndSpec2_33" VulcanParameter="D" SupportedPatternId="All"/>
+  </BentleyComponent>
+ <!--====================================================================================+-->  
+  </Mappings>
+<!--=====================================================================================-->
+
+

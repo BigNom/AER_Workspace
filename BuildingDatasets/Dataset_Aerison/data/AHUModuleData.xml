@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<AHUModuleDetails>
+	<Version major="1" minor="0"/>
+	<AHUModules>
+
+	<AHUModule name="Fan Modules" SubModule="AxialFan" CellSymbol="ES011" CatalogType="RectangularFans2" CatalogItem="Axial" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False" />
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>	
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>
+		<Properties>
+			<Property Name="Drive Type" Values="Direct Drive; Belt Drive"/>
+			<Property Name="Constant Speed"/>
+			<Property Name="With VFDs"/>
+		</Properties>
+	</AHUModule>	
+		
+	<AHUModule name="Fan Modules" SubModule="CentrifugalFan" CellSymbol="ES008" CatalogType="RectangularFans1" CatalogItem="Centrifugal" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>	
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+		<Properties>
+			<Property Name="Drive Type" Values="Direct Drive;Belt Drive;"/>
+			<Property Name="Constant Speed"/>
+			<Property Name="With VFDs"/>
+		</Properties>
+	</AHUModule>
+
+	<AHUModule name="Fan Modules" SubModule="S. A. Fan" CellSymbol="ES008" CatalogType="RectangularFans1" CatalogItem="S. A. Fan" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>	
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+		<Properties>
+			<Property Name="Drive Type" Values="Direct Drive;Belt Drive;"/>
+			<Property Name="Constant Speed"/>
+			<Property Name="With VFDs"/>
+		</Properties>
+	</AHUModule>
+
+	<AHUModule name="Fan Modules" SubModule="R. A. Fan" CellSymbol="ES008" CatalogType="RectangularFans1" CatalogItem="R. A. Fan" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>	
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+		<Properties>
+			<Property Name="Drive Type" Values="Direct Drive;Belt Drive;"/>
+			<Property Name="Constant Speed"/>
+			<Property Name="With VFDs"/>
+		</Properties>
+	</AHUModule>	
+
+	<AHUModule name="Coil Section Modules" SubModule="Electric Heating Coil" CellSymbol="ES017"  CatalogType="RectangularAirHeater" CatalogItem="Heater" AccessDoor="True">
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>	
+		<Connections Count="1" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC"     Enabler_Flag = "False"/>
+	</AHUModule>
+
+	<AHUModule name="Coil Section Modules" SubModule="Gas Heating Coil" CellSymbol="ES015" CatalogType="RectangularAirHeater" CatalogItem="Heater" AccessDoor="True">
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>	
+		<Connections Count="2" Type="Plumbing" name1="Gas in" name2 ="Gas Out" Enabler_Flag = "True"/>
+		<Connections Count="0" Type="Electrical"  Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "False"/>
+	</AHUModule>	
+		
+	<AHUModule name="Coil Section Modules" SubModule="Hydronic Cooling Coil" CellSymbol="ES016"  CatalogType="RectangularAirCooler" CatalogItem="Cooler" AccessDoor="True" >
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>
+		<Connections Count="3" Type="Plumbing" name1="CHW in" name2 ="CHW Out" name3 ="Drain" Enabler_Flag = "True"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "False"/>
+	</AHUModule>
+
+	<AHUModule name="Coil Section Modules" SubModule="Hydronic Heating Coil" CellSymbol="ES015"  CatalogType="RectangularAirHeater" CatalogItem="Heater" AccessDoor="True">
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>	
+		<Connections Count="2" Type="Plumbing" name1="HW in" name2 ="HW Out" Enabler_Flag = "True"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "False"/>
+	</AHUModule>
+
+	<AHUModule name="Coil Section Modules" SubModule="Integrated Face and By-Pass Coil" CellSymbol="BC008"  CatalogType="RectangularAirHeater" CatalogItem="Heater" AccessDoor="True">
+		<Connections Count="3" Type="Plumbing" name1="CHW in" name2 ="CHW Out" name3 ="Drain" Enabler_Flag = "True"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "False"/>
+		<DefaultDimensions>
+			<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>
+	
+	<AHUModule name="Coil Section Modules" SubModule="Steam Heating Coil" CellSymbol="ES015" CatalogType="RectangularAirHeater" CatalogItem="Heater" AccessDoor="True">
+		<Connections Count="3" Type="Plumbing" name1="Steam In" name2 ="Condensate Out" name3 ="Drain" Enabler_Flag = "True" />
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "False"/>
+		<DefaultDimensions>
+			<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>	
+
+	<AHUModule name="Coil Section Modules" SubModule="Refrigerant Cooling Coil" CellSymbol="ES016" CatalogType="RectangularAirCooler" CatalogItem="Cooler" AccessDoor="True">
+		<Connections Count="3" Type="Plumbing" name1="Refrigerant In" name2 ="Refrigerant  Out" name3 ="Drain" Enabler_Flag = "True"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "False"/>
+		<DefaultDimensions>
+			<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>	
+	<AHUModule name="Damper" CellSymbol="ES021" CatalogType="RectangularDamper" CatalogItem="Rectangular Damper" AccessDoor="False">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+			<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+		<Properties>
+			<Property Name="Face-And-Bypass Damper" Values="Internal:External;"/>
+			<Property Name="Control Drive" Values="Handle;Motorized;"/>
+		</Properties>	
+	</AHUModule>	
+
+	<AHUModule name="Diffuser" CellSymbol="ES022" AccessDoor="False">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>
+
+
+	
+	<AHUModule name="S. A. Plenum" CellSymbol="" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>
+	
+	<AHUModule name="Economizer" CellSymbol="BC009" AccessDoor="True" Hood="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="3" Type="HVAC" name1="Fresh Air" name2="Return Air" name3="Exhaust Air" Enabler_Flag = "True" />
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>
+	<AHUModule name="Filter Modules" SubModule="Angled Filter" CellSymbol="ES014" CatalogType="RectangularFlatFilter" CatalogItem="Flat" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>
+	
+	<AHUModule name="Filter Modules" SubModule="Bag Filter" CellSymbol="ES014" CatalogType="RectangularFlatFilter" CatalogItem="Flat" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>
+	
+	<AHUModule name="Filter Modules" SubModule="HEPA Filter" CellSymbol="ES014" CatalogType="RectangularFlatFilter" CatalogItem="Flat" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>	
+	
+	<AHUModule name="Filter Modules" SubModule="Flat Filter" CellSymbol="ES014" CatalogType="RectangularFlatFilter" CatalogItem="Flat" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>	
+
+	<AHUModule name="Filter Modules" SubModule="Fine Filter" CellSymbol="ES014" CatalogType="RectangularFineFilter" CatalogItem="Fine" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>	
+	
+	<AHUModule name="Humidifier Modules" SubModule="Atmospheric Steam Humidifier" CellSymbol="ES010" CatalogType="RectangularAirHumidifier" CatalogItem="Humidifier" AccessDoor="False">
+		<Connections Count="3" Type="Plumbing" name1="Supply" name2="Discharge" name3="Drain" Enabler_Flag = "True"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "False"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>	
+
+	<AHUModule name="Humidifier Modules" SubModule="Direct Steam Humidifier" CellSymbol="ES010" CatalogType="RectangularAirHumidifier" CatalogItem="Humidifier" AccessDoor="False">
+		<Connections Count="4" Type="Plumbing" name1="Supply1" name2="Supply1" name3="Discharge" name4="Drain" Enabler_Flag = "True"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "False"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>	
+
+	<AHUModule name="Mixing Module" CellSymbol="BC010" AccessDoor="True" >
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="3" Type="HVAC" name1="Freah Air Inlet" name2="Return Air Inlet" name3="Exhaust Air" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>	
+
+	<AHUModule name="Mixing Module" SubModule="Mixing Chamber" CellSymbol="BC010" AccessDoor="True" Hood="True" >
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="3" Type="HVAC" name1="Freah Air Inlet" name2="Return Air Inlet" name3="Exhaust Air" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>
+
+	<AHUModule name="Mixing Module" CellSymbol="BC011" SubModule="Discharge Plenum" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+		<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>
+	
+	<AHUModule name="Silencer" CellSymbol="DS035" CatalogType="RectangularSilencer" CatalogItem="Default" AccessDoor="False">
+		<Connections Count="0" Type="Plumbing"  Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+			<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>
+	<AHUModule name="Washer System" CellSymbol="" AccessDoor="False">
+		<Connections Count="1" Type="Plumbing" Enabler_Flag = "True"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "False"/>
+		<DefaultDimensions>
+			<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>		
+	</AHUModule>
+
+	<AHUModule name="De-Humidifier" CellSymbol="ES010" AccessDoor="False">
+		<Connections Count="1" Type="Plumbing" name1="Drain" Enabler_Flag = "True"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="HVAC" Enabler_Flag = "False"/>
+		<DefaultDimensions>
+			<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>
+	</AHUModule>
+	<AHUModule name="Wheel" CellSymbol="ES024" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+			<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>
+	</AHUModule>
+	<AHUModule name="Wheel" SubModule="Energy Wheel" CellSymbol="ES024" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+			<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>
+	</AHUModule>
+	<AHUModule name="Wheel" SubModule="Desiccant Wheel" CellSymbol="ES024" AccessDoor="True">
+		<Connections Count="0" Type="Plumbing" Enabler_Flag = "False"/>
+		<Connections Count="0" Type="Electrical" Enabler_Flag = "False"/>
+		<Connections Count="1" Type="HVAC" Enabler_Flag = "True"/>
+		<DefaultDimensions>
+			<Dimension Width="1200" Height="1200" Length="600"/>
+		</DefaultDimensions>
+	</AHUModule>
+</AHUModules>
+</AHUModuleDetails>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Classifications>
+	<Type name="CBI2011">
+		<Files>
+			<File name="CBI_2011.xml"/>
+		</Files>
+	</Type>
+	<Type name="NATSPEC">
+		<Files>
+			<File name="NATSPEC_OCT_2011.xml"/>
+		</Files>
+	</Type>
+	<Type name="Omniclass">
+		<Files>
+			<File name="OmniClass_11_2006-03-28.xml"/>
+			<File name="OmniClass_12_2006-03-28.xml"/>
+			<File name="OmniClass_13_2010-06-24.xml"/>
+			<File name="OmniClass_14_2006-03-28.xml"/>
+			<File name="OmniClass_21_2011-02-11.xml"/>
+			<File name="OmniClass_22_2011-04-11.xml"/>
+			<File name="OmniClass_23_2010-06-24.xml"/>
+			<File name="OmniClass_32_2010-06-24.xml"/>
+			<File name="OmniClass_33_2006-03-28.xml"/>
+			<File name="OmniClass_34_2006-03-28.xml"/>
+			<File name="OmniClass_36_2010-06-24.xml"/>
+			<File name="OmniClass_41_2006-03-28.xml"/>
+			<File name="OmniClass_49_2010-06-24.xml"/>
+		</Files>
+	</Type>
+	<Type name="MasterFormat">
+		<Files>
+			<File name="MASTERFORMAT_2010.xml"/>
+		</Files>
+	</Type>
+	<Type name="UniFormat">
+		<Files>
+			<File name="Uniformat_2010.xml"/>
+		</Files>
+	</Type>
+</Classifications>

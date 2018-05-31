@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--====================================================================================+
+|
+| Item File Mapping options
+|
++=====================================================================================-->
+<Mappings>
+<Version major="1" minor="0"/>
+
+<!--====================================================================================+
+|
+| Rectangular Components
+|
++=====================================================================================-->
+
+  <BBMS_Fitting name="RectangularDuct" SubType="Default">
+	<Cam-DuctPatterns>
+		<Pattern ID="1" name="Straight" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,1,0"/>
+	</Cam-DuctPatterns>
+
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec1_1" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec1_1" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Length" schemaName="CustomParamRectDuct" CAM-DUCT_Value="Length" SupportedPatternId="All"/>
+	
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+
+  <BBMS_Fitting name="RectangularElbow" SubType="DefaultRect">
+	<Cam-DuctPatterns>
+	    <Pattern ID="4" name="Radius Bend" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1" >
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="" value ="b;a" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+
+	    <Pattern ID="17" name="Reducing Bend" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="" value ="b;a" operation="not equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="Top Width" SupportedPatternId="All" ExpressionVar="a"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_11" CAM-DUCT_Value="Depth" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="bottom Depth" SupportedPatternId="17" ExpressionVar="b"/>
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamRectElbow" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectElbow" CAM-DUCT_Value="Top Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRectElbow" CAM-DUCT_Value="Bottom Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="FirstRadius" schemaName="CustomParamRectElbow" CAM-DUCT_Value="Inner Radius" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+  <BBMS_Fitting name="RectangularElbow" SubType="Mitered">
+	<Cam-DuctPatterns>
+	    <Pattern ID="3" name="Square Bend" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1" Connection="2">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="Angle" value ="90" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+	    <Pattern ID="20" name="Elbow" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectElbow" name="Angle" value ="45" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="Top Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_11" CAM-DUCT_Value="Depth" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="btm Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamRectElbow" CAM-DUCT_Value="Angle" SupportedPatternId="20"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectElbow" CAM-DUCT_Value="Top Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRectElbow" CAM-DUCT_Value="Bottom Extension" SupportedPatternId="All" CheckEndType="True"/>
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+  <BBMS_Fitting name="RectangularTee" SubType="Default">
+	<Cam-DuctPatterns>
+		<Pattern ID="5" name="Radius Tee" Category="HVAC\Generic\Rectangular" DirVector="0,0,-1" WidthVector="-1,0,0" Connection="3">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectTee" name="" value ="x;y" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+
+		<Pattern ID="255" name="Tee Reducing" Category="HVAC\Generic\Rectangular" DirVector="0,0,-1" WidthVector="-1,0,0" Connection="3">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectTee" name="" value ="x;y" operation="not equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+
+		</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End3/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Btm Width" SupportedPatternId="All" ExpressionVar="J"/>
+	<Dimension BBMS_Value="End3/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Left Width" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Right Width" ExpressionVar="y" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="SecondRadius" schemaName="CustomParamRectTee" CAM-DUCT_Value="Right Radius" ExpressionVar="b" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="FirstRadius" schemaName="CustomParamRectTee" CAM-DUCT_Value="Left Radius" ExpressionVar="a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamRectTee" CAM-DUCT_Value="Btm Right Extension" ExpressionVar="c" SupportedPatternId="5" CheckEndType ="True"/>
+	<Dimension BBMS_Value="RiseValue" schemaName="CustomParamRectTee" CAM-DUCT_Value="Btm Left Extension" ExpressionVar="z" AdjustFactor="c-a-x-z+y+b" SupportedPatternId="5" CheckEndType ="True"/>
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamRectTee" CAM-DUCT_Value="Btm Left Extension" SupportedPatternId="255" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRectTee" CAM-DUCT_Value="Right Extension" SupportedPatternId="All" ExpressionVar="K"
+	AdjustFactor="K+((I-(J+a+b+f+K))/2)" CheckEndType ="True"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectTee" CAM-DUCT_Value="left Extension" SupportedPatternId="All" ExpressionVar="f" AdjustFactor="f+((I-(J+a+b+f+K))/2)" CheckEndType ="True"/>
+	<DependentParameter>	
+    		<Dimension BBMS_Value="TotalLength" schemaName="CustomParamRectTee" 	ExpressionVar="I"/>
+	 </DependentParameter>	
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+
+  <BBMS_Fitting name="RectangularTransition" SubType="Centric Reducer">
+	<Cam-DuctPatterns>
+		<Pattern ID="2" name="Taper" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,-1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="Width In" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_11" CAM-DUCT_Value="Depth In" SupportedPatternId="All" ExpressionVar="J"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="Width Out" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End2/@width" schemaName="EndSpec2_11" CAM-DUCT_Value="Depth Out" SupportedPatternId="All" ExpressionVar="K"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamRectTransition" CAM-DUCT_Value="Length" SupportedPatternId="All"  ExpressionVar="z" AdjustFactor="z+x+y"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectTransition" CAM-DUCT_Value="Extension In" SupportedPatternId="All" ExpressionVar="x" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRectTransition" CAM-DUCT_Value="Extension Out" SupportedPatternId="All"  ExpressionVar="y" CheckEndType="True"/>
+	<Dimension BBMS_Value="Rise" schemaName="CustomParamRectTransition" CAM-DUCT_Value="Offset Width" ExpressionVar="a"  AdjustFactor="0-a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Run" schemaName="CustomParamRectTransition" CAM-DUCT_Value="Offset Depth" ExpressionVar="b" AdjustFactor="J+b-K" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+  <BBMS_Fitting name="RectOgee" SubType="Ogee">
+	<Cam-DuctPatterns>
+	    <Pattern ID="30" name="Mitred Offset" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectOgee" name="Radius1-1" value ="0" operation="equal to" format="value"/>
+		    <Parameter schemaName="CustomParamRectOgee" name="Radius1-2" value ="0" operation="equal to" format="value"/>
+		    <Parameter schemaName="CustomParamRectOgee" name="Radius2-1" value ="0" operation="equal to" format="value"/>
+		    <Parameter schemaName="CustomParamRectOgee" name="Radius2-2" value ="0" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+	    <Pattern ID="9" name="Radius Offset" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRectOgee" name="Radius1-1" value ="0" operation="not equal to" format="value"/>
+		    <Parameter schemaName="CustomParamRectOgee" name="Radius1-2" value ="0" operation="not equal to" format="value"/>
+		    <Parameter schemaName="CustomParamRectOgee" name="Radius2-1" value ="0" operation="not equal to" format="value"/>
+		    <Parameter schemaName="CustomParamRectOgee" name="Radius2-2" value ="0" operation="not equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+		
+		
+		<Pattern ID="30" name="Mitred Offset" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_11" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="Width Out" SupportedPatternId="9"/>
+	<Dimension BBMS_Value="InlineLength" schemaName="CustomParamRectOgee" CAM-DUCT_Value="Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectOgee" CAM-DUCT_Value="Left Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRectOgee" CAM-DUCT_Value="Right Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="Rise" schemaName="CustomParamRectOgee" CAM-DUCT_Value="Offset Width" ExpressionVar="a" AdjustFactor="0-a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Radius1-1" schemaName="CustomParamRectOgee" CAM-DUCT_Value="Left Radius" SupportedPatternId="9"/>
+	<Dimension BBMS_Value="Radius2-1" schemaName="CustomParamRectOgee" CAM-DUCT_Value="Right Radius" SupportedPatternId="9"/>
+
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+
+  <BBMS_Fitting name="RectangularCap" SubType="Default">
+	<Cam-DuctPatterns>
+		<Pattern ID="802" name="Cap End" Category="HVAC\Generic\Rectangular" DirVector="1,0,0" WidthVector="0,0,-1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec1_1" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec1_1" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamCap" CAM-DUCT_Value="Turnover" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+  <BBMS_Fitting name="Trouser" SubType="Trouser">
+	<Cam-DuctPatterns>
+		<Pattern ID="328" name="Trouser Piece" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,-1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Btm Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Btm Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Left Width" SupportedPatternId="All" ExpressionVar="b"/>
+	<Dimension BBMS_Value="End3/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Right Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Top Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamRectTrouser" CAM-DUCT_Value="Height" SupportedPatternId="All" ExpressionVar="d" AdjustFactor="d+x+y"/>
+	<Dimension BBMS_Value="Offset" schemaName="CustomParamRectTrouser" CAM-DUCT_Value="Offset" SupportedPatternId="All" ExpressionVar="a"/>
+	<Dimension BBMS_Value="OffsetDepth" schemaName="CustomParamRectTrouser" CAM-DUCT_Value="Offset Width" SupportedPatternId="All" ExpressionVar="c" AdjustFactor="-a-b+c"/>
+	<Dimension BBMS_Value="OffsetWidth" schemaName="CustomParamRectTrouser" CAM-DUCT_Value="Offset Depth" SupportedPatternId="All" ExpressionVar="z" AdjustFactor="-z"/>
+<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectTrouser" CAM-DUCT_Value="Bottom Extension" SupportedPatternId="All" ExpressionVar="x"/>
+<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRectTrouser" CAM-DUCT_Value="Top Extension" SupportedPatternId="All" ExpressionVar="y"/>
+  </BBMS_Fitting>
+
+<!--=====================================================================================-->
+<BBMS_Fitting name="SideBranch" SubType="Rectangular Side Branch" >
+	<Cam-DuctPatterns>
+		<Pattern ID="18" name="Side Branch" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1"  />
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Btm Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Btm Depth" SupportedPatternId="All"  ExpressionVar ="c"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Top Width" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End3/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Right Width" SupportedPatternId="All" />
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamSideBranch" CAM-DUCT_Value="Height" ExpressionVar ="z" AdjustFactor="z+a+b" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamSideBranch" CAM-DUCT_Value="RightHeight" AutoValue="" SupportedPatternId="All"/>
+<Dimension BBMS_Value="Radius" schemaName="CustomParamSideBranch" CAM-DUCT_Value="Right Radius" ExpressionVar ="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamSideBranch" CAM-DUCT_Value="Right Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamSideBranch" CAM-DUCT_Value="Btm Right Extension" ExpressionVar ="a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamSideBranch" CAM-DUCT_Value="Btm Left Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamSideBranch" CAM-DUCT_Value="Right Extension" ExpressionVar ="b" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+<!--=====================================================================================-->
+  <BBMS_Fitting name="RectBreech" SubType="Breech">
+	<Cam-DuctPatterns>
+		<Pattern ID="14" name="Breeches Piece" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,-1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Btm Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Right Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Left Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectBreech" CAM-DUCT_Value="Height" AutoValue="" SupportedPatternId="All"/>
+
+	<Dimension BBMS_Value="Radius1" schemaName="CustomParamRectBreech" CAM-DUCT_Value="Right Radius" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Radius2" schemaName="CustomParamRectBreech" CAM-DUCT_Value="Left Radius" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle1" schemaName="CustomParamRectBreech" CAM-DUCT_Value="Right Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle2" schemaName="CustomParamRectBreech" CAM-DUCT_Value="Left Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="MainExtension1" schemaName="CustomParamRectBreech" CAM-DUCT_Value="Btm Right Extension" ExpressionVar="a" AdjustFactor="a+m" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="MainExtension2" schemaName="CustomParamRectBreech" CAM-DUCT_Value="Btm Left Extension" ExpressionVar="b" AdjustFactor="b+m" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Branch1Extension" schemaName="CustomParamRectBreech" CAM-DUCT_Value="Right Extension" ExpressionVar="c" AdjustFactor="c+r" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Branch2Extension" schemaName="CustomParamRectBreech" CAM-DUCT_Value="Left Extension" ExpressionVar="d" AdjustFactor="d+l" SupportedPatternId="All"/>
+	<DependentParameter>
+    		<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectBreech" ExpressionVar="m"/>
+    		<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRectBreech" ExpressionVar="r"/>
+    		<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamRectBreech" ExpressionVar="l"/>
+    	</DependentParameter>	
+  </BBMS_Fitting> 
+<!--=====================================================================================-->
+  <BBMS_Fitting name="ThreeWayTee" SubType="Three Way Tee">
+	<Cam-DuctPatterns>
+		<Pattern ID="10" name="3 Way Tee" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,-1" Connection="1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec4_1111" CAM-DUCT_Value="Btm Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec4_1111" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec4_1111" CAM-DUCT_Value="Top Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@depth" schemaName="EndSpec4_1111" CAM-DUCT_Value="Right Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End4/@depth" schemaName="EndSpec4_1111" CAM-DUCT_Value="Left Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="L" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Height" SupportedPatternId="All" ExpressionVar="b" AdjustFactor="b+a+c"/>
+<Dimension BBMS_Value="CamDuct_RHeight" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Left Height" SupportedPatternId="All"/>
+<Dimension BBMS_Value="CamDuct_LHeight" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Right Height" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Radius1" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Right Radius" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Radius2" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Left Radius" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="ANG1" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Right Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="ANG2" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Left Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="L1" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Top Extension" SupportedPatternId="All" ExpressionVar="c" CheckEndType ="True"/>
+	<Dimension BBMS_Value="L2" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Btm Right Extension" SupportedPatternId="All" ExpressionVar="a" CheckEndType ="True"/>
+	<Dimension BBMS_Value="L3" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Btm Right Extension" SupportedPatternId="All" CheckEndType ="True"/>
+	<Dimension BBMS_Value="L4" schemaName="CustomParamThreeWayTee" CAM-DUCT_Value="Btm Right Extension" SupportedPatternId="All" CheckEndType ="True"/>
+  </BBMS_Fitting>
+
+<!--====================================================================================+-->
+  <BBMS_Fitting name="RectangularTakeoff" SubType="Angled">
+	<Cam-DuctPatterns>
+	<Pattern ID="7" name="Shoe" Category="HVAC\Generic\Rectangular" DirVector="0,-1,0" WidthVector="-1,0,0"  OffsetVector="(tan(z*(3.14/180))*(b-c))/2,x/2,0" Connection="1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End3/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Top Width"   ExpressionVar ="a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="InlineLength" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Height"  ExpressionVar ="b" SupportedPatternId="All"/>
+<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Top Extension" ExpressionVar="c"  SupportedPatternId="All"/>
+<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Bottom Extension"  AutoValue="Formula"  Formula="tan(z *(3.14/180))*(b-c)" SupportedPatternId="All"/>
+
+	<DependentParameter>
+		<Dimension BBMS_Value="End1/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Width" ExpressionVar="x" SupportedPatternId="All"/>
+    		<Dimension BBMS_Value="Angle" schemaName="CustomParamRectTakeoff" ExpressionVar="z"/>
+	</DependentParameter>
+
+  </BBMS_Fitting>
+<!--====================================================================================+-->
+  <BBMS_Fitting name="RectRectTap" SubType="Rect Tap">
+	<Cam-DuctPatterns>
+	<Pattern ID="15" name="Angled Branch + Plate" Category="HVAC\Generic\Rectangular" DirVector="0,-1,0" WidthVector="0,1,0"  OffsetVector="tan((90-z)*(3.14/180))*(y/2),y/2,0" Connection="1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End3/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Top Width"   ExpressionVar ="a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Depth" ExpressionVar ="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="InlineLength" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Length"  ExpressionVar ="b" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="InclineAngle" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Angle"   ExpressionVar ="z" SupportedPatternId="All"/>
+<Dimension BBMS_Value="NotSupported" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Plate Width" AutoValue="Formula"  Formula="a+p" SupportedPatternId="All"/>
+<Dimension BBMS_Value="NotSupported" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Plate Depth"  AutoValue="Formula"  Formula="x+p" SupportedPatternId="All"/>
+<Dimension BBMS_Value="NotSupported" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Offset Depth" AutoValue="0" SupportedPatternId="All"/>
+<Dimension BBMS_Value="NotSupported" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Offset Width" AutoValue="0" SupportedPatternId="All"/>
+<Dimension BBMS_Value="NotSupported" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Plate Width Adjust" AutoValue="0" SupportedPatternId="All"/>
+<Dimension BBMS_Value="NotSupported" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Plate Depth Adjust" AutoValue="0" SupportedPatternId="All"/>
+
+	<DependentParameter>
+			<Dimension BBMS_Value="End1/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Width" ExpressionVar="y" SupportedPatternId="All"/>
+    		<Dimension BBMS_Value="JointSize" schemaName="CustomParamAngledTap" ExpressionVar="p"/>
+<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamAngledTap" ExpressionVar="q"  SupportedPatternId="All"/>
+			
+	</DependentParameter>
+
+  </BBMS_Fitting>
+
+
+<!--====================================================================================+-->
+
+    <BBMS_Fitting name="RectangularDamper" SubType="Rectangular Damper">
+	<Cam-DuctPatterns>
+		<Pattern ID="876" name="Damper Box" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,-1" />
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value=" Width" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_11" CAM-DUCT_Value="Depth" SupportedPatternId="All" ExpressionVar="Z"/>
+	<Dimension BBMS_Value="BodyLength" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="ConnectionDistTop" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Top" SupportedPatternId="All" ExpressionVar="Y"/>
+	<Dimension BBMS_Value="ConnectionDistSide" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Border" SupportedPatternId="All" AdjustFactor="(X-Z)/2"/>
+    <Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Top Extension" SupportedPatternId="All" />
+    <Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Fixing Hole Diameter" AutoValue= "0" SupportedPatternId="All" />
+    <Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Hole Inset" AutoValue= "0" SupportedPatternId="All" />
+    <Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Hole Diameter" AutoValue= "0" SupportedPatternId="All" />
+
+    <DependentParameter>	
+    	<Dimension BBMS_Value="BodyWidth" schemaName="CustomParamRectangularDamper" 	ExpressionVar="X"/>
+    </DependentParameter>	
+
+    </BBMS_Fitting>
+
+
+<!--====================================================================================+-->
+  <BBMS_Fitting name="RectangularWye" SubType="Default">
+	<Cam-DuctPatterns>
+		<Pattern ID="37" name="Drop Cheek Breeches Piece " Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1" >
+			<Parameters>
+			    <Parameter schemaName="CustomParamRectangularWye" name="Angle1" value ="90" operation="equal to" format="value"/>		
+		    <Parameter schemaName="CustomParamRectangularWye" name="Angle2" value ="90" operation="equal to" format="value"/>		
+			</Parameters>
+		</Pattern>
+
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Btm Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Btm Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Right Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Right Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec3_111" CAM-DUCT_Value="Left Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@width" schemaName="EndSpec3_111" CAM-DUCT_Value="Left Depth" SupportedPatternId="All"/>
+
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Right Offset" AutoValue="Central" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Left Offset" AutoValue="Central" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Height" AutoValue="" SupportedPatternId="All"/>
+
+	<Dimension BBMS_Value="Radius2" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Right Radius" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Radius2" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Left Radius" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle1" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Right Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle2" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Left Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Btm Right Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Btm Left Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Right Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamRectangularWye" CAM-DUCT_Value="Left Extension" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+
+
+<!--====================================================================================+-->
+
+<!--====================================================================================+
+|
+| Round Components
+|
++=====================================================================================-->
+  <BBMS_Fitting name="RoundDuct" SubType="Default" >
+	<Cam-DuctPatterns>
+		<Pattern ID="41" name="Straight Seamed Pipe" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,1,0" Connection="1"/>
+	</Cam-DuctPatterns>
+
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec1_2" CAM-DUCT_Value="Diameter" SupportedPatternId="All" />
+	<Dimension BBMS_Value="Length" schemaName="CustomParamRoundDuct" CAM-DUCT_Value="Length" SupportedPatternId="All" />
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundDuct" CAM-DUCT_Value="Left Extension" SupportedPatternId="All" />
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundDuct" CAM-DUCT_Value="Right Extension" SupportedPatternId="All" />
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+    <BBMS_Fitting name="RndTakeoff" SubType="Default" >
+	<Cam-DuctPatterns>
+		<Pattern ID="871" name="Round Shoe" Category="HVAC\Generic\Round\Manufactured" DirVector="0,-1,0" WidthVector="-1,0,0"  Connection="1"/>
+	</Cam-DuctPatterns>
+
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Pipe Diameter" SupportedPatternId="All" ExpressionVar="x"/>
+	<Dimension BBMS_Value="End3/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Branch Diameter" SupportedPatternId="All" ExpressionVar ="a"/>
+	<Dimension BBMS_Value="InlineLength" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Branch Length" SupportedPatternId="All" ExpressionVar ="b" />
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Angle" SupportedPatternId="All" ExpressionVar="z"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Offset" SupportedPatternId="All" AutoValue="0"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Collar" SupportedPatternId="All" />
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+    <BBMS_Fitting name="RectRndTakeoff" SubType="RectToRnd" >
+	<Cam-DuctPatterns>
+		<Pattern ID="24" name="Shoe on Flat" Category="HVAC\Generic\Round\Manufactured" DirVector="0,-1,0" WidthVector="-1,0,0"  OffsetVector="0,x/2,0" Connection="1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End3/@diameter" schemaName="EndSpec3_112" CAM-DUCT_Value="Branch Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="InlineLength" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Length" SupportedPatternId="All" ExpressionVar ="b" />
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Angle" SupportedPatternId="All" ExpressionVar="z"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Plate Width" SupportedPatternId="All" AutoValue="0"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Plate Depth" SupportedPatternId="All" AutoValue="0"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Offset Width" SupportedPatternId="All" AutoValue="0"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Offset Depth" SupportedPatternId="All" AutoValue="0"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Collar" SupportedPatternId="All" AutoValue="0"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectTakeoff" CAM-DUCT_Value="Bottom Width" SupportedPatternId="All" AutoValue="0"/>
+	
+	<DependentParameter>	
+    	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec3_112" 	ExpressionVar="x"/>
+    </DependentParameter>	
+
+  </BBMS_Fitting>
+
+<!--=====================================================================================-->
+  
+  <BBMS_Fitting name="RoundRoundTap" SubType="Round Tap">
+	<Cam-DuctPatterns>
+	<Pattern ID="875" name="Branch Piece" Category="HVAC\Generic\Round\Manufactured" DirVector="0,-1,0" WidthVector="0,1,0"  Connection="1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Pipe Diameter"   ExpressionVar ="a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Branch Diameter #1" ExpressionVar ="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="InlineLength" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Branch Length #1"  ExpressionVar ="b" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="InclineAngle" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Angle #1"   ExpressionVar ="z" SupportedPatternId="All"/>
+<Dimension BBMS_Value="NotSupported" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Offset #1" SupportedPatternId="All"/>
+<Dimension BBMS_Value="NotSupported" schemaName="CustomParamAngledTap" CAM-DUCT_Value="Extension #1"  SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+  <!--<BBMS_Fitting name="RoundElbow" SubType="DefaultRound">
+
+	<Cam-DuctPatterns>
+	    <Pattern ID="523" name="Pressed Bend - 90" Category="HVAC\Generic\Round\Bought Out" DirVector="-1,0,0" WidthVector="0,0,1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRoundElbow" name="Angle" value ="90" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+		
+	    <Pattern ID="523" name="Pressed Bend - 60" Category="Bought Out" DirVector="-1,0,0" WidthVector="0,0,1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRoundElbow" name="Angle" value ="60" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+		
+	    <Pattern ID="523" name="Pressed Bend - 45" Category="Bought Out" DirVector="-1,0,0" WidthVector="0,0,1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRoundElbow" name="Angle" value ="45" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+		
+	    <Pattern ID="523" name="Pressed Bend - 30" Category="Bought Out" DirVector="-1,0,0" WidthVector="0,0,1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRoundElbow" name="Angle" value ="30" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>		
+		
+	    <Pattern ID="523" name="Pressed Bend - 15" Category="Bought Out" DirVector="-1,0,0" WidthVector="0,0,1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRoundElbow" name="Angle" value ="15" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+		
+	</Cam-DuctPatterns>	
+	
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec2_22" CAM-DUCT_Value="Diameter" SupportedPatternId="All" ExpressionVar="y"/>
+	<Dimension BBMS_Value="Radius" schemaName="CustomParamRoundElbow" CAM-DUCT_Value="Center Radius" SupportedPatternId="All" />
+    <Dimension BBMS_Value="Angle" schemaName="CustomParamRoundElbow" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+    <Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundElbow" CAM-DUCT_Value="Bottom Extension" SupportedPatternId="All"/>
+    <Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundElbow" CAM-DUCT_Value="Top Extension" SupportedPatternId="All" />
+  </BBMS_Fitting> -->
+
+<!--=====================================================================================-->
+  <BBMS_Fitting name="RoundElbowMitre" SubType="Mitre Elbow">
+	<Cam-DuctPatterns>
+		<Pattern ID="61" name="Segment Bend" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec2_22" CAM-DUCT_Value="Diameter" SupportedPatternId="All" ExpressionVar="y"/>
+	<Dimension BBMS_Value="Radius" schemaName="CustomParamRoundElbowMitre" CAM-DUCT_Value="Inner Radius" SupportedPatternId="All" ExpressionVar="x" AdjustFactor="x-(y/2)"/>
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamRoundElbowMitre" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundElbowMitre" CAM-DUCT_Value="Bottom Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundElbowMitre" CAM-DUCT_Value="Top Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Options   BBMS_Value="NumberOfSegments" schemaName="CustomParamRoundElbowMitre" CAM-DUCT_Value="Number Of Segments" SupportedPatternId="All"/>
+
+  </BBMS_Fitting>
+ 
+
+  <BBMS_Fitting name="SegmentedBend" SubType="Segmented Bend">
+	<Cam-DuctPatterns>
+		<Pattern ID="97" name="Reducing Segment Bend" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+
+	<Dimension BBMS_Value="End2/@diameter" schemaName="EndSpec2_22" CAM-DUCT_Value="Bottom Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec2_22" CAM-DUCT_Value="Top Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Radius" schemaName="CustomParamSegmentedBend" CAM-DUCT_Value="Inner Radius"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamSegmentedBend" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamSegmentedBend" CAM-DUCT_Value="Bottom Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamSegmentedBend" CAM-DUCT_Value="Top Extension" SupportedPatternId="All" CheckEndType="True"/>
+
+  </BBMS_Fitting>
+
+  <BBMS_Fitting name="SegmentedBend2" SubType="Segmented Bend End Segment">
+	<Cam-DuctPatterns>
+		<Pattern ID="142" name="Offset Reducing Segment Bend" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+
+	<Dimension BBMS_Value="End2/@diameter" schemaName="EndSpec2_22" CAM-DUCT_Value="Bottom Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec2_22" CAM-DUCT_Value="Top Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Radius" schemaName="CustomParamSegmentedBend2" CAM-DUCT_Value="Inner Radius" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamSegmentedBend2" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Offset" schemaName="CustomParamSegmentedBend2" CAM-DUCT_Value="Offset" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamSegmentedBend2" CAM-DUCT_Value="Bottom Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamSegmentedBend2" CAM-DUCT_Value="Top Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Options   BBMS_Value="NumberOfSegments" schemaName="CustomParamSegmentedBend2" CAM-DUCT_Value="Number Of Segments" SupportedPatternId="All"/>
+
+  </BBMS_Fitting>
+
+<!--====================================================================================+-->
+  <BBMS_Fitting name="RoundTransition" SubType="Centric Reducer">
+	<Cam-DuctPatterns>
+	    <Pattern ID="162" name="Reducer - Offset" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,-1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRoundTransition" name="Rise" value ="(D2-D1)/2" operation="not equal to" format="value"/>
+		    <Parameter schemaName="CustomParamRoundTransition" name="Run"  value ="(D2-D1)/2" operation="not equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+
+            <Pattern ID="51" name="Reducer" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,-1">
+		<Parameters>
+			<Parameter schemaName="CustomParamRoundTransition" name="Rise" value ="(D2-D1)/2" operation="equal to" format="value"/>
+			<Parameter schemaName="CustomParamRoundTransition" name="Run"  value ="(D2-D1)/2" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>
+
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec2_22" CAM-DUCT_Value="Diameter" SupportedPatternId="All" ExpressionVar="D1"/>
+	<Dimension BBMS_Value="End2/@diameter" schemaName="EndSpec2_22" CAM-DUCT_Value="Diameter" SupportedPatternId="All" ExpressionVar="D2"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamRoundTransition" CAM-DUCT_Value="Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Rise" schemaName="CustomParamRoundTransition" CAM-DUCT_Value="Offset Width" SupportedPatternId="162" ExpressionVar="a" AdjustFactor="0-a"/>
+	<Dimension BBMS_Value="Run" schemaName="CustomParamRoundTransition" CAM-DUCT_Value="Offset Depth" SupportedPatternId="162" ExpressionVar="b" AdjustFactor="0-b"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundTransition" CAM-DUCT_Value="Left Extension" ExpressionVar="c" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundTransition" CAM-DUCT_Value="Right Extension" ExpressionVar="d" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+<!--====================================================================================+-->
+<BBMS_Fitting name="RoundTee" SubType="RoundTee">
+	<Cam-DuctPatterns>
+		<Pattern ID="42" name="Tee Piece (Type1)" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Pipe Diameter"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundTee" CAM-DUCT_Value="Pipe Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundTee" CAM-DUCT_Value="Left Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundTee" CAM-DUCT_Value="Right Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Branch Diameter" ExpressionVar="a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="CD_BranchLength" schemaName="CustomParamRoundTee" CAM-DUCT_Value="Branch Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamRoundTee" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="CD_Inset" schemaName="CustomParamRoundTee" CAM-DUCT_Value="Inset" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundTee" CAM-DUCT_Value="Extension" SupportedPatternId="All"/>
+  </BBMS_Fitting> 
+
+<!--====================================================================================+-->
+
+  <BBMS_Fitting name="ConicalTee" SubType="Conical Tee">
+	<Cam-DuctPatterns>
+		<Pattern ID="52" name="Reducing Tee" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,-1">
+			<Parameters>
+			    <Parameter schemaName="CustomParamConicalTee" name="ConeAngle" value ="0" operation="equal to" format="value"/>		
+			</Parameters>
+		</Pattern>
+	
+		<Pattern ID="75" name="Conical Tee" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,1">
+			<Parameters Operation="and">
+			    <Parameter schemaName="CustomParamConicalTee" name="ConeAngle" value="0" operation="not equal to" format="value"/>		
+			    <Parameter schemaName="CustomParamConicalTee" name="Angle" value="90" operation="equal to" format="value"/>		
+				<Parameter schemaName="CustomParamConicalTee" name="" value ="p;q" operation="equal to" format="value"/>	
+				</Parameters>
+	    </Pattern>
+	</Cam-DuctPatterns>
+	
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Pipe Diameter"  ExpressionVar="p" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Pipe Diameter"  ExpressionVar="q" SupportedPatternId="52"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamConicalTee" CAM-DUCT_Value="Pipe Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamConicalTee" CAM-DUCT_Value="Left Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamConicalTee" CAM-DUCT_Value="Right Extension" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="End3/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Branch Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="CD_BranchLength" schemaName="CustomParamConicalTee" CAM-DUCT_Value="Branch Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamConicalTee" CAM-DUCT_Value="Angle" SupportedPatternId="52"/>
+	<Dimension BBMS_Value="ConeAngle" schemaName="CustomParamConicalTee" CAM-DUCT_Value="Angle" SupportedPatternId="75"/>
+	<Dimension BBMS_Value="StraightLen3-L11" schemaName="CustomParamConicalTee" CAM-DUCT_Value="Inset" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamConicalTee" CAM-DUCT_Value="Extension" SupportedPatternId="All" CheckEndType="True"/>
+  </BBMS_Fitting>
+
+<!--====================================================================================+-->
+
+  <BBMS_Fitting name="RoundCross" SubType="RoundCross">
+	<Cam-DuctPatterns>
+<!--	    <Pattern ID="44" name="Pressed Cross" Category="HVAC\Generic\Round\Bought Out" DirVector="-1,0,0" WidthVector="0,0,1" Connection="1">
+		<Parameters>
+		    <Parameter schemaName="CustomParamRoundCross" name="" value ="p;q" operation="equal to" format="value"/>
+		</Parameters>
+	    </Pattern>-->
+	    <Pattern ID="49" name="45 Cross" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec4_2222" CAM-DUCT_Value="Pipe Diameter"  SupportedPatternId="All" ExpressionVar="p"/>
+
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Pipe Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Left Extension" ExpressionVar="b"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Right Extension"  SupportedPatternId="All"/>
+
+	<Dimension BBMS_Value="End3/@diameter" schemaName="EndSpec4_2222" CAM-DUCT_Value="Branch Diameter #1" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="CD_BranchLength1" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Branch Length #1"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle1" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Angle #1" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End1topInset" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Inset #1"  SupportedPatternId="All"/>
+	<!--<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Offset #1"  SupportedPatternId="All" AutoValue="0"/>-->
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Extension #1" SupportedPatternId="All"/>
+
+	<Dimension BBMS_Value="End4/@diameter" schemaName="EndSpec4_2222" CAM-DUCT_Value="Branch Diameter #2" ExpressionVar="d" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="CD_BranchLength2" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Branch Length #2" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle2" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Angle #2" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1BottomInset" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Inset #2" SupportedPatternId="All"/>
+<!--	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Offset"  SupportedPatternId="All" AutoValue="0"/>-->
+	<Dimension BBMS_Value="StraightLen4" schemaName="CustomParamRoundCross" CAM-DUCT_Value="Extension" SupportedPatternId="All"/>
+
+
+  </BBMS_Fitting>
+
+<!--====================================================================================+-->
+  <BBMS_Fitting name="RoundThreeWay" SubType="Three Way">
+	<Cam-DuctPatterns>
+		<Pattern ID="72" name="Three Way" Category="HVAC\Generic\Round\Bought Out" DirVector="-1,0,0" WidthVector="0,0,-1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Diameter"  SupportedPatternId="All" ExpressionVar="J"/>
+	<Dimension BBMS_Value="HeaderLength" schemaName="CustomParamRoundThreeWay" CAM-DUCT_Value="Length In" SupportedPatternId="All" ExpressionVar="X" AdjustFactor="X-((J/2)*(tan((Z*(3.1415/180))/2)))"/>
+	<Dimension BBMS_Value="BranchLength1" schemaName="CustomParamRoundThreeWay" CAM-DUCT_Value="Length Out" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle1" schemaName="CustomParamRoundThreeWay" CAM-DUCT_Value="Angle" SupportedPatternId="All" ExpressionVar="Z"/>
+<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundThreeWay" CAM-DUCT_Value="Bottom Extension" SupportedPatternId="All" ExpressionVar="Y"/>
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamRoundThreeWay" CAM-DUCT_Value="Left Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundThreeWay" CAM-DUCT_Value="Right Extension" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+<!--====================================================================================+-->
+
+  <BBMS_Fitting name="RoundCap" SubType="Default">
+	<Cam-DuctPatterns>
+		<Pattern ID="60" name="Cap End" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="-1,0,0"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec1_2" CAM-DUCT_Value="diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamCap" CAM-DUCT_Value="collar" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+<!--====================================================================================+-->
+  <BBMS_Fitting name="RoundBreech" SubType="Round Breech">
+	<Cam-DuctPatterns>
+		<Pattern ID="863" name="Simple Breeches Piece" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,-1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Bottom Diameter"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Right Diameter"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="ANGLE1" schemaName="CustomParamRoundBreech" CAM-DUCT_Value="Right Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BranchLength1" schemaName="CustomParamRoundBreech" CAM-DUCT_Value="Right Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BranchCenterOffset" schemaName="CustomParamRoundBreech" CAM-DUCT_Value="Height" SupportedPatternId="All" ExpressionVar="Z" AdjustFactor="Z+Y"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundBreech" CAM-DUCT_Value="Bottom Collar" SupportedPatternId="All" ExpressionVar="Y"/>
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamRoundBreech" CAM-DUCT_Value="Bottom Collar" SupportedPatternId="All"/>
+<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundBreech" CAM-DUCT_Value="Bottom Collar" SupportedPatternId="All" />
+  </BBMS_Fitting>
+
+<!--====================================================================================+-->
+
+  <BBMS_Fitting name="RoundReducerCross" SubType="ReducerCross">
+	<Cam-DuctPatterns>
+		<Pattern ID="54" name="Reducing Cross" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,1">
+			<Parameters>
+			    <Parameter schemaName="CustomParamRoundReducerCross" name="ConeAngle1" value="0" operation="equal to" format="value"/>		
+			    <Parameter schemaName="CustomParamRoundReducerCross" name="ConeAngle2" value="0" operation="equal to" format="value"/>		
+		</Parameters>
+		</Pattern>
+		
+		<Pattern ID="812" name="Conical Cross" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,1">
+			<Parameters Operation="and">
+			    <Parameter schemaName="CustomParamRoundReducerCross" name="ConeAngle1" value="0" operation="not equal to" format="value"/>		
+			    <Parameter schemaName="CustomParamRoundReducerCross" name="ConeAngle2" value="0" operation="not equal to" format="value"/>		
+			    <Parameter schemaName="CustomParamRoundReducerCross" name="Angle1" value="90" operation="equal to" format="value"/>		
+			    <Parameter schemaName="CustomParamRoundReducerCross" name="Angle2" value="90" operation="equal to" format="value"/>		
+				<Parameter schemaName="CustomParamRoundReducerCross" name="" value ="p;q" operation="equal to" format="value"/>	
+				</Parameters>
+	    </Pattern>
+
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec4_2222" CAM-DUCT_Value="Pipe Diameter"  ExpressionVar="p" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@diameter" schemaName="EndSpec4_2222" CAM-DUCT_Value="Pipe Diameter"  ExpressionVar="q" SupportedPatternId="54"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Pipe Length" ExpressionVar="a" AdjustFactor="a-b-c" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Left Extension" ExpressionVar="b"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Right Extension" ExpressionVar="c" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@diameter" schemaName="EndSpec4_2222" CAM-DUCT_Value="Branch Diameter" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="CD_BranchLength1" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Branch Length" ExpressionVar="y"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle1" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Angle" SupportedPatternId="54"/>
+	<Dimension BBMS_Value="ConeAngle1" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Angle" SupportedPatternId="812"/>
+	<Dimension BBMS_Value="X11" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Inset"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Rotation" AutoValue="90" SupportedPatternId="812"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End4/@diameter" schemaName="EndSpec4_2222" CAM-DUCT_Value="Branch Diameter" ExpressionVar="d" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="CD_BranchLength2" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Branch Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle2" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Angle" SupportedPatternId="54"/>
+	<Dimension BBMS_Value="ConeAngle1" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Angle" SupportedPatternId="812"/>
+	<Dimension BBMS_Value="X12" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Inset" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Rotation" AutoValue="270" SupportedPatternId="812"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Btm Width" AutoValue="" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRoundReducerCross" CAM-DUCT_Value="Btm Width" AutoValue="" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+<!--====================================================================================+-->
+
+  <BBMS_Fitting name="RoundTrouser" SubType="Round Trouser">
+	<Cam-DuctPatterns>
+		<Pattern ID="869" name="Trouser Piece" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Bottom Diameter"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Left Diameter"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Right Diameter"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamRoundTrouser" CAM-DUCT_Value="Height" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Evalue" schemaName="CustomParamRoundTrouser" CAM-DUCT_Value="Left Offset" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundTrouser" CAM-DUCT_Value="Bottom Collar" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRoundTrouser" CAM-DUCT_Value="Left Collar" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamRoundTrouser" CAM-DUCT_Value="Right Collar" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="DistanceEnd23" schemaName="CustomParamRoundTrouser" CAM-DUCT_Value="Distance" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="FvalueEnd2" schemaName="CustomParamRoundTrouser" CAM-DUCT_Value="Left Offset Depth" AutoValue="" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="FvalueEnd3" schemaName="CustomParamRoundTrouser" CAM-DUCT_Value="Right Offset Depth" AutoValue="" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+<!--====================================================================================+-->
+  <BBMS_Fitting name="RndOvlTransition" SubType="Round Oval">
+	<Cam-DuctPatterns>
+		<Pattern ID="103" name="Oval to Round" Category="HVAC\Generic\Oval" DirVector="1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec2_23" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@width" schemaName="EndSpec2_23" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec2_23" CAM-DUCT_Value="Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamRndOvlTransition" CAM-DUCT_Value="Length" ExpressionVar="z" AdjustFactor="z-(x+y)" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Rise" schemaName="CustomParamRndOvlTransition" CAM-DUCT_Value="Offset Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Run" schemaName="CustomParamRndOvlTransition" CAM-DUCT_Value="Offset Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRndOvlTransition" CAM-DUCT_Value="collar" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRndOvlTransition" CAM-DUCT_Value="collar" ExpressionVar="y" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--====================================================================================+
+|
+| Mix-Shape Components
+|
++=====================================================================================-->
+  <BBMS_Fitting name="RectRndTransition" SubType="RectToRnd">
+	<Cam-DuctPatterns>
+	    <Pattern ID="29" name="Square to Round (Symmetrical)" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,1,0"/>
+	</Cam-DuctPatterns>
+	
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_12" CAM-DUCT_Value="Depth" ExpressionVar="W1" SupportedPatternId="All"/>
+        <Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_12" CAM-DUCT_Value="Width" ExpressionVar="D1" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End2/@diameter" schemaName="EndSpec2_12" CAM-DUCT_Value="Diameter" ExpressionVar="D2" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamRectRndTransition" CAM-DUCT_Value="Length" SupportedPatternId="All" ExpressionVar="z" AdjustFactor="z+x+y"/>
+	<Dimension BBMS_Value="Run" schemaName="CustomParamRectRndTransition" CAM-DUCT_Value="Offset Depth" SupportedPatternId="8" ExpressionVar="RU" AdjustFactor="0-RU"/>
+	<Dimension BBMS_Value="Rise" schemaName="CustomParamRectRndTransition" CAM-DUCT_Value="Offset Width" SupportedPatternId="8" ExpressionVar="RS" AdjustFactor="0-RS"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectRndTransition" CAM-DUCT_Value="Extension" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRectRndTransition" CAM-DUCT_Value="Collar" ExpressionVar="y" SupportedPatternId="All"/>
+
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+
+<!--====================================================================================+
+|
+| Oval Components
+|
++=====================================================================================-->
+
+  <BBMS_Fitting name="FlatOvalDuct" SubType="Default">
+	<Cam-DuctPatterns>
+		<Pattern ID="101" name="Oval Pipe (Cut)" Category="HVAC\Generic\Oval" DirVector="-1,0,0" WidthVector="0,0,-1"/>
+	</Cam-DuctPatterns>
+
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec1_3" CAM-DUCT_Value="Major Axis" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec1_3" CAM-DUCT_Value="Minor Axis" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Length" schemaName="CustomParamOvalDuct" CAM-DUCT_Value="Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamOvalDuct" CAM-DUCT_Value="Left Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamOvalDuct" CAM-DUCT_Value="Right Extension" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+
+  <BBMS_Fitting name="OvalTransition" SubType="Centric Reducer">
+	<Cam-DuctPatterns>
+		<Pattern ID="163" name="Oval Reducer" Category="HVAC\Generic\Oval" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_33" CAM-DUCT_Value="Major Axis" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_33" CAM-DUCT_Value="Minor Axis" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec2_33" CAM-DUCT_Value="Major Axis" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@width" schemaName="EndSpec2_33" CAM-DUCT_Value="Minor Axis" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamOvalTransition" CAM-DUCT_Value="Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Rise" schemaName="CustomParamOvalTransition" CAM-DUCT_Value="Offset Width" ExpressionVar="a" AdjustFactor="0-a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Run" schemaName="CustomParamOvalTransition" CAM-DUCT_Value="Offset Depth" ExpressionVar="b" AdjustFactor="0-b" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamOvalTransition" CAM-DUCT_Value="collar" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamOvalTransition" CAM-DUCT_Value="collar" ExpressionVar="y" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+
+  <BBMS_Fitting name="OvlRndTransition" SubType="Oval Round">
+	<Cam-DuctPatterns>
+		<Pattern ID="103" name="Oval to Round" Category="HVAC\Generic\Oval" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_32" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_32" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@diameter" schemaName="EndSpec2_32" CAM-DUCT_Value="Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamOvlRndTransition" CAM-DUCT_Value="Length" SupportedPatternId="All" ExpressionVar="z" AdjustFactor="z+x+y"/>
+	<Dimension BBMS_Value="Rise" schemaName="CustomParamOvlRndTransition" CAM-DUCT_Value="Offset Width" ExpressionVar="a" AdjustFactor="0-a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Run" schemaName="CustomParamOvlRndTransition" CAM-DUCT_Value="Offset Depth" ExpressionVar="b" AdjustFactor="0-b" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamOvlRndTransition" CAM-DUCT_Value="collar" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamOvlRndTransition" CAM-DUCT_Value="collar" ExpressionVar="y" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+  <BBMS_Fitting name="OvalElbow" SubType="DefaultOval">
+
+	<Cam-DuctPatterns>
+		<Pattern ID="105" name="90 Deg Elbow" Category="HVAC\Generic\Oval\" DirVector="-1,0,0" WidthVector="0,0,1" >
+				<Parameters Operation = "and">
+			    <Parameter schemaName="CustomParamAngularElbow" name="Angle" value="90" operation="equal to" format="text"/>		
+			    <Parameter schemaName="CustomParamAngularElbow" name="NumberOfSegments" value="2" operation="equal to" format="text"/>		
+			</Parameters>
+		</Pattern> 
+
+ 	<Pattern ID="106" name="Hard Oval Bend" Category="HVAC\Generic\Oval" DirVector="-1,0,0" WidthVector="0,0,1" >
+				<Parameters >
+			    <Parameter schemaName="CustomParamAngularElbow" name="NumberOfSegments" value="2" operation="not equal to" format="text"/>		
+			</Parameters>
+		</Pattern> 
+
+	</Cam-DuctPatterns>
+
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_33" CAM-DUCT_Value="Width" SupportedPatternId="All" ExpressionVar="x"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_33" CAM-DUCT_Value="Depth" SupportedPatternId="All"  ExpressionVar="y"/>
+	<Dimension BBMS_Value="Radius" schemaName="CustomParamAngularElbow" CAM-DUCT_Value="Corner Radius" SupportedPatternId="105" ExpressionVar="z" AdjustFactor="z-(x/2)"/>
+	<Dimension BBMS_Value="Radius" schemaName="CustomParamAngularElbow" CAM-DUCT_Value="Radius" SupportedPatternId="106" ExpressionVar="z" AdjustFactor="z-(x/2)"/>
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamAngularElbow" CAM-DUCT_Value="Angle" SupportedPatternId="106"/>
+	<Dimension BBMS_Value="Radius" schemaName="CustomParamAngularElbow" CAM-DUCT_Value="Bottom Extension" SupportedPatternId="105" ExpressionVar="z" AdjustFactor="z-(x/2)"/>
+	<Dimension BBMS_Value="Radius" schemaName="CustomParamAngularElbow" CAM-DUCT_Value="Top Extension" SupportedPatternId="105" ExpressionVar="z" AdjustFactor="z-(x/2)"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamAngularElbow" CAM-DUCT_Value="Bottom Extension" SupportedPatternId="106" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamAngularElbow" CAM-DUCT_Value="Top Extension" SupportedPatternId="106" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamAngularElbow" CAM-DUCT_Value="Bottom Collar" SupportedPatternId="105" CheckEndType="True"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamAngularElbow" CAM-DUCT_Value="Right Collar" SupportedPatternId="105" CheckEndType="True"/>
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+    <BBMS_Fitting name="OvalTee" SubType="OvalTee">
+
+	<Cam-DuctPatterns>
+		<Pattern ID="114" name="Branch on Hard Straight" Category="HVAC\Generic\Oval" DirVector="-1,0,0" WidthVector="0,0,1" />
+
+	</Cam-DuctPatterns>
+
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec3_333" CAM-DUCT_Value="Width" SupportedPatternId="All" ExpressionVar="x"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec3_333" CAM-DUCT_Value="Depth" SupportedPatternId="All"  ExpressionVar="y"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamOvalTee" CAM-DUCT_Value="Length" SupportedPatternId="All" />
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamOvalTee" CAM-DUCT_Value="Left Extesnion" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamOvalTee" CAM-DUCT_Value="Right Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@depth" schemaName="EndSpec3_333" CAM-DUCT_Value="Branch Width #1" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@width" schemaName="EndSpec3_333" CAM-DUCT_Value="Branch Depth #1" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamOvalTee" CAM-DUCT_Value="Branch Length" SupportedPatternId="All" />
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamOvalTee" CAM-DUCT_Value="Angle #1" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen4-L11" schemaName="CustomParamOvalTee" CAM-DUCT_Value="Inset" SupportedPatternId="All" />
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamOvalTee" CAM-DUCT_Value="Offset" SupportedPatternId="All" AutoValue="0"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamOvalTee" CAM-DUCT_Value="Extension" SupportedPatternId="All" AutoValue="0"/>
+  </BBMS_Fitting>
+
+<!--=====================================================================================-->
+    <BBMS_Fitting name="OvalCoupling" SubType="Default">
+
+	<Cam-DuctPatterns>
+		<Pattern ID="1113" name="Oval Coupling" Category="HVAC\Generic\Oval" DirVector="-1,0,0" WidthVector="0,0,1" />
+	</Cam-DuctPatterns>
+
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_33" CAM-DUCT_Value="Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamOvalCoupling" CAM-DUCT_Value="Collar" SupportedPatternId="All" CheckEndType="True"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamOvalCoupling" CAM-DUCT_Value="Length" SupportedPatternId="All" />
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamOvalCoupling" CAM-DUCT_Value="Offset" SupportedPatternId="All" AutoValue="0"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_33" CAM-DUCT_Value="Oval Depth" SupportedPatternId="All"  />
+  </BBMS_Fitting>
+  
+  <!--=====================================================================================-->
+
+  <BBMS_Fitting name="RectOvalTransition" SubType="RectToOval">
+	<Cam-DuctPatterns>
+		<Pattern ID="104" name="Oval to Square" Category="HVAC\Generic\Oval" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_13" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_13" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec2_13" CAM-DUCT_Value="Oval Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@width" schemaName="EndSpec2_13" CAM-DUCT_Value="Oval Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamRectOvalTransition" CAM-DUCT_Value="Length" SupportedPatternId="All" ExpressionVar="z" AdjustFactor="z+x+y"/>
+	<Dimension BBMS_Value="Rise" schemaName="CustomParamRectOvalTransition" CAM-DUCT_Value="Offset Width" ExpressionVar="a" AdjustFactor="0-a" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Run" schemaName="CustomParamRectOvalTransition" CAM-DUCT_Value="Offset Depth" ExpressionVar="b" AdjustFactor="0-b" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectOvalTransition" CAM-DUCT_Value="Rect Extension" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamRectOvalTransition" CAM-DUCT_Value="collar" ExpressionVar="y" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+<!--=====================================================================================-->
+<BBMS_Fitting name="OvalCross" SubType="Default">
+	<Cam-DuctPatterns>
+		<Pattern ID="894" name="Hard Offsetting Cross" Category="HVAC\Generic\Oval" DirVector="-1,0,0" WidthVector="0,0,-1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec4_3333" CAM-DUCT_Value="Width"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec4_3333" CAM-DUCT_Value="Depth"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@depth" schemaName="EndSpec4_3333" CAM-DUCT_Value="Width"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End2/@width" schemaName="EndSpec4_3333" CAM-DUCT_Value="Depth"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Pipe Length"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Offset Width" AutoValue="" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Offset Depth" AutoValue="" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Left Extension" ExpressionVar="L1"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Right Extension" ExpressionVar="L2" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@depth" schemaName="EndSpec4_3333" CAM-DUCT_Value="Branch Width" ExpressionVar="b" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End3/@width" schemaName="EndSpec4_3333" CAM-DUCT_Value="Branch Depth"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BranchLength1" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Branch Length" ExpressionVar="a" AdjustFactor="a-b/2" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle1" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1topInset" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Inset"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Offset" AutoValue="" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Extension" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End4/@depth" schemaName="EndSpec4_3333" CAM-DUCT_Value="Branch Width"  ExpressionVar="d" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End4/@width" schemaName="EndSpec4_3333" CAM-DUCT_Value="Branch Depth"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BranchLength2" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Branch Length" ExpressionVar="c" AdjustFactor="c-d/2" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Angle2" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1BottomInset" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Inset" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Offset" AutoValue="" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen4" schemaName="CustomParamOvalCross" CAM-DUCT_Value="Extension" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--=====================================================================================-->
+ <BBMS_Fitting name="OvalCap" SubType="Default">
+	<Cam-DuctPatterns>
+		<Pattern ID="121" name="Oval Cap End" Category="HVAC\Generic\Oval" DirVector="-1,0,0" WidthVector="0,0,-1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec1_3" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec1_3" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="TotalLength" schemaName="CustomParamCap" CAM-DUCT_Value="Turnover" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+  <BBMS_Fitting name="SaddleTee" SubType="Saddle Tee">
+ 	<Cam-DuctPatterns>
+  		<Pattern ID="62" name="Conical Tee - Saddle" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,1"/>
+ 	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Pipe Diameter" ExpressionVar="Y" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="PipeLength" schemaName="CustomParamSaddleTee" CAM-DUCT_Value="PipeLength" SupportedPatternId="All" />
+ 	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamSaddleTee" CAM-DUCT_Value="Left Extension" SupportedPatternId="All" ExpressionVar="J"/>
+ <Dimension BBMS_Value="StraightLen2" schemaName="CustomParamSaddleTee" CAM-DUCT_Value="Right Extension" SupportedPatternId="All" ExpressionVar="K"/>
+ 	<Dimension BBMS_Value="End3/@diameter" schemaName="EndSpec3_222" CAM-DUCT_Value="Right Diameter"  ExpressionVar="Z" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="CenterToTopDistance" schemaName="CustomParamSaddleTee" CAM-DUCT_Value="Branch Height" ExpressionVar="X" AdjustFactor="(X-Y/2)" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="SaddleAngle" schemaName="CustomParamSaddleTee" CAM-DUCT_Value="Angle" ExpressionVar="b" AdjustFactor="0.5*b"  SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="ConeAngle" schemaName="CustomParamSaddleTee" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="Inset" schemaName="CustomParamSaddleTee" CAM-DUCT_Value="Inset" AutoValue="" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="Rise" schemaName="CustomParamSaddleTee" CAM-DUCT_Value="Offset" ExpressionVar="a" AdjustFactor="(Z/2-Y/2-a)" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamSaddleTee" CAM-DUCT_Value="collar" SupportedPatternId="All"/>
+  	<Dimension BBMS_Value="Rise" schemaName="CustomParamSaddleTee" CAM-DUCT_Value="Offset" ExpressionVar="a" AdjustFactor="(Z/2-Y/2-a)" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+  <BBMS_Fitting name="SaddleCross" SubType="Saddle Cross">
+ 	<Cam-DuctPatterns>
+  		<Pattern ID="832" name="Double Saddle Tee Cross" Category="HVAC\Generic\Round\Manufactured" DirVector="-1,0,0" WidthVector="0,0,-1"/>
+ 	</Cam-DuctPatterns>
+ 	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec4_2222" CAM-DUCT_Value="PipeDiameter" ExpressionVar="A" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="PipeLength" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Pipe Length" SupportedPatternId="All" />
+<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Left Extension" SupportedPatternId="All" />
+<Dimension BBMS_Value="StraightLen2" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Right Extension" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End4/@diameter" schemaName="EndSpec4_2222" CAM-DUCT_Value="Branch Diameter" ExpressionVar="E" SupportedPatternId="All"/>
+<!--<Dimension BBMS_Value="BranchHeight2" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Branch Length" ExpressionVar="B" AdjustFactor="B-(0.5*A)-C" SupportedPatternId="All"/>-->
+<Dimension BBMS_Value="BranchHeight2" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Branch Length" ExpressionVar="B" AdjustFactor="B-(0.5*A)" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="SaddleAngle2" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Angle" ExpressionVar="D" AdjustFactor="0.5*D" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="ConeAngle2" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Inset2" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Inset" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Rise2" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Offset" ExpressionVar="F" AdjustFactor="0.5*A+F-0.5*E" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen4" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Collar" ExpressionVar="C" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End3/@diameter" schemaName="EndSpec4_2222" CAM-DUCT_Value="Branch Diameter" ExpressionVar="G" SupportedPatternId="All"/>
+<!--<Dimension BBMS_Value="BranchHeight1" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Branch Length"  ExpressionVar="H" AdjustFactor="H-(0.5*A)"  SupportedPatternId="All"/>-->
+<Dimension BBMS_Value="BranchHeight1" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Branch Length"  ExpressionVar="H" AdjustFactor="H-(0.5*A)"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="SaddleAngle1" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Angle"  ExpressionVar="J" AdjustFactor="0.5*J" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="ConeAngle1" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Inset1" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Inset" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Rise1" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Offset" ExpressionVar="K" AdjustFactor="0.5*A+K-0.5*G" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen3" schemaName="CustomParamSaddleCross" CAM-DUCT_Value="Collar"  ExpressionVar="I" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--====================================================================================+-->
+  <BBMS_Fitting name="SqCeilingDiffuser" SubType="Square Diffuser Top">
+	<Cam-DuctPatterns>
+	    <Pattern ID="19" name="Grille Box (Top Entry)" Category="HVAC\Generic\Rectangular" DirVector="0,0,-1" WidthVector="0,-1,0"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="BoxWidth" schemaName="CustomParamDiffuser" CAM-DUCT_Value="Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BoxDepth" schemaName="CustomParamDiffuser" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BoxHeight" schemaName="CustomParamDiffuser" CAM-DUCT_Value="Length" SupportedPatternId="All" />
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec1_2" CAM-DUCT_Value="Diameter" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamDiffuser" CAM-DUCT_Value="Hole Depth #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamDiffuser" CAM-DUCT_Value="Hole Radius #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamDiffuser" CAM-DUCT_Value="Hole Inset #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamDiffuser" CAM-DUCT_Value="Hole Offset #1" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="ConnectionLength" schemaName="CustomParamDiffuser" CAM-DUCT_Value="Hole Collar #1" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--====================================================================================+-->
+ 
+<!--====================================================================================+-->
+  
+  <BBMS_Fitting name="RndCeilingDiffuserRnd" SubType="Round Diffuser Top">
+	<Cam-DuctPatterns>
+	    <Pattern ID="530" name="Round Diffuser" Category="HVAC\Generic\Equipment\Grilles - Diffusers &amp; Louvres" DirVector="0,0,1" WidthVector="0,-1,0"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec1_2" CAM-DUCT_Value="Diameter" ExpressionVar="A" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="ConnectionLength" schemaName="CustomParamRoundDiffuser" CAM-DUCT_Value="Collar" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BodyConeHeight" schemaName="CustomParamRoundDiffuser" CAM-DUCT_Value="Length" SupportedPatternId="All" />
+	<Dimension BBMS_Value="BodyConeDiameter" schemaName="CustomParamRoundDiffuser" CAM-DUCT_Value="Offset" ExpressionVar="B" AdjustFactor="B-A" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRoundDiffuser" CAM-DUCT_Value="Offset Depth" SupportedPatternId="All"/>
+  </BBMS_Fitting>  
+  
+  <!--====================================================================================+-->
+  
+    <BBMS_Fitting name="PlenumBoxRound" SubType="Top">
+	<Cam-DuctPatterns>
+	    <Pattern ID="382" name="Plenum Box (Top Entry)" Category="HVAC\Generic\Equipment\Plenum Boxes" DirVector="0,0,-1" WidthVector="0,-1,0"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="BoxDepth" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BoxWidth" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BoxHeight" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec2_21" CAM-DUCT_Value="Hole Width #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Depth #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Radius #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Inset #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Offset #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Collar #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Axis Rotn #1" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--====================================================================================+-->
+
+    <BBMS_Fitting name="PlenumBoxRound" SubType="Side">
+	<Cam-DuctPatterns>
+	    <Pattern ID="382" name="Plenum Box (Side Entry)" Category="HVAC\Generic\Equipment\Plenum Boxes" DirVector="0,0,-1" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="BoxDepth" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BoxWidth" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BoxHeight" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Length" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec2_21" CAM-DUCT_Value="Hole Width #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Depth #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Radius #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Inset #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Offset #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Collar #1" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamPlenumBox" CAM-DUCT_Value="Hole Axis Rotn #1" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+  <!--====================================================================================+-->
+  <BBMS_Fitting name="RectangularDamper" SubType="VolumeControl">
+	<Cam-DuctPatterns>
+	    <Pattern ID="507" name="Rect VCD Inline" Category="HVAC\Generic\Equipment\Dampers" DirVector="-1,0,0" WidthVector="0,1,0">
+			<Parameters Operation = "and">
+			    <Parameter schemaName="CustomParamRectangularDamper" name="ControlDrive" value="1-NoControl" operation="equal to" format="text"/>		
+			    <Parameter schemaName="CustomParamRectangularDamper" name="BladeOrientation" value="1-according" operation="equal to" format="text"/>		
+		</Parameters>
+	    </Pattern>
+
+	    <Pattern ID="514" name="Rect VCD Opposed" Category="HVAC\Generic\Equipment\Dampers" DirVector="-1,0,0" WidthVector="0,1,0">
+			<Parameters Operation = "and">
+			    <Parameter schemaName="CustomParamRectangularDamper" name="ControlDrive" value="1-NoControl" operation="equal to" format="text"/>		
+			    <Parameter schemaName="CustomParamRectangularDamper" name="BladeOrientation" value="2-opposing" operation="equal to" format="text"/>		
+		</Parameters>
+	    </Pattern>
+
+	    <Pattern ID="507" name="Rect VCD Inline + Handle" Category="HVAC\Generic\Equipment\Dampers" DirVector="-1,0,0" WidthVector="0,1,0">
+			<Parameters Operation = "and">
+			    <Parameter schemaName="CustomParamRectangularDamper" name="ControlDrive" value="2-Handle" operation="equal to" format="text"/>		
+			    <Parameter schemaName="CustomParamRectangularDamper" name="BladeOrientation" value="1-according" operation="equal to" format="text"/>		
+		</Parameters>
+	    </Pattern>
+
+	    <Pattern ID="514" name="Rect VCD Opposed + Handle" Category="HVAC\Generic\Equipment\Dampers" DirVector="-1,0,0" WidthVector="0,1,0">
+			<Parameters Operation = "and">
+			    <Parameter schemaName="CustomParamRectangularDamper" name="ControlDrive" value="2-Handle" operation="equal to" format="text"/>		
+			    <Parameter schemaName="CustomParamRectangularDamper" name="BladeOrientation" value="2-opposing" operation="equal to" format="text"/>		
+		</Parameters>
+	    </Pattern>
+		
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="BodyWidth" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BodyDepth" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BodyLength" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Length" SupportedPatternId="All" />
+	<Dimension BBMS_Value="Angle" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Damper Angle" SupportedPatternId="All" />
+  </BBMS_Fitting>
+ <!--====================================================================================+-->  
+<BBMS_Fitting name="RoundDamper" SubType="Default">
+	<Cam-DuctPatterns>
+	    <Pattern ID="555" name="Round SBD" Category="HVAC\Generic\Equipment\Dampers" DirVector="-1,0,0" WidthVector="0,1,0"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="BodyDiameter" schemaName="CustomParamRoundDamper" CAM-DUCT_Value="Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRoundDamper" CAM-DUCT_Value="Collar" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BodyLength" schemaName="CustomParamRoundDamper" CAM-DUCT_Value="Length" SupportedPatternId="All" />
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRoundDamper" CAM-DUCT_Value="Oval Depth" SupportedPatternId="All"/>
+  </BBMS_Fitting>  
+ <!--====================================================================================+-->
+  <BBMS_Fitting name="RectDamperConnRnd" SubType="Rectangular Blades">
+	<Cam-DuctPatterns>
+	    <Pattern ID="509" name="Round FD" Category="HVAC\Generic\Equipment\Dampers" DirVector="-1,0,0" WidthVector="0,1,0"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec2_22" CAM-DUCT_Value="Diameter" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BodyLength" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Collar" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Inset" SupportedPatternId="All" />
+ 	<Dimension BBMS_Value="ConnectionDistSide" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Sides" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="ConnectionDistTop" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Top" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectangularDamper" CAM-DUCT_Value="Bottom" SupportedPatternId="All"/>
+  </BBMS_Fitting>  
+ <!--====================================================================================+-->
+  <BBMS_Fitting name="InlineAxialFan" SubType="Default">
+	<Cam-DuctPatterns>
+	    <Pattern ID="527" name="Axial Fan" Category="HVAC\Generic\Equipment\Fans" DirVector="-1,0,0" WidthVector="0,1,0"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@diameter" schemaName="EndSpec2_22" CAM-DUCT_Value="Diameter" ExpressionVar="A" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamCircularFans" CAM-DUCT_Value="Collar" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BodyLength" schemaName="CustomParamCircularFans" CAM-DUCT_Value="Length" SupportedPatternId="All" />
+	<Dimension BBMS_Value="BodyDiameter" schemaName="CustomParamCircularFans" CAM-DUCT_Value="Offset" ExpressionVar="B" AdjustFactor="B-A" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamCircularFans" CAM-DUCT_Value="Offset Depth" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+ <!--====================================================================================+-->
+  <BBMS_Fitting name="RoofCurb" SubType="RoofCurb">
+	<Cam-DuctPatterns>
+	    <Pattern ID="322" name="Roof Kerb Angled Base" Category="HVAC\Generic\Rectangular" DirVector="0,0,-1" WidthVector="0,1,0">
+			<Parameters>
+			    <Parameter schemaName="CustomParamRoofCurb" name="PitchType" value="1-Angle" operation="equal to" format="text"/>		
+			</Parameters>
+		</Pattern> 		
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="OuterDepth" schemaName="CustomParamRoofCurb" CAM-DUCT_Value="Width" ExpressionVar="A" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="OuterWidth" schemaName="CustomParamRoofCurb" CAM-DUCT_Value="Depth" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="Height" schemaName="CustomParamRoofCurb" CAM-DUCT_Value="Height" SupportedPatternId="All" />
+	<Dimension BBMS_Value="Pitch" schemaName="CustomParamRoofCurb" CAM-DUCT_Value="Angle" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="CantHeight" schemaName="CustomParamRoofCurb" CAM-DUCT_Value="Base Height" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="Pitch" schemaName="CustomParamRoofCurb" CAM-DUCT_Value="Base Angle" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="FlangeSize" schemaName="CustomParamRoofCurb" CAM-DUCT_Value="Flange" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="Turnover" ExpressionVar="B" AdjustFactor="(A-B)/2" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRoofCurb" CAM-DUCT_Value="Turnover" AutoValue="0" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+<!--====================================================================================+-->
+  <BBMS_Fitting name="RectangularFireDamper2" SubType="FireDamper (Horizontal)">
+	<Cam-DuctPatterns>
+	    <Pattern ID="501" name="Fire-Damper" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="Width" ExpressionVar="y" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_11" CAM-DUCT_Value="Depth" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BodyLength" schemaName="CustomParamRectFireDamper" CAM-DUCT_Value="Length" SupportedPatternId="All" />
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectFireDamper" CAM-DUCT_Value="Inset" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectFireDamper" CAM-DUCT_Value="Sides" AdjustFactor ="(b-y)/2" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectFireDamper" CAM-DUCT_Value="Top" AdjustFactor ="(a-x)/2" SupportedPatternId="All"/>
+	 <DependentParameter>	
+    	<Dimension BBMS_Value="BodyDepth" schemaName="CustomParamRectFireDamper" 		ExpressionVar="b"/>
+    	<Dimension BBMS_Value="BodyWidth" schemaName="CustomParamRectFireDamper" 		ExpressionVar="a"/>
+    </DependentParameter>	
+  </BBMS_Fitting>
+<!--====================================================================================+-->
+
+  <BBMS_Fitting name="RectangularFireDamper1" SubType="FireDamper (Vertical)">
+	<Cam-DuctPatterns>
+	    <Pattern ID="501" name="Fire-Damper" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,0,1"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="Width" ExpressionVar="y" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_11" CAM-DUCT_Value="Depth" ExpressionVar="x" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="BodyLength" schemaName="CustomParamRectFireDamper" CAM-DUCT_Value="Length" SupportedPatternId="All" />
+	<Dimension BBMS_Value="StraightLen1" schemaName="CustomParamRectFireDamper" CAM-DUCT_Value="Inset" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectFireDamper" CAM-DUCT_Value="Sides" AdjustFactor ="(b-y)/2" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamRectFireDamper" CAM-DUCT_Value="Top" AdjustFactor ="(a-x)/2" SupportedPatternId="All"/>
+	 <DependentParameter>	
+    	<Dimension BBMS_Value="BodyDepth" schemaName="CustomParamRectFireDamper" 		ExpressionVar="b"/>
+    	<Dimension BBMS_Value="BodyWidth" schemaName="CustomParamRectFireDamper" 		ExpressionVar="a"/>
+    </DependentParameter>	
+  </BBMS_Fitting>
+<!--====================================================================================+-->
+
+  <BBMS_Fitting name="RectInlineDampersFlat" SubType="Flat Inline">
+	<Cam-DuctPatterns>
+	    <Pattern ID="921" name="Damper Blade" Category="HVAC\Generic\Rectangular" DirVector="-1,0,0" WidthVector="0,1,0"/>
+	</Cam-DuctPatterns>
+	<Dimension BBMS_Value="End1/@depth" schemaName="EndSpec2_11" CAM-DUCT_Value="Width" SupportedPatternId="All"/>
+	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_11" CAM-DUCT_Value="Depth"  SupportedPatternId="All"/>
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamInlineDampersFlat" CAM-DUCT_Value="Insulation" SupportedPatternId="All" />
+	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamInlineDampersFlat" CAM-DUCT_Value="Duct Adjust" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="End1/@width" schemaName="EndSpec2_11" CAM-DUCT_Value="Maximum Width"  SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamInlineDampersFlat" CAM-DUCT_Value="Corner" SupportedPatternId="All"/>
+ 	<Dimension BBMS_Value="NotSupported" schemaName="CustomParamInlineDampersFlat" CAM-DUCT_Value="Corner" SupportedPatternId="All"/>
+  </BBMS_Fitting>
+
+  </Mappings>
+
+
+

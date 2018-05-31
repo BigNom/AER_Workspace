@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bentley Building Mechanical System Analyze FlowVelocity Rules -->
+<!-- Controled by Configuration Variable  -->
+<!-- These Values will be fetched to in AnalyzeTool's VelocityRules Functionalities -->
+<FlowVelocityRules>
+	<!-- ============				Unit ConversionFactor				============ -->
+	<!-- ============    ConversionFactor = (FlowRate[MLT] Dimensions in Terms of FlowVelocity[MLT] Dimensions)/Square of(dgn Subunit Distance[MLT] Dimensions in Terms of FlowVelocity[MLT] Dimensions)   ============ -->
+	<!-- ============    if Dataset=Imperial, FlowRate="CFM" & FlowVelocity="FPM"; then [ConversionFactor =144] ============ -->
+	<!-- ============    if Dataset=DE, FlowRate="m3/hrr" & FlowVelocity="m/s"; then [ConversionFactor =(1000*1000/3600 =277.78)] ============ -->
+	<!-- ============    if Dataset=UK, FlowRate="l/s" & FlowVelocity="m/s"; then [ConversionFactor =1000] ============ -->
+	<Units FlowRate="l/s" FlowVelocity="m/s" ConversionFactor="1000"/>
+	<Units FlowRate="m3/hr" FlowVelocity="m/s" ConversionFactor="277.78"/>
+	<!-- ============    FlowVelocity Rules for Office Building   ============ -->
+	<OfficeBuilding>
+		<AhuFlowVelocity>400</AhuFlowVelocity>
+		<GrilleFlowVelocity>400</GrilleFlowVelocity>
+		<SupplyFlowVelocity>400</SupplyFlowVelocity>
+		<FreshFlowVelocity>1000</FreshFlowVelocity>
+		<ReturnFlowVelocity>1400</ReturnFlowVelocity>
+		<ExhaustFlowVelocity>1400</ExhaustFlowVelocity>
+	</OfficeBuilding>
+	<!-- ============    FlowVelocity Rules for Industrial Building   ============ -->
+	<IndustrialBuilding>
+		<AhuFlowVelocity>600</AhuFlowVelocity>
+		<GrilleFlowVelocity>1400</GrilleFlowVelocity>
+		<SupplyFlowVelocity>1200</SupplyFlowVelocity>
+		<FreshFlowVelocity>1400</FreshFlowVelocity>
+		<ReturnFlowVelocity>1200</ReturnFlowVelocity>
+		<ExhaustFlowVelocity>2000</ExhaustFlowVelocity>
+	</IndustrialBuilding>
+</FlowVelocityRules>

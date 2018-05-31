@@ -1,0 +1,88 @@
+﻿# This file uses UTF8 encoding. Lines starting with # or $, or ending with =
+# do NOT need translating.
+$utf8
+
+
+LcOpDiffCategories=
+Categories
+
+LcOpDiffFragments=
+Fragments
+
+LcOpDiffTriangles=
+Triangles
+
+LcOpDiffFragmentTriangles=
+Fragment Triangles
+
+LcOpDiffReversed=
+Reversed
+
+LcOpDiffBox=
+Box
+
+LcOpDiffPosInPath=
+Position in Path
+
+LcOpDiffIndexInParent=
+Index in Parent
+
+LcOpDiffFragmentOffset=
+Fragment Offset
+
+LcOpDiffFragmentChecksum=
+Fragment Checksum
+
+LcOpDiffFragmentTransformTranslate=
+Transform Translation
+
+LcOpDiffFragmentTransformRotation=
+Transform Rotation
+
+LcOpDiffFragmentTransformScaleOrientation=
+Transform Scale Orientation
+
+LcOpDiffFragmentTransformScale=
+Transform Scale
+
+LcOpDiffFragmentHasGeometry=
+Fragment Has Geometry
+
+LcOpDiffPathLength=
+Path Length
+
+LcOpDiffType0=
+Geometry
+
+LcOpDiffType1=
+Name
+
+LcOpDiffType2=
+Overridden Material
+
+LcOpDiffType3=
+Overridden Transform
+
+LcOpDiffType4=
+Properties
+
+LcOpDiffType5=
+Tree
+
+LcOpDiffType6=
+Type
+
+LcOpDiffType7=
+Unique IDs
+
+LcOpDiffType8=
+Logical
+
+LcOpDiffTypeSummary_%s_%d_%d=
+%s, %d occurrences (%d unique)
+
+LcOpDiffInfoSummary_%s_%s_%d=
+%s %s, %d occurrences
+
+LcOpDiffDetailSummary_%s_%d=
+*** %s (%d occurrences)

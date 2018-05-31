@@ -1,0 +1,11 @@
+SETTING Directory
+=================
+The SETTING directory is the dataset directory used for storing the AECOsim Building Designer 
+setting files.
+
+File extensions used in this directory:
+    *.frs	    - TriForma frame builder settings file
+    *.lay	    - TriForma report layout settings file
+    *.trs           - TriForma truss builder settings file
+    *.sup	    - TriForma Interference Suppression rule file
+    *.rof           - TriForma Interfernce Manager Report Option file

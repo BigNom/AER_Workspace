@@ -1,0 +1,19 @@
+# AECOsim Building Designer SS6 - Aerison
+# Seed file Configuration Fie
+# created 28/05/2018 sbiddle
+#----------------------------------------------------------------------
+# Search path(s) for all seed files. (MS_SEEDFILES)
+#----------------------------------------------------------------------
+MS_SEEDFILES							= $(_AERISON_DATASET)seed/
+MS_SEEDFILES						 	< $(_USTN_PROJECTDATA)99_Admin/support/dataset/seed/
+MS_SEEDFILES	    					> $(_USTN_SITE)seed/	
+#----------------------------------------------------------------------
+# Default seed file for creating design files
+#----------------------------------------------------------------------
+MS_DESIGNSEED							= $(_AERISON_DATASET)seed/AER_designseed.dgn
+MS_DESIGNSEED							> $(_AERISON_DATASET)seed/AER_DesignSeed_Structural.dgn
+
+#----------------------------------------------------------------------
+# Seed file used to create drawings through Drawing Compositions
+#----------------------------------------------------------------------
+MS_DRAWINGSEED_LIBLIST					= $(_AERISON_DATASET)seed/

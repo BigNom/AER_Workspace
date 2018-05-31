@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Table>
+    <Name>CIBSE</Name>
+    <Source>CISBE</Source>
+    <Version>Major Version No=&apos;2010 Edition MasterFormat&apos;  Major Date=&apos;March 2010&apos;  Minor Version No=&apos;2010 Edition MasterFormat&apos;  Minor Date=&apos;March 2010&apos;  Major=&apos;&apos;  Minor=&apos;&apos; </Version>
+		<Section>
+			<Code>A&amp;E Consulting area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Baggage Reclaim area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Bathroom</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Bedroom</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Cell (police/prison)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Cellular office</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Changing facilities</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Check in area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Chilled storage</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Circulation (public)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Circulation area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Circulation area (private)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Circulation area (public)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Circulation(private)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Classroom</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Cold storage</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Common circulation area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Common room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Consulting area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Consulting room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Diagnostic Imaging</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Dining room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Display area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Dry sports hall</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Eating/drinking area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Fitness Studio</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Fitness suite/gym</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Hall/lecture theatre</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Hydrotherapy pool</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Ice rink</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Intensive care unit</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>IT equipment</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>IT workspace</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Kitchen</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Laboratory</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Laundry</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Lounge</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Meeting room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Open plan office</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Operating theatre</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Patient accomodation (day)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Patient accomodation (wards)</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Physiotherapy Studio</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Plant room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Post mortem facility</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Process area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Reception</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Sales - chilled</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Sales - electrical</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Sales - general</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Security check area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Speculative industrial space</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Speculative retail space</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Stage</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Storage area</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Swimming pool</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Tea making</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Toilet</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Waiting room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Ward Common room</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Ward offices</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Warehouse chilled storage</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Warehouse storage</Code>
+			<Name></Name>
+		</Section>
+		<Section>
+			<Code>Workshop - small</Code>
+			<Name></Name>
+		</Section>
+</Table>
