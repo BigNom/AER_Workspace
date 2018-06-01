@@ -1,7 +1,7 @@
 # This user config file is for Administrative purposes only
 
 
-_USTN_PROJECTNAME 		=
+_USTN_PROJECTNAME = 37459-9-01_CSI_ORE_SORTER_UPGRADES
 MS_DGNLIBLIST 			= 
 MS_GUIDGNLIBLIST		> $(_USTN_USER)*.dgnlib
 _USTN_DISPLAYALLCFGVARS		= 1
